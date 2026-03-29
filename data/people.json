@@ -1,0 +1,101 @@
+[
+  {
+    "id": "manoj-shah",
+    "slug": "manoj-shah",
+    "name": "Manoj Shah",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Founder and artistic director of Ideas Unlimited Productions, Manoj Shah has been a transformative force in Indian theatre for over 35 years. A director, actor, and producer, he has helmed over 90 productions across Hindi, Gujarati, and English, bringing fearless storytelling to stages from Mumbai's Prithvi Theatre to international festivals. His work is known for its emotional depth, visual grandeur, and unwavering commitment to social relevance.",
+    "roles": ["Director", "Actor", "Producer", "Founder"],
+    "otherNotableWork": ["Film: The Last Colour (2020)", "TV: CID (2003-2018)", "Film: Ventilator (2016)"],
+    "interviews": [
+      { "title": "The Art of Indian Theatre", "url": "#", "source": "The Hindu" },
+      { "title": "35 Years of Ideas Unlimited", "url": "#", "source": "Mid-Day" }
+    ],
+    "featured": true
+  },
+  {
+    "id": "neha-joshi",
+    "slug": "neha-joshi",
+    "name": "Neha Joshi",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "An award-winning actor known for her powerful stage presence and emotional versatility. Neha has been a cornerstone of IU Productions for over a decade, bringing complex female characters to vivid life across multiple languages.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["TV: Hum Log (2019)", "Film: Natsamrat (2016)"],
+    "featured": true
+  },
+  {
+    "id": "rajat-kapoor",
+    "slug": "rajat-kapoor",
+    "name": "Rajat Kapoor",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A versatile actor and filmmaker, Rajat brings a rare intellectual depth to his performances. His collaborations with IU Productions span some of the company's most critically acclaimed work.",
+    "roles": ["Actor", "Director"],
+    "otherNotableWork": ["Film: Aankhon Dekhi (2014)", "Film: RK/RKAY (2022)"],
+    "featured": true
+  },
+  {
+    "id": "danish-husain",
+    "slug": "danish-husain",
+    "name": "Danish Husain",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A celebrated storyteller, actor, and theatre practitioner, Danish's performances are marked by a rare combination of physical precision and emotional rawness. A regular collaborator with IU Productions.",
+    "roles": ["Actor", "Storyteller"],
+    "otherNotableWork": ["Solo: Qissa Qissa Lucknow", "Film: 3 Idiots (2009)"]
+  },
+  {
+    "id": "himani-shivpuri",
+    "slug": "himani-shivpuri",
+    "name": "Himani Shivpuri",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A veteran of both stage and screen, Himani brings gravitas and warmth to every role. Her performances in IU Productions' Gujarati repertoire have earned widespread acclaim.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["Film: Dilwale Dulhania Le Jayenge (1995)", "TV: Happu Ki Ultan Paltan"]
+  },
+  {
+    "id": "deepa-gahlot",
+    "slug": "deepa-gahlot",
+    "name": "Deepa Gahlot",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "One of India's foremost theatre critics and writers, Deepa has contributed to IU Productions as script consultant and dramaturg, bringing her sharp editorial eye to several key productions.",
+    "roles": ["Writer", "Script Consultant"],
+    "interviews": [
+      { "title": "The State of Indian Theatre", "url": "#", "source": "Scroll.in" }
+    ]
+  },
+  {
+    "id": "atul-kumar",
+    "slug": "atul-kumar",
+    "name": "Atul Kumar",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Founder of The Company Theatre, Atul is a director and actor known for his innovative approach to staging. His guest collaborations with IU Productions have produced memorable work.",
+    "roles": ["Director", "Actor"],
+    "otherNotableWork": ["Piya Behrupiya (Globe Theatre, London)", "Hamlet: The Clown Prince"]
+  },
+  {
+    "id": "sameera-iyengar",
+    "slug": "sameera-iyengar",
+    "name": "Sameera Iyengar",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A distinguished arts administrator and actor, Sameera has been instrumental in shaping the programming at some of Mumbai's leading cultural venues. Her performances with IU Productions bring a refined elegance to the stage.",
+    "roles": ["Actor", "Arts Administrator"]
+  },
+  {
+    "id": "vivek-gomber",
+    "slug": "vivek-gomber",
+    "name": "Vivek Gomber",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "An actor and producer known for his work in both commercial and independent cinema. Vivek's stage work with IU Productions showcases his range and commitment to meaningful storytelling.",
+    "roles": ["Actor", "Producer"],
+    "otherNotableWork": ["Film: Court (2014)", "Film: The Disciple (2020)"]
+  },
+  {
+    "id": "neil-bhoopalam",
+    "slug": "neil-bhoopalam",
+    "name": "Neil Bhoopalam",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A dynamic actor comfortable across stage and screen, Neil brings energy and charisma to his performances. A newer collaborator with IU Productions who has quickly become a key ensemble member.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["Film: NH10 (2015)", "Web: Four More Shots Please!"],
+    "featured": true
+  }
+]

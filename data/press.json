@@ -1,0 +1,55 @@
+[
+  {
+    "id": "press-1",
+    "title": "Saptapadi Stuns Audiences at Prithvi Theatre",
+    "source": "The Hindu",
+    "date": "2023-11-15",
+    "url": "#",
+    "excerpt": "Manoj Shah's latest directorial venture is a tour de force of emotional storytelling, with Neha Joshi delivering a career-best performance.",
+    "productionSlug": "saptapadi"
+  },
+  {
+    "id": "press-2",
+    "title": "A Definitive Adhe Adhure for Our Times",
+    "source": "Mid-Day",
+    "date": "2022-08-20",
+    "url": "#",
+    "excerpt": "Ideas Unlimited's revival of Mohan Rakesh's classic feels startlingly contemporary, anchored by powerhouse performances.",
+    "productionSlug": "adhe-adhure"
+  },
+  {
+    "id": "press-3",
+    "title": "Kaumudi: A Love Letter to Gujarati Theatre",
+    "source": "Gujarat Samachar",
+    "date": "2021-04-10",
+    "url": "#",
+    "excerpt": "Manoj Shah returns to his Gujarati roots with a sweeping historical epic that rivals anything on the Hindi stage.",
+    "productionSlug": "kaumudi"
+  },
+  {
+    "id": "press-4",
+    "title": "35 Years of Fearless Theatre: The Ideas Unlimited Story",
+    "source": "Scroll.in",
+    "date": "2025-01-05",
+    "url": "#",
+    "excerpt": "From a small experimental group to one of India's most respected theatre companies, the journey of Ideas Unlimited Productions is a testament to artistic conviction."
+  },
+  {
+    "id": "press-5",
+    "title": "Manoj Shah: The Quiet Revolutionary of Indian Theatre",
+    "source": "The Indian Express",
+    "date": "2024-06-12",
+    "url": "#",
+    "excerpt": "In a rare interview, the founder of Ideas Unlimited Productions reflects on three decades of pushing boundaries.",
+    "personSlug": "manoj-shah"
+  },
+  {
+    "id": "press-6",
+    "title": "Why Mughal-e-Azam: The Musical Matters",
+    "source": "Firstpost",
+    "date": "2019-10-08",
+    "url": "#",
+    "excerpt": "The ambitious musical adaptation proves that Indian theatre can match Broadway in scale and spectacle.",
+    "productionSlug": "mughal-e-azam"
+  }
+]

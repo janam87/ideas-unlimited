@@ -1,0 +1,204 @@
+[
+  {
+    "id": "saptapadi",
+    "slug": "saptapadi",
+    "title": "Saptapadi",
+    "subtitle": "Seven Steps Around the Fire",
+    "type": "play",
+    "language": "Hindi",
+    "genre": ["Drama", "Social"],
+    "year": 2023,
+    "synopsis": "A powerful exploration of love, identity, and societal norms through the metaphor of the seven sacred vows of marriage. When a hijra is found murdered in Bangalore, a university professor is drawn into a web of secrets that challenges everything she believed about justice.",
+    "image": "/images/placeholder-production.svg",
+    "gallery": [],
+    "duration": "120 minutes",
+    "shows": [
+      {
+        "date": "2026-03-20",
+        "time": "19:30",
+        "venue": "Prithvi Theatre",
+        "city": "Mumbai",
+        "ticketUrl": "https://in.bookmyshow.com",
+        "status": "confirmed"
+      },
+      {
+        "date": "2026-03-21",
+        "time": "19:30",
+        "venue": "Prithvi Theatre",
+        "city": "Mumbai",
+        "ticketUrl": "https://in.bookmyshow.com",
+        "status": "almost-full"
+      }
+    ],
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director", "Producer"] },
+      { "person_id": "neha-joshi", "roles": ["Lead Actor"] },
+      { "person_id": "rajat-kapoor", "roles": ["Actor"] },
+      { "person_id": "deepa-gahlot", "roles": ["Script Consultant"] }
+    ],
+    "festivals": ["meta-awards-2023"],
+    "press": ["press-1"],
+    "featured": true
+  },
+  {
+    "id": "adhe-adhure",
+    "slug": "adhe-adhure",
+    "title": "Adhe Adhure",
+    "subtitle": "Halfway House",
+    "type": "play",
+    "language": "Hindi",
+    "genre": ["Drama", "Family"],
+    "year": 2022,
+    "synopsis": "Mohan Rakesh's masterpiece about a middle-class family disintegrating under the weight of unfulfilled desires and unspoken truths. A wife and mother searches for completeness in the men around her, only to find that wholeness must come from within.",
+    "image": "/images/placeholder-production.svg",
+    "duration": "135 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director"] },
+      { "person_id": "neha-joshi", "roles": ["Savitri"] },
+      { "person_id": "danish-husain", "roles": ["Mahendranath"] }
+    ],
+    "festivals": ["ncpa-festival-2022"],
+    "press": ["press-2"],
+    "featured": true
+  },
+  {
+    "id": "kaumudi",
+    "slug": "kaumudi",
+    "title": "Kaumudi",
+    "subtitle": "Moonlight on the Ganges",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Drama", "Historical"],
+    "year": 2021,
+    "synopsis": "Set against the backdrop of the Indian independence movement, Kaumudi follows a young woman's journey from a traditional Gujarati household to the frontlines of the freedom struggle. A sweeping story of courage, sacrifice, and the price of liberty.",
+    "image": "/images/placeholder-production.svg",
+    "duration": "150 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director", "Producer"] },
+      { "person_id": "himani-shivpuri", "roles": ["Lead Actor"] }
+    ],
+    "press": ["press-3"],
+    "featured": true
+  },
+  {
+    "id": "chanakya",
+    "slug": "chanakya",
+    "title": "Chanakya",
+    "subtitle": "The Kingmaker",
+    "type": "play",
+    "language": "Hindi",
+    "genre": ["Historical", "Political"],
+    "year": 2020,
+    "synopsis": "The story of ancient India's greatest political strategist, told through the lens of modern power dynamics. Chanakya's ruthless brilliance shaped an empire — but at what personal cost?",
+    "image": "/images/placeholder-production.svg",
+    "duration": "140 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director", "Lead Actor"] },
+      { "person_id": "rajat-kapoor", "roles": ["Chandragupta"] }
+    ],
+    "festivals": ["thespo-2020"]
+  },
+  {
+    "id": "mughal-e-azam",
+    "slug": "mughal-e-azam",
+    "title": "Mughal-e-Azam",
+    "subtitle": "The Musical",
+    "type": "musical",
+    "language": "Hindi",
+    "genre": ["Musical", "Historical", "Romance"],
+    "year": 2019,
+    "synopsis": "A grand musical adaptation of the iconic love story between Prince Salim and Anarkali, featuring lavish sets, live orchestral music, and choreography that brings the Mughal court to breathtaking life.",
+    "image": "/images/placeholder-production.svg",
+    "duration": "180 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Creative Director"] },
+      { "person_id": "danish-husain", "roles": ["Akbar"] },
+      { "person_id": "neha-joshi", "roles": ["Anarkali"] }
+    ],
+    "festivals": ["ncpa-festival-2019", "meta-awards-2019"]
+  },
+  {
+    "id": "broken-images",
+    "slug": "broken-images",
+    "title": "Broken Images",
+    "type": "play",
+    "language": "English",
+    "genre": ["Drama", "Psychological"],
+    "year": 2018,
+    "synopsis": "A solo performance where an acclaimed writer confronts her own video image, which begins to challenge and interrogate her. A riveting exploration of identity, authenticity, and the masks we wear.",
+    "image": "/images/placeholder-production.svg",
+    "duration": "75 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director"] },
+      { "person_id": "himani-shivpuri", "roles": ["Lead Actor"] }
+    ]
+  },
+  {
+    "id": "toba-tek-singh",
+    "slug": "toba-tek-singh",
+    "title": "Toba Tek Singh",
+    "type": "play",
+    "language": "Hindi",
+    "genre": ["Drama", "Absurdist"],
+    "year": 2016,
+    "synopsis": "Based on Saadat Hasan Manto's legendary short story about the exchange of lunatics between India and Pakistan during Partition. A devastating commentary on borders, belonging, and the madness of nations.",
+    "image": "/images/placeholder-production.svg",
+    "duration": "90 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director", "Adapter"] },
+      { "person_id": "rajat-kapoor", "roles": ["Bishan Singh"] }
+    ],
+    "festivals": ["thespo-2016"]
+  },
+  {
+    "id": "jasma-odan",
+    "slug": "jasma-odan",
+    "title": "Jasma Odan",
+    "subtitle": "The Fragrance of Jasmine",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Folk", "Drama"],
+    "year": 2014,
+    "synopsis": "A reimagining of the beloved Gujarati folk tale of Jasma, a woman of extraordinary beauty and fierce independence. Set in rural Kutch, the production weaves traditional music and dance into a story of resistance and dignity.",
+    "image": "/images/placeholder-production.svg",
+    "duration": "110 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director", "Producer"] },
+      { "person_id": "himani-shivpuri", "roles": ["Jasma"] }
+    ],
+    "commissionedBy": "Gujarat Sahitya Parishad",
+    "commissionContext": "Commissioned for the centenary celebration of Gujarati folk theatre."
+  },
+  {
+    "id": "court-martial",
+    "slug": "court-martial",
+    "title": "Court Martial",
+    "type": "play",
+    "language": "English",
+    "genre": ["Drama", "Legal"],
+    "year": 2012,
+    "synopsis": "Based on Swadesh Deepak's searing play about a Dalit soldier court-martialed for killing his superior officers. A tense courtroom drama that peels back layers of caste discrimination within the Indian Army.",
+    "image": "/images/placeholder-production.svg",
+    "duration": "120 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director"] },
+      { "person_id": "danish-husain", "roles": ["Captain Bikash Roy"] }
+    ]
+  },
+  {
+    "id": "sangeet-baari",
+    "slug": "sangeet-baari",
+    "title": "Sangeet Baari",
+    "subtitle": "The Music Room",
+    "type": "musical",
+    "language": "Marathi",
+    "genre": ["Musical", "Drama"],
+    "year": 2010,
+    "synopsis": "Set in the fading grandeur of a Maharashtrian landlord's music room, this production blends classical Indian music with contemporary theatre to tell a story of art, obsession, and decline.",
+    "image": "/images/placeholder-production.svg",
+    "duration": "130 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director"] }
+    ]
+  }
+]
