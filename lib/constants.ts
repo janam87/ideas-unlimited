@@ -31,6 +31,9 @@ export const LEGACY_NUMBERS = [
   { value: 20, suffix: "+", label: "Cities" },
 ] as const;
 
+// YouTube video ID for hero background — change this single value to swap the video
+export const HERO_VIDEO_ID = "PLQsJFMpENg";
+
 export const ENQUIRY_TYPES = [
   "General Enquiry",
   "Ticket Booking",

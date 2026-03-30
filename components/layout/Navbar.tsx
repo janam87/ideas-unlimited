@@ -33,7 +33,7 @@ export function Navbar({ hasNowPerforming, onSearchOpen }: NavbarProps) {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
         scrolled
-          ? "bg-background/95 backdrop-blur-md border-b border-grey-800"
+          ? "bg-background/60 backdrop-blur-xl backdrop-saturate-150 border-b border-white/[0.06]"
           : "bg-transparent"
       )}
     >
