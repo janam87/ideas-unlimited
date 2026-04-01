@@ -72,6 +72,52 @@ export default async function ProductionDetailPage({ params }: Props) {
         isUpcoming={isUpcoming}
       />
 
+      {/* Book Tickets — Onassis-style band right after hero */}
+      {upcomingShows.length > 0 && (
+        <section className="bg-purple">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8 md:py-10">
+            <div className="flex flex-col gap-6">
+              {upcomingShows.map((show, i) => (
+                <div
+                  key={i}
+                  className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4"
+                >
+                  <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8">
+                    <div>
+                      <span className="font-mono text-xs uppercase tracking-[0.2em] text-white/60">Dates</span>
+                      <p className="text-white font-medium text-lg mt-1">{formatShowDate(show.date)}</p>
+                    </div>
+                    <div>
+                      <span className="font-mono text-xs uppercase tracking-[0.2em] text-white/60">Time</span>
+                      <p className="text-white font-medium text-lg mt-1">{formatShowTime(show.time)}</p>
+                    </div>
+                    <div>
+                      <span className="font-mono text-xs uppercase tracking-[0.2em] text-white/60">Location</span>
+                      <p className="text-white font-medium text-lg mt-1">{show.venue}, {show.city}</p>
+                    </div>
+                    {show.status === "almost-full" && (
+                      <span className="bg-white/20 text-white font-mono text-xs uppercase tracking-wider px-3 py-1.5">
+                        Almost Full
+                      </span>
+                    )}
+                  </div>
+                  {show.ticketUrl && show.status !== "sold-out" && (
+                    <a
+                      href={show.ticketUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="shrink-0 bg-white text-purple-dark text-center font-bold uppercase tracking-wider text-sm px-8 py-4 hover:bg-white/90 transition-colors"
+                    >
+                      Book Tickets &rarr;
+                    </a>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Synopsis + Poster — 5/7 split, poster sticky on left */}
       <section className="border-t border-grey-700">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
@@ -87,16 +133,6 @@ export default async function ProductionDetailPage({ params }: Props) {
                     className="object-cover"
                   />
                 </div>
-                {upcomingShows.length > 0 && upcomingShows[0].ticketUrl && (
-                  <a
-                    href={upcomingShows[0].ticketUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block mt-6 bg-gold text-background text-center font-bold uppercase tracking-wider text-sm py-4 hover:bg-gold-light transition-colors"
-                  >
-                    Book Tickets &rarr;
-                  </a>
-                )}
               </div>
             </div>
 
@@ -113,63 +149,11 @@ export default async function ProductionDetailPage({ params }: Props) {
                 <MetaRow label="Genre" value={production.genre.join(", ")} />
                 <MetaRow label="Type" value={production.type} />
                 {production.duration && <MetaRow label="Duration" value={production.duration} />}
-                {isUpcoming && <MetaRow label="Status" value="Now Performing" highlight />}
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      {/* Upcoming Shows */}
-      {upcomingShows.length > 0 && (
-        <section className="border-t border-grey-700">
-          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
-              <div className="lg:col-span-5">
-                <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cream">
-                  Upcoming Shows
-                </h2>
-              </div>
-              <div className="lg:col-span-7">
-                <div className="border border-grey-700">
-                  {upcomingShows.map((show, i) => (
-                    <div
-                      key={i}
-                      className={`flex flex-col md:flex-row items-start md:items-center justify-between gap-4 p-5 ${
-                        i < upcomingShows.length - 1 ? "border-b border-grey-700" : ""
-                      }`}
-                    >
-                      <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
-                        <div className="flex items-center gap-2">
-                          <Calendar size={14} className="text-grey-400" />
-                          <span className="font-medium text-cream">{formatShowDate(show.date)}</span>
-                          <span className="text-grey-400 font-mono text-sm">{formatShowTime(show.time)}</span>
-                        </div>
-                        <div className="flex items-center gap-2 text-grey-300">
-                          <MapPin size={14} className="text-grey-400" />
-                          <span>{show.venue}, {show.city}</span>
-                        </div>
-                        {show.status === "almost-full" && <Badge variant="amber">Almost Full</Badge>}
-                        {show.status === "sold-out" && <Badge>Sold Out</Badge>}
-                      </div>
-                      {show.ticketUrl && show.status !== "sold-out" && (
-                        <a
-                          href={show.ticketUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="font-mono text-xs uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
-                        >
-                          Book &rarr;
-                        </a>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Commissioned Context */}
       {production.commissionedBy && (
@@ -182,7 +166,7 @@ export default async function ProductionDetailPage({ params }: Props) {
                 </h2>
               </div>
               <div className="lg:col-span-7">
-                <div className="border-l-2 border-gold pl-6 py-4">
+                <div className="border-l-2 border-purple pl-6 py-4">
                   <p className="text-cream text-lg">{production.commissionedBy}</p>
                   {production.commissionContext && (
                     <p className="text-grey-400 mt-2">{production.commissionContext}</p>
@@ -210,7 +194,7 @@ export default async function ProductionDetailPage({ params }: Props) {
                   return (
                     <div key={entry.person_id} className="flex items-center justify-between py-4 border-b border-grey-700">
                       {person ? (
-                        <Link href={`/people/${person.slug}`} className="text-gold hover:text-gold-light transition-colors font-medium">
+                        <Link href={`/people/${person.slug}`} className="text-purple hover:text-purple-light transition-colors font-medium">
                           {person.name}
                         </Link>
                       ) : (

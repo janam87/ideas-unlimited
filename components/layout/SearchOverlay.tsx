@@ -94,7 +94,7 @@ export function SearchOverlay({ open, onClose, productions, people }: SearchOver
               <div className="mt-8 space-y-8 max-h-[60vh] overflow-y-auto">
                 {filteredProductions.length > 0 && (
                   <div>
-                    <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-4">
+                    <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-purple mb-4">
                       Productions
                     </h3>
                     <div className="space-y-2">
@@ -105,7 +105,7 @@ export function SearchOverlay({ open, onClose, productions, people }: SearchOver
                           onClick={onClose}
                           className="block py-3 px-4 hover:bg-grey-800 transition-colors group"
                         >
-                          <span className="text-cream group-hover:text-gold transition-colors">
+                          <span className="text-cream group-hover:text-purple transition-colors">
                             {p.title}
                           </span>
                           <span className="text-grey-400 text-sm ml-2">
@@ -119,7 +119,7 @@ export function SearchOverlay({ open, onClose, productions, people }: SearchOver
 
                 {filteredPeople.length > 0 && (
                   <div>
-                    <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-4">
+                    <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-purple mb-4">
                       People
                     </h3>
                     <div className="space-y-2">
@@ -130,7 +130,7 @@ export function SearchOverlay({ open, onClose, productions, people }: SearchOver
                           onClick={onClose}
                           className="block py-3 px-4 hover:bg-grey-800 transition-colors group"
                         >
-                          <span className="text-cream group-hover:text-gold transition-colors">
+                          <span className="text-cream group-hover:text-purple transition-colors">
                             {p.name}
                           </span>
                           <span className="text-grey-400 text-sm ml-2">

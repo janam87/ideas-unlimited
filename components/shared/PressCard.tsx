@@ -15,10 +15,10 @@ export function PressCard({ item }: PressCardProps) {
     >
       <div className="flex items-start justify-between gap-4">
         <div>
-          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">
+          <p className="font-mono text-xs uppercase tracking-widest text-purple mb-2">
             {item.source}
           </p>
-          <h4 className="text-cream group-hover:text-gold transition-colors font-medium">
+          <h4 className="text-cream group-hover:text-purple transition-colors font-medium">
             {item.title}
           </h4>
           {item.excerpt && (

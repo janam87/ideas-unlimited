@@ -26,7 +26,7 @@ export function PeopleFilters({ roleTypes }: PeopleFiltersProps) {
       <select
         value={searchParams.get("role") || ""}
         onChange={(e) => setFilter("role", e.target.value)}
-        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm px-3 py-2 outline-none focus:border-gold transition-colors"
+        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm pl-4 pr-10 py-2.5 outline-none focus:border-purple transition-colors cursor-pointer"
       >
         <option value="">All Roles</option>
         {roleTypes.map((r) => (
@@ -37,7 +37,7 @@ export function PeopleFilters({ roleTypes }: PeopleFiltersProps) {
       <select
         value={searchParams.get("sort") || ""}
         onChange={(e) => setFilter("sort", e.target.value)}
-        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm px-3 py-2 outline-none focus:border-gold transition-colors"
+        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm pl-4 pr-10 py-2.5 outline-none focus:border-purple transition-colors cursor-pointer"
       >
         <option value="">Sort: Name</option>
         <option value="productions">Sort: Most Productions</option>
@@ -46,7 +46,7 @@ export function PeopleFilters({ roleTypes }: PeopleFiltersProps) {
       {searchParams.get("role") && (
         <button
           onClick={() => router.push("/people", { scroll: false })}
-          className="text-gold text-sm hover:text-gold-light transition-colors px-3 py-2"
+          className="text-purple text-sm hover:text-purple-light transition-colors px-3 py-2"
         >
           Clear Filters
         </button>

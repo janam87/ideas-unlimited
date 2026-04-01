@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { playfair, dmSans, jetbrainsMono } from "./fonts";
 import { ClientShell } from "@/components/layout/ClientShell";
 import { Footer } from "@/components/layout/Footer";
-import { GridLines } from "@/components/ui/GridLines";
 import { getAllProductions, getAllPeople } from "@/lib/data";
-import { getNowPerformingProductions } from "@/lib/shows";
+import { getNowPerformingProductions, getUpcomingShows } from "@/lib/shows";
 import { organizationSchema } from "@/lib/schema";
 import { SITE } from "@/lib/constants";
 import "./globals.css";
@@ -35,6 +34,9 @@ export default function RootLayout({
   const productions = getAllProductions();
   const people = getAllPeople();
   const hasNowPerforming = getNowPerformingProductions(productions).length > 0;
+  const upcomingShows = productions.flatMap((p) =>
+    getUpcomingShows(p).map((show) => ({ production: p, show }))
+  ).sort((a, b) => new Date(a.show.date).getTime() - new Date(b.show.date).getTime());
 
   return (
     <html
@@ -48,11 +50,11 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased bg-background text-foreground">
-        <GridLines />
         <ClientShell
           productions={productions}
           people={people}
           hasNowPerforming={hasNowPerforming}
+          upcomingShows={upcomingShows}
         >
           <main className="relative z-10 min-h-screen">{children}</main>
         </ClientShell>

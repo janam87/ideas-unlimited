@@ -4,9 +4,9 @@
   --background: #0a0a0a;
   --foreground: #ededed;
   --cream: #f5f0e8;
-  --gold: #7c3aed;
-  --gold-light: #a78bfa;
-  --gold-dark: #5b21b6;
+  --purple: #7c3aed;
+  --purple-light: #a78bfa;
+  --purple-dark: #5b21b6;
   --grey-900: #111111;
   --grey-800: #1a1a1a;
   --grey-700: #2a2a2a;
@@ -15,15 +15,17 @@
   --grey-300: #aaaaaa;
   --grey-200: #cccccc;
   --amber: #f59e0b;
+  --pink: #be185d;
+  --pink-dark: #9d174d;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-cream: var(--cream);
-  --color-gold: var(--gold);
-  --color-gold-light: var(--gold-light);
-  --color-gold-dark: var(--gold-dark);
+  --color-purple: var(--purple);
+  --color-purple-light: var(--purple-light);
+  --color-purple-dark: var(--purple-dark);
   --color-grey-900: var(--grey-900);
   --color-grey-800: var(--grey-800);
   --color-grey-700: var(--grey-700);
@@ -32,6 +34,8 @@
   --color-grey-300: var(--grey-300);
   --color-grey-200: var(--grey-200);
   --color-amber: var(--amber);
+  --color-pink: var(--pink);
+  --color-pink-dark: var(--pink-dark);
   --font-sans: var(--font-dm-sans);
   --font-serif: var(--font-playfair);
   --font-mono: var(--font-jetbrains);
@@ -48,7 +52,7 @@ h1, h2, h3, h4 {
 }
 
 ::selection {
-  background: var(--gold);
+  background: var(--purple);
   color: var(--background);
 }
 
@@ -101,9 +105,9 @@ h1, h2, h3, h4 {
   border-top: 2px solid var(--cream);
   margin: 0;
 }
-.editorial-rule-gold {
+.editorial-rule-purple {
   border: none;
-  border-top: 1px solid var(--gold);
+  border-top: 1px solid var(--purple);
   margin: 0;
 }
 
@@ -114,6 +118,16 @@ h1, h2, h3, h4 {
 }
 .editorial-card:hover {
   border-color: var(--grey-400);
+}
+
+/* Custom select — hide native chevron, add custom one */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23888888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px !important;
 }
 
 /* Marquee scroll animation */

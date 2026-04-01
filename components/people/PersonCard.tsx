@@ -23,7 +23,7 @@ export function PersonCard({ person }: PersonCardProps) {
 
       {/* Info — below image with border-top */}
       <div className="p-4 border-t border-grey-700">
-        <h3 className="font-serif text-lg text-cream group-hover:text-gold transition-colors">
+        <h3 className="font-serif text-lg text-cream group-hover:text-purple transition-colors">
           {person.name}
         </h3>
       </div>

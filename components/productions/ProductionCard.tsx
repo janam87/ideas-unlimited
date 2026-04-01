@@ -35,7 +35,7 @@ export function ProductionCard({ production }: ProductionCardProps) {
       </div>
 
       {/* Content */}
-      <h3 className="font-serif text-xl text-cream group-hover:text-gold transition-colors leading-snug">
+      <h3 className="font-serif text-xl text-cream group-hover:text-purple transition-colors leading-snug">
         {production.title}
       </h3>
       {production.subtitle && (

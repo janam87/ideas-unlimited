@@ -61,14 +61,16 @@ Ideas Unlimited Productions — public marketing website for a 35-year theatre c
 
 ## Design Tokens
 
-| Token | Value |
-|---|---|
-| Background | `#0a0a0a` (--background) |
-| Foreground | `#ededed` (--foreground) |
-| Cream | `#f5f0e8` (--cream) |
-| Gold | `#d4a843` (--gold) |
-| Amber | `#f59e0b` (--amber) |
-| Grey scale | 900 `#111` → 200 `#ccc` |
+| Token | Value | Note |
+|---|---|---|
+| Background | `#0a0a0a` (--background) | |
+| Foreground | `#ededed` (--foreground) | |
+| Cream | `#f5f0e8` (--cream) | Headings |
+| Purple | `#7c3aed` (--purple) | Primary accent |
+| Purple-light | `#a78bfa` (--purple-light) | Hover state |
+| Purple-dark | `#5b21b6` (--purple-dark) | Active/pressed |
+| Pink | `#be185d` (--pink) | Upcoming ticker ribbon |
+| Grey scale | 900 `#111` → 200 `#ccc` | |
 
 ---
 

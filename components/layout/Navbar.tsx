@@ -32,7 +32,7 @@ export function Navbar({ hasNowPerforming, onSearchOpen }: NavbarProps) {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
+        "fixed top-9 left-0 right-0 z-50 transition-all duration-500",
         scrolled
           ? "bg-background/60 backdrop-blur-xl backdrop-saturate-150"
           : "bg-transparent"
@@ -49,7 +49,7 @@ export function Navbar({ hasNowPerforming, onSearchOpen }: NavbarProps) {
             className="md:w-10 md:h-10"
           />
           <div className="leading-none">
-            <span className="block text-cream text-sm md:text-base font-bold tracking-wide group-hover:text-gold transition-colors" style={{ fontFamily: "'Trebuchet MS', sans-serif" }}>
+            <span className="block text-cream text-sm md:text-base font-bold tracking-wide group-hover:text-purple transition-colors" style={{ fontFamily: "'Trebuchet MS', sans-serif" }}>
               Ideas Unlimited
             </span>
             <span className="block text-cream/70 text-[10px] md:text-xs tracking-widest uppercase" style={{ fontFamily: "'Trebuchet MS', sans-serif" }}>
@@ -67,7 +67,7 @@ export function Navbar({ hasNowPerforming, onSearchOpen }: NavbarProps) {
               className={cn(
                 "text-sm tracking-wide transition-colors duration-300",
                 pathname === link.href
-                  ? "text-gold"
+                  ? "text-purple"
                   : "text-grey-300 hover:text-cream"
               )}
             >
@@ -127,7 +127,7 @@ export function Navbar({ hasNowPerforming, onSearchOpen }: NavbarProps) {
                   href={link.href}
                   className={cn(
                     "font-serif text-3xl transition-colors",
-                    pathname === link.href ? "text-gold" : "text-cream"
+                    pathname === link.href ? "text-purple" : "text-cream"
                   )}
                 >
                   {link.label}

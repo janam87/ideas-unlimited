@@ -32,7 +32,7 @@ export function ProductionFilters({ options }: ProductionFiltersProps) {
       <select
         value={current("type")}
         onChange={(e) => setFilter("type", e.target.value)}
-        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm px-3 py-2 outline-none focus:border-gold transition-colors"
+        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm pl-4 pr-10 py-2.5 outline-none focus:border-purple transition-colors cursor-pointer"
       >
         <option value="">All Types</option>
         {options.types.map((t) => (
@@ -43,7 +43,7 @@ export function ProductionFilters({ options }: ProductionFiltersProps) {
       <select
         value={current("language")}
         onChange={(e) => setFilter("language", e.target.value)}
-        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm px-3 py-2 outline-none focus:border-gold transition-colors"
+        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm pl-4 pr-10 py-2.5 outline-none focus:border-purple transition-colors cursor-pointer"
       >
         <option value="">All Languages</option>
         {options.languages.map((l) => (
@@ -54,7 +54,7 @@ export function ProductionFilters({ options }: ProductionFiltersProps) {
       <select
         value={current("genre")}
         onChange={(e) => setFilter("genre", e.target.value)}
-        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm px-3 py-2 outline-none focus:border-gold transition-colors"
+        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm pl-4 pr-10 py-2.5 outline-none focus:border-purple transition-colors cursor-pointer"
       >
         <option value="">All Genres</option>
         {options.genres.map((g) => (
@@ -65,7 +65,7 @@ export function ProductionFilters({ options }: ProductionFiltersProps) {
       <select
         value={current("year")}
         onChange={(e) => setFilter("year", e.target.value)}
-        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm px-3 py-2 outline-none focus:border-gold transition-colors"
+        className="bg-grey-800 border border-grey-700 text-grey-300 text-sm pl-4 pr-10 py-2.5 outline-none focus:border-purple transition-colors cursor-pointer"
       >
         <option value="">All Years</option>
         {options.years.map((y) => (
@@ -76,7 +76,7 @@ export function ProductionFilters({ options }: ProductionFiltersProps) {
       {current("type") || current("language") || current("genre") || current("year") ? (
         <button
           onClick={() => router.push("/productions", { scroll: false })}
-          className="text-gold text-sm hover:text-gold-light transition-colors px-3 py-2"
+          className="text-purple text-sm hover:text-purple-light transition-colors px-3 py-2"
         >
           Clear Filters
         </button>

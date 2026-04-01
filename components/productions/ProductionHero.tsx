@@ -107,7 +107,7 @@ export function ProductionHero({ title, subtitle, image, videoUrl, isUpcoming }:
           {title}
         </h1>
         {subtitle && (
-          <p className="text-gold text-xl md:text-2xl font-serif italic mt-4">{subtitle}</p>
+          <p className="text-purple text-xl md:text-2xl font-serif italic mt-4">{subtitle}</p>
         )}
       </div>
     </section>

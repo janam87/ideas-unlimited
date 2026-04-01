@@ -65,17 +65,17 @@ export default async function PersonDetailPage({ params }: Props) {
                 {person.socialLinks && (
                   <div className="flex items-center gap-6 mt-6">
                     {person.socialLinks.instagram && (
-                      <a href={person.socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-gold hover:text-gold-light transition-colors">
+                      <a href={person.socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors">
                         Instagram
                       </a>
                     )}
                     {person.socialLinks.twitter && (
-                      <a href={person.socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-gold hover:text-gold-light transition-colors">
+                      <a href={person.socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors">
                         Twitter
                       </a>
                     )}
                     {person.socialLinks.website && (
-                      <a href={person.socialLinks.website} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-gold hover:text-gold-light transition-colors">
+                      <a href={person.socialLinks.website} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors">
                         Website
                       </a>
                     )}
@@ -87,7 +87,7 @@ export default async function PersonDetailPage({ params }: Props) {
             {/* Right — All content sections stacked */}
             <div className="lg:col-span-7">
               {/* Bio */}
-              <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-3">
+              <p className="font-mono text-xs uppercase tracking-[0.3em] text-purple mb-3">
                 {person.roles.join(" · ")}
               </p>
               <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-cream leading-[0.9] mb-8">
@@ -120,7 +120,7 @@ export default async function PersonDetailPage({ params }: Props) {
                         >
                           <div className="flex items-baseline gap-4">
                             <span className="font-mono text-sm text-grey-400 w-12 shrink-0">({prod.year})</span>
-                            <span className="font-serif text-xl text-cream group-hover:text-gold transition-colors">
+                            <span className="font-serif text-xl text-cream group-hover:text-purple transition-colors">
                               {prod.title}
                             </span>
                           </div>
@@ -165,10 +165,10 @@ export default async function PersonDetailPage({ params }: Props) {
                         rel="noopener noreferrer"
                         className="block p-5 bg-grey-900 border border-grey-800 hover:border-grey-600 transition-all group"
                       >
-                        <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">
+                        <p className="font-mono text-xs uppercase tracking-widest text-purple mb-2">
                           {interview.source}
                         </p>
-                        <p className="text-cream group-hover:text-gold transition-colors">
+                        <p className="text-cream group-hover:text-purple transition-colors">
                           {interview.title}
                         </p>
                       </a>

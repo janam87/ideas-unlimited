@@ -7,17 +7,15 @@ description: Use when building /blog listing or /blog/[slug] post pages — edit
 ## `/blog` listing + `/blog/[slug]` post
 ## Read for every blog-related page, component, or content task
 
-**Status: Phase 2** — Currently a "Coming Soon" stub on the home page.
+**Status: DONE** — Listing page at `/blog` with 3-col grid, detail page at `/blog/[slug]` with 5/7 split layout, inline images, and reading time.
 
 ---
 
-## What These Pages Are
+## Data Source
 
-The Blog is the editorial and SEO engine of the site:
-- `/blog` is the editorial listing — filterable archive of all posts
-- `/blog/[slug]` is one article — clean reading page, auto-generated from data
+Blog posts are defined in `lib/blog.ts` as a `BLOG_POSTS` array with full body text. Functions: `getAllPosts()`, `getPostBySlug()`.
 
-Adding a new post = adding an entry to `data/blog-posts.json` with MDX body in `content/blog/`. No code needed.
+Each post has: `slug`, `title`, `category`, `excerpt`, `image`, `date`, `body` (string array of paragraphs).
 
 ---
 
@@ -28,73 +26,46 @@ Adding a new post = adding an entry to `data/blog-posts.json` with MDX body in `
 - **Is:** Economical. Emotionally present. Proud without being boastful.
 - **Is not:** Startup casual. Corporate PR. Generic.
 - **Never use:** "passionate", "dedicated", "revolutionise", "game-changing", "leverage", exclamation marks
-- Manoj Shah's name + role must appear correctly: directed and produced every production
-
----
-
-## Blog Categories
-
-| Category | Slug | Who writes | SEO angle |
-|---|---|---|---|
-| Director's Notes | `directors-notes` | Manoj Shah (1st person) | Manoj Shah + production name |
-| Behind the Scenes | `behind-the-scenes` | Any company member | Production name + process keywords |
-| Production Insights | `production-insights` | Director / writer | Play title + source / adaptation |
-| Theatre Essays | `theatre-essays` | Any (3rd person) | Indian theatre + topic |
-| Festival Diaries | `festival-diaries` | Manoj Shah or team | Festival name + theatre |
-| School Stories | `school-stories` | Outreach team | Theatre education India |
-
----
-
-## Writing Rules
-
-**Title:** Specific, keyword-first. Never clever at expense of clarity.
-- Good: "How Manoj Shah Adapted Vijay Tendulkar's Ghashiram Kotwal for a New Generation"
-- Bad: "When Old Stories Find New Voices"
-
-**Structure:**
-- Hook in first 2 sentences
-- 800–1,500 words target
-- H2 subheading every 300–400 words
-- One pull quote per post
-- Specific closing — a moment, an image, a question
-- Always include one internal link to the relevant production detail page
-
-**Voice by category:**
-- Director's Notes + Festival Diaries: first person
-- All other categories: third person. Never "we at Ideas Unlimited"
 
 ---
 
 ## `/blog` — Listing Page
 
-### Structure
-1. **Featured Post Hero** — Full-width, large thumbnail + metadata
-2. **Category Filter Bar** — Pills with URL param state
-3. **Post Grid** — 3 cols desktop → 2 tablet → 1 mobile
-4. Each card: thumbnail, category tag, title, author + date + read time, excerpt
+### Layout
+- Page header: "Stories & Reflections" title + subtitle, same layout as Productions/People pages
+- Uses `max-w-6xl` container directly
 
-### SEO
-Title: "Essays & Stories — Ideas Unlimited Productions"
-Schema.org: `CollectionPage`
+### Post Grid
+- 3 cols desktop → 2 tablet → 1 mobile, `gap-8`
+- Each card is a `<Link>` to `/blog/[slug]`
+- Card: image `aspect-[4/3]`, category in gold mono, date in grey mono, title in serif, excerpt in grey
 
 ---
 
-## `/blog/[slug]` — Post Page
+## `/blog/[slug]` — Detail Page
 
-A reading experience. The article is the product. **Zero scroll animations.**
+### Layout — 5/7 Split (no hero image section)
 
-### Structure
-1. **Article Header** — Category tag, title (serif display), author with headshot, date, read time, hero image
-2. **Article Body** — Max-width 720px, centered, generous margins. Serif headings, sans body, gold pull quotes
-3. **Related Posts** — 3 cards at bottom
+No full-bleed hero image. The article starts directly with the 5/7 split.
 
-### SEO
-- `generateStaticParams` for all published slugs
-- Article JSON-LD schema
-- OG image = post's featured image
-- Author linked to `/people/[slug]` when person exists
+**Left Column (col-span-5):** Sticky meta
+- Category in gold mono
+- Title in `text-3xl md:text-4xl lg:text-5xl`
+- Date + reading time (calculated from word count, ~200 words/min)
 
-### Animation Rules
-- Page transition fade only
-- **No stagger, no scroll triggers on blog post pages**
-- The reading experience is the only experience
+**Right Column (col-span-7):** Article body
+- Paragraphs in `text-grey-200 text-lg leading-relaxed`
+- Inline landscape images (`aspect-[16/9]`) inserted after every 3rd paragraph
+- No scroll animations
+
+**Related Posts Section** — 5/7 split
+- Left: "More Stories" heading
+- Right: 3 related post cards (excludes current post)
+
+---
+
+## Home Page Integration
+
+`BlogStub` component on home page shows:
+- Left: "Stories & Reflections" heading + subtitle
+- Right: 3 blog cards + "Read more →" link at bottom of right column

@@ -61,10 +61,9 @@ export function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col justify-end pb-16 md:pb-24 overflow-hidden">
       {/* Video Background — full edge-to-edge */}
-      <div className="absolute inset-0 overflow-hidden [&_iframe]:w-full [&_iframe]:h-full [&_iframe]:border-none" aria-hidden="true">
+      <div className="absolute inset-0 overflow-hidden [&_iframe]:absolute [&_iframe]:top-1/2 [&_iframe]:left-1/2 [&_iframe]:-translate-x-1/2 [&_iframe]:-translate-y-1/2 [&_iframe]:min-w-[100vw] [&_iframe]:min-h-[100vh] [&_iframe]:w-[177.78vh] [&_iframe]:h-[56.25vw] [&_iframe]:border-none [&_iframe]:pointer-events-none" aria-hidden="true">
         <div
           ref={playerRef}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 min-w-[100vw] min-h-[100vh] w-[177.78vh] h-[56.25vw] pointer-events-none"
         />
       </div>
 
@@ -77,7 +76,7 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.8 }}
-          className="font-mono text-xs uppercase tracking-[0.4em] text-gold mb-4"
+          className="font-mono text-xs uppercase tracking-[0.4em] text-purple mb-4"
         >
           Est. 1990 — Mumbai, India
         </motion.p>

@@ -20,7 +20,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div className="py-10 lg:border-r lg:border-grey-700 lg:px-8 border-t md:border-t-0 border-grey-700">
-            <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-4">Links</p>
+            <p className="font-mono text-xs uppercase tracking-[0.3em] text-purple mb-4">Links</p>
             <ul className="space-y-2">
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>
@@ -37,7 +37,7 @@ export function Footer() {
 
           {/* Contact */}
           <div className="py-10 lg:border-r lg:border-grey-700 lg:px-8 border-t lg:border-t-0 border-grey-700">
-            <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-4">Contact</p>
+            <p className="font-mono text-xs uppercase tracking-[0.3em] text-purple mb-4">Contact</p>
             <ul className="space-y-2 text-sm text-grey-400">
               <li>
                 <a href={`mailto:${SITE.email}`} className="hover:text-cream transition-colors">
@@ -55,7 +55,7 @@ export function Footer() {
 
           {/* Newsletter */}
           <div className="py-10 lg:pl-8 border-t lg:border-t-0 border-grey-700">
-            <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-4">Stay Updated</p>
+            <p className="font-mono text-xs uppercase tracking-[0.3em] text-purple mb-4">Stay Updated</p>
             <p className="text-grey-400 text-sm mb-4">Show announcements and news.</p>
             <NewsletterForm />
           </div>

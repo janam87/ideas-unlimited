@@ -57,9 +57,9 @@ export default function ManojShahPage() {
                 Shah
               </h1>
               <div className="mt-6 space-y-1">
-                <p className="font-mono text-sm uppercase tracking-[0.3em] text-gold">Director</p>
-                <p className="font-mono text-sm uppercase tracking-[0.3em] text-gold">Actor</p>
-                <p className="font-mono text-sm uppercase tracking-[0.3em] text-gold">Producer</p>
+                <p className="font-mono text-sm uppercase tracking-[0.3em] text-purple">Director</p>
+                <p className="font-mono text-sm uppercase tracking-[0.3em] text-purple">Actor</p>
+                <p className="font-mono text-sm uppercase tracking-[0.3em] text-purple">Producer</p>
               </div>
 
               {/* The Beginning */}
@@ -76,7 +76,7 @@ export default function ManojShahPage() {
               {/* A Director's Philosophy */}
               <div className="mt-16 pt-16 border-t border-grey-700">
                 <h2 className="font-serif text-3xl md:text-4xl text-cream mb-6">A Director&apos;s Philosophy</h2>
-                <blockquote className="border-l-2 border-gold pl-6 my-8 text-xl md:text-2xl font-serif italic text-cream/80">
+                <blockquote className="border-l-2 border-purple pl-6 my-8 text-xl md:text-2xl font-serif italic text-cream/80">
                   I don&apos;t make theatre for audiences who want to be comfortable. I make theatre for audiences who want to be alive.
                 </blockquote>
                 <p className="text-grey-200 text-lg leading-relaxed mb-6">
@@ -93,7 +93,7 @@ export default function ManojShahPage() {
                 <p className="text-grey-200 text-lg leading-relaxed mb-6">
                   Unlike many Indian theatre companies that operate within a single linguistic tradition, Shah has always insisted on working across languages. Ideas Unlimited produces work in Hindi, Gujarati, and English — not as a commercial strategy, but as a reflection of India itself.
                 </p>
-                <blockquote className="border-l-2 border-gold pl-6 my-8 text-xl md:text-2xl font-serif italic text-cream/80">
+                <blockquote className="border-l-2 border-purple pl-6 my-8 text-xl md:text-2xl font-serif italic text-cream/80">
                   India doesn&apos;t speak one language. Why should Indian theatre?
                 </blockquote>
                 <p className="text-grey-200 text-lg leading-relaxed">
@@ -133,7 +133,7 @@ export default function ManojShahPage() {
                 <p className="text-grey-200 text-lg leading-relaxed mb-6">
                   At 35 years and counting, Ideas Unlimited Productions shows no signs of slowing down. New productions are in development, new voices are being brought into the fold, and the company&apos;s commitment to fearless storytelling remains as strong as ever.
                 </p>
-                <blockquote className="border-l-2 border-gold pl-6 my-8 text-xl md:text-2xl font-serif italic text-cream/80">
+                <blockquote className="border-l-2 border-purple pl-6 my-8 text-xl md:text-2xl font-serif italic text-cream/80">
                   Theatre is the last space where human beings truly encounter each other — no screens, no filters, no escape. That&apos;s why it matters. That&apos;s why it will always matter.
                 </blockquote>
                 <p className="text-grey-200 text-lg leading-relaxed">

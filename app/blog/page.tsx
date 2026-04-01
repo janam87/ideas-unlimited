@@ -46,7 +46,7 @@ export default function BlogPage() {
                     />
                   </div>
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="font-mono text-xs uppercase tracking-widest text-gold">
+                    <span className="font-mono text-xs uppercase tracking-widest text-purple">
                       {post.category}
                     </span>
                     <span className="text-grey-600 text-xs">&middot;</span>
@@ -58,7 +58,7 @@ export default function BlogPage() {
                       })}
                     </span>
                   </div>
-                  <h2 className="font-serif text-xl text-cream group-hover:text-gold transition-colors leading-snug mb-2">
+                  <h2 className="font-serif text-xl text-cream group-hover:text-purple transition-colors leading-snug mb-2">
                     {post.title}
                   </h2>
                   <p className="text-grey-400 text-sm leading-relaxed">

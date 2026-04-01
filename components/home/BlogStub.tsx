@@ -1,31 +1,70 @@
-import { Container } from "@/components/ui/Container";
+import Image from "next/image";
+import Link from "next/link";
+
+const PLACEHOLDER_POSTS = [
+  {
+    title: "The Making of Saptapadi: A Director's Journal",
+    category: "Behind the Scenes",
+    image: "/images/placeholder-production.svg",
+  },
+  {
+    title: "35 Years of Fearless Theatre: A Retrospective",
+    category: "Feature",
+    image: "/images/placeholder-production.svg",
+  },
+  {
+    title: "Why Hindi Theatre Matters in 2024",
+    category: "Opinion",
+    image: "/images/placeholder-production.svg",
+  },
+];
 
 export function BlogStub() {
   return (
     <section className="border-t border-grey-700">
-      <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-0 py-16 md:py-24">
-          <div className="lg:col-span-4 lg:border-r lg:border-grey-700 lg:pr-8 mb-8 lg:mb-0">
-            <hr className="editorial-rule-thick w-12 mb-4" />
-            <h2 className="font-serif text-3xl md:text-4xl text-cream">
-              Stories &<br />Reflections
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+          {/* Left — section title */}
+          <div className="lg:col-span-5">
+            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-cream leading-[0.95]">
+              Stories &amp;<br />Reflections
             </h2>
             <p className="text-grey-400 text-sm mt-4 leading-relaxed">
               Behind-the-scenes stories, directorial notes, and reflections on 35 years of theatre.
             </p>
           </div>
-          <div className="lg:col-span-8 lg:pl-8 flex items-center">
-            <div className="border border-grey-700 border-dashed p-10 w-full text-center">
-              <p className="font-mono text-sm text-grey-400 uppercase tracking-widest">
-                Coming Soon
-              </p>
-              <p className="mt-3 text-grey-600 text-sm">
-                Our editorial section is in development.
-              </p>
+
+          {/* Right — blog cards grid */}
+          <div className="lg:col-span-7">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              {PLACEHOLDER_POSTS.map((post) => (
+                <div key={post.title} className="group cursor-pointer">
+                  <div className="relative aspect-[4/3] overflow-hidden mb-4">
+                    <Image
+                      src={post.image}
+                      alt={post.title}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                  <p className="font-mono text-xs uppercase tracking-widest text-purple mb-2">
+                    {post.category}
+                  </p>
+                  <h3 className="font-serif text-lg text-cream group-hover:text-purple transition-colors leading-snug">
+                    {post.title}
+                  </h3>
+                </div>
+              ))}
             </div>
+            <Link
+              href="/blog"
+              className="inline-block mt-8 font-mono text-sm uppercase tracking-wider text-purple hover:text-purple-light transition-colors"
+            >
+              Read more &rarr;
+            </Link>
           </div>
         </div>
-      </Container>
+      </div>
     </section>
   );
 }

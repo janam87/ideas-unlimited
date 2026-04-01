@@ -53,7 +53,7 @@ export default async function BlogDetailPage({ params }: Props) {
             {/* Left — meta */}
             <div className="lg:col-span-5">
               <div className="lg:sticky lg:top-24">
-                <span className="font-mono text-xs uppercase tracking-widest text-gold">
+                <span className="font-mono text-xs uppercase tracking-widest text-purple">
                   {post.category}
                 </span>
                 <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cream leading-tight mt-3">
@@ -121,10 +121,10 @@ export default async function BlogDetailPage({ params }: Props) {
                           className="object-cover transition-transform duration-500 group-hover:scale-105"
                         />
                       </div>
-                      <span className="font-mono text-xs uppercase tracking-widest text-gold">
+                      <span className="font-mono text-xs uppercase tracking-widest text-purple">
                         {related.category}
                       </span>
-                      <h3 className="font-serif text-base text-cream group-hover:text-gold transition-colors leading-snug mt-1">
+                      <h3 className="font-serif text-base text-cream group-hover:text-purple transition-colors leading-snug mt-1">
                         {related.title}
                       </h3>
                     </Link>

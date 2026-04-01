@@ -18,79 +18,66 @@ The People pages are the IMDb-style wiki system for the entire company ensemble:
 
 Adding a new person = adding an entry to `data/people.json` + their `cast_crew` entries in productions. No code needed.
 
-**The SEO flywheel:** When a freelancer shares their profile URL (Instagram bio, LinkedIn, WhatsApp), they bring their personal audience to this domain. The profile must be genuinely worth sharing — it covers ALL of the person's work, not just Ideas Unlimited.
-
 ---
 
 ## `/people` — Directory Page
 
-### SEO
-```typescript
-export const metadata: Metadata = {
-  title: 'People',
-  description: 'Complete directory of actors, directors, writers and theatre professionals who have worked with Ideas Unlimited Productions over 35 years.',
-}
-```
-Target keywords: "Indian theatre actors", "theatre professionals India", "[person name] actor"
+### Layout
+- Page header: title "The People" + count + "35 years", same layout as Productions page
+- Uses `max-w-6xl` container directly (no Container/SectionHeading)
+- No editorial rules/hr elements
 
-### Page Structure
-
-**Page Header:** `<SectionHeading label="The Company" title="People" />`
-
-**Filter Bar** (`'use client'`)
+### Filters (`'use client'`)
 - Role filter: All / Actor / Director / Writer / etc. (derived from data)
 - Sort: Name A–Z / Most Productions
 - State in URL search params
+- Custom select styling: `pl-4 pr-10 py-2.5`, custom chevron via CSS
 
-**Person Cards Grid** — 4 cols desktop → 3 tablet → 2 mobile
-- Portrait with aspect-[3/4]
-- Name, role badges, production count
-- Hover: scale image, border-gold
+### People Grid
+- 3 cols desktop → 2 tablet → 1 mobile, `gap-8` (matches productions grid)
+- `<PersonCard>`: landscape image `aspect-[4/3]`, name only (no roles, no production count on card)
+- Hover: scale image, name turns gold
 
 ---
 
 ## `/people/[slug]` — Profile Page
 
-### SEO
-```typescript
-export async function generateMetadata({ params }): Promise<Metadata> {
-  const person = getPersonBySlug(params.slug)
-  return {
-    title: person.name,
-    description: `${person.bio.slice(0, 120)}. ${count} productions with Ideas Unlimited.`,
-    openGraph: { images: [person.portrait] }
-    // OG image = portrait — critical for WhatsApp/Instagram preview when shared
-  }
-}
-```
+### Layout — Single Grid with Sticky Photo
 
-**Schema.org:** `Person` with `memberOf` TheaterGroup.
+The entire page is one `grid grid-cols-1 lg:grid-cols-12` — photo on left (sticky), all content sections stacked on right. This ensures the photo stays visible while scrolling through all content.
 
-### Page Structure (sections in order)
+### Left Column (col-span-5)
+- Photo: `aspect-[3/4]`, sticky (`lg:sticky lg:top-24 lg:max-w-[320px]`)
+- Social links below photo (conditional): Instagram, Twitter, Website — gold mono links
 
-**1. Profile Header**
-- Portrait image: 1/3 width desktop, full width mobile
-- Name in serif display
-- Role tag badges
-- Bio text
-- Production count + Share button
+### Right Column (col-span-7) — All content stacked
 
-**2. Share Button** — prominent, above fold on mobile
-- Copies URL to clipboard, shows confirmation
-- This is the most important UX element for the SEO flywheel
+**1. Bio**
+- Roles in gold mono label
+- Name in `text-4xl md:text-5xl lg:text-6xl`
+- Bio text in `text-grey-200 text-lg`
 
-**3. IUP Filmography** — Ideas Unlimited work
-- `<SectionHeading label="With Ideas Unlimited" title="Productions" />`
-- Auto-derived from productions data. Sort: most recent first. Show all.
-- Each row: production title (linked), roles, year, language badge
+**2. Details** (below bio, separated by `border-t`)
+- MetaRow: Productions count, Roles
 
-**4. Other Notable Work** (conditional)
-- `<SectionHeading label="Beyond IU" title="Other Notable Work" />`
-- Film, TV, other theatre, awards
-- This makes the profile genuinely worth sharing
+**3. Filmography** (separated by `mt-16 pt-16 border-t`)
+- Heading: "With Ideas Unlimited"
+- List: year in mono, title linked to `/productions/[slug]`, roles in mono on right
 
-**5. Press & Interviews** (conditional)
-- External links with publication names
+**4. Other Notable Work** (conditional, same separator pattern)
+- Heading: "Beyond IU"
+- Simple list of work items
+
+**5. Press & Interviews** (conditional, same separator pattern)
+- Heading: "Press & Media"
+- 2-column grid of interview cards + PressCards
+
+### Key Rules
+- All production titles link to `/productions/[slug]`
+- Photo sticks across ALL sections (not just the first one)
+- No Container or SectionHeading components — all inline
+- External links: `target="_blank" rel="noopener noreferrer"`
+- Conditional sections hidden when data is empty
 
 ---
 
@@ -100,25 +87,3 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 2. Add their `cast_crew` entries in relevant productions
 3. Profile auto-generates at `/people/[slug]`
 4. No code changes needed
-
----
-
-## Component Checklist
-
-**Directory:**
-- [ ] Filter options derived from data
-- [ ] Filter state in URL search params
-- [ ] Person cards: portrait with fallback
-- [ ] Production count on every card
-- [ ] Stagger animation on grid
-
-**Profile:**
-- [ ] `generateStaticParams` for all slugs
-- [ ] `generateMetadata` with name, bio, portrait as OG image
-- [ ] Person schema JSON-LD
-- [ ] Share button: copies URL, shows confirmation, prominent on mobile
-- [ ] IUP Filmography: auto-derived, never manually entered
-- [ ] Every production links to `/productions/[slug]`
-- [ ] Other Work section: conditional
-- [ ] Press section: conditional
-- [ ] External links: `target="_blank" rel="noopener noreferrer"`

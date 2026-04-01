@@ -12,11 +12,11 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     const classes = cn(
       "inline-flex items-center justify-center font-medium transition-all duration-300 tracking-wide uppercase",
       {
-        "bg-gold text-background hover:bg-gold-light": variant === "primary",
+        "bg-purple text-background hover:bg-purple-light": variant === "primary",
         "bg-grey-800 text-foreground hover:bg-grey-700 border border-grey-600":
           variant === "secondary",
-        "text-foreground hover:text-gold": variant === "ghost",
-        "border border-gold text-gold hover:bg-gold hover:text-background":
+        "text-foreground hover:text-purple": variant === "ghost",
+        "border border-purple text-purple hover:bg-purple hover:text-background":
           variant === "outline",
       },
       {

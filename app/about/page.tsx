@@ -221,7 +221,7 @@ export default function AboutPage() {
               </p>
               <Link
                 href="/manoj-shah"
-                className="font-mono text-sm uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
+                className="font-mono text-sm uppercase tracking-wider text-purple hover:text-purple-light transition-colors"
               >
                 Read the full story &rarr;
               </Link>
@@ -260,7 +260,7 @@ export default function AboutPage() {
 
               <Link
                 href="/people"
-                className="font-mono text-sm uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
+                className="font-mono text-sm uppercase tracking-wider text-purple hover:text-purple-light transition-colors"
               >
                 View all people &rarr;
               </Link>
@@ -310,7 +310,7 @@ export default function AboutPage() {
                 Our plays have been welcomed by theatre groups, corporates, event companies, individuals, and theatre festivals — not only in India but internationally.
               </p>
 
-              <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-4">Festivals &amp; International</h3>
+              <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-purple mb-4">Festivals &amp; International</h3>
               <div className="border-t border-grey-700 mb-10">
                 {VENUES_FESTIVALS.map((venue, i) => (
                   <div key={i} className="py-3 border-b border-grey-700 text-grey-300 text-sm">
@@ -319,7 +319,7 @@ export default function AboutPage() {
                 ))}
               </div>
 
-              <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-4">Unconventional Stages</h3>
+              <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-purple mb-4">Unconventional Stages</h3>
               <div className="border-t border-grey-700">
                 {VENUES_UNCONVENTIONAL.map((venue, i) => (
                   <div key={i} className="py-3 border-b border-grey-700 text-grey-300 text-sm">

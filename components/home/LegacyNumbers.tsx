@@ -35,8 +35,8 @@ function CountUp({ target, suffix }: { target: number; suffix: string }) {
 
 export function LegacyNumbers() {
   return (
-    <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div className="grid grid-cols-2 md:grid-cols-4 border-b border-grey-700">
+    <section className="border-t border-b border-grey-700">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4">
         {LEGACY_NUMBERS.map((item, i) => (
           <div
             key={item.label}

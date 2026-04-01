@@ -31,13 +31,13 @@ export default function ContactPage() {
               <div className="space-y-0">
                 <div className="flex items-baseline justify-between py-4 border-b border-grey-700">
                   <span className="font-mono text-xs text-grey-400 uppercase tracking-wider">Email</span>
-                  <a href={`mailto:${SITE.email}`} className="text-cream hover:text-gold transition-colors">
+                  <a href={`mailto:${SITE.email}`} className="text-cream hover:text-purple transition-colors">
                     {SITE.email}
                   </a>
                 </div>
                 <div className="flex items-baseline justify-between py-4 border-b border-grey-700">
                   <span className="font-mono text-xs text-grey-400 uppercase tracking-wider">Phone</span>
-                  <a href={`tel:${SITE.phone}`} className="text-cream hover:text-gold transition-colors">
+                  <a href={`tel:${SITE.phone}`} className="text-cream hover:text-purple transition-colors">
                     {SITE.phone}
                   </a>
                 </div>
@@ -59,7 +59,7 @@ export default function ContactPage() {
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-mono text-xs uppercase tracking-wider text-gold hover:text-gold-light transition-colors capitalize"
+                    className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors capitalize"
                   >
                     {name}
                   </a>
@@ -81,7 +81,7 @@ export default function ContactPage() {
             </div>
             <div className="lg:col-span-7">
               {submitted ? (
-                <div className="bg-grey-900 border border-gold/30 p-12 text-center">
+                <div className="bg-grey-900 border border-purple/30 p-12 text-center">
                   <p className="font-serif text-2xl text-cream mb-4">
                     Thank you for reaching out
                   </p>
@@ -99,7 +99,7 @@ export default function ContactPage() {
                       <input
                         type="text"
                         required
-                        className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
+                        className="w-full bg-grey-900 border border-grey-700 text-cream pl-4 pr-10 py-3 outline-none focus:border-purple transition-colors"
                       />
                     </div>
                     <div>
@@ -109,7 +109,7 @@ export default function ContactPage() {
                       <input
                         type="email"
                         required
-                        className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
+                        className="w-full bg-grey-900 border border-grey-700 text-cream pl-4 pr-10 py-3 outline-none focus:border-purple transition-colors"
                       />
                     </div>
                   </div>
@@ -121,7 +121,7 @@ export default function ContactPage() {
                       </label>
                       <input
                         type="tel"
-                        className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
+                        className="w-full bg-grey-900 border border-grey-700 text-cream pl-4 pr-10 py-3 outline-none focus:border-purple transition-colors"
                       />
                     </div>
                     <div>
@@ -130,7 +130,7 @@ export default function ContactPage() {
                       </label>
                       <select
                         required
-                        className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
+                        className="w-full bg-grey-900 border border-grey-700 text-cream pl-4 pr-10 py-3 outline-none focus:border-purple transition-colors"
                       >
                         <option value="">Select...</option>
                         {ENQUIRY_TYPES.map((type) => (
@@ -149,7 +149,7 @@ export default function ContactPage() {
                     <textarea
                       required
                       rows={6}
-                      className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors resize-none"
+                      className="w-full bg-grey-900 border border-grey-700 text-cream pl-4 pr-10 py-3 outline-none focus:border-purple transition-colors resize-none"
                     />
                   </div>
 

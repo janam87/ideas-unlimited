@@ -20,16 +20,18 @@ app/                    → Pages only (App Router)
 components/
   ui/                   → Primitives: Button, Badge, Container, SectionHeading, GridLines
   motion/               → Animation wrappers: FadeIn, ScrollReveal, CurtainReveal, StaggerChildren
-  layout/               → Chrome: Navbar, Footer, NowPerformingBar, SearchOverlay, ClientShell
-  home/                 → Home page sections
-  productions/          → ProductionCard, ProductionFilters, ProductionGrid
+  layout/               → Chrome: Navbar, Footer, UpcomingTicker, SearchOverlay, ClientShell
+  home/                 → Home page sections: Hero, LegacyNumbers, AboutPull, FeaturedProductions,
+                          ManojShahPull, FestivalsStrip, BlogStub, NewsletterSection
+  productions/          → ProductionCard, ProductionFilters, ProductionGrid, ProductionHero
   people/               → PersonCard, PeopleFilters, PeopleGrid
   shared/               → Gallery, VideoEmbed, PressCard, ShareButton, RelatedProductions
 
 lib/
   types.ts              → All TypeScript interfaces
   data.ts               → Data loading & query functions
-  shows.ts              → "Now Performing" date logic
+  blog.ts               → Blog post data and query functions
+  shows.ts              → "Now Performing" / upcoming show date logic
   schema.ts             → Schema.org JSON-LD generators
   utils.ts              → cn(), placeholderImage(), slugify()
   constants.ts          → SITE config, NAV_LINKS, LEGACY_NUMBERS, ENQUIRY_TYPES

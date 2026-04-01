@@ -18,7 +18,7 @@ export function SectionHeading({
   return (
     <div className={cn("mb-12", align === "center" && "text-center", className)}>
       {label && (
-        <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-4">
+        <p className="font-mono text-xs uppercase tracking-[0.3em] text-purple mb-4">
           {label}
         </p>
       )}

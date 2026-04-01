@@ -36,7 +36,7 @@ export function ProductionGrid({ productions }: ProductionGridProps) {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {filtered.map((production) => (
         <ProductionCard key={production.slug} production={production} />
       ))}
