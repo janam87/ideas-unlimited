@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Search, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
@@ -33,16 +34,28 @@ export function Navbar({ hasNowPerforming, onSearchOpen }: NavbarProps) {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
         scrolled
-          ? "bg-background/60 backdrop-blur-xl backdrop-saturate-150 border-b border-white/[0.06]"
+          ? "bg-background/60 backdrop-blur-xl backdrop-saturate-150"
           : "bg-transparent"
       )}
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 group">
-          <span className="font-serif text-xl md:text-2xl text-cream tracking-tight group-hover:text-gold transition-colors">
-            Ideas Unlimited
-          </span>
+        <Link href="/" className="flex items-center gap-2.5 group">
+          <Image
+            src="/images/iu-logo.png"
+            alt="IU Logo"
+            width={36}
+            height={36}
+            className="md:w-10 md:h-10"
+          />
+          <div className="leading-none">
+            <span className="block text-cream text-sm md:text-base font-bold tracking-wide group-hover:text-gold transition-colors" style={{ fontFamily: "'Trebuchet MS', sans-serif" }}>
+              Ideas Unlimited
+            </span>
+            <span className="block text-cream/70 text-[10px] md:text-xs tracking-widest uppercase" style={{ fontFamily: "'Trebuchet MS', sans-serif" }}>
+              Production
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}

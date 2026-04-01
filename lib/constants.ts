@@ -18,8 +18,10 @@ export const SITE = {
 
 export const NAV_LINKS = [
   { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
   { label: "Productions", href: "/productions" },
   { label: "People", href: "/people" },
+  { label: "Blog", href: "/blog" },
   { label: "Manoj Shah", href: "/manoj-shah" },
   { label: "Contact", href: "/contact" },
 ] as const;

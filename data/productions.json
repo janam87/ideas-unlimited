@@ -10,7 +10,16 @@
     "year": 2023,
     "synopsis": "A powerful exploration of love, identity, and societal norms through the metaphor of the seven sacred vows of marriage. When a hijra is found murdered in Bangalore, a university professor is drawn into a web of secrets that challenges everything she believed about justice.",
     "image": "/images/placeholder-production.svg",
-    "gallery": [],
+    "gallery": [
+      "/images/placeholder-production.svg",
+      "/images/placeholder-production.svg",
+      "/images/placeholder-production.svg",
+      "/images/placeholder-production.svg",
+      "/images/placeholder-production.svg",
+      "/images/placeholder-production.svg",
+      "/images/placeholder-production.svg",
+      "/images/placeholder-production.svg"
+    ],
     "duration": "120 minutes",
     "shows": [
       {

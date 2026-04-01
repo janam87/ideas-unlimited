@@ -4,10 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPersonBySlug, getAllPeople, getProductionsForPerson, getRolesForPerson, getPressForPerson } from "@/lib/data";
 import { personSchema } from "@/lib/schema";
-import { Container } from "@/components/ui/Container";
-import { Badge } from "@/components/ui/Badge";
 import { PressCard } from "@/components/shared/PressCard";
-import { ShareButton } from "@/components/shared/ShareButton";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -47,59 +44,71 @@ export default async function PersonDetailPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema(person)) }}
       />
 
-      <div className="pt-28 md:pt-32 pb-20">
-        <Container>
-          <hr className="editorial-rule-thick mb-10" />
+      {/* Main layout — sticky photo on left, all content sections on right */}
+      <div className="pt-28 md:pt-32">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+            {/* Left — Photo (sticky across all sections) */}
+            <div className="lg:col-span-5">
+              <div className="lg:sticky lg:top-24 lg:max-w-[320px]">
+                <div className="relative aspect-[3/4] w-full overflow-hidden">
+                  <Image
+                    src={person.portrait}
+                    alt={person.name}
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
 
-          {/* Two-column profile header */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-0 mb-12">
-            {/* Portrait — 4 cols */}
-            <div className="lg:col-span-4 lg:border-r lg:border-grey-700 lg:pr-10 mb-8 lg:mb-0">
-              <div className="relative aspect-[3/4] max-w-sm">
-                <Image
-                  src={person.portrait}
-                  alt={person.name}
-                  fill
-                  className="object-cover"
-                  priority
-                />
+                {/* Social Links */}
+                {person.socialLinks && (
+                  <div className="flex items-center gap-6 mt-6">
+                    {person.socialLinks.instagram && (
+                      <a href={person.socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-gold hover:text-gold-light transition-colors">
+                        Instagram
+                      </a>
+                    )}
+                    {person.socialLinks.twitter && (
+                      <a href={person.socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-gold hover:text-gold-light transition-colors">
+                        Twitter
+                      </a>
+                    )}
+                    {person.socialLinks.website && (
+                      <a href={person.socialLinks.website} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-gold hover:text-gold-light transition-colors">
+                        Website
+                      </a>
+                    )}
+                  </div>
+                )}
               </div>
             </div>
 
-            {/* Info — 8 cols */}
-            <div className="lg:col-span-8 lg:pl-10">
+            {/* Right — All content sections stacked */}
+            <div className="lg:col-span-7">
+              {/* Bio */}
               <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-3">
-                {person.roles.join(" &middot; ")}
+                {person.roles.join(" · ")}
               </p>
-              <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-cream leading-[0.9] mb-6">
+              <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-cream leading-[0.9] mb-8">
                 {person.name}
               </h1>
-              <hr className="editorial-rule mb-6" />
-              <p className="text-grey-300 text-lg leading-relaxed mb-8 max-w-2xl">
+              <p className="text-grey-200 text-lg md:text-xl leading-relaxed">
                 {person.bio}
               </p>
 
-              {/* Stats row */}
-              <div className="flex items-center gap-8 mb-6">
-                <div>
-                  <span className="font-serif text-3xl text-cream">{productions.length}</span>
-                  <span className="font-mono text-xs text-grey-400 uppercase tracking-wider ml-2">Productions</span>
-                </div>
-                <div className="w-px h-8 bg-grey-700" />
-                <ShareButton title={person.name} text={person.bio.slice(0, 100)} />
+              {/* Details */}
+              <div className="mt-10 pt-10 border-t border-grey-700">
+                <MetaRow label="Productions" value={String(productions.length)} />
+                <MetaRow label="Roles" value={person.roles.join(", ")} />
               </div>
-            </div>
-          </div>
 
-          {/* Filmography — editorial list like 13 Little Pictures reference */}
-          {productions.length > 0 && (
-            <section className="mb-12">
-              <hr className="editorial-rule mb-8" />
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
-                <div className="lg:col-span-3 mb-4 lg:mb-0">
-                  <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold">With Ideas Unlimited</p>
-                </div>
-                <div className="lg:col-span-9">
+              {/* Filmography */}
+              {productions.length > 0 && (
+                <div className="mt-16 pt-16 border-t border-grey-700">
+                  <h2 className="font-serif text-3xl md:text-4xl text-cream mb-8">
+                    With Ideas Unlimited
+                  </h2>
                   <div className="border-t border-grey-700">
                     {productions.map((prod) => {
                       const roles = getRolesForPerson(person.id, prod);
@@ -116,26 +125,21 @@ export default async function PersonDetailPage({ params }: Props) {
                             </span>
                           </div>
                           <span className="font-mono text-xs text-grey-400 uppercase tracking-wider hidden md:block">
-                            {roles.join(" &middot; ")}
+                            {roles.join(" · ")}
                           </span>
                         </Link>
                       );
                     })}
                   </div>
                 </div>
-              </div>
-            </section>
-          )}
+              )}
 
-          {/* Other Notable Work */}
-          {person.otherNotableWork && person.otherNotableWork.length > 0 && (
-            <section className="mb-12">
-              <hr className="editorial-rule mb-8" />
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
-                <div className="lg:col-span-3 mb-4 lg:mb-0">
-                  <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold">Beyond IU</p>
-                </div>
-                <div className="lg:col-span-9">
+              {/* Other Notable Work */}
+              {person.otherNotableWork && person.otherNotableWork.length > 0 && (
+                <div className="mt-16 pt-16 border-t border-grey-700">
+                  <h2 className="font-serif text-3xl md:text-4xl text-cream mb-8">
+                    Beyond IU
+                  </h2>
                   <div className="border-t border-grey-700">
                     {person.otherNotableWork.map((work, i) => (
                       <div key={i} className="py-3 border-b border-grey-700 text-grey-300">
@@ -144,19 +148,14 @@ export default async function PersonDetailPage({ params }: Props) {
                     ))}
                   </div>
                 </div>
-              </div>
-            </section>
-          )}
+              )}
 
-          {/* Press & Interviews */}
-          {(person.interviews?.length || pressItems.length > 0) && (
-            <section className="mb-12">
-              <hr className="editorial-rule mb-8" />
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
-                <div className="lg:col-span-3 mb-4 lg:mb-0">
-                  <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold">Press & Media</p>
-                </div>
-                <div className="lg:col-span-9">
+              {/* Press & Interviews */}
+              {(person.interviews?.length || pressItems.length > 0) && (
+                <div className="mt-16 pt-16 border-t border-grey-700">
+                  <h2 className="font-serif text-3xl md:text-4xl text-cream mb-8">
+                    Press &amp; Media
+                  </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {person.interviews?.map((interview, i) => (
                       <a
@@ -164,7 +163,7 @@ export default async function PersonDetailPage({ params }: Props) {
                         href={interview.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="editorial-card p-5 group block"
+                        className="block p-5 bg-grey-900 border border-grey-800 hover:border-grey-600 transition-all group"
                       >
                         <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">
                           {interview.source}
@@ -179,11 +178,20 @@ export default async function PersonDetailPage({ params }: Props) {
                     ))}
                   </div>
                 </div>
-              </div>
-            </section>
-          )}
-        </Container>
+              )}
+            </div>
+          </div>
+        </div>
       </div>
     </>
+  );
+}
+
+function MetaRow({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="flex items-baseline justify-between py-3 border-b border-grey-700">
+      <span className="font-mono text-xs text-grey-400 uppercase tracking-wider">{label}</span>
+      <span className="text-right font-medium text-cream">{value}</span>
+    </div>
   );
 }

@@ -8,16 +8,23 @@ import "yet-another-react-lightbox/styles.css";
 interface GalleryProps {
   images: string[];
   title: string;
+  fullBleed?: boolean;
 }
 
-export function Gallery({ images, title }: GalleryProps) {
+export function Gallery({ images, title, fullBleed = false }: GalleryProps) {
   const [index, setIndex] = useState(-1);
 
   if (images.length === 0) return null;
 
   return (
     <div>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+      <div
+        className={
+          fullBleed
+            ? "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1"
+            : "grid grid-cols-2 md:grid-cols-3 gap-3"
+        }
+      >
         {images.map((src, i) => (
           <button
             key={i}

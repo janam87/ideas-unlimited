@@ -4,9 +4,9 @@
   --background: #0a0a0a;
   --foreground: #ededed;
   --cream: #f5f0e8;
-  --gold: #d4a843;
-  --gold-light: #e8c36a;
-  --gold-dark: #b8922e;
+  --gold: #7c3aed;
+  --gold-light: #a78bfa;
+  --gold-dark: #5b21b6;
   --grey-900: #111111;
   --grey-800: #1a1a1a;
   --grey-700: #2a2a2a;
@@ -114,4 +114,13 @@ h1, h2, h3, h4 {
 }
 .editorial-card:hover {
   border-color: var(--grey-400);
+}
+
+/* Marquee scroll animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 20s linear infinite;
 }

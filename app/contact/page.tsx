@@ -1,10 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { SITE, ENQUIRY_TYPES } from "@/lib/constants";
-import { Container } from "@/components/ui/Container";
-import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 
 export default function ContactPage() {
@@ -16,158 +14,154 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="pt-32 pb-20">
-      <Container>
-        <SectionHeading
-          label="Get in Touch"
-          title="Contact Us"
-          description="For bookings, collaborations, press enquiries, or just to say hello."
-        />
-
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Form */}
-          <div className="lg:col-span-2">
-            {submitted ? (
-              <div className="bg-grey-900 border border-gold/30 p-12 text-center">
-                <p className="font-serif text-2xl text-cream mb-4">
-                  Thank you for reaching out
-                </p>
-                <p className="text-grey-400">
-                  We&apos;ve received your message and will get back to you within 48 hours.
-                </p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block font-mono text-xs uppercase tracking-widest text-grey-400 mb-2">
-                      Name *
-                    </label>
-                    <input
-                      type="text"
-                      required
-                      className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
-                    />
-                  </div>
-                  <div>
-                    <label className="block font-mono text-xs uppercase tracking-widest text-grey-400 mb-2">
-                      Email *
-                    </label>
-                    <input
-                      type="email"
-                      required
-                      className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block font-mono text-xs uppercase tracking-widest text-grey-400 mb-2">
-                      Phone
-                    </label>
-                    <input
-                      type="tel"
-                      className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
-                    />
-                  </div>
-                  <div>
-                    <label className="block font-mono text-xs uppercase tracking-widest text-grey-400 mb-2">
-                      Enquiry Type *
-                    </label>
-                    <select
-                      required
-                      className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
-                    >
-                      <option value="">Select...</option>
-                      {ENQUIRY_TYPES.map((type) => (
-                        <option key={type} value={type}>
-                          {type}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block font-mono text-xs uppercase tracking-widest text-grey-400 mb-2">
-                    Message *
-                  </label>
-                  <textarea
-                    required
-                    rows={6}
-                    className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors resize-none"
-                  />
-                </div>
-
-                <Button type="submit" size="lg">
-                  Send Message
-                </Button>
-              </form>
-            )}
-          </div>
-
-          {/* Sidebar */}
-          <div className="space-y-8">
-            <div>
-              <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-4">
-                Company Info
-              </h3>
-              <ul className="space-y-4 text-grey-300">
-                <li className="flex items-start gap-3">
-                  <Mail size={16} className="text-grey-400 mt-1 shrink-0" />
-                  <a href={`mailto:${SITE.email}`} className="hover:text-cream transition-colors">
+    <>
+      {/* Contact Info — 5/7 split */}
+      <section className="pt-28 md:pt-32 border-b border-grey-700">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+            <div className="lg:col-span-5">
+              <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-cream leading-[0.9]">
+                Get in<br className="hidden lg:block" /> Touch
+              </h1>
+              <p className="text-grey-400 text-lg mt-4">
+                For bookings, collaborations, press enquiries, or just to say hello.
+              </p>
+            </div>
+            <div className="lg:col-span-7">
+              <div className="space-y-0">
+                <div className="flex items-baseline justify-between py-4 border-b border-grey-700">
+                  <span className="font-mono text-xs text-grey-400 uppercase tracking-wider">Email</span>
+                  <a href={`mailto:${SITE.email}`} className="text-cream hover:text-gold transition-colors">
                     {SITE.email}
                   </a>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Phone size={16} className="text-grey-400 mt-1 shrink-0" />
-                  <a href={`tel:${SITE.phone}`} className="hover:text-cream transition-colors">
+                </div>
+                <div className="flex items-baseline justify-between py-4 border-b border-grey-700">
+                  <span className="font-mono text-xs text-grey-400 uppercase tracking-wider">Phone</span>
+                  <a href={`tel:${SITE.phone}`} className="text-cream hover:text-gold transition-colors">
                     {SITE.phone}
                   </a>
-                </li>
-                <li className="flex items-start gap-3">
-                  <MapPin size={16} className="text-grey-400 mt-1 shrink-0" />
-                  <span>Mumbai, Maharashtra, India</span>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-gold mb-4">
-                Social
-              </h3>
-              <ul className="space-y-3">
-                {Object.entries(SITE.social).map(([name, url]) => (
-                  <li key={name}>
-                    <a
-                      href={url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-grey-300 hover:text-cream transition-colors capitalize"
-                    >
-                      {name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="bg-grey-900 border border-grey-800 p-6">
-              <div className="flex items-center gap-2 mb-3">
-                <Clock size={16} className="text-gold" />
-                <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-gold">
-                  Response Time
-                </h3>
+                </div>
+                <div className="flex items-baseline justify-between py-4 border-b border-grey-700">
+                  <span className="font-mono text-xs text-grey-400 uppercase tracking-wider">Location</span>
+                  <span className="text-cream">Mumbai, Maharashtra, India</span>
+                </div>
+                <div className="flex items-baseline justify-between py-4 border-b border-grey-700">
+                  <span className="font-mono text-xs text-grey-400 uppercase tracking-wider">Response</span>
+                  <span className="text-cream">Within 24–48 hours</span>
+                </div>
               </div>
-              <p className="text-grey-400 text-sm">
-                We typically respond within 24-48 hours during business days.
-                For urgent ticket enquiries, please call directly.
-              </p>
+
+              {/* Social */}
+              <div className="flex items-center gap-6 mt-8">
+                {Object.entries(SITE.social).map(([name, url]) => (
+                  <a
+                    key={name}
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-mono text-xs uppercase tracking-wider text-gold hover:text-gold-light transition-colors capitalize"
+                  >
+                    {name}
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
         </div>
-      </Container>
-    </div>
+      </section>
+
+      {/* Contact Form — 5/7 split */}
+      <section className="border-t border-grey-700">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+            <div className="lg:col-span-5">
+              <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cream leading-tight">
+                Send a<br className="hidden lg:block" /> Message
+              </h2>
+            </div>
+            <div className="lg:col-span-7">
+              {submitted ? (
+                <div className="bg-grey-900 border border-gold/30 p-12 text-center">
+                  <p className="font-serif text-2xl text-cream mb-4">
+                    Thank you for reaching out
+                  </p>
+                  <p className="text-grey-400">
+                    We&apos;ve received your message and will get back to you within 48 hours.
+                  </p>
+                </div>
+              ) : (
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <label className="block font-mono text-xs uppercase tracking-widest text-grey-400 mb-2">
+                        Name *
+                      </label>
+                      <input
+                        type="text"
+                        required
+                        className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
+                      />
+                    </div>
+                    <div>
+                      <label className="block font-mono text-xs uppercase tracking-widest text-grey-400 mb-2">
+                        Email *
+                      </label>
+                      <input
+                        type="email"
+                        required
+                        className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <label className="block font-mono text-xs uppercase tracking-widest text-grey-400 mb-2">
+                        Phone
+                      </label>
+                      <input
+                        type="tel"
+                        className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
+                      />
+                    </div>
+                    <div>
+                      <label className="block font-mono text-xs uppercase tracking-widest text-grey-400 mb-2">
+                        Enquiry Type *
+                      </label>
+                      <select
+                        required
+                        className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors"
+                      >
+                        <option value="">Select...</option>
+                        {ENQUIRY_TYPES.map((type) => (
+                          <option key={type} value={type}>
+                            {type}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="block font-mono text-xs uppercase tracking-widest text-grey-400 mb-2">
+                      Message *
+                    </label>
+                    <textarea
+                      required
+                      rows={6}
+                      className="w-full bg-grey-900 border border-grey-700 text-cream px-4 py-3 outline-none focus:border-gold transition-colors resize-none"
+                    />
+                  </div>
+
+                  <Button type="submit" size="lg">
+                    Send Message
+                  </Button>
+                </form>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
