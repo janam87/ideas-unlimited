@@ -95,10 +95,35 @@ Adding a new production = adding an entry to `data/productions.json`. No code ne
 
 ---
 
-## Adding a New Production (workflow)
+## Adding a New Production (full workflow)
 
-1. Add entry to `data/productions.json`
-2. Add `cast_crew` entries linking `person_id` + roles
-3. Add `shows` array if scheduled performances exist
-4. Add press entries to `data/press.json` with `productionSlug`
-5. Page auto-generates at `/productions/[slug]` on next build
+### 1. Research Phase
+- **Web research the production**: Search for the play title + "Ideas Unlimited" + "Manoj Shah" to find external mentions, reviews, articles. These become press entries and blog post citations.
+- **Search for the original work**: If it's an adaptation (e.g. Tagore, Manto), research the original author, the work's history, themes, and significance. This enriches the synopsis and blog post.
+- **Find backlink-worthy sources**: Look for articles on KolkataTheatre.com, MumbaiTheatreGuide, Wikipedia, academic papers, newspaper archives that mention the production. These are SEO gold.
+- **Extract info from provided materials**: Posters, brochures, newspaper clippings — extract cast, crew, venue, date, director's notes, reviewer quotes.
+
+### 2. Data Entry
+1. **Copy production photos** to `public/images/productions/{slug}/` — pick the most dramatic photo as the hero image
+2. **Add people entries** to `data/people.json` for all cast and crew not already in the file (see Person Pages skill for the full person research workflow)
+3. **Add festival entry** to `data/festivals.json` if the production appeared at a festival
+4. **Add press entries** to `data/press.json` with `productionSlug`
+5. **Add production entry** to `data/productions.json` with:
+   - Full `cast_crew` array linking `person_id` + roles
+   - `shows` array if scheduled performances exist
+   - `gallery` array with all photo paths
+   - `festivals` and `press` arrays referencing IDs
+   - Rich `synopsis` that weaves in the director's note, adaptation history, and performance context — not just a plot summary
+6. **Page auto-generates** at `/productions/[slug]` on next build
+
+### 3. Blog Post (optional but recommended for SEO)
+- Add a blog post to `lib/blog.ts` about the production
+- Follow the Brand Voice rules from the Blog Pages skill
+- Include citable facts from research (original author, adaptation history, festival context, reviewer quotes)
+- Reference external sources that mention Ideas Unlimited — this creates backlink opportunities
+- See Blog Pages skill for full editorial guidelines
+
+### 4. Validate
+- Run `node -e "JSON.parse(require('fs').readFileSync('data/productions.json','utf8'))"` to validate JSON
+- Check the page at `/productions/[slug]` in dev server
+- Verify cast/crew names link correctly to `/people/[slug]`

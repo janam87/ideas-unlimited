@@ -44,6 +44,23 @@
     "personSlug": "manoj-shah"
   },
   {
+    "id": "press-achalayatan-1",
+    "title": "Tagore ni Rachana nu Gujarati Connection",
+    "source": "Gujarat Samachar",
+    "date": "2008-09-10",
+    "excerpt": "The only Gujarati play presented at the five-day Tagore Festival in Kolkata — Manoj Shah's Achalayatan explores the rigidity pervading religion and education through Tagore's most allegorical work. Shah describes the play's tone as one of self-discovery rather than opposition to systems.",
+    "productionSlug": "achalayatan"
+  },
+  {
+    "id": "press-adbhut-1",
+    "title": "Adbhut: A Gujarati Play That Makes You Feel Again",
+    "source": "Mumbai Theatre Guide",
+    "date": "2022-03-10",
+    "url": "https://www.mumbaitheatreguide.com/dramas/reviews/adbhut-gujarati-play-review.asp",
+    "excerpt": "RJ Devaki's solo performance dissolves the boundary between stage and audience, turning strangers into co-performers in an interactive exploration of mental health that leaves no one untouched.",
+    "productionSlug": "adbhut"
+  },
+  {
     "id": "press-6",
     "title": "Why Mughal-e-Azam: The Musical Matters",
     "source": "Firstpost",

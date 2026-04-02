@@ -35,6 +35,13 @@
     "description": "India's longest-running youth theatre festival, celebrating young voices and experimental work."
   },
   {
+    "id": "tagore-festival-kolkata-2008",
+    "name": "Tagore Festival",
+    "year": 2008,
+    "city": "Kolkata",
+    "description": "A five-day festival celebrating Rabindranath Tagore's literary and theatrical legacy, held at G. D. Birla Sabhagar in Kolkata. Ideas Unlimited's Gujarati Achalayatan was the only non-Bengali language production presented."
+  },
+  {
     "id": "thespo-2016",
     "name": "Thespo",
     "year": 2016,

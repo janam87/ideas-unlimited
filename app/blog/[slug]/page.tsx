@@ -41,8 +41,16 @@ export default async function BlogDetailPage({ params }: Props) {
   const allPosts = getAllPosts().filter((p) => p.slug !== post.slug);
   const relatedPosts = allPosts.slice(0, 3);
 
-  // Insert images after every 3rd paragraph
-  const imageInsertAfter = new Set([2, 5]);
+  // Build inline image map: per-post images if available, otherwise default positions with placeholder
+  const inlineImageMap = new Map<number, { src: string; alt: string }>();
+  if (post.inlineImages && post.inlineImages.length > 0) {
+    for (const img of post.inlineImages) {
+      inlineImageMap.set(img.afterParagraph, { src: img.src, alt: img.alt });
+    }
+  } else {
+    inlineImageMap.set(2, { src: "/images/placeholder-production.svg", alt: `${post.title} — illustration` });
+    inlineImageMap.set(5, { src: "/images/placeholder-production.svg", alt: `${post.title} — illustration` });
+  }
 
   return (
     <>
@@ -82,11 +90,11 @@ export default async function BlogDetailPage({ params }: Props) {
                   <p className="text-grey-200 text-lg leading-relaxed mb-6">
                     {paragraph}
                   </p>
-                  {imageInsertAfter.has(i) && (
+                  {inlineImageMap.has(i) && (
                     <div className="relative aspect-[16/9] w-full overflow-hidden mb-8">
                       <Image
-                        src="/images/placeholder-production.svg"
-                        alt={`${post.title} — illustration`}
+                        src={inlineImageMap.get(i)!.src}
+                        alt={inlineImageMap.get(i)!.alt}
                         fill
                         className="object-cover"
                       />

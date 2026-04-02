@@ -16,6 +16,7 @@ import { Gallery } from "@/components/shared/Gallery";
 import { PressCard } from "@/components/shared/PressCard";
 import { RelatedProductions } from "@/components/shared/RelatedProductions";
 import { ProductionHero } from "@/components/productions/ProductionHero";
+import { AmbientMusic } from "@/components/shared/AmbientMusic";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -62,6 +63,11 @@ export default async function ProductionDetailPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(eventSchema(production, show)) }}
         />
       ))}
+
+      {/* Ambient Music */}
+      {production.musicUrl && (
+        <AmbientMusic src={production.musicUrl} />
+      )}
 
       {/* Hero */}
       <ProductionHero

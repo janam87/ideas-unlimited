@@ -19,6 +19,31 @@ Each post has: `slug`, `title`, `category`, `excerpt`, `image`, `date`, `body` (
 
 ---
 
+## Writing a Production Blog Post (workflow)
+
+When adding a blog post about a production:
+
+### 1. Research Before Writing
+- Search for the original work (author, history, themes, significance)
+- Search for "{production name} Ideas Unlimited", "{production name} Manoj Shah" to find external citations
+- Check KolkataTheatre.com, MumbaiTheatreGuide, Wikipedia, academic papers, newspaper archives
+- Find articles that mention both the production AND Ideas Unlimited/Manoj Shah — these are backlink opportunities
+
+### 2. Structure the Post
+- **Opening**: Context about the original work and its significance
+- **Middle**: The Ideas Unlimited production story — director's note, adaptation history, what made it distinctive, cast/crew highlights
+- **Key citations**: Quote or reference external sources by name (e.g. "As theatre historian Ananda Lal noted in his survey..."). This encourages the cited source to link back.
+- **Closing**: The production's enduring relevance, connecting past to present
+- Aim for 10-15 paragraphs, ~1500-2000 words
+
+### 3. SEO Considerations
+- Title should include the play name + a hook (e.g. "Achalayatan: When Tagore's Most Radical Play Spoke Gujarati")
+- Category: "Heritage" for historical productions, "Behind the Scenes" for process stories, "Director's Note" for first-person pieces
+- Excerpt: 1-2 sentences that would work as a Google search snippet
+- Body should naturally include searchable phrases: playwright name, production name, director name, venue, festival name
+
+---
+
 ## Brand Voice
 
 35 years of theatre earns confidence. Write like an editorial magazine — intelligent, warm, authoritative.

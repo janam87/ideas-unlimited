@@ -144,16 +144,23 @@ Client-side date checking — always accurate without rebuilds:
 
 ## Adding Data (workflows)
 
-### New Production
-1. Add entry to `data/productions.json`
-2. Include `cast_crew` with person IDs and roles
-3. Add `shows` array if scheduled
-4. Optionally add press items to `data/press.json`
+### New Production (full workflow — see Production Pages skill for details)
+1. **Research** the production online — find external mentions, reviews, backlink sources
+2. **Copy photos** to `public/images/productions/{slug}/`
+3. **Add people** to `data/people.json` for all new cast/crew (see Person Pages skill for research workflow)
+4. **Add festival** to `data/festivals.json` if applicable
+5. **Add press** to `data/press.json` with `productionSlug`
+6. **Add production** to `data/productions.json` with cast_crew, shows, gallery, festivals, press
+7. **Add blog post** to `lib/blog.ts` for SEO (optional but recommended)
+8. **Validate** all JSON files: `node -e "JSON.parse(require('fs').readFileSync('data/productions.json','utf8'))"`
 
-### New Person
+### New Person (full workflow — see Person Pages skill for details)
 1. Add entry to `data/people.json`
 2. Add their `cast_crew` entries in relevant productions
-3. Profile auto-derives production history
+3. **Research** the person: IMDB, Instagram, MumbaiTheatreGuide, Wikipedia, casting platforms
+4. **Enrich bio** with confirmed facts, add `otherNotableWork` and `socialLinks`
+5. **Source photo** from public sites (Wikipedia, personal websites, casting platforms), save to `public/images/people/{slug}.jpg`
+6. Profile auto-derives production history
 
 ### New Festival
 1. Add entry to `data/festivals.json`

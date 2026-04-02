@@ -81,9 +81,36 @@ The entire page is one `grid grid-cols-1 lg:grid-cols-12` — photo on left (sti
 
 ---
 
-## Adding a New Person (workflow)
+## Adding a New Person (full workflow)
 
-1. Add entry to `data/people.json`
+### 1. Create Basic Entry
+1. Add entry to `data/people.json` with id, slug, name, placeholder portrait, basic bio, roles
 2. Add their `cast_crew` entries in relevant productions
 3. Profile auto-generates at `/people/[slug]`
-4. No code changes needed
+
+### 2. Research Phase (enrichment)
+For each person, run web searches to find real biographical information:
+- **Search queries**: "{name} actor", "{name} theatre", "{name} Ideas Unlimited", "{name} Manoj Shah"
+- **Platforms to check**: IMDB, Instagram, Facebook, LinkedIn, Wikipedia, MumbaiTheatreGuide, casting platforms (Cretso, Castkro)
+- **Try spelling variants**: e.g. "Dikshit" / "Dixit", "Upadhaya" / "Upadhyay"
+- **Run searches in parallel** using multiple agents for efficiency (one per person or batch smaller names together)
+
+### 3. Update Bio with Confirmed Facts
+- Replace generic placeholder bio with real details: training, notable roles, other work, connection to IU
+- Add `otherNotableWork` array with confirmed credits
+- Add `socialLinks` (instagram, twitter, website) where found
+- Only include information that is **confirmed** — if a common name returns ambiguous results, keep the basic bio
+
+### 4. Source Photos
+- **Priority sources for downloadable photos**: Wikipedia/Wikimedia Commons, personal websites, casting platforms (Cretso, Castkro), entertainment bio sites (StarsUnfolded, Alchetron)
+- **Cannot download from**: Instagram, Facebook, IMDB (these block scraping)
+- Save photos to `public/images/people/{slug}.jpg`
+- Update `portrait` field from placeholder SVG to `/images/people/{slug}.jpg`
+- If no photo is found, keep the placeholder — do not use unverified images
+
+### 5. What Makes a Good Person Bio
+- Lead with their training or background (NSD, classical training, etc.)
+- Mention their IU connection specifically (which productions, what roles)
+- Include notable non-IU work (TV shows, films) that readers might recognise
+- Keep it 2-3 sentences, factual, no superlatives
+- Example: "A National School of Drama graduate, Shyam Pathak began his career on the Mumbai stage with Ekjute Theatre Group before becoming widely known as Popatlal in Taarak Mehta Ka Ooltah Chashmah. His Gujarati roots and theatre training brought him into the Ideas Unlimited fold."

@@ -26,6 +26,7 @@ export interface Production {
   image: string;
   gallery?: string[];
   videoUrl?: string;
+  musicUrl?: string;
   duration?: string;
   shows?: Show[];
   cast_crew: CastCrewEntry[];
