@@ -342,6 +342,146 @@
     "roles": ["Music Operator"]
   },
   {
+    "id": "dayashankar-pandey",
+    "slug": "dayashankar-pandey",
+    "name": "Dayashankar Pandey",
+    "portrait": "/images/people/dayashankar-pandey.jpg",
+    "bio": "Born in Mumbai to an Awadhi-speaking family from Bhadohi, Uttar Pradesh, Dayashankar Pandey began his film career with Pehla Nasha in 1993. He went on to appear in Lagaan, Gangaajal, Swades, and Raajneeti before becoming widely known as Inspector Chalu Pandey in Taarak Mehta Ka Ooltah Chashmah, where he also serves as creative consultant. For Ideas Unlimited, he took on the title role in Bhamasha, spending weeks working on the Rajasthani dialect to inhabit the 16th-century Jain warrior.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["TV: Taarak Mehta Ka Ooltah Chashmah (2010–present)", "Film: Lagaan (2001)", "Film: Swades (2004)", "Film: Gangaajal (2003)"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/thedayashankar/"
+    },
+    "featured": true
+  },
+  {
+    "id": "dharmendra-gohil",
+    "slug": "dharmendra-gohil",
+    "name": "Dharmendra Gohil",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A film actor and voice artist who started in Gujarati theatre before moving to Marathi and Hindi cinema. A regular Ideas Unlimited collaborator, he has appeared in Bhamasha, Mareez, and Amar Fal. His film credits include Gandhi, My Father, 102 Not Out, Kasoombo, and Baby John.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["Film: Gandhi, My Father (2007)", "Film: 102 Not Out (2018)", "Film: Kasoombo (2024)", "Film: Baby John (2024)"]
+  },
+  {
+    "id": "om-puri",
+    "slug": "om-puri",
+    "name": "Om Puri",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "One of India's most celebrated actors, Om Puri's career spanned Bollywood, Hollywood, and British cinema with over 300 films. He lent his voice as narrator for Ideas Unlimited's Bhamasha, bringing gravitas to the historical epic through recorded narration.",
+    "roles": ["Narrator"],
+    "otherNotableWork": ["Film: Ardh Satya (1983)", "Film: East Is East (1999)", "Film: The Hundred-Foot Journey (2014)"],
+    "featured": true
+  },
+  {
+    "id": "yashpal-sharma",
+    "slug": "yashpal-sharma",
+    "name": "Yashpal Sharma",
+    "portrait": "/images/people/yashpal-sharma.jpg",
+    "bio": "Born in Hisar, Haryana, Yashpal Sharma developed his love for acting through local Ramlila performances before graduating from the National School of Drama in 1994. After starting with the NSD Repertory Company, he moved to Mumbai and built a formidable film career spanning Lagaan, Gangaajal, Ab Tak Chhappan, Hazaaron Khwaishein Aisi, and Singh Is Kinng. He contributed voice-over work to Ideas Unlimited's Bhamasha.",
+    "roles": ["Actor", "Voice Artist"],
+    "otherNotableWork": ["Film: Lagaan (2001)", "Film: Gangaajal (2003)", "Film: Ab Tak Chhappan (2004)", "Web: Scam 1992"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/iyashpalsharma/",
+      "website": "https://yashpalsharma.com/"
+    }
+  },
+  {
+    "id": "chugge-khan",
+    "slug": "chugge-khan",
+    "name": "Chugge Khan",
+    "portrait": "/images/people/chugge-khan.jpg",
+    "bio": "A Manganiyar maestro from the Jaisalmer-Barmer region of Rajasthan, Chugge Khan began performing at age four and toured internationally by thirteen. He founded Rajasthan Josh, a collective of Manganiyar musicians, in 2009. A master of Morchang, Khartal, and Bhappang, his repertoire spans Sufi qawwali, traditional Rajasthani folk, and the poetry of Kabir and Bulleh Shah. He led the live folk orchestra for Ideas Unlimited's Bhamasha. His music has been featured on Coke Studio and in the film Junun.",
+    "roles": ["Musician"],
+    "otherNotableWork": ["Coke Studio", "Film: Junun (2015)", "Albums: Rajasthan Josh, Baraat, Desert Lounge"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/chuggekhan_official/"
+    }
+  },
+  {
+    "id": "kabir-thakore",
+    "slug": "kabir-thakore",
+    "name": "Kabir Thakore",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "An Ahmedabad-based architect and theatre veteran who serves as convener of Rangmandal, a 75-year-old theatre institution. He built Scrapyard Theatre in the courtyard of his residence — a space for artists to learn and perform without financial barriers. Active in theatre mentorship since 1999, he designed the sets for Ideas Unlimited's Bhamasha, evoking Mughal-era palaces and Rajput fortresses on stage.",
+    "roles": ["Set Designer"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/kabirthakore/"
+    }
+  },
+  {
+    "id": "bipin-doshi",
+    "slug": "bipin-doshi",
+    "name": "Dr. Bipin Doshi",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "The author of the original story for Ideas Unlimited's Bhamasha, Dr. Bipin Doshi brought the overlooked history of the Jain warrior-philanthropist to the stage.",
+    "roles": ["Writer"]
+  },
+  {
+    "id": "mihir-bhuta",
+    "slug": "mihir-bhuta",
+    "name": "Mihir Bhuta",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A dramatist who adapted Dr. Bipin Doshi's story of Bhamasha into a stage script for Ideas Unlimited Productions, structuring the historical narrative for theatrical performance.",
+    "roles": ["Writer"]
+  },
+  {
+    "id": "kanhaiya",
+    "slug": "kanhaiya",
+    "name": "Kanhaiya",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A music composer who created the original score for Ideas Unlimited's Bhamasha, blending dramatic theatrical music with Rajasthani folk traditions.",
+    "roles": ["Music Director"]
+  },
+  {
+    "id": "ahlam-khan",
+    "slug": "ahlam-khan",
+    "name": "Ahlam Khan",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Daughter of the legendary actor Amjad Khan — Gabbar Singh of Sholay — Ahlam Khan Karachiwala holds an MA in English Literature from Mumbai University and has built a distinguished theatre career in her own right. She won Best Actress at the Mahindra Excellence in Theatre Awards (META) for Aaj Rang Hai. For Ideas Unlimited, she has appeared in Bhamasha and Amar Fal. She works across English, Gujarati, and Hindi theatre.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["Award: Best Actress, META Awards (Aaj Rang Hai)", "Theatre: Me Grandad 'ad an Elephant", "Film: Miss Sundari (2013)"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/the.khan.saheb/"
+    }
+  },
+  {
+    "id": "jay-upadhyay",
+    "slug": "jay-upadhyay",
+    "name": "Jay Upadhyay",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A Mumbai-based actor active in professional theatre since 2001, Jay Upadhyay is best known for playing Pranav Seth in Scam 1992: The Harshad Mehta Story. He starred in the Gujarati film Kevi Rite Jaish, credited with starting the era of urban Gujarati cinema, and won the Transmedia Award for Best Actor in Comic Role for Paaghdi. A core member of Manoj Shah's theatre group, he has appeared in Bhamasha and Mareez.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["Web: Scam 1992 (Pranav Seth)", "Film: Kevi Rite Jaish (2012)", "Award: Best Actor Comic Role (Transmedia, Paaghdi)"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/jayoops/"
+    }
+  },
+  {
+    "id": "pulkit-solanki",
+    "slug": "pulkit-solanki",
+    "name": "Pulkit Solanki",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who has performed with Ideas Unlimited Productions.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "aishwarya-mehta",
+    "slug": "aishwarya-mehta",
+    "name": "Aishwarya Mehta",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who has appeared in Ideas Unlimited productions including Bhamasha and Mareez.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "sagar-rawal",
+    "slug": "sagar-rawal",
+    "name": "Sagar Rawal",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who has performed with Ideas Unlimited Productions across multiple Gujarati and Hindi productions including Bhamasha and Amar Fal.",
+    "roles": ["Actor"]
+  },
+  {
     "id": "neil-bhoopalam",
     "slug": "neil-bhoopalam",
     "name": "Neil Bhoopalam",

@@ -222,6 +222,44 @@
     "commissionContext": "Commissioned for the centenary celebration of Gujarati folk theatre."
   },
   {
+    "id": "bhamasha",
+    "slug": "bhamasha",
+    "title": "Bhamasha",
+    "subtitle": "The Warrior Who Funded Freedom",
+    "type": "play",
+    "language": "Hindi",
+    "genre": ["Historical", "Drama"],
+    "year": 2013,
+    "synopsis": "The story of Bhamashah — born 1547, Jain Shravak of the Oswal community, warrior, strategist, and the man who bankrolled Maharana Pratap's war against the Mughal empire. Little is known about him beyond the legend of his donation, but this play recovers the full arc of his life: his father Bharmal's service as fort commander of Ranthambore, his own rise as Diwan of Mewar, his raids on Mughal camps, and the moment at the village of Chulia when he presented twenty lakh gold coins and two-and-a-half crore silver rupees to a king with no kingdom left.\n\nIdeas Unlimited — known for dramatising biographies in Gujarati — chose to tell this story in Hindi, bringing it to the Tata Theatre at NCPA on Republic Day 2013. The story was conceived by Dr. Bipin Doshi and dramatised by Mihir Bhuta. Dayashankar Pandey, who had appeared in Lagaan and Swades, took on the title role, working on the Rajasthani dialect to inhabit a man who proved that ahimsa does not mean cowardice. Om Puri lent his voice as narrator. Chugge Khan and his ensemble of Manganiar folk musicians from Rajasthan performed the Marwari folk score live, transporting the audience four centuries into the past.\n\nBhamasha is a play about a question most histories ignore: who pays for freedom? Not the king on the battlefield, but the man behind him — the merchant, the strategist, the Jain who believed that protecting his land was as sacred as any vow of non-violence.",
+    "image": "/images/productions/bhamasha/Bhamasha (2).JPG",
+    "gallery": [
+      "/images/productions/bhamasha/Bhamasha (2).JPG",
+      "/images/productions/bhamasha/Bhamasha (6).JPG",
+      "/images/productions/bhamasha/Bhamasha (10).JPG",
+      "/images/productions/bhamasha/Bhamasha (13).JPG",
+      "/images/productions/bhamasha/Bhamasha (14).JPG"
+    ],
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director", "Producer"] },
+      { "person_id": "dayashankar-pandey", "roles": ["Bhamasha"] },
+      { "person_id": "om-puri", "roles": ["Narrator (Voice)"] },
+      { "person_id": "yashpal-sharma", "roles": ["Voice-over"] },
+      { "person_id": "bipin-doshi", "roles": ["Story"] },
+      { "person_id": "mihir-bhuta", "roles": ["Dramatist"] },
+      { "person_id": "kanhaiya", "roles": ["Music Director"] },
+      { "person_id": "chugge-khan", "roles": ["Folk Orchestra"] },
+      { "person_id": "kabir-thakore", "roles": ["Set Designer"] },
+      { "person_id": "dharmendra-gohil", "roles": ["Actor"] },
+      { "person_id": "ahlam-khan", "roles": ["Actor"] },
+      { "person_id": "pulkit-solanki", "roles": ["Actor"] },
+      { "person_id": "aishwarya-mehta", "roles": ["Actor"] },
+      { "person_id": "jay-upadhyay", "roles": ["Actor"] },
+      { "person_id": "sagar-rawal", "roles": ["Actor"] }
+    ],
+    "press": ["press-bhamasha-1", "press-bhamasha-2"],
+    "featured": true
+  },
+  {
     "id": "court-martial",
     "slug": "court-martial",
     "title": "Court Martial",
