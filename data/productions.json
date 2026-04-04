@@ -251,6 +251,33 @@
     "featured": true
   },
   {
+    "id": "kaagdo",
+    "slug": "kaagdo",
+    "title": "Kaagdo",
+    "subtitle": "Happiness Decoded",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Satire", "Drama"],
+    "year": 2019,
+    "synopsis": "Imagine a world where being happy is a crime. That is the reality in Kaagdo \u2014 a biting satire named after the Gujarati folk tale Anandi Kaagdo (The Happy Crow), in which a crow is punished by a king but gleefully sings and enjoys every punishment.\n\nThe play follows a man \u2014 a humble, barefoot government worker in a striped sweater \u2014 whose wife has died, whose daughter lives abroad, who owns nothing of consequence, and who is inexplicably, unshakeably content. This is considered suspicious. He is taken to court. A relentless lawyer is brought in to interrogate this anomaly, to crack open this man\u2019s happiness and find the secret formula the world believes must exist.\n\nWritten by Geeta Manek and directed by Manoj Shah, Kaagdo draws from Japanese ikigai, Sufism, and Zen Buddhism to ask the simplest and most destabilising question in modern life: what if happiness is not something you chase, but something you already have? Jay Upadhyay plays the contented man with a warmth that makes his happiness feel not naive but earned. Unnati Gala plays his daughter \u2014 successful, modern, perpetually updating \u2014 who cannot understand why her father refuses to want more.\n\nThe Hindu\u2019s theatre critic Vikram Phukan described the play as an \u2018existential parable\u2019 that is \u2018not didactic in its approach.\u2019 Shah himself said: \u2018Even sadness is a tradition of happiness, which ultimately can be found within us.\u2019",
+    "image": "/images/productions/kaagdo/DSC02998.JPG",
+    "gallery": [
+      "/images/productions/kaagdo/DSC02874.JPG",
+      "/images/productions/kaagdo/DSC02998.JPG",
+      "/images/productions/kaagdo/DSC03000.JPG",
+      "/images/productions/kaagdo/DSC03013.JPG"
+    ],
+    "duration": "90 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director"] },
+      { "person_id": "geeta-manek", "roles": ["Writer"] },
+      { "person_id": "jay-upadhyay", "roles": ["Kaagdo (The Happy Man)"] },
+      { "person_id": "unnati-gala", "roles": ["Daughter"] }
+    ],
+    "press": ["press-kaagdo-1"],
+    "featured": false
+  },
+  {
     "id": "broken-images",
     "slug": "broken-images",
     "title": "Broken Images",
@@ -301,6 +328,36 @@
     ],
     "commissionedBy": "Gujarat Sahitya Parishad",
     "commissionContext": "Commissioned for the centenary celebration of Gujarati folk theatre."
+  },
+  {
+    "id": "karl-marx-in-kalbadevi",
+    "slug": "karl-marx-in-kalbadevi",
+    "title": "Karl Marx In Kalbadevi",
+    "subtitle": "Revolution via Entertainment",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Satire", "Solo", "Political"],
+    "year": 2013,
+    "synopsis": "What happens when Karl Marx returns from the dead and lands straight into the buzzing chaos of Kalbadevi, Mumbai\u2019s most unapologetically capitalist neighbourhood?\n\nHe is furious. Not just about capitalism running wild or billionaires launching rockets \u2014 but because people have twisted his words, misused his ideas, and turned \u2018Marxist\u2019 into a punchline. He wants to set the record straight. But Mumbai is not in the mood for lectures. So he adapts. He rants, he jokes, he dances Gangnam Style, he reviews a Gujarati thali at Bhagat Tarachand, he learns Gujarati because of his admiration for Mahatma Gandhi, and he tries to visit Mani Bhavan only to find the gates shut.\n\nWritten by Uttam Gada and directed by Manoj Shah, this one-man play has been Ideas Unlimited\u2019s calling card for over twelve years. Satchit Puranik \u2014 who looks the part with his wild hair, beard, and a tilak on his forehead \u2014 brings a manic energy to Marx that makes the philosopher feel less like a historical figure and more like your most opinionated uncle at a family wedding. The play premiered at the NCPA Vasant Gujarati Natya Utsav in 2013, has since been performed in Gujarati, Hindi, and Hinglish, and staged at Wilson College for the 150th anniversary of Das Kapital, at Aligarh Muslim University, and at JAINA conventions in the United States.\n\nAs Time Out Mumbai\u2019s Deepa Gahlot put it: the play is \u2018enough to provoke the audience to go back thinking, this Karlbhai was one clever dude, eh?\u2019",
+    "image": "/images/productions/karl-marx-in-kalbadevi/Satchit Puranik in NCPA.jpg",
+    "gallery": [
+      "/images/productions/karl-marx-in-kalbadevi/Karl Marx.jpg",
+      "/images/productions/karl-marx-in-kalbadevi/Karl Marx 2.jpg",
+      "/images/productions/karl-marx-in-kalbadevi/Satchit Puranik in NCPA.jpg",
+      "/images/productions/karl-marx-in-kalbadevi/show at prithvi.jpg",
+      "/images/productions/karl-marx-in-kalbadevi/DSC_8520.jpg",
+      "/images/productions/karl-marx-in-kalbadevi/Copy of Karl Marx in Kalbdevi (1).jpg",
+      "/images/productions/karl-marx-in-kalbadevi/Copy of Karl Marx in Kalbdevi (2).jpg",
+      "/images/productions/karl-marx-in-kalbadevi/Copy of Karl Marx in Kalbdevi (3).jpg",
+      "/images/productions/karl-marx-in-kalbadevi/Copy of Karl Marx in Kalbdevi (4).jpg"
+    ],
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director"] },
+      { "person_id": "uttam-gada", "roles": ["Writer"] },
+      { "person_id": "satchit-puranik", "roles": ["Karl Marx"] }
+    ],
+    "press": ["press-kmik-1", "press-kmik-2", "press-kmik-3"],
+    "featured": true
   },
   {
     "id": "hu-chandrakant-bakshi",

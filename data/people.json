@@ -689,6 +689,23 @@
     "roles": ["Actor"]
   },
   {
+    "id": "unnati-gala",
+    "slug": "unnati-gala",
+    "name": "Unnati Gala",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A freelance actress who has worked with Ideas Unlimited Productions in Kaagdo, Third Bell, and Tabiyat. On screen, she has appeared in A Thursday alongside Yami Gautam, Amazon's Paatal Lok, and Mumbaikar. She plays the daughter opposite Jay Upadhyay in Kaagdo.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["Film: A Thursday (2022)", "Web: Paatal Lok (2020)", "Film: Mumbaikar (2023)"]
+  },
+  {
+    "id": "uttam-gada",
+    "slug": "uttam-gada",
+    "name": "Uttam Gada",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "The writer of Karl Marx In Kalbadevi — Ideas Unlimited's most performed and most provocative play. Gada's script imagines what would happen if Karl Marx landed in Kalbadevi, Mumbai's most unapologetically capitalist neighbourhood. The play has run for over twelve years, been performed in Hindi and Hinglish, and staged at venues from Prithvi Theatre to Wilson College to international conventions.",
+    "roles": ["Writer"]
+  },
+  {
     "id": "neil-bhoopalam",
     "slug": "neil-bhoopalam",
     "name": "Neil Bhoopalam",
