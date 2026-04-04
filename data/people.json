@@ -482,6 +482,65 @@
     "roles": ["Actor"]
   },
   {
+    "id": "jitendra-b-shah",
+    "slug": "jitendra-b-shah",
+    "name": "Dr. Jitendra B. Shah",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A leading Jain scholar and Director of the L.D. Institute of Indology in Ahmedabad (1998–2019), Dr. Jitendra B. Shah is well-versed in Sanskrit, Pali, and Prakrit. He has authored 12 books and over 150 research articles, added 10,000 manuscripts to the Institute's collection, and coordinated the Dalai Lama's meeting with Jain Acharyas on Non-violence and Religion in 2010. He distilled the 16,000-verse Upamitibhavaprapancha Katha by Siddharshi Gani into the theatrical concept for Ideas Unlimited's Bhav Prapanch. He has been honoured with the Jain Padmashree and Nagar-Ratna of Ahmedabad.",
+    "roles": ["Concept", "Scholar"],
+    "otherNotableWork": ["Director: L.D. Institute of Indology (1998–2019)", "Award: Jain Padmashree (2012)", "Award: Nagar-Ratna of Ahmedabad"]
+  },
+  {
+    "id": "prathang-dave",
+    "slug": "prathang-dave",
+    "name": "Prathang Dave",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A writer who co-wrote the script for Ideas Unlimited's Bhav Prapanch, adapting the ancient Jain allegorical text by Siddharshi Gani for the stage.",
+    "roles": ["Writer"]
+  },
+  {
+    "id": "raju-dave",
+    "slug": "raju-dave",
+    "name": "Raju Dave",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A writer who has collaborated with Ideas Unlimited Productions, co-writing the scripts for Bhav Prapanch and Apurva Avsar with Manoj Shah.",
+    "roles": ["Writer"]
+  },
+  {
+    "id": "hemang-vyas",
+    "slug": "hemang-vyas",
+    "name": "Hemang Vyas",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A National School of Drama alumnus with a postgraduate degree from Mumbai University, Hemang Vyas has over sixteen years of theatre experience and founded the company Claptrap. His film credits include Sanju and Bawaal. He performed in Ideas Unlimited's Bhav Prapanch.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["Film: Sanju (2018)", "Film: Bawaal (2023)", "Theatre: Claptrap (Founder)"]
+  },
+  {
+    "id": "kashyap-pathak",
+    "slug": "kashyap-pathak",
+    "name": "Kashyap Pathak",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who has performed with Ideas Unlimited Productions.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "jitu-mehta",
+    "slug": "jitu-mehta",
+    "name": "Jitu Mehta",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre and film actor who has worked with Ideas Unlimited Productions. His film credits include Gujarat 11 and Corporate.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["Film: Gujarat 11", "Film: Corporate"]
+  },
+  {
+    "id": "bhotesh-vyas",
+    "slug": "bhotesh-vyas",
+    "name": "Bhotesh Vyas",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A lighting designer who has worked with Ideas Unlimited Productions, creating the visual atmosphere for their stage productions.",
+    "roles": ["Lighting Designer"]
+  },
+  {
     "id": "neil-bhoopalam",
     "slug": "neil-bhoopalam",
     "name": "Neil Bhoopalam",
