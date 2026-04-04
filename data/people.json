@@ -3,13 +3,13 @@
     "id": "manoj-shah",
     "slug": "manoj-shah",
     "name": "Manoj Shah",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "Founder and artistic director of Ideas Unlimited Productions, Manoj Shah has been a transformative force in Indian theatre for over 35 years. A director, actor, and producer, he has helmed over 90 productions across Hindi, Gujarati, and English, bringing fearless storytelling to stages from Mumbai's Prithvi Theatre to international festivals. His work is known for its emotional depth, visual grandeur, and unwavering commitment to social relevance.",
+    "portrait": "/images/people/manoj-shah.jpg",
+    "bio": "Born 5 February 1955 in Mumbai, Manoj Sakarchand Shah began as a dance teacher before a play directed by Mahendra Joshi turned him toward theatre. Inspired by Badal Sircar, Utpal Dutt, and Vijaya Mehta, he made his directorial debut with Master Phoolmani at the Prithvi Theatre Festival in 1999 — a production that ran for sixteen years. Since then he has directed 96+ productions in Gujarati, Hindi, and English under his company Ideas Unlimited, working with 157+ freelance artists. His biographical plays — Mareez (200+ performances since 2004), Mohan No Masalo (starring Pratik Gandhi, Limca Book of Records), Hu Chandrakant Bakshi, Karl Marx In Kalbadevi — are credited with sparking a cultural renaissance in Gujarati theatre. He has collaborated with painters Bhupen Khakhar, Ghulam Mohammed Sheikh, and Atul Dodiya on set design, and worked with filmmakers Richard Attenborough, Ketan Mehta, Ashutosh Gowariker, and Anand Gandhi. His productions have toured the USA, UK, Canada, Dubai, Singapore, and Muscat, and been selected for the Prithvi Festival, NSD Festival, Kalaghoda, Mumbai Theatre Utsav, and the Theatre Olympics.",
     "roles": ["Director", "Actor", "Producer", "Founder"],
-    "otherNotableWork": ["Film: The Last Colour (2020)", "TV: CID (2003-2018)", "Film: Ventilator (2016)"],
+    "otherNotableWork": ["Film: Ship of Theseus (2013)", "Film: Kasoombo (2024)", "Film: Thackeray (2019)", "Cultural Consultant: Kai Po Che, Good Road"],
     "interviews": [
-      { "title": "The Art of Indian Theatre", "url": "#", "source": "The Hindu" },
-      { "title": "35 Years of Ideas Unlimited", "url": "#", "source": "Mid-Day" }
+      { "title": "Manoj Shah Interview (2010)", "url": "https://www.mumbaitheatreguide.com/dramas/interviews/18-manoj-shah-interview.asp", "source": "Mumbai Theatre Guide" },
+      { "title": "Manoj Shah Interview (2014)", "url": "https://www.mumbaitheatreguide.com/dramas/interviews/13-manoj-shah-interview.asp", "source": "Mumbai Theatre Guide" }
     ],
     "featured": true
   },
@@ -422,7 +422,7 @@
     "slug": "mihir-bhuta",
     "name": "Mihir Bhuta",
     "portrait": "/images/placeholder-portrait.svg",
-    "bio": "A dramatist who adapted Dr. Bipin Doshi's story of Bhamasha into a stage script for Ideas Unlimited Productions, structuring the historical narrative for theatrical performance.",
+    "bio": "A dramatist who has written and adapted scripts for Ideas Unlimited Productions, including Jal Jal Mare Patang (the biographical play about philosopher Manilal Dwivedi, 2009), Bhamasha (the Hindi historical drama, 2013), and the Hindi script for Mohan Ka Masala.",
     "roles": ["Writer"]
   },
   {
@@ -620,6 +620,73 @@
     "portrait": "/images/people/pinkesh prajapati.png",
     "bio": "A theatre professional who has worked with Ideas Unlimited Productions on Bombay Flower.",
     "roles": ["Crew"]
+  },
+  {
+    "id": "manasi-joshi",
+    "slug": "manasi-joshi",
+    "name": "Manasi Joshi",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A Marathi and Gujarati theatre actress, Hindustani classical singer, and voice artist with over thirteen years of stage experience. She has performed over 550 shows of the Marathi musical Sangeet Devbabhali, appeared in Anthony Maras's international film Hotel Mumbai alongside Dev Patel and Anupam Kher, and played Yamini in Sony SAB's Wagle Ki Duniya for 647 episodes. As a voice artist for Disney India, she has dubbed Phineas in Phineas & Ferb and roles in The Lion King and Oggy and the Cockroaches. For Ideas Unlimited, she has performed the solo role in Dr. Anandibai Joshi: Like, Comment, Share since 2017 — a 75-minute monologue she describes as an actor's dream role. She has won META, Zee Marathi, and Maharashtra State Government awards.",
+    "roles": ["Actor", "Singer", "Voice Artist"],
+    "otherNotableWork": ["Film: Hotel Mumbai (2018, with Dev Patel)", "TV: Wagle Ki Duniya (647 episodes)", "Theatre: Sangeet Devbabhali (550+ shows)", "Voice: Phineas & Ferb (Hindi dub)"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/manasijoshi7/"
+    },
+    "featured": true
+  },
+  {
+    "id": "hemant-joshi",
+    "slug": "hemant-joshi",
+    "name": "Hemant Joshi",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A lighting designer who has worked with Ideas Unlimited Productions, creating the visual atmosphere for Dr. Anandibai Joshi: Like, Comment, Share.",
+    "roles": ["Lighting Designer"]
+  },
+  {
+    "id": "jatin-vaja",
+    "slug": "jatin-vaja",
+    "name": "Jatin Vaja",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A music operator who has worked with Ideas Unlimited Productions.",
+    "roles": ["Music Operator"]
+  },
+  {
+    "id": "pratik-gandhi",
+    "slug": "pratik-gandhi",
+    "name": "Pratik Gandhi",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Before Scam 1992 made him a national sensation, Pratik Gandhi was a Gujarati theatre actor whom Manoj Shah took a liking to during a touring production. Shah cast him in two solo plays that defined his craft: Hu Chandrakant Bakshi (2013), where he inhabited the controversial Gujarati writer, and Mohan No Masalo (2015), where he played young Mohandas Gandhi in three languages in a single day — earning a Limca Book of Records entry. Critics noted these collaborations 'helped solidify Gandhi's reputation as an actor.' Gandhi still calls Shah to perform shows between film projects. His screen career includes Scam 1992, Bhavai, Atithi Bhooto Bhava, and Dedh Bigha Zameen.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["Web: Scam 1992: The Harshad Mehta Story (2020)", "Film: Bhavai (2021)", "Film: Dedh Bigha Zameen (2023)", "Theatre: Mohan No Masalo (Limca Book of Records)"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/pratikiigandhi/"
+    },
+    "featured": true
+  },
+  {
+    "id": "shishir-ramavat",
+    "slug": "shishir-ramavat",
+    "name": "Shishir Ramavat",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A Gujarati journalist, novelist, and playwright from Jamnagar. He trained in computer engineering at M.S. University, Baroda before leaving to pursue journalism — working at Janmabhoomi Pravasi, Chitralekha, Mid-Day (as Features Editor), and Abhiyaan (as Executive Editor). He currently serves as News/Magazine Editor at Gujarat Samachar. He wrote Hu Chandrakant Bakshi for Ideas Unlimited, drawing on Bakshi's autobiography Bakshinama. He has authored eight books including four novels and served as Gujarati Language Expert at Microsoft's Hyderabad headquarters.",
+    "roles": ["Writer"],
+    "otherNotableWork": ["Journalism: Gujarat Samachar (Editor)", "Journalism: Mid-Day (Features Editor)", "Books: 4 novels, 8 total"]
+  },
+  {
+    "id": "vedish-jhaveri",
+    "slug": "vedish-jhaveri",
+    "name": "Vedish Jhaveri",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A Gujarati theatre actor who played the lead role of Manilal Dwivedi in Ideas Unlimited's Jal Jal Mare Patang — a demanding performance depicting the philosopher's life from youth to death at forty.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "kalpana-shah",
+    "slug": "kalpana-shah",
+    "name": "Kalpana Shah",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actress who has performed with Ideas Unlimited Productions, playing Manilal Dwivedi's mother in Jal Jal Mare Patang and appearing in Amar Fal.",
+    "roles": ["Actor"]
   },
   {
     "id": "neil-bhoopalam",

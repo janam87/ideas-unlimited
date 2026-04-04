@@ -1,10 +1,54 @@
 [
   {
+    "id": "press-jjmp-1",
+    "title": "Jal Jal Mare Patang — Gujarati Drama Review",
+    "source": "Mumbai Theatre Guide",
+    "date": "2009-03-15",
+    "url": "https://www.mumbaitheatreguide.com/dramas/reviews/05-jal-jal-mere-patang-gujarati-play-review.asp",
+    "excerpt": "Manoj Shah's biographical play on Manilal Dwivedi, the 19th-century Gujarati philosopher who introduced Western philosophy to Gujarat, features backdrop paintings by Atul Dodiya.",
+    "productionSlug": "jal-jal-mare-patang"
+  },
+  {
+    "id": "press-bakshi-1",
+    "title": "A Play Featuring Chandrakant Bakshi's Life Opens on 15 June",
+    "source": "DeshGujarat",
+    "date": "2013-06-12",
+    "url": "https://deshgujarat.com/2013/06/12/a-play-featuring-chandrakant-bakshis-life-opens-on-15-june/",
+    "excerpt": "Ideas Unlimited, Manoj Shah's theatre company, will stage a biographical play on controversial Gujarati writer Chandrakant Bakshi, starring Pratik Gandhi, at Prithvi Theatre on 15 June.",
+    "productionSlug": "hu-chandrakant-bakshi"
+  },
+  {
+    "id": "press-bakshi-2",
+    "title": "Hun Chandrakant Bakshi: A Riveting Drama on the Audacious Gujarati Author",
+    "source": "CreativeYatra",
+    "date": "2013-07-01",
+    "url": "https://creativeyatra.com/reviews/hun-chandrakant-bakshi-drama/",
+    "excerpt": "Pratik Gandhi brought the bold and egotist protagonist author to life as he essayed the role to flawless perfection — cautious yet fearless.",
+    "productionSlug": "hu-chandrakant-bakshi"
+  },
+  {
+    "id": "press-anandibai-1",
+    "title": "A Play to Celebrate Life and Times of India's First Female Doctor",
+    "source": "DNA India",
+    "date": "2017-12-01",
+    "url": "https://www.dnaindia.com/entertainment/report-A-play-to-celebrate-life-and-times-of-one-of-the-first-female-doctors-of-India-Dr-Anandibai-Joshi-2562841",
+    "excerpt": "Written by Geeta Manek and directed by Manoj Shah, the solo play performed by Manasi Joshi uses a social media conceit to draw parallels between 19th-century struggles and modern Indian women's issues.",
+    "productionSlug": "dr-anandibai"
+  },
+  {
+    "id": "press-anandibai-2",
+    "title": "Dr. Anandibai: Like, Comment, Share — NCPA CentreStage",
+    "source": "Mumbai Theatre Guide",
+    "date": "2017-12-02",
+    "url": "https://www.mumbaitheatreguide.com/dramas/gujarati/dr-anandi-bai-like-comment-share.asp",
+    "excerpt": "Actress Manasi Joshi describes the struggles and sacrifices of Dr Anandibai Joshi, who died at age 22, in this Gujarati play selected for the Theatre Olympics.",
+    "productionSlug": "dr-anandibai"
+  },
+  {
     "id": "press-1",
     "title": "Saptapadi Stuns Audiences at Prithvi Theatre",
     "source": "The Hindu",
     "date": "2023-11-15",
-    "url": "#",
     "excerpt": "Manoj Shah's latest directorial venture is a tour de force of emotional storytelling, with Neha Joshi delivering a career-best performance.",
     "productionSlug": "saptapadi"
   },
@@ -13,7 +57,6 @@
     "title": "A Definitive Adhe Adhure for Our Times",
     "source": "Mid-Day",
     "date": "2022-08-20",
-    "url": "#",
     "excerpt": "Ideas Unlimited's revival of Mohan Rakesh's classic feels startlingly contemporary, anchored by powerhouse performances.",
     "productionSlug": "adhe-adhure"
   },
@@ -22,7 +65,6 @@
     "title": "Kaumudi: A Love Letter to Gujarati Theatre",
     "source": "Gujarat Samachar",
     "date": "2021-04-10",
-    "url": "#",
     "excerpt": "Manoj Shah returns to his Gujarati roots with a sweeping historical epic that rivals anything on the Hindi stage.",
     "productionSlug": "kaumudi"
   },
@@ -31,7 +73,6 @@
     "title": "35 Years of Fearless Theatre: The Ideas Unlimited Story",
     "source": "Scroll.in",
     "date": "2025-01-05",
-    "url": "#",
     "excerpt": "From a small experimental group to one of India's most respected theatre companies, the journey of Ideas Unlimited Productions is a testament to artistic conviction."
   },
   {
@@ -39,8 +80,42 @@
     "title": "Manoj Shah: The Quiet Revolutionary of Indian Theatre",
     "source": "The Indian Express",
     "date": "2024-06-12",
-    "url": "#",
     "excerpt": "In a rare interview, the founder of Ideas Unlimited Productions reflects on three decades of pushing boundaries.",
+    "personSlug": "manoj-shah"
+  },
+  {
+    "id": "press-manoj-1",
+    "title": "The Poet in the Bedroom",
+    "source": "Time Out Mumbai",
+    "date": "2004-10-22",
+    "excerpt": "Here's an alternative to oh-so-popular Gujarati bedroom comedies: Manoj Shah, the theatre director from Prithvi. He likes mixing up and meshing diverse styles. His guiding principles: Lage raho, lage raho.",
+    "personSlug": "manoj-shah"
+  },
+  {
+    "id": "press-manoj-2",
+    "title": "Kathakaar of Gujarat: Manoj Shah, the Man of Theatre",
+    "source": "Ashish Lakhia Blog",
+    "date": "2008-02-01",
+    "url": "https://ashishlakhia.blogspot.com/2008/02/manoj-shah-man-of-theatre.html",
+    "excerpt": "His salt and pepper beard and hair, eyes peaking through glasses, and a mischievous sense of adventure. He has worked in every capacity — stage extra, actor, director, visualizer, and conceptualizer.",
+    "personSlug": "manoj-shah"
+  },
+  {
+    "id": "press-manoj-3",
+    "title": "Manoj Shah Interview: Three-Day Festival at Prithvi Theatre",
+    "source": "Mumbai Theatre Guide",
+    "date": "2010-06-25",
+    "url": "https://www.mumbaitheatreguide.com/dramas/interviews/18-manoj-shah-interview.asp",
+    "excerpt": "The plays are a reflection of my work in the theatre since the last eleven years. A gentleman has seen all the shows of Mareez in Mumbai.",
+    "personSlug": "manoj-shah"
+  },
+  {
+    "id": "press-manoj-4",
+    "title": "Manoj Shah on Adapting Ibsen for Gujarati Theatre",
+    "source": "Mumbai Theatre Guide",
+    "date": "2014-11-01",
+    "url": "https://www.mumbaitheatreguide.com/dramas/interviews/13-manoj-shah-interview.asp",
+    "excerpt": "It's a physiological thriller, part tragedy, part human drama. He incorporated Hindu temple architecture and the Sompura community instead of Gothic architecture.",
     "personSlug": "manoj-shah"
   },
   {
@@ -65,6 +140,7 @@
     "title": "Blast From The Past: New Hindi Play Revolves Around Bhamasha",
     "source": "Hindustan Times",
     "date": "2013-01-25",
+    "url": "https://www.mumbailive.com/en/theatre/veteran-actor-daya-shankar-pandey-says-he-is-thrilled-to-be-a-part-of-bhamashah-73091",
     "excerpt": "Whether Shah Jahan, Ashoka, or Bhamasha — Indian history is full of intriguing tales. Veteran actor Dayashankar Pandey brings the 16th-century Jain warrior to life, with folk musician Chugge Khan and his Rajasthani ensemble providing the score.",
     "productionSlug": "bhamasha"
   },
@@ -81,7 +157,8 @@
     "id": "press-bombay-flower-1",
     "title": "A Colorful, Wilting Bloom",
     "source": "Parsiana",
-    "date": "2023-04-21",
+    "date": "2023-06-21",
+    "url": "https://www.parsiana.com/current-issue/articles.aspx?id=%2BLhJDbaChn4%3D",
     "excerpt": "The 120-minute staging brings out the highs and lows of Ruttie's life, her love for and obsession with Jinnah, her later dependence on drink and opium, her solitary wanderings in Europe and her loneliness. Bhamini Oza Gandhi shines as Ruttie.",
     "productionSlug": "bombay-flower"
   },
@@ -94,11 +171,19 @@
     "productionSlug": "bombay-flower"
   },
   {
+    "id": "press-bombay-flower-3",
+    "title": "A Play on Jinnah's Wife and South Bombay's Pride Ruttie",
+    "source": "The Indian Express",
+    "date": "2023-03-25",
+    "url": "https://indianexpress.com/article/cities/mumbai/mumbai-around-town-play-jinnah-wife-south-bombay-pride-ruttie-8518167/",
+    "excerpt": "We were looking at doing a one-woman play and Ruttie was interesting. When we started working on it, something was amiss, so we brought in Jinnah.",
+    "productionSlug": "bombay-flower"
+  },
+  {
     "id": "press-6",
     "title": "Why Mughal-e-Azam: The Musical Matters",
     "source": "Firstpost",
     "date": "2019-10-08",
-    "url": "#",
     "excerpt": "The ambitious musical adaptation proves that Indian theatre can match Broadway in scale and spectacle.",
     "productionSlug": "mughal-e-azam"
   }

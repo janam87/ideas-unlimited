@@ -102,7 +102,7 @@
     "genre": ["Drama", "Biographical", "Historical"],
     "year": 2023,
     "synopsis": "A tribute to the legendary Parsi theatre — Bombay Flower tells the astonishingly daring story of Ruttie Petit (1900\u20131929), the fiercely independent daughter of Sir Dinshaw Petit, second baronet, who at eighteen married the era's most divisive political figure: Muhammad Ali Jinnah, a man more than two decades her senior.\n\nGiven the sobriquet 'Bombay Flower' by Sarojini Naidu, Ruttie's exuberance fills the first half of the play — her rebellion against family, faith, and Parsi society to marry for love. In the second half, shunned by her parents and increasingly isolated by Jinnah's consuming political ambitions, she becomes an embittered woman who finds solace in theosophy, opium, and solitary wanderings across Europe. She died at twenty-nine.\n\nWritten by Geeta Manek and drawn from Sheela Reddy's Mr and Mrs Jinnah: The Marriage That Shook India, the play took four years to develop. It began as a one-woman show before Manoj Shah brought in Jinnah, then Ruttie's parents, his sister Fatima, and their friend Kanji Dwarkadas. Bhamini Oza Gandhi leads as Ruttie, with Vishal Shah as Jinnah. The play premiered to a full house at the Experimental Theatre, NCPA on March 26, 2023 — an NCPA co-production.\n\nBombay Flower is dedicated to Parsi theatre, which Manoj Shah discovered to be the pioneer of both Gujarati and Urdu theatre during his research for Master Phoolmani in 1999. It asks a question that remains relevant: why would an intelligent, sensitive young woman from a privileged background risk everything for a man whose world was entirely different from hers?",
-    "image": "/images/productions/bombay-flower/Copy of 26MAR23_BombayFlower_TET_139.JPG",
+    "image": "/images/productions/bombay-flower/Copy of 26MAR23_BombayFlower_TET_173.JPG",
     "gallery": [
       "/images/productions/bombay-flower/26MAR23_BombayFlower_TET_32.JPG",
       "/images/productions/bombay-flower/26MAR23_BombayFlower_TET_64.JPG",
@@ -129,7 +129,7 @@
       { "person_id": "dhruv-dave", "roles": ["Actor"] },
       { "person_id": "pinkesh-prajapati", "roles": ["Crew"] }
     ],
-    "press": ["press-bombay-flower-1", "press-bombay-flower-2"],
+    "press": ["press-bombay-flower-1", "press-bombay-flower-2", "press-bombay-flower-3"],
     "featured": true
   },
   {
@@ -210,6 +210,47 @@
     "festivals": ["ncpa-festival-2019", "meta-awards-2019"]
   },
   {
+    "id": "dr-anandibai",
+    "slug": "dr-anandibai",
+    "title": "Dr. Anandibai",
+    "subtitle": "Like, Comment, Share",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Drama", "Biographical", "Solo"],
+    "year": 2017,
+    "synopsis": "The first woman to perform a solo role in a Manoj Shah production — and the first Indian woman to earn a medical degree. Two firsts, separated by 131 years.\n\nDr. Anandibai Gopalrao Joshi was married at nine, widowed of her infant son, and told by every institution around her that a woman's place was in the home. In 1886, she sailed to America and earned her MD from the Woman's Medical College of Pennsylvania — the first Indian woman to do so. She returned to India to serve as the physician-in-charge at the Albert Edward Hospital in Kolhapur. She was twenty-one. She died of tuberculosis the following year, at twenty-two.\n\nWritten by Geeta Manek and directed by Manoj Shah, the play uses the conceit of social media — Like, Comment, Share — to draw parallels between Anandibai's 19th-century struggles and the pressures facing Indian women today. Are they still defined by the likes they receive? Still waiting for male validation? Still weighed down by domestic duty disguised as devotion?\n\nManasi Joshi performs the 75-minute monologue alone on a bare stage — no props, no set, just Kabir Thakore's spatial design and Hemant Joshi's lighting carving the world out of darkness. The play premiered at NCPA's CentreStage Festival on 2 December 2017, was later staged in Hindi and Marathi, and was selected for the 8th Theatre Olympics in 2018.",
+    "image": "/images/productions/dr-anandibai/Anandibai 4.JPG",
+    "gallery": [
+      "/images/productions/dr-anandibai/Anandi 01.jpeg",
+      "/images/productions/dr-anandibai/Anandibai 1.JPG",
+      "/images/productions/dr-anandibai/Anandibai 2.JPG",
+      "/images/productions/dr-anandibai/Anandibai 3.JPG",
+      "/images/productions/dr-anandibai/Anandibai 4.JPG",
+      "/images/productions/dr-anandibai/Anandibai 5.JPG",
+      "/images/productions/dr-anandibai/Anandibai 6.JPG",
+      "/images/productions/dr-anandibai/Anandibai 7.JPG",
+      "/images/productions/dr-anandibai/Anandibai 8.JPG",
+      "/images/productions/dr-anandibai/Anandibai 9.JPG",
+      "/images/productions/dr-anandibai/Anandibai 10.JPG",
+      "/images/productions/dr-anandibai/Anandibai 11.JPG"
+    ],
+    "duration": "75 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director"] },
+      { "person_id": "geeta-manek", "roles": ["Writer"] },
+      { "person_id": "manasi-joshi", "roles": ["Dr. Anandibai Joshi"] },
+      { "person_id": "kanhaiya", "roles": ["Music Director"] },
+      { "person_id": "jatin-vaja", "roles": ["Music Operator"] },
+      { "person_id": "kabir-thakore", "roles": ["Set Designer"] },
+      { "person_id": "hemant-joshi", "roles": ["Lighting Designer"] },
+      { "person_id": "rajiv-bhatt", "roles": ["Costume Designer"] },
+      { "person_id": "naman-sheth", "roles": ["Stage Manager"] },
+      { "person_id": "janam-shah", "roles": ["Producer"] }
+    ],
+    "press": ["press-anandibai-1", "press-anandibai-2"],
+    "featured": true
+  },
+  {
     "id": "broken-images",
     "slug": "broken-images",
     "title": "Broken Images",
@@ -260,6 +301,39 @@
     ],
     "commissionedBy": "Gujarat Sahitya Parishad",
     "commissionContext": "Commissioned for the centenary celebration of Gujarati folk theatre."
+  },
+  {
+    "id": "hu-chandrakant-bakshi",
+    "slug": "hu-chandrakant-bakshi",
+    "title": "Hu Chandrakant Bakshi",
+    "subtitle": "I, Chandrakant Bakshi",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Drama", "Biographical", "Solo"],
+    "year": 2013,
+    "synopsis": "The story of Gujarati literature's most controversial writer, told by the man himself — or rather, by Pratik Gandhi inhabiting him with a ferocity that made audiences forget they were watching an actor.\n\nChandrakant Bakshi (1932–2006) authored 178 books, served as Professor of History, became Sheriff of Mumbai, got his short story 'Kutti' banned by the Gujarat government, publicly defied Bal Thackeray and refused to apologise, and wrote an autobiography so incendiary that parts of it could not be published. His writing style — Gujarati laced with Urdu, Hindi, and English — was as deliberately provocative as his public persona. He was, by every account, an incredible egoist. He was also, by every account, adored by his readers.\n\nWritten by Shishir Ramavat and drawn from Bakshi's autobiography Bakshinama, the play premiered on 15 June 2013 at Prithvi Theatre. Manoj Shah uses a ladder throughout the production as a metaphor for Bakshi's obsession with being on top. Gandhi — years before Scam 1992 would make him a household name — delivers what CreativeYatra called a 'cautious yet fearless' performance, bringing the bold and egotist protagonist to 'flawless perfection.' This play, along with Mohan No Masalo two years later, is credited with solidifying Pratik Gandhi's reputation as an actor of immense talent.",
+    "image": "/images/productions/hu-chandrakant-bakshi/Photos (3).jpg",
+    "gallery": [
+      "/images/productions/hu-chandrakant-bakshi/Photos (1).jpeg",
+      "/images/productions/hu-chandrakant-bakshi/Photos (2).jpg",
+      "/images/productions/hu-chandrakant-bakshi/Photos (3).jpg",
+      "/images/productions/hu-chandrakant-bakshi/Photos (4).jpg",
+      "/images/productions/hu-chandrakant-bakshi/Photos (5).jpg",
+      "/images/productions/hu-chandrakant-bakshi/Photos (6).jpg",
+      "/images/productions/hu-chandrakant-bakshi/Photos (7).jpg",
+      "/images/productions/hu-chandrakant-bakshi/Photos (8).jpg",
+      "/images/productions/hu-chandrakant-bakshi/Photos (9).jpg",
+      "/images/productions/hu-chandrakant-bakshi/Photos (10).jpg",
+      "/images/productions/hu-chandrakant-bakshi/Photos (11).jpg",
+      "/images/productions/hu-chandrakant-bakshi/Poster (1).jpg"
+    ],
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director"] },
+      { "person_id": "shishir-ramavat", "roles": ["Writer"] },
+      { "person_id": "pratik-gandhi", "roles": ["Chandrakant Bakshi"] }
+    ],
+    "press": ["press-bakshi-1", "press-bakshi-2"],
+    "featured": true
   },
   {
     "id": "bhamasha",
@@ -358,6 +432,46 @@
       { "person_id": "manoj-shah", "roles": ["Director"] },
       { "person_id": "danish-husain", "roles": ["Captain Bikash Roy"] }
     ]
+  },
+  {
+    "id": "jal-jal-mare-patang",
+    "slug": "jal-jal-mare-patang",
+    "title": "Jal Jal Mare Patang",
+    "subtitle": "The Burning Kite — Life of Manilal Dwivedi",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Drama", "Biographical"],
+    "year": 2009,
+    "synopsis": "The story of Manilal Nabhubhai Dwivedi (1858\u20131898) \u2014 the philosopher, writer, and literary critic who blazed through forty years of life with an intensity that redefined Gujarati literature and introduced Western philosophy to Gujarat.\n\nMarried at fourteen to a four-year-old girl. Professor of Sanskrit at Samaldas College, Bhavnagar. Founder of Priyamvada, India\u2019s first women\u2019s magazine. Invited to the Parliament of World Religions in Chicago in 1893 \u2014 the same event where Vivekananda gave his famous speech \u2014 but could not afford to attend; his paper on Hinduism was read by Virchand Gandhi in his absence. His Raja Yoga was praised by Edwin Arnold and later read by Mahatma Gandhi in a South African prison. Narmad, the founder of modern Gujarati literature, considered him his intellectual heir. The era of Gujarati literature from 1885 to 1905 is named after him: the Mani-Govardhan Era.\n\nManoj Shah spent seven years researching before staging this play. Written by Mihir Bhuta and drawn from Dwivedi\u2019s autobiography Atmavrittanta \u2014 compared to Rousseau\u2019s Confessions \u2014 the production features backdrop paintings by Atul Dodiya, one of India\u2019s foremost contemporary artists. It premiered on 28 February 2009 at NCPA and received an A-certificate from the Maharashtra Censor Board of Theatres for its frank depiction of Manilal\u2019s personal life.\n\nThe title translates as \u2018the kite burns as it flies\u2019 \u2014 a metaphor for a life that blazed brilliantly and briefly. Manilal died at forty, writing at his desk in Nadiad.",
+    "image": "/images/productions/jal-jal-mare-patang/Jal Jal Mare Patang - Prithvi (1).jpg",
+    "gallery": [
+      "/images/productions/jal-jal-mare-patang/Jal Jal Mare Patang - Prithvi (1).jpg",
+      "/images/productions/jal-jal-mare-patang/Jal Jal Mare Patang - Prithvi (2).jpg",
+      "/images/productions/jal-jal-mare-patang/Jal Jal Mare Patang - Prithvi (3).jpg",
+      "/images/productions/jal-jal-mare-patang/Jal Jal Mare Patang - Prithvi (4).jpg",
+      "/images/productions/jal-jal-mare-patang/Jal Jal Mare Patang - Prithvi (5).jpg",
+      "/images/productions/jal-jal-mare-patang/JJMP NCPA.JPG",
+      "/images/productions/jal-jal-mare-patang/JJMP NCPA (6).JPG",
+      "/images/productions/jal-jal-mare-patang/JJMP NCPA (10).JPG",
+      "/images/productions/jal-jal-mare-patang/JJMP NCPA (17).JPG",
+      "/images/productions/jal-jal-mare-patang/JJMP NCPA (20).JPG",
+      "/images/productions/jal-jal-mare-patang/JJMP NCPA (21).JPG"
+    ],
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director", "Producer"] },
+      { "person_id": "mihir-bhuta", "roles": ["Writer"] },
+      { "person_id": "vedish-jhaveri", "roles": ["Manilal Dwivedi"] },
+      { "person_id": "shailendra-patel", "roles": ["Nabhubhai (Father)"] },
+      { "person_id": "kalpana-shah", "roles": ["Mother"] },
+      { "person_id": "vimal-upadhaya", "roles": ["Balashankar Kantharia"] },
+      { "person_id": "aishwarya-mehta", "roles": ["Diwaliben / Mani Gauri"] },
+      { "person_id": "janam-shah", "roles": ["Kalapi"] },
+      { "person_id": "jay-upadhyay", "roles": ["Parsi Friend"] },
+      { "person_id": "deval-trivedi", "roles": ["Actor"] },
+      { "person_id": "sagar-rawal", "roles": ["Actor"] }
+    ],
+    "press": ["press-jjmp-1"],
+    "featured": false
   },
   {
     "id": "achalayatan",
