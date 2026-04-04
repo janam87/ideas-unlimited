@@ -541,6 +541,87 @@
     "roles": ["Lighting Designer"]
   },
   {
+    "id": "bhamini-oza-gandhi",
+    "slug": "bhamini-oza-gandhi",
+    "name": "Bhamini Oza Gandhi",
+    "portrait": "/images/people/Bhamani Oza Gandhi.png",
+    "bio": "A celebrated Gujarati theatre and screen actress known for playing Kissmi and Rita in the iconic sitcom Sarabhai vs Sarabhai. Wife of actor Pratik Gandhi and a cancer survivor, she has appeared in Kathal: A Jackfruit Mystery, Aum Mangalam Singlem, and Bhavai. She has been cast as Kasturba Gandhi in Hansal Mehta's upcoming series Gandhi. For Ideas Unlimited, she played Ruttie Petit in Bombay Flower — a performance the Parsiana magazine described as capturing both the exuberance and the disintegration.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["TV: Sarabhai vs Sarabhai (Kissmi/Rita)", "Film: Kathal: A Jackfruit Mystery (2023)", "Upcoming: Gandhi (series, as Kasturba)"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/bhaminioza/"
+    },
+    "featured": true
+  },
+  {
+    "id": "vishal-shah",
+    "slug": "vishal-shah",
+    "name": "Vishal Shah",
+    "portrait": "/images/people/Vishal Shah.png",
+    "bio": "A young actor from Ahmedabad who dropped CA studies to pursue theatre full-time. He founded Indie Productions, one of Gujarat's most recognised theatre companies, and won the Transmedia Award for Best Actor (Stage) in his debut year. He has acted in 18 theatre productions with 12 lead roles. For Ideas Unlimited, he played Muhammad Ali Jinnah in Bombay Flower.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["Award: Transmedia Best Actor, Stage (2015)", "Theatre: Rang Badalto Manas", "Founder: Indie Productions"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/vishal_shaheb/"
+    }
+  },
+  {
+    "id": "geeta-manek",
+    "slug": "geeta-manek",
+    "name": "Geeta Manek",
+    "portrait": "/images/people/geeta manek.png",
+    "bio": "A Gujarati author, playwright, and journalist who spent fifteen years as assistant editor at Femina Gujarati before turning to playwriting full-time. Her plays for Ideas Unlimited include Bombay Flower and Dr Anandibai Joshi: Like, Comment, Share — the latter performed in three languages and invited to international theatre festivals. She also wrote Akhir Kyon, described as the first play worldwide about 9/11, and Sagpan Na Saudagar, which ran for over 100 shows. Her docu-novel Sardar: The Game Changer was serialised in Midday Gujarati.",
+    "roles": ["Writer"],
+    "otherNotableWork": ["Theatre: Akhir Kyon (first play on 9/11)", "Theatre: Sagpan Na Saudagar (100+ shows)", "Book: Sardar: The Game Changer"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/geetamanek/"
+    }
+  },
+  {
+    "id": "naman-sheth",
+    "slug": "naman-sheth",
+    "name": "Naman Sheth",
+    "portrait": "/images/people/Naman Sheth.png",
+    "bio": "A theatre actor who played Kanji Dwarkadas — friend of the Jinnahs — in Ideas Unlimited's Bombay Flower.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "rishabh-kamdar",
+    "slug": "rishabh-kamdar",
+    "name": "Rishabh Kamdar",
+    "portrait": "/images/people/Rishabh Kamdar.jpeg",
+    "bio": "A theatre actor who played Sir Dinshaw Petit in Ideas Unlimited's Bombay Flower, portraying the father whose daughter's elopement with Jinnah fractured one of Bombay's most prominent Parsi families.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "purvi-desai",
+    "slug": "purvi-desai",
+    "name": "Purvi Desai",
+    "portrait": "/images/people/Purvi Desai.png",
+    "bio": "A theatre and film actress with over twelve years of stage experience before her Gujarati film debut in Halkie Fulkee. For Ideas Unlimited, she played the dual roles of Lady Dinbai Petit and Fatima Jinnah in Bombay Flower — the mother who lost her daughter and the sister who gained one.",
+    "roles": ["Actor"],
+    "otherNotableWork": ["Film: Halkie Fulkee (2021)", "Film: Bey Yaar (2014)"],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/desaipurvi2021/"
+    }
+  },
+  {
+    "id": "dhruv-dave",
+    "slug": "dhruv-dave",
+    "name": "Dhruv Dave",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who has performed with Ideas Unlimited Productions in Bombay Flower.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "pinkesh-prajapati",
+    "slug": "pinkesh-prajapati",
+    "name": "Pinkesh Prajapati",
+    "portrait": "/images/people/pinkesh prajapati.png",
+    "bio": "A theatre professional who has worked with Ideas Unlimited Productions on Bombay Flower.",
+    "roles": ["Crew"]
+  },
+  {
     "id": "neil-bhoopalam",
     "slug": "neil-bhoopalam",
     "name": "Neil Bhoopalam",

@@ -93,6 +93,46 @@
     "featured": true
   },
   {
+    "id": "bombay-flower",
+    "slug": "bombay-flower",
+    "title": "Bombay Flower",
+    "subtitle": "The Untold Story of Ruttie Petit and Muhammad Ali Jinnah",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Drama", "Biographical", "Historical"],
+    "year": 2023,
+    "synopsis": "A tribute to the legendary Parsi theatre — Bombay Flower tells the astonishingly daring story of Ruttie Petit (1900\u20131929), the fiercely independent daughter of Sir Dinshaw Petit, second baronet, who at eighteen married the era's most divisive political figure: Muhammad Ali Jinnah, a man more than two decades her senior.\n\nGiven the sobriquet 'Bombay Flower' by Sarojini Naidu, Ruttie's exuberance fills the first half of the play — her rebellion against family, faith, and Parsi society to marry for love. In the second half, shunned by her parents and increasingly isolated by Jinnah's consuming political ambitions, she becomes an embittered woman who finds solace in theosophy, opium, and solitary wanderings across Europe. She died at twenty-nine.\n\nWritten by Geeta Manek and drawn from Sheela Reddy's Mr and Mrs Jinnah: The Marriage That Shook India, the play took four years to develop. It began as a one-woman show before Manoj Shah brought in Jinnah, then Ruttie's parents, his sister Fatima, and their friend Kanji Dwarkadas. Bhamini Oza Gandhi leads as Ruttie, with Vishal Shah as Jinnah. The play premiered to a full house at the Experimental Theatre, NCPA on March 26, 2023 — an NCPA co-production.\n\nBombay Flower is dedicated to Parsi theatre, which Manoj Shah discovered to be the pioneer of both Gujarati and Urdu theatre during his research for Master Phoolmani in 1999. It asks a question that remains relevant: why would an intelligent, sensitive young woman from a privileged background risk everything for a man whose world was entirely different from hers?",
+    "image": "/images/productions/bombay-flower/Copy of 26MAR23_BombayFlower_TET_139.JPG",
+    "gallery": [
+      "/images/productions/bombay-flower/26MAR23_BombayFlower_TET_32.JPG",
+      "/images/productions/bombay-flower/26MAR23_BombayFlower_TET_64.JPG",
+      "/images/productions/bombay-flower/Copy of 26MAR23_BombayFlower_TET_52.JPG",
+      "/images/productions/bombay-flower/Copy of 26MAR23_BombayFlower_TET_80.JPG",
+      "/images/productions/bombay-flower/Copy of 26MAR23_BombayFlower_TET_100.JPG",
+      "/images/productions/bombay-flower/Copy of 26MAR23_BombayFlower_TET_114.JPG",
+      "/images/productions/bombay-flower/Copy of 26MAR23_BombayFlower_TET_139.JPG",
+      "/images/productions/bombay-flower/Copy of 26MAR23_BombayFlower_TET_173.JPG",
+      "/images/productions/bombay-flower/26MAR23_BombayFlower_TET_22.JPG"
+    ],
+    "duration": "120 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director"] },
+      { "person_id": "geeta-manek", "roles": ["Writer"] },
+      { "person_id": "amit-bhavsar", "roles": ["Music Director"] },
+      { "person_id": "hussaini-dawavala", "roles": ["Assistant Director"] },
+      { "person_id": "priyank-patel", "roles": ["Music Operator"] },
+      { "person_id": "bhamini-oza-gandhi", "roles": ["Ruttie Petit"] },
+      { "person_id": "vishal-shah", "roles": ["Muhammad Ali Jinnah"] },
+      { "person_id": "naman-sheth", "roles": ["Kanji Dwarkadas"] },
+      { "person_id": "rishabh-kamdar", "roles": ["Sir Dinshaw Petit"] },
+      { "person_id": "purvi-desai", "roles": ["Lady Dinbai / Fatima Jinnah"] },
+      { "person_id": "dhruv-dave", "roles": ["Actor"] },
+      { "person_id": "pinkesh-prajapati", "roles": ["Crew"] }
+    ],
+    "press": ["press-bombay-flower-1", "press-bombay-flower-2"],
+    "featured": true
+  },
+  {
     "id": "adhe-adhure",
     "slug": "adhe-adhure",
     "title": "Adhe Adhure",
