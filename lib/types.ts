@@ -72,6 +72,9 @@ export interface PressItem {
   excerpt?: string;
   productionSlug?: string;
   personSlug?: string;
+  reviewSlug?: string;
+  fullReview?: string[];
+  reviewAuthor?: string;
 }
 
 export interface FilterOptions {

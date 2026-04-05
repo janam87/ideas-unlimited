@@ -86,6 +86,14 @@ export function getPressForPerson(slug: string): PressItem[] {
   return press.filter((p) => p.personSlug === slug);
 }
 
+export function getReviewBySlug(slug: string): PressItem | undefined {
+  return press.find((p) => p.reviewSlug === slug);
+}
+
+export function getAllReviewSlugs(): string[] {
+  return press.filter((p) => p.reviewSlug).map((p) => p.reviewSlug!);
+}
+
 // --- Filters ---
 
 export function getFilterOptions(): FilterOptions {

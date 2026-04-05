@@ -706,6 +706,85 @@
     "roles": ["Writer"]
   },
   {
+    "id": "vinit-shukla",
+    "slug": "vinit-shukla",
+    "name": "Vinit Shukla",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "The playwright who adapted Raeesh Maniar's biography of poet Mareez into the stage play that became Ideas Unlimited's longest-running and most performed production. His script weaves poetry, hallucination, and realism into a non-linear narrative that has been performed over 200 times since 2004.",
+    "roles": ["Writer"]
+  },
+  {
+    "id": "kumkum-das",
+    "slug": "kumkum-das",
+    "name": "Kumkum Das",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A Gujarati theatre and film actress who arrived in Mumbai from Baroda with a Science degree from M.S. University. She began as a school teacher before entering theatre. Under Manoj Shah's direction, she plays Sona — Mareez's wife — offering a grounded counterpoint to the poet's drifting spirit, embodying resilience and silent suffering across 200+ performances.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "uday-mazumdar",
+    "slug": "uday-mazumdar",
+    "name": "Uday Mazumdar",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A tabla player, music producer, and composer trained under Ravi Shankar in the guru-shishya parampara. He has accompanied Ravi Shankar and Zakir Hussain, performed for the British and Swedish royal families, and released over twelve albums. He composed the soulful music for Ideas Unlimited's Mareez, creating the sonic landscape for the poet's journey. He was also the mentor of Suresh Joshi, Ideas Unlimited's regular music director.",
+    "roles": ["Music Director"],
+    "otherNotableWork": ["Trained under Ravi Shankar", "12+ albums", "Performed with Zakir Hussain"],
+    "socialLinks": {
+      "website": "https://www.udaimazumdar.com/"
+    }
+  },
+  {
+    "id": "darshan-pandya",
+    "slug": "darshan-pandya",
+    "name": "Darshan Pandya",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who has performed with Ideas Unlimited Productions in Mareez and other productions.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "pradeep-vengurlekar",
+    "slug": "pradeep-vengurlekar",
+    "name": "Pradeep Vengurlekar",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who has performed with Ideas Unlimited Productions in Mareez.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "satya-mehta",
+    "slug": "satya-mehta",
+    "name": "Satya Mehta",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "The writer of the original Gujarati script for Mohan No Masalo, the biographical solo play about young Mohandas Gandhi that entered the Limca Book of Records.",
+    "roles": ["Writer"]
+  },
+  {
+    "id": "atul-dodiya",
+    "slug": "atul-dodiya",
+    "name": "Atul Dodiya",
+    "portrait": "/images/people/atul-dodiya.jpg",
+    "bio": "One of India's foremost contemporary artists, deeply touched by Mahatma Gandhi's teachings. He created the black-and-white backdrop paintings for Ideas Unlimited's Mohan No Masalo — images of a young Gandhi that served as the visual world for Pratik Gandhi's solo performance. His earlier collaboration with Ideas Unlimited on Jal Jal Mare Patang (2009) established the painter-theatre partnership that defines Shah's visual language. His work has been exhibited at the Venice Biennale and is held in major collections worldwide.",
+    "roles": ["Visual Artist", "Set Designer"],
+    "otherNotableWork": ["Venice Biennale", "Saatchi Gallery", "National Gallery of Modern Art"],
+    "featured": true
+  },
+  {
+    "id": "parthiv-gohil",
+    "slug": "parthiv-gohil",
+    "name": "Parthiv Gohil",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A versatile Gujarati playback singer known for songs like Yoon Shabnami, Punjabi Munde, and Daras Bina Nahin Chain. From soulful ghazals to super-energised folk numbers, he contributed the vocal performances for Ideas Unlimited's Mohan No Masalo.",
+    "roles": ["Singer"],
+    "otherNotableWork": ["Song: Yoon Shabnami", "Song: Punjabi Munde"]
+  },
+  {
+    "id": "arpit-jain",
+    "slug": "arpit-jain",
+    "name": "Arpit Jain",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Co-writer of the Hindi script for Mohan Ka Masala, the Hindi-language version of Ideas Unlimited's trilingual Gandhi play.",
+    "roles": ["Writer"]
+  },
+  {
     "id": "neil-bhoopalam",
     "slug": "neil-bhoopalam",
     "name": "Neil Bhoopalam",
