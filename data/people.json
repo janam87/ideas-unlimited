@@ -785,6 +785,38 @@
     "roles": ["Writer"]
   },
   {
+    "id": "chirag-vohra",
+    "slug": "chirag-vohra",
+    "name": "Chirag Vohra",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "The original lead of Master Phoolmani — Ideas Unlimited's debut production — where he played Manilal/Phoolmani/Vanlata across sixteen years of performances. A foundational member of the Ideas Unlimited ensemble, he has also starred in the solo comedy What's Up? and appeared in Mareez and other productions.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "hemant-kher",
+    "slug": "hemant-kher",
+    "name": "Hemant Kher",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who has performed with Ideas Unlimited Productions in Third Bell.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "disha-savla-upadhyay",
+    "slug": "disha-savla-upadhyay",
+    "name": "Disha Savla Upadhyay",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actress and wife of actor Jay Upadhyay. She has performed with Ideas Unlimited Productions in Third Bell.",
+    "roles": ["Actor"]
+  },
+  {
+    "id": "bhargav-purohit",
+    "slug": "bhargav-purohit",
+    "name": "Bhargav Purohit",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A lyricist who has written songs for Ideas Unlimited's Third Bell.",
+    "roles": ["Lyricist"]
+  },
+  {
     "id": "neil-bhoopalam",
     "slug": "neil-bhoopalam",
     "name": "Neil Bhoopalam",

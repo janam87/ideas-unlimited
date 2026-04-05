@@ -330,6 +330,66 @@
     "commissionContext": "Commissioned for the centenary celebration of Gujarati folk theatre."
   },
   {
+    "id": "third-bell",
+    "slug": "third-bell",
+    "title": "Third Bell",
+    "subtitle": "Let's See Ourselves on Stage",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Comedy", "Drama"],
+    "year": 2024,
+    "synopsis": "In theatre tradition, the third bell signals that the show is about to start. But what if that bell never rings? What if the real drama is already unfolding in the seats of the auditorium?\n\nThird Bell is a meta-theatrical celebration of the audience \u2014 a series of conversations, confessions, arguments, and revelations between strangers and companions, all waiting for a performance to begin. A married couple whose argument about a bathroom break turns into a conversation about love, memory, and missed anniversaries. A grieving widow and a guarded painter who spark an unexpected friendship. Two men sitting beside each other who might be a bumbling impresario and a spy \u2014 or just very committed audience members. A first date on the edge of implosion. A father and daughter tangled in generational expectations. A narrator and director trying, and failing, to keep everything on schedule.\n\nWritten by Ishan Doshi and directed by Manoj Shah, Third Bell is a tribute to those who come to watch, wait, wonder, and maybe find a little bit of themselves before the curtain rises.",
+    "image": "/images/placeholder-production.svg",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director"] },
+      { "person_id": "ishan-doshi", "roles": ["Writer"] },
+      { "person_id": "janam-shah", "roles": ["Production Head"] },
+      { "person_id": "amit-bhavsar", "roles": ["Music Director"] },
+      { "person_id": "siddharth-amit-bhavsar", "roles": ["Songs"] },
+      { "person_id": "bhargav-purohit", "roles": ["Lyrics"] },
+      { "person_id": "hussaini-dawavala", "roles": ["Lighting"] },
+      { "person_id": "kabir-thakore", "roles": ["Set Designer"] },
+      { "person_id": "rajiv-bhatt", "roles": ["Costume Designer"] },
+      { "person_id": "jatin-vaja", "roles": ["Backstage"] },
+      { "person_id": "hemant-kher", "roles": ["Actor"] },
+      { "person_id": "disha-savla-upadhyay", "roles": ["Actor"] },
+      { "person_id": "unnati-gala", "roles": ["Actor"] },
+      { "person_id": "rishabh-kamdar", "roles": ["Actor"] },
+      { "person_id": "dhruv-dave", "roles": ["Actor"] },
+      { "person_id": "priyank-patel", "roles": ["Actor"] }
+    ],
+    "featured": false
+  },
+  {
+    "id": "whats-up",
+    "slug": "whats-up",
+    "title": "What's Up?",
+    "subtitle": "One Man, One Flight, Too Many Calls",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Comedy", "Solo"],
+    "year": 2016,
+    "synopsis": "Meet Chirag \u2014 a perfectly average man in his early thirties with a single, noble mission: catch a flight to Chicago and save his not-so-bright brother from being thrown behind bars for a minor misunderstanding. But before he can zip up his suitcase, his girlfriend drops a bombshell. His phone starts ringing like it owes someone money. On the other end: his sister\u2019s in-laws, an elite task force of relentless, nitpicking, drama-fuelled wedding planners who believe that unless Chirag approves the saree border and the sambharo menu, the marriage might as well be cancelled.\n\nFrom that moment, Chirag\u2019s day turns into a high-stakes obstacle course complete with passive-aggressive aunties, conspiracy theories on family WhatsApp groups, emotional blackmail disguised as wedding prep, and the looming threat of missing his flight. He\u2019s stuck between love and loyalty, Google Maps and Google Calendar, chai breaks and breakdowns.\n\nWritten by Uttam Gada and directed by Manoj Shah, What\u2019s Up? is a riotous solo comedy performed by Chirag Vohra \u2014 the original lead of Master Phoolmani. It premiered at NCPA\u2019s CentreStage Festival in November 2015 and perfectly captures the madness of trying to keep everyone happy when no one knows what they actually want.",
+    "image": "/images/productions/whats-up/Chirag Vohra - Whats Up 1.JPG",
+    "gallery": [
+      "/images/productions/whats-up/Chirag Vohra - Whats Up 1.JPG",
+      "/images/productions/whats-up/Chirag Vohra - Whats Up 2.JPG",
+      "/images/productions/whats-up/_DSC6352.JPG",
+      "/images/productions/whats-up/_DSC6438.JPG"
+    ],
+    "duration": "90 minutes",
+    "cast_crew": [
+      { "person_id": "manoj-shah", "roles": ["Director"] },
+      { "person_id": "uttam-gada", "roles": ["Writer"] },
+      { "person_id": "chirag-vohra", "roles": ["Chirag"] },
+      { "person_id": "janam-shah", "roles": ["Producer"] },
+      { "person_id": "kabir-thakore", "roles": ["Set Designer"] },
+      { "person_id": "kanhaiya", "roles": ["Music Director"] },
+      { "person_id": "hussaini-dawavala", "roles": ["Lighting"] }
+    ],
+    "featured": false
+  },
+  {
     "id": "mohan-no-masalo",
     "slug": "mohan-no-masalo",
     "title": "Mohan No Masalo",
