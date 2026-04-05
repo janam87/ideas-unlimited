@@ -1,12 +1,46 @@
 "use client";
 
-import { getAllFestivals } from "@/lib/data";
+const VENUES = [
+  "Prithvi Theatre, Mumbai",
+  "NCPA, Mumbai",
+  "Tagore Theatre, Ahmedabad",
+  "G.D. Birla Sabhagar, Kolkata",
+  "Kamani Auditorium, New Delhi",
+  "Wilson College, Mumbai",
+  "Aligarh Muslim University",
+  "Siachen Base Camp",
+  "META Awards, New Delhi",
+  "NCPA Theatre Festival",
+  "Thespo Festival",
+  "Tagore Festival, Kolkata",
+  "JAINA Convention, USA",
+  "Forbes Gujarati Sabha, Mumbai",
+  "Bhavan's College, Mumbai",
+  "CentreStage Festival, NCPA",
+  "Damu Kenkre Festival",
+  "Ahmedabad",
+  "Baroda",
+  "Surat",
+  "Rajkot",
+  "Pune",
+  "Bangalore",
+  "Chennai",
+  "Hyderabad",
+  "Jaipur",
+  "Lucknow",
+  "Dubai",
+  "Singapore",
+  "Muscat",
+  "London",
+  "Toronto",
+  "New York",
+  "Chicago",
+  "Los Angeles",
+];
 
 export function FestivalsStrip() {
-  const festivals = getAllFestivals();
-  const uniqueNames = [...new Set(festivals.map((f) => f.name))];
   // Double the list for seamless loop
-  const items = [...uniqueNames, ...uniqueNames];
+  const items = [...VENUES, ...VENUES];
 
   return (
     <section className="border-t border-grey-700">

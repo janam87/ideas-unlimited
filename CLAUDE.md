@@ -7,7 +7,7 @@ Read this first on every task. Then read the skill file for the specific task be
 
 ## Project
 
-Ideas Unlimited Productions — public marketing website for a 35-year theatre company founded by Manoj Shah. 90+ productions in Hindi, English, Gujarati. Performed across India and internationally.
+Ideas Unlimited Productions — public marketing website for a 35-year theatre company founded by Manoj Shah. 113+ productions in Hindi, English, Gujarati. Performed across India and internationally (35+ cities).
 
 **Goals:** Drive ticket sales via BookMyShow. Rank on Google. Impress HNI and corporate visitors who commission performances. Serve as IMDb-style sharable profiles for freelance cast and crew.
 
@@ -36,6 +36,7 @@ Ideas Unlimited Productions — public marketing website for a 35-year theatre c
 | Any animation — Framer Motion | `.claude/skills/animations.md` |
 | Any data fetching / types / JSON data changes | `.claude/skills/data-layer.md` |
 | `/productions` archive OR `/productions/[slug]` detail | `.claude/skills/production-pages.md` |
+| `/reviews/[slug]` review pages | `.claude/skills/production-pages.md` |
 | `/people` directory OR `/people/[slug]` profile | `.claude/skills/person-pages.md` |
 | `/blog` listing OR `/blog/[slug]` post | `.claude/skills/blog-pages.md` |
 | Home, About, Manoj Shah, Festivals, Upcoming Shows, Press, Contact, Education | `.claude/skills/singleton-pages.md` |
@@ -80,6 +81,9 @@ Ideas Unlimited Productions — public marketing website for a 35-year theatre c
 - **Person's production history**: always derived at build time from productions data — never stored on the person record
 - **"Now Performing" logic**: client component checks show dates against current date — always accurate without rebuilds
 - **Filtering**: URL search params for shareability, client-side filtering
+- **Press Reviews → /reviews/[slug]**: newspaper clippings without external URLs get full review pages via `reviewSlug`, `fullReview[]`, `reviewAuthor` on PressItem
+- **Ambient Music**: productions with `musicUrl` field get a floating audio toggle (AmbientMusic component)
+- **Blog inline images**: posts can specify `inlineImages` array with `afterParagraph`, `src`, `alt` for precise photo placement
 
 ---
 
@@ -92,7 +96,7 @@ Ideas Unlimited Productions — public marketing website for a 35-year theatre c
 - `components/home/` — Home page sections
 - `components/productions/` — ProductionCard, ProductionFilters, ProductionGrid
 - `components/people/` — PersonCard, PeopleFilters, PeopleGrid
-- `components/shared/` — Gallery, VideoEmbed, PressCard, ShareButton, RelatedProductions
-- `lib/` — types.ts, data.ts, shows.ts, schema.ts, utils.ts, constants.ts
+- `components/shared/` — Gallery, VideoEmbed, PressCard, ShareButton, RelatedProductions, AmbientMusic
+- `lib/` — types.ts, data.ts, blog.ts, shows.ts, schema.ts, utils.ts, constants.ts
 - `data/` — JSON data files
 - `content/` — MDX content files

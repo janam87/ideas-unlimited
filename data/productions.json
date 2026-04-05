@@ -1,62 +1,15 @@
 [
   {
-    "id": "saptapadi",
-    "slug": "saptapadi",
-    "title": "Saptapadi",
-    "subtitle": "Seven Steps Around the Fire",
-    "type": "play",
-    "language": "Hindi",
-    "genre": ["Drama", "Social"],
-    "year": 2023,
-    "synopsis": "A powerful exploration of love, identity, and societal norms through the metaphor of the seven sacred vows of marriage. When a hijra is found murdered in Bangalore, a university professor is drawn into a web of secrets that challenges everything she believed about justice.",
-    "image": "/images/placeholder-production.svg",
-    "gallery": [
-      "/images/placeholder-production.svg",
-      "/images/placeholder-production.svg",
-      "/images/placeholder-production.svg",
-      "/images/placeholder-production.svg",
-      "/images/placeholder-production.svg",
-      "/images/placeholder-production.svg",
-      "/images/placeholder-production.svg",
-      "/images/placeholder-production.svg"
-    ],
-    "duration": "120 minutes",
-    "shows": [
-      {
-        "date": "2026-04-12",
-        "time": "19:30",
-        "venue": "Prithvi Theatre",
-        "city": "Mumbai",
-        "ticketUrl": "https://in.bookmyshow.com",
-        "status": "confirmed"
-      },
-      {
-        "date": "2026-04-13",
-        "time": "16:00",
-        "venue": "Prithvi Theatre",
-        "city": "Mumbai",
-        "ticketUrl": "https://in.bookmyshow.com",
-        "status": "almost-full"
-      }
-    ],
-    "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director", "Producer"] },
-      { "person_id": "neha-joshi", "roles": ["Lead Actor"] },
-      { "person_id": "rajat-kapoor", "roles": ["Actor"] },
-      { "person_id": "deepa-gahlot", "roles": ["Script Consultant"] }
-    ],
-    "festivals": ["meta-awards-2023"],
-    "press": ["press-1"],
-    "featured": true
-  },
-  {
     "id": "adbhut",
     "slug": "adbhut",
     "title": "Adbhut",
     "subtitle": "The Wonder Within",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama", "Solo"],
+    "genre": [
+      "Drama",
+      "Solo"
+    ],
     "year": 2021,
     "musicUrl": "/audio/adbhut.mp3",
     "synopsis": "A solo Gujarati adaptation of Every Brilliant Thing by Duncan Macmillan and Jonny Donahoe — one of the most performed plays in the world — reimagined for Indian audiences by Satchit Puranik and directed by Manoj Shah.\n\nThe original play premiered at the Ludlow Fringe Festival in 2013 with Donahoe performing, before transferring to London and an HBO special. It has since been staged thousands of times worldwide. Puranik's Gujarati adaptation transforms the play's cultural texture — Doordarshan evenings replace Saturday morning cartoons, garba nights replace school dances — while preserving its radical theatrical form: the audience is the cast.\n\nFrom the moment the play begins, the boundary between performer and audience dissolves. RJ Devaki guides the room through the story of a girl who, at age seven, begins a list of every brilliant thing worth living for as a way to pull her mother back from the edge of depression. The list grows as the girl grows, through adolescence, heartbreak, marriage, and the quiet weight of adulthood.\n\nWith nothing but a chair, a Daffy Duck sweatshirt, and extraordinary presence, Devaki turns strangers in the audience into co-performers, drawing out laughter, silence, and tears in equal measure. Adbhut is not a lecture on mental health — it is a lived experience of it, told with the warmth of someone who understands that sadness and wonder can occupy the same breath.",
@@ -77,19 +30,76 @@
     ],
     "duration": "75 minutes",
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "devki", "roles": ["Lead Actor"] },
-      { "person_id": "satchit-puranik", "roles": ["Writer"] },
-      { "person_id": "janam-shah", "roles": ["Producer"] },
-      { "person_id": "amit-bhavsar", "roles": ["Music Director"] },
-      { "person_id": "siddharth-amit-bhavsar", "roles": ["Songwriter"] },
-      { "person_id": "madhubanti-bagchi", "roles": ["Singer"] },
-      { "person_id": "yaski-sikka", "roles": ["Singer"] },
-      { "person_id": "nizamuddin-shah", "roles": ["Stage Manager"] },
-      { "person_id": "sandeep-jaiswar", "roles": ["Stage Manager"] },
-      { "person_id": "priyank-patel", "roles": ["Music Operator"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "devki",
+        "roles": [
+          "Lead Actor"
+        ]
+      },
+      {
+        "person_id": "satchit-puranik",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "janam-shah",
+        "roles": [
+          "Producer"
+        ]
+      },
+      {
+        "person_id": "amit-bhavsar",
+        "roles": [
+          "Music Director"
+        ]
+      },
+      {
+        "person_id": "siddharth-amit-bhavsar",
+        "roles": [
+          "Songwriter"
+        ]
+      },
+      {
+        "person_id": "madhubanti-bagchi",
+        "roles": [
+          "Singer"
+        ]
+      },
+      {
+        "person_id": "yaski-sikka",
+        "roles": [
+          "Singer"
+        ]
+      },
+      {
+        "person_id": "nizamuddin-shah",
+        "roles": [
+          "Stage Manager"
+        ]
+      },
+      {
+        "person_id": "sandeep-jaiswar",
+        "roles": [
+          "Stage Manager"
+        ]
+      },
+      {
+        "person_id": "priyank-patel",
+        "roles": [
+          "Music Operator"
+        ]
+      }
     ],
-    "press": ["press-adbhut-1"],
+    "press": [
+      "press-adbhut-1"
+    ],
     "featured": true
   },
   {
@@ -99,9 +109,13 @@
     "subtitle": "The Untold Story of Ruttie Petit and Muhammad Ali Jinnah",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama", "Biographical", "Historical"],
+    "genre": [
+      "Drama",
+      "Biographical",
+      "Historical"
+    ],
     "year": 2023,
-    "synopsis": "A tribute to the legendary Parsi theatre — Bombay Flower tells the astonishingly daring story of Ruttie Petit (1900\u20131929), the fiercely independent daughter of Sir Dinshaw Petit, second baronet, who at eighteen married the era's most divisive political figure: Muhammad Ali Jinnah, a man more than two decades her senior.\n\nGiven the sobriquet 'Bombay Flower' by Sarojini Naidu, Ruttie's exuberance fills the first half of the play — her rebellion against family, faith, and Parsi society to marry for love. In the second half, shunned by her parents and increasingly isolated by Jinnah's consuming political ambitions, she becomes an embittered woman who finds solace in theosophy, opium, and solitary wanderings across Europe. She died at twenty-nine.\n\nWritten by Geeta Manek and drawn from Sheela Reddy's Mr and Mrs Jinnah: The Marriage That Shook India, the play took four years to develop. It began as a one-woman show before Manoj Shah brought in Jinnah, then Ruttie's parents, his sister Fatima, and their friend Kanji Dwarkadas. Bhamini Oza Gandhi leads as Ruttie, with Vishal Shah as Jinnah. The play premiered to a full house at the Experimental Theatre, NCPA on March 26, 2023 — an NCPA co-production.\n\nBombay Flower is dedicated to Parsi theatre, which Manoj Shah discovered to be the pioneer of both Gujarati and Urdu theatre during his research for Master Phoolmani in 1999. It asks a question that remains relevant: why would an intelligent, sensitive young woman from a privileged background risk everything for a man whose world was entirely different from hers?",
+    "synopsis": "A tribute to the legendary Parsi theatre — Bombay Flower tells the astonishingly daring story of Ruttie Petit (1900–1929), the fiercely independent daughter of Sir Dinshaw Petit, second baronet, who at eighteen married the era's most divisive political figure: Muhammad Ali Jinnah, a man more than two decades her senior.\n\nGiven the sobriquet 'Bombay Flower' by Sarojini Naidu, Ruttie's exuberance fills the first half of the play — her rebellion against family, faith, and Parsi society to marry for love. In the second half, shunned by her parents and increasingly isolated by Jinnah's consuming political ambitions, she becomes an embittered woman who finds solace in theosophy, opium, and solitary wanderings across Europe. She died at twenty-nine.\n\nWritten by Geeta Manek and drawn from Sheela Reddy's Mr and Mrs Jinnah: The Marriage That Shook India, the play took four years to develop. It began as a one-woman show before Manoj Shah brought in Jinnah, then Ruttie's parents, his sister Fatima, and their friend Kanji Dwarkadas. Bhamini Oza Gandhi leads as Ruttie, with Vishal Shah as Jinnah. The play premiered to a full house at the Experimental Theatre, NCPA on March 26, 2023 — an NCPA co-production.\n\nBombay Flower is dedicated to Parsi theatre, which Manoj Shah discovered to be the pioneer of both Gujarati and Urdu theatre during his research for Master Phoolmani in 1999. It asks a question that remains relevant: why would an intelligent, sensitive young woman from a privileged background risk everything for a man whose world was entirely different from hers?",
     "image": "/images/productions/bombay-flower/Copy of 26MAR23_BombayFlower_TET_173.JPG",
     "gallery": [
       "/images/productions/bombay-flower/26MAR23_BombayFlower_TET_32.JPG",
@@ -116,98 +130,85 @@
     ],
     "duration": "120 minutes",
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "geeta-manek", "roles": ["Writer"] },
-      { "person_id": "amit-bhavsar", "roles": ["Music Director"] },
-      { "person_id": "hussaini-dawavala", "roles": ["Assistant Director"] },
-      { "person_id": "priyank-patel", "roles": ["Music Operator"] },
-      { "person_id": "bhamini-oza-gandhi", "roles": ["Ruttie Petit"] },
-      { "person_id": "vishal-shah", "roles": ["Muhammad Ali Jinnah"] },
-      { "person_id": "naman-sheth", "roles": ["Kanji Dwarkadas"] },
-      { "person_id": "rishabh-kamdar", "roles": ["Sir Dinshaw Petit"] },
-      { "person_id": "purvi-desai", "roles": ["Lady Dinbai / Fatima Jinnah"] },
-      { "person_id": "dhruv-dave", "roles": ["Actor"] },
-      { "person_id": "pinkesh-prajapati", "roles": ["Crew"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "geeta-manek",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "amit-bhavsar",
+        "roles": [
+          "Music Director"
+        ]
+      },
+      {
+        "person_id": "hussaini-dawavala",
+        "roles": [
+          "Assistant Director"
+        ]
+      },
+      {
+        "person_id": "priyank-patel",
+        "roles": [
+          "Music Operator"
+        ]
+      },
+      {
+        "person_id": "bhamini-oza-gandhi",
+        "roles": [
+          "Ruttie Petit"
+        ]
+      },
+      {
+        "person_id": "vishal-shah",
+        "roles": [
+          "Muhammad Ali Jinnah"
+        ]
+      },
+      {
+        "person_id": "naman-sheth",
+        "roles": [
+          "Kanji Dwarkadas"
+        ]
+      },
+      {
+        "person_id": "rishabh-kamdar",
+        "roles": [
+          "Sir Dinshaw Petit"
+        ]
+      },
+      {
+        "person_id": "purvi-desai",
+        "roles": [
+          "Lady Dinbai / Fatima Jinnah"
+        ]
+      },
+      {
+        "person_id": "dhruv-dave",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "pinkesh-prajapati",
+        "roles": [
+          "Crew"
+        ]
+      }
     ],
-    "press": ["press-bombay-flower-1", "press-bombay-flower-2", "press-bombay-flower-3"],
+    "press": [
+      "press-bombay-flower-1",
+      "press-bombay-flower-2",
+      "press-bombay-flower-3"
+    ],
     "featured": true
-  },
-  {
-    "id": "adhe-adhure",
-    "slug": "adhe-adhure",
-    "title": "Adhe Adhure",
-    "subtitle": "Halfway House",
-    "type": "play",
-    "language": "Hindi",
-    "genre": ["Drama", "Family"],
-    "year": 2022,
-    "synopsis": "Mohan Rakesh's masterpiece about a middle-class family disintegrating under the weight of unfulfilled desires and unspoken truths. A wife and mother searches for completeness in the men around her, only to find that wholeness must come from within.",
-    "image": "/images/placeholder-production.svg",
-    "duration": "135 minutes",
-    "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "neha-joshi", "roles": ["Savitri"] },
-      { "person_id": "danish-husain", "roles": ["Mahendranath"] }
-    ],
-    "festivals": ["ncpa-festival-2022"],
-    "press": ["press-2"],
-    "featured": true
-  },
-  {
-    "id": "kaumudi",
-    "slug": "kaumudi",
-    "title": "Kaumudi",
-    "subtitle": "Moonlight on the Ganges",
-    "type": "play",
-    "language": "Gujarati",
-    "genre": ["Drama", "Historical"],
-    "year": 2021,
-    "synopsis": "Set against the backdrop of the Indian independence movement, Kaumudi follows a young woman's journey from a traditional Gujarati household to the frontlines of the freedom struggle. A sweeping story of courage, sacrifice, and the price of liberty.",
-    "image": "/images/placeholder-production.svg",
-    "duration": "150 minutes",
-    "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director", "Producer"] },
-      { "person_id": "himani-shivpuri", "roles": ["Lead Actor"] }
-    ],
-    "press": ["press-3"],
-    "featured": true
-  },
-  {
-    "id": "chanakya",
-    "slug": "chanakya",
-    "title": "Chanakya",
-    "subtitle": "The Kingmaker",
-    "type": "play",
-    "language": "Hindi",
-    "genre": ["Historical", "Political"],
-    "year": 2020,
-    "synopsis": "The story of ancient India's greatest political strategist, told through the lens of modern power dynamics. Chanakya's ruthless brilliance shaped an empire — but at what personal cost?",
-    "image": "/images/placeholder-production.svg",
-    "duration": "140 minutes",
-    "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director", "Lead Actor"] },
-      { "person_id": "rajat-kapoor", "roles": ["Chandragupta"] }
-    ],
-    "festivals": ["thespo-2020"]
-  },
-  {
-    "id": "mughal-e-azam",
-    "slug": "mughal-e-azam",
-    "title": "Mughal-e-Azam",
-    "subtitle": "The Musical",
-    "type": "musical",
-    "language": "Hindi",
-    "genre": ["Musical", "Historical", "Romance"],
-    "year": 2019,
-    "synopsis": "A grand musical adaptation of the iconic love story between Prince Salim and Anarkali, featuring lavish sets, live orchestral music, and choreography that brings the Mughal court to breathtaking life.",
-    "image": "/images/placeholder-production.svg",
-    "duration": "180 minutes",
-    "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Creative Director"] },
-      { "person_id": "danish-husain", "roles": ["Akbar"] },
-      { "person_id": "neha-joshi", "roles": ["Anarkali"] }
-    ],
-    "festivals": ["ncpa-festival-2019", "meta-awards-2019"]
   },
   {
     "id": "dr-anandibai",
@@ -216,7 +217,11 @@
     "subtitle": "Like, Comment, Share",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama", "Biographical", "Solo"],
+    "genre": [
+      "Drama",
+      "Biographical",
+      "Solo"
+    ],
     "year": 2017,
     "synopsis": "The first woman to perform a solo role in a Manoj Shah production — and the first Indian woman to earn a medical degree. Two firsts, separated by 131 years.\n\nDr. Anandibai Gopalrao Joshi was married at nine, widowed of her infant son, and told by every institution around her that a woman's place was in the home. In 1886, she sailed to America and earned her MD from the Woman's Medical College of Pennsylvania — the first Indian woman to do so. She returned to India to serve as the physician-in-charge at the Albert Edward Hospital in Kolhapur. She was twenty-one. She died of tuberculosis the following year, at twenty-two.\n\nWritten by Geeta Manek and directed by Manoj Shah, the play uses the conceit of social media — Like, Comment, Share — to draw parallels between Anandibai's 19th-century struggles and the pressures facing Indian women today. Are they still defined by the likes they receive? Still waiting for male validation? Still weighed down by domestic duty disguised as devotion?\n\nManasi Joshi performs the 75-minute monologue alone on a bare stage — no props, no set, just Kabir Thakore's spatial design and Hemant Joshi's lighting carving the world out of darkness. The play premiered at NCPA's CentreStage Festival on 2 December 2017, was later staged in Hindi and Marathi, and was selected for the 8th Theatre Olympics in 2018.",
     "image": "/images/productions/dr-anandibai/Anandibai 4.JPG",
@@ -236,18 +241,71 @@
     ],
     "duration": "75 minutes",
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "geeta-manek", "roles": ["Writer"] },
-      { "person_id": "manasi-joshi", "roles": ["Dr. Anandibai Joshi"] },
-      { "person_id": "kanhaiya", "roles": ["Music Director"] },
-      { "person_id": "jatin-vaja", "roles": ["Music Operator"] },
-      { "person_id": "kabir-thakore", "roles": ["Set Designer"] },
-      { "person_id": "hemant-joshi", "roles": ["Lighting Designer"] },
-      { "person_id": "rajiv-bhatt", "roles": ["Costume Designer"] },
-      { "person_id": "naman-sheth", "roles": ["Stage Manager"] },
-      { "person_id": "janam-shah", "roles": ["Producer"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "geeta-manek",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "manasi-joshi",
+        "roles": [
+          "Dr. Anandibai Joshi"
+        ]
+      },
+      {
+        "person_id": "kanhaiya",
+        "roles": [
+          "Music Director"
+        ]
+      },
+      {
+        "person_id": "jatin-vaja",
+        "roles": [
+          "Music Operator"
+        ]
+      },
+      {
+        "person_id": "kabir-thakore",
+        "roles": [
+          "Set Designer"
+        ]
+      },
+      {
+        "person_id": "hemant-joshi",
+        "roles": [
+          "Lighting Designer"
+        ]
+      },
+      {
+        "person_id": "rajiv-bhatt",
+        "roles": [
+          "Costume Designer"
+        ]
+      },
+      {
+        "person_id": "naman-sheth",
+        "roles": [
+          "Stage Manager"
+        ]
+      },
+      {
+        "person_id": "janam-shah",
+        "roles": [
+          "Producer"
+        ]
+      }
     ],
-    "press": ["press-anandibai-1", "press-anandibai-2"],
+    "press": [
+      "press-anandibai-1",
+      "press-anandibai-2"
+    ],
     "featured": true
   },
   {
@@ -257,9 +315,12 @@
     "subtitle": "Happiness Decoded",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Satire", "Drama"],
+    "genre": [
+      "Satire",
+      "Drama"
+    ],
     "year": 2019,
-    "synopsis": "Imagine a world where being happy is a crime. That is the reality in Kaagdo \u2014 a biting satire named after the Gujarati folk tale Anandi Kaagdo (The Happy Crow), in which a crow is punished by a king but gleefully sings and enjoys every punishment.\n\nThe play follows a man \u2014 a humble, barefoot government worker in a striped sweater \u2014 whose wife has died, whose daughter lives abroad, who owns nothing of consequence, and who is inexplicably, unshakeably content. This is considered suspicious. He is taken to court. A relentless lawyer is brought in to interrogate this anomaly, to crack open this man\u2019s happiness and find the secret formula the world believes must exist.\n\nWritten by Geeta Manek and directed by Manoj Shah, Kaagdo draws from Japanese ikigai, Sufism, and Zen Buddhism to ask the simplest and most destabilising question in modern life: what if happiness is not something you chase, but something you already have? Jay Upadhyay plays the contented man with a warmth that makes his happiness feel not naive but earned. Unnati Gala plays his daughter \u2014 successful, modern, perpetually updating \u2014 who cannot understand why her father refuses to want more.\n\nThe Hindu\u2019s theatre critic Vikram Phukan described the play as an \u2018existential parable\u2019 that is \u2018not didactic in its approach.\u2019 Shah himself said: \u2018Even sadness is a tradition of happiness, which ultimately can be found within us.\u2019",
+    "synopsis": "Imagine a world where being happy is a crime. That is the reality in Kaagdo — a biting satire named after the Gujarati folk tale Anandi Kaagdo (The Happy Crow), in which a crow is punished by a king but gleefully sings and enjoys every punishment.\n\nThe play follows a man — a humble, barefoot government worker in a striped sweater — whose wife has died, whose daughter lives abroad, who owns nothing of consequence, and who is inexplicably, unshakeably content. This is considered suspicious. He is taken to court. A relentless lawyer is brought in to interrogate this anomaly, to crack open this man’s happiness and find the secret formula the world believes must exist.\n\nWritten by Geeta Manek and directed by Manoj Shah, Kaagdo draws from Japanese ikigai, Sufism, and Zen Buddhism to ask the simplest and most destabilising question in modern life: what if happiness is not something you chase, but something you already have? Jay Upadhyay plays the contented man with a warmth that makes his happiness feel not naive but earned. Unnati Gala plays his daughter — successful, modern, perpetually updating — who cannot understand why her father refuses to want more.\n\nThe Hindu’s theatre critic Vikram Phukan described the play as an ‘existential parable’ that is ‘not didactic in its approach.’ Shah himself said: ‘Even sadness is a tradition of happiness, which ultimately can be found within us.’",
     "image": "/images/productions/kaagdo/DSC02998.JPG",
     "gallery": [
       "/images/productions/kaagdo/DSC02874.JPG",
@@ -269,65 +330,35 @@
     ],
     "duration": "90 minutes",
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "geeta-manek", "roles": ["Writer"] },
-      { "person_id": "jay-upadhyay", "roles": ["Kaagdo (The Happy Man)"] },
-      { "person_id": "unnati-gala", "roles": ["Daughter"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "geeta-manek",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "jay-upadhyay",
+        "roles": [
+          "Kaagdo (The Happy Man)"
+        ]
+      },
+      {
+        "person_id": "unnati-gala",
+        "roles": [
+          "Daughter"
+        ]
+      }
     ],
-    "press": ["press-kaagdo-1"],
+    "press": [
+      "press-kaagdo-1"
+    ],
     "featured": false
-  },
-  {
-    "id": "broken-images",
-    "slug": "broken-images",
-    "title": "Broken Images",
-    "type": "play",
-    "language": "English",
-    "genre": ["Drama", "Psychological"],
-    "year": 2018,
-    "synopsis": "A solo performance where an acclaimed writer confronts her own video image, which begins to challenge and interrogate her. A riveting exploration of identity, authenticity, and the masks we wear.",
-    "image": "/images/placeholder-production.svg",
-    "duration": "75 minutes",
-    "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "himani-shivpuri", "roles": ["Lead Actor"] }
-    ]
-  },
-  {
-    "id": "toba-tek-singh",
-    "slug": "toba-tek-singh",
-    "title": "Toba Tek Singh",
-    "type": "play",
-    "language": "Hindi",
-    "genre": ["Drama", "Absurdist"],
-    "year": 2016,
-    "synopsis": "Based on Saadat Hasan Manto's legendary short story about the exchange of lunatics between India and Pakistan during Partition. A devastating commentary on borders, belonging, and the madness of nations.",
-    "image": "/images/placeholder-production.svg",
-    "duration": "90 minutes",
-    "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director", "Adapter"] },
-      { "person_id": "rajat-kapoor", "roles": ["Bishan Singh"] }
-    ],
-    "festivals": ["thespo-2016"]
-  },
-  {
-    "id": "jasma-odan",
-    "slug": "jasma-odan",
-    "title": "Jasma Odan",
-    "subtitle": "The Fragrance of Jasmine",
-    "type": "play",
-    "language": "Gujarati",
-    "genre": ["Folk", "Drama"],
-    "year": 2014,
-    "synopsis": "A reimagining of the beloved Gujarati folk tale of Jasma, a woman of extraordinary beauty and fierce independence. Set in rural Kutch, the production weaves traditional music and dance into a story of resistance and dignity.",
-    "image": "/images/placeholder-production.svg",
-    "duration": "110 minutes",
-    "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director", "Producer"] },
-      { "person_id": "himani-shivpuri", "roles": ["Jasma"] }
-    ],
-    "commissionedBy": "Gujarat Sahitya Parishad",
-    "commissionContext": "Commissioned for the centenary celebration of Gujarati folk theatre."
   },
   {
     "id": "third-bell",
@@ -336,29 +367,189 @@
     "subtitle": "Let's See Ourselves on Stage",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Comedy", "Drama"],
-    "year": 2024,
-    "synopsis": "In theatre tradition, the third bell signals that the show is about to start. But what if that bell never rings? What if the real drama is already unfolding in the seats of the auditorium?\n\nThird Bell is a meta-theatrical celebration of the audience \u2014 a series of conversations, confessions, arguments, and revelations between strangers and companions, all waiting for a performance to begin. A married couple whose argument about a bathroom break turns into a conversation about love, memory, and missed anniversaries. A grieving widow and a guarded painter who spark an unexpected friendship. Two men sitting beside each other who might be a bumbling impresario and a spy \u2014 or just very committed audience members. A first date on the edge of implosion. A father and daughter tangled in generational expectations. A narrator and director trying, and failing, to keep everything on schedule.\n\nWritten by Ishan Doshi and directed by Manoj Shah, Third Bell is a tribute to those who come to watch, wait, wonder, and maybe find a little bit of themselves before the curtain rises.",
-    "image": "/images/placeholder-production.svg",
-    "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "ishan-doshi", "roles": ["Writer"] },
-      { "person_id": "janam-shah", "roles": ["Production Head"] },
-      { "person_id": "amit-bhavsar", "roles": ["Music Director"] },
-      { "person_id": "siddharth-amit-bhavsar", "roles": ["Songs"] },
-      { "person_id": "bhargav-purohit", "roles": ["Lyrics"] },
-      { "person_id": "hussaini-dawavala", "roles": ["Lighting"] },
-      { "person_id": "kabir-thakore", "roles": ["Set Designer"] },
-      { "person_id": "rajiv-bhatt", "roles": ["Costume Designer"] },
-      { "person_id": "jatin-vaja", "roles": ["Backstage"] },
-      { "person_id": "hemant-kher", "roles": ["Actor"] },
-      { "person_id": "disha-savla-upadhyay", "roles": ["Actor"] },
-      { "person_id": "unnati-gala", "roles": ["Actor"] },
-      { "person_id": "rishabh-kamdar", "roles": ["Actor"] },
-      { "person_id": "dhruv-dave", "roles": ["Actor"] },
-      { "person_id": "priyank-patel", "roles": ["Actor"] }
+    "genre": [
+      "Comedy",
+      "Drama"
     ],
-    "featured": false
+    "year": 2024,
+    "synopsis": "In theatre tradition, the third bell signals that the show is about to start. But what if that bell never rings? What if the real drama is already unfolding in the seats of the auditorium?\n\nThird Bell is a meta-theatrical celebration of the audience — a series of conversations, confessions, arguments, and revelations between strangers and companions, all waiting for a performance to begin. A married couple whose argument about a bathroom break turns into a conversation about love, memory, and missed anniversaries. A grieving widow and a guarded painter who spark an unexpected friendship. Two men sitting beside each other who might be a bumbling impresario and a spy — or just very committed audience members. A first date on the edge of implosion. A father and daughter tangled in generational expectations. A narrator and director trying, and failing, to keep everything on schedule.\n\nWritten by Ishan Doshi and directed by Manoj Shah, Third Bell is a tribute to those who come to watch, wait, wonder, and maybe find a little bit of themselves before the curtain rises.",
+    "image": "/images/productions/third-bell/16JUNE24_ThirdBell_TET_001.JPG",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "ishan-doshi",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "amit-bhavsar",
+        "roles": [
+          "Music Director"
+        ]
+      },
+      {
+        "person_id": "siddharth-amit-bhavsar",
+        "roles": [
+          "Songs"
+        ]
+      },
+      {
+        "person_id": "bhargav-purohit",
+        "roles": [
+          "Lyrics"
+        ]
+      },
+      {
+        "person_id": "hussaini-dawavala",
+        "roles": [
+          "Lighting"
+        ]
+      },
+      {
+        "person_id": "kabir-thakore",
+        "roles": [
+          "Set Designer"
+        ]
+      },
+      {
+        "person_id": "rajiv-bhatt",
+        "roles": [
+          "Costume Designer"
+        ]
+      },
+      {
+        "person_id": "janam-shah",
+        "roles": [
+          "Production Head"
+        ]
+      },
+      {
+        "person_id": "manali-bhavsar",
+        "roles": [
+          "Production Head"
+        ]
+      },
+      {
+        "person_id": "jatin-vaja",
+        "roles": [
+          "Backstage"
+        ]
+      },
+      {
+        "person_id": "bilva-patel",
+        "roles": [
+          "Backstage"
+        ]
+      },
+      {
+        "person_id": "hemant-kher",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "disha-savla-upadhyay",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "unnati-gala",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "hasit-shah",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "dhruv-dave",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "rishabh-kamdar",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "srushti-sorathiya",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "krishna-oza",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "dev-joshi",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "harsh-joshi",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "priyank-patel",
+        "roles": [
+          "Actor"
+        ]
+      }
+    ],
+    "featured": false,
+    "gallery": [
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_001.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_004.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_006.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_012.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_014.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_016.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_018.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_021.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_032.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_035.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_037.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_042.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_046.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_049.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_051.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_059.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_062.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_073.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_075.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_077.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_085.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_092.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_098.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_100.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_103.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_111.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_119.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_132.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_139.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_142.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_146.JPG",
+      "/images/productions/third-bell/16JUNE24_ThirdBell_TET_147.JPG"
+    ],
+    "duration": "90 minutes"
   },
   {
     "id": "whats-up",
@@ -367,9 +558,12 @@
     "subtitle": "One Man, One Flight, Too Many Calls",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Comedy", "Solo"],
+    "genre": [
+      "Comedy",
+      "Solo"
+    ],
     "year": 2016,
-    "synopsis": "Meet Chirag \u2014 a perfectly average man in his early thirties with a single, noble mission: catch a flight to Chicago and save his not-so-bright brother from being thrown behind bars for a minor misunderstanding. But before he can zip up his suitcase, his girlfriend drops a bombshell. His phone starts ringing like it owes someone money. On the other end: his sister\u2019s in-laws, an elite task force of relentless, nitpicking, drama-fuelled wedding planners who believe that unless Chirag approves the saree border and the sambharo menu, the marriage might as well be cancelled.\n\nFrom that moment, Chirag\u2019s day turns into a high-stakes obstacle course complete with passive-aggressive aunties, conspiracy theories on family WhatsApp groups, emotional blackmail disguised as wedding prep, and the looming threat of missing his flight. He\u2019s stuck between love and loyalty, Google Maps and Google Calendar, chai breaks and breakdowns.\n\nWritten by Uttam Gada and directed by Manoj Shah, What\u2019s Up? is a riotous solo comedy performed by Chirag Vohra \u2014 the original lead of Master Phoolmani. It premiered at NCPA\u2019s CentreStage Festival in November 2015 and perfectly captures the madness of trying to keep everyone happy when no one knows what they actually want.",
+    "synopsis": "Meet Chirag — a perfectly average man in his early thirties with a single, noble mission: catch a flight to Chicago and save his not-so-bright brother from being thrown behind bars for a minor misunderstanding. But before he can zip up his suitcase, his girlfriend drops a bombshell. His phone starts ringing like it owes someone money. On the other end: his sister’s in-laws, an elite task force of relentless, nitpicking, drama-fuelled wedding planners who believe that unless Chirag approves the saree border and the sambharo menu, the marriage might as well be cancelled.\n\nFrom that moment, Chirag’s day turns into a high-stakes obstacle course complete with passive-aggressive aunties, conspiracy theories on family WhatsApp groups, emotional blackmail disguised as wedding prep, and the looming threat of missing his flight. He’s stuck between love and loyalty, Google Maps and Google Calendar, chai breaks and breakdowns.\n\nWritten by Uttam Gada and directed by Manoj Shah, What’s Up? is a riotous solo comedy performed by Chirag Vohra — the original lead of Master Phoolmani. It premiered at NCPA’s CentreStage Festival in November 2015 and perfectly captures the madness of trying to keep everyone happy when no one knows what they actually want.",
     "image": "/images/productions/whats-up/Chirag Vohra - Whats Up 1.JPG",
     "gallery": [
       "/images/productions/whats-up/Chirag Vohra - Whats Up 1.JPG",
@@ -379,13 +573,48 @@
     ],
     "duration": "90 minutes",
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "uttam-gada", "roles": ["Writer"] },
-      { "person_id": "chirag-vohra", "roles": ["Chirag"] },
-      { "person_id": "janam-shah", "roles": ["Producer"] },
-      { "person_id": "kabir-thakore", "roles": ["Set Designer"] },
-      { "person_id": "kanhaiya", "roles": ["Music Director"] },
-      { "person_id": "hussaini-dawavala", "roles": ["Lighting"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "uttam-gada",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "chirag-vohra",
+        "roles": [
+          "Chirag"
+        ]
+      },
+      {
+        "person_id": "janam-shah",
+        "roles": [
+          "Producer"
+        ]
+      },
+      {
+        "person_id": "kabir-thakore",
+        "roles": [
+          "Set Designer"
+        ]
+      },
+      {
+        "person_id": "kanhaiya",
+        "roles": [
+          "Music Director"
+        ]
+      },
+      {
+        "person_id": "hussaini-dawavala",
+        "roles": [
+          "Lighting"
+        ]
+      }
     ],
     "featured": false
   },
@@ -396,9 +625,13 @@
     "subtitle": "Recipe for Making a Mahatma",
     "type": "play",
     "language": "Gujarati, Hindi, English",
-    "genre": ["Drama", "Biographical", "Solo"],
+    "genre": [
+      "Drama",
+      "Biographical",
+      "Solo"
+    ],
     "year": 2015,
-    "synopsis": "The play that entered the Limca Book of Records. The play that Pratik Gandhi performed before Scam 1992 made him famous. The play about Mohandas Gandhi before he became the Mahatma.\n\nMohan No Masalo \u2014 Mohan\u2019s Spices \u2014 recovers the young Mohandas: the scared boy from Porbandar, the awkward teenager who married at thirteen, the mediocre student who sailed to London to study law, the diffident barrister who failed in Bombay courts, and the accidental activist who boarded a train in South Africa and found his purpose when he was thrown off it. These are the masalas \u2014 the spices \u2014 that made the Mahatma. The recipe, told by the man himself.\n\nPratik Gandhi performs the ninety-minute monologue alone against Atul Dodiya\u2019s black-and-white backdrop paintings of a young Gandhi. The Gujarati script was written by Satya Mehta, the Hindi version by Mihir Bhuta and Arpit Jain, the English by Ishan Doshi. Parthiv Gohil provided the vocal performances.\n\nThe play premiered on 22 March 2015 at NCPA and was subsequently performed in all three languages \u2014 Gujarati (Mohan No Masalo), Hindi (Mohan Ka Masala), and English (Mohan\u2019s Masala) \u2014 in a single day at the same theatre by the same actor. This feat earned a Limca Book of Records entry for \u2018Performance of One Play in Multiple Languages in One Day.\u2019\n\nManoj Shah on why he made this play: \u2018I wanted to be with youth. Best way to re-invent ideas for youth without clich\u00e9 results is Mohan ka Masala.\u2019",
+    "synopsis": "The play that entered the Limca Book of Records. The play that Pratik Gandhi performed before Scam 1992 made him famous. The play about Mohandas Gandhi before he became the Mahatma.\n\nMohan No Masalo — Mohan’s Spices — recovers the young Mohandas: the scared boy from Porbandar, the awkward teenager who married at thirteen, the mediocre student who sailed to London to study law, the diffident barrister who failed in Bombay courts, and the accidental activist who boarded a train in South Africa and found his purpose when he was thrown off it. These are the masalas — the spices — that made the Mahatma. The recipe, told by the man himself.\n\nPratik Gandhi performs the ninety-minute monologue alone against Atul Dodiya’s black-and-white backdrop paintings of a young Gandhi. The Gujarati script was written by Satya Mehta, the Hindi version by Mihir Bhuta and Arpit Jain, the English by Ishan Doshi. Parthiv Gohil provided the vocal performances.\n\nThe play premiered on 22 March 2015 at NCPA and was subsequently performed in all three languages — Gujarati (Mohan No Masalo), Hindi (Mohan Ka Masala), and English (Mohan’s Masala) — in a single day at the same theatre by the same actor. This feat earned a Limca Book of Records entry for ‘Performance of One Play in Multiple Languages in One Day.’\n\nManoj Shah on why he made this play: ‘I wanted to be with youth. Best way to re-invent ideas for youth without cliché results is Mohan ka Masala.’",
     "image": "/images/productions/mohan-no-masalo/DSC_0183.JPG",
     "gallery": [
       "/images/productions/mohan-no-masalo/DSC_0157.JPG",
@@ -411,16 +644,70 @@
     ],
     "duration": "90 minutes",
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "pratik-gandhi", "roles": ["Mohandas Gandhi"] },
-      { "person_id": "ishan-doshi", "roles": ["Writer"] },
-      { "person_id": "satya-mehta", "roles": ["Gujarati Adaptation"] },
-      { "person_id": "mihir-bhuta", "roles": ["Hindi Adaptation"] },
-      { "person_id": "arpit-jain", "roles": ["Hindi Adaptation"] },
-      { "person_id": "atul-dodiya", "roles": ["Set/Backdrop Paintings"] },
-      { "person_id": "parthiv-gohil", "roles": ["Singer"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "pratik-gandhi",
+        "roles": [
+          "Mohandas Gandhi"
+        ]
+      },
+      {
+        "person_id": "ishan-doshi",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "satya-mehta",
+        "roles": [
+          "Gujarati Adaptation"
+        ]
+      },
+      {
+        "person_id": "mihir-bhuta",
+        "roles": [
+          "Hindi Adaptation"
+        ]
+      },
+      {
+        "person_id": "arpit-jain",
+        "roles": [
+          "Hindi Adaptation"
+        ]
+      },
+      {
+        "person_id": "atul-dodiya",
+        "roles": [
+          "Set/Backdrop Paintings"
+        ]
+      },
+      {
+        "person_id": "parthiv-gohil",
+        "roles": [
+          "Singer"
+        ]
+      }
     ],
-    "press": ["press-mohan-1", "press-mohan-8", "press-mohan-9", "press-mohan-10", "press-mohan-2", "press-mohan-3", "press-mohan-11", "press-mohan-12", "press-mohan-13", "press-mohan-4", "press-mohan-5", "press-mohan-7", "press-mohan-6"],
+    "press": [
+      "press-mohan-1",
+      "press-mohan-8",
+      "press-mohan-9",
+      "press-mohan-10",
+      "press-mohan-2",
+      "press-mohan-3",
+      "press-mohan-11",
+      "press-mohan-12",
+      "press-mohan-13",
+      "press-mohan-4",
+      "press-mohan-5",
+      "press-mohan-7",
+      "press-mohan-6"
+    ],
     "featured": true
   },
   {
@@ -430,9 +717,12 @@
     "subtitle": "Sufi on the Rock Since 2004",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama", "Biographical"],
+    "genre": [
+      "Drama",
+      "Biographical"
+    ],
     "year": 2004,
-    "synopsis": "The longest-running Gujarati play. Two hundred performances and counting, at Prithvi Theatre continuously since 2004.\n\nAbbas Abdul Ali Vasi was born in Surat in 1917 into a Dawoodi Bohra family. He dropped out of school in the second grade. By fourteen, he was composing ghazals. By his twenties, he was selling them for five rupees apiece to wealthy men who published them under their own names. He drank. He loved a woman who would not love him back. He married another who stood by him. He contracted tuberculosis. He wrote 178 poems that the literary establishment ignored and the people of Gujarat memorised. His pen name was Mareez \u2014 literally, \u2018a sick man.\u2019 They called him the Ghalib of Gujarat. He died in 1983 after being hit by an auto-rickshaw on a Mumbai street.\n\nAdapted by Vinit Shukla from Raeesh Maniar\u2019s biography Mareez: Astitva Ane Vyaktitva, and directed by Manoj Shah, the play does not tell this story in order. It weaves poetry, fantasy, hallucination, and realism into a theatrical fantasia \u2014 inspired by Vincent van Gogh\u2019s letters Dear Theo and Charles Bukowski\u2019s Barfly. Dharmendra Gohil has played Mareez since the 2004 premiere \u2014 twenty years in the same role \u2014 with critics noting that \u2018Mareez was in his veins.\u2019 Kumkum Das plays Sona, his wife. The set comprises six paintings by Padma Bhushan-awarded artist Ghulam Mohammed Sheikh. The music is by Uday Mazumdar, a tabla player trained under Ravi Shankar.",
+    "synopsis": "The longest-running Gujarati play. Two hundred performances and counting, at Prithvi Theatre continuously since 2004.\n\nAbbas Abdul Ali Vasi was born in Surat in 1917 into a Dawoodi Bohra family. He dropped out of school in the second grade. By fourteen, he was composing ghazals. By his twenties, he was selling them for five rupees apiece to wealthy men who published them under their own names. He drank. He loved a woman who would not love him back. He married another who stood by him. He contracted tuberculosis. He wrote 178 poems that the literary establishment ignored and the people of Gujarat memorised. His pen name was Mareez — literally, ‘a sick man.’ They called him the Ghalib of Gujarat. He died in 1983 after being hit by an auto-rickshaw on a Mumbai street.\n\nAdapted by Vinit Shukla from Raeesh Maniar’s biography Mareez: Astitva Ane Vyaktitva, and directed by Manoj Shah, the play does not tell this story in order. It weaves poetry, fantasy, hallucination, and realism into a theatrical fantasia — inspired by Vincent van Gogh’s letters Dear Theo and Charles Bukowski’s Barfly. Dharmendra Gohil has played Mareez since the 2004 premiere — twenty years in the same role — with critics noting that ‘Mareez was in his veins.’ Kumkum Das plays Sona, his wife. The set comprises six paintings by Padma Bhushan-awarded artist Ghulam Mohammed Sheikh. The music is by Uday Mazumdar, a tabla player trained under Ravi Shankar.",
     "image": "/images/productions/mareez/mareez-hero.png",
     "gallery": [
       "/images/productions/mareez/Copy of Mareez (1).JPG",
@@ -448,22 +738,101 @@
       "/images/productions/mareez/IMG-20190710-WA0002.jpg"
     ],
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "vinit-shukla", "roles": ["Writer"] },
-      { "person_id": "uday-mazumdar", "roles": ["Music Director"] },
-      { "person_id": "dharmendra-gohil", "roles": ["Mareez"] },
-      { "person_id": "kumkum-das", "roles": ["Sona (Wife)"] },
-      { "person_id": "dayashankar-pandey", "roles": ["Saadat Hasan Manto"] },
-      { "person_id": "jay-upadhyay", "roles": ["Actor"] },
-      { "person_id": "aishwarya-mehta", "roles": ["Rabab"] },
-      { "person_id": "darshan-pandya", "roles": ["Actor"] },
-      { "person_id": "pradeep-vengurlekar", "roles": ["Actor"] },
-      { "person_id": "hussaini-dawavala", "roles": ["Actor"] },
-      { "person_id": "vimal-upadhaya", "roles": ["Actor"] },
-      { "person_id": "sagar-rawal", "roles": ["Actor"] },
-      { "person_id": "ishan-doshi", "roles": ["Actor"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "vinit-shukla",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "uday-mazumdar",
+        "roles": [
+          "Music Director"
+        ]
+      },
+      {
+        "person_id": "dharmendra-gohil",
+        "roles": [
+          "Mareez"
+        ]
+      },
+      {
+        "person_id": "kumkum-das",
+        "roles": [
+          "Sona (Wife)"
+        ]
+      },
+      {
+        "person_id": "dayashankar-pandey",
+        "roles": [
+          "Saadat Hasan Manto"
+        ]
+      },
+      {
+        "person_id": "jay-upadhyay",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "aishwarya-mehta",
+        "roles": [
+          "Rabab"
+        ]
+      },
+      {
+        "person_id": "darshan-pandya",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "pradeep-vengurlekar",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "hussaini-dawavala",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "vimal-upadhaya",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "sagar-rawal",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "ishan-doshi",
+        "roles": [
+          "Actor"
+        ]
+      }
     ],
-    "press": ["press-mareez-1", "press-mareez-4", "press-mareez-5", "press-mareez-2", "press-mareez-8", "press-mareez-6", "press-mareez-3", "press-mareez-7"],
+    "press": [
+      "press-mareez-1",
+      "press-mareez-4",
+      "press-mareez-5",
+      "press-mareez-2",
+      "press-mareez-8",
+      "press-mareez-6",
+      "press-mareez-3",
+      "press-mareez-7"
+    ],
     "featured": true
   },
   {
@@ -473,9 +842,13 @@
     "subtitle": "Revolution via Entertainment",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Satire", "Solo", "Political"],
+    "genre": [
+      "Satire",
+      "Solo",
+      "Political"
+    ],
     "year": 2013,
-    "synopsis": "What happens when Karl Marx returns from the dead and lands straight into the buzzing chaos of Kalbadevi, Mumbai\u2019s most unapologetically capitalist neighbourhood?\n\nHe is furious. Not just about capitalism running wild or billionaires launching rockets \u2014 but because people have twisted his words, misused his ideas, and turned \u2018Marxist\u2019 into a punchline. He wants to set the record straight. But Mumbai is not in the mood for lectures. So he adapts. He rants, he jokes, he dances Gangnam Style, he reviews a Gujarati thali at Bhagat Tarachand, he learns Gujarati because of his admiration for Mahatma Gandhi, and he tries to visit Mani Bhavan only to find the gates shut.\n\nWritten by Uttam Gada and directed by Manoj Shah, this one-man play has been Ideas Unlimited\u2019s calling card for over twelve years. Satchit Puranik \u2014 who looks the part with his wild hair, beard, and a tilak on his forehead \u2014 brings a manic energy to Marx that makes the philosopher feel less like a historical figure and more like your most opinionated uncle at a family wedding. The play premiered at the NCPA Vasant Gujarati Natya Utsav in 2013, has since been performed in Gujarati, Hindi, and Hinglish, and staged at Wilson College for the 150th anniversary of Das Kapital, at Aligarh Muslim University, and at JAINA conventions in the United States.\n\nAs Time Out Mumbai\u2019s Deepa Gahlot put it: the play is \u2018enough to provoke the audience to go back thinking, this Karlbhai was one clever dude, eh?\u2019",
+    "synopsis": "What happens when Karl Marx returns from the dead and lands straight into the buzzing chaos of Kalbadevi, Mumbai’s most unapologetically capitalist neighbourhood?\n\nHe is furious. Not just about capitalism running wild or billionaires launching rockets — but because people have twisted his words, misused his ideas, and turned ‘Marxist’ into a punchline. He wants to set the record straight. But Mumbai is not in the mood for lectures. So he adapts. He rants, he jokes, he dances Gangnam Style, he reviews a Gujarati thali at Bhagat Tarachand, he learns Gujarati because of his admiration for Mahatma Gandhi, and he tries to visit Mani Bhavan only to find the gates shut.\n\nWritten by Uttam Gada and directed by Manoj Shah, this one-man play has been Ideas Unlimited’s calling card for over twelve years. Satchit Puranik — who looks the part with his wild hair, beard, and a tilak on his forehead — brings a manic energy to Marx that makes the philosopher feel less like a historical figure and more like your most opinionated uncle at a family wedding. The play premiered at the NCPA Vasant Gujarati Natya Utsav in 2013, has since been performed in Gujarati, Hindi, and Hinglish, and staged at Wilson College for the 150th anniversary of Das Kapital, at Aligarh Muslim University, and at JAINA conventions in the United States.\n\nAs Time Out Mumbai’s Deepa Gahlot put it: the play is ‘enough to provoke the audience to go back thinking, this Karlbhai was one clever dude, eh?’",
     "image": "/images/productions/karl-marx-in-kalbadevi/Satchit Puranik in NCPA.jpg",
     "gallery": [
       "/images/productions/karl-marx-in-kalbadevi/Karl Marx.jpg",
@@ -489,11 +862,30 @@
       "/images/productions/karl-marx-in-kalbadevi/Copy of Karl Marx in Kalbdevi (4).jpg"
     ],
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "uttam-gada", "roles": ["Writer"] },
-      { "person_id": "satchit-puranik", "roles": ["Karl Marx"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "uttam-gada",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "satchit-puranik",
+        "roles": [
+          "Karl Marx"
+        ]
+      }
     ],
-    "press": ["press-kmik-1", "press-kmik-2", "press-kmik-3"],
+    "press": [
+      "press-kmik-1",
+      "press-kmik-2",
+      "press-kmik-3"
+    ],
     "featured": true
   },
   {
@@ -503,7 +895,11 @@
     "subtitle": "I, Chandrakant Bakshi",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama", "Biographical", "Solo"],
+    "genre": [
+      "Drama",
+      "Biographical",
+      "Solo"
+    ],
     "year": 2013,
     "synopsis": "The story of Gujarati literature's most controversial writer, told by the man himself — or rather, by Pratik Gandhi inhabiting him with a ferocity that made audiences forget they were watching an actor.\n\nChandrakant Bakshi (1932–2006) authored 178 books, served as Professor of History, became Sheriff of Mumbai, got his short story 'Kutti' banned by the Gujarat government, publicly defied Bal Thackeray and refused to apologise, and wrote an autobiography so incendiary that parts of it could not be published. His writing style — Gujarati laced with Urdu, Hindi, and English — was as deliberately provocative as his public persona. He was, by every account, an incredible egoist. He was also, by every account, adored by his readers.\n\nWritten by Shishir Ramavat and drawn from Bakshi's autobiography Bakshinama, the play premiered on 15 June 2013 at Prithvi Theatre. Manoj Shah uses a ladder throughout the production as a metaphor for Bakshi's obsession with being on top. Gandhi — years before Scam 1992 would make him a household name — delivers what CreativeYatra called a 'cautious yet fearless' performance, bringing the bold and egotist protagonist to 'flawless perfection.' This play, along with Mohan No Masalo two years later, is credited with solidifying Pratik Gandhi's reputation as an actor of immense talent.",
     "image": "/images/productions/hu-chandrakant-bakshi/Photos (3).jpg",
@@ -522,11 +918,29 @@
       "/images/productions/hu-chandrakant-bakshi/Poster (1).jpg"
     ],
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "shishir-ramavat", "roles": ["Writer"] },
-      { "person_id": "pratik-gandhi", "roles": ["Chandrakant Bakshi"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "shishir-ramavat",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "pratik-gandhi",
+        "roles": [
+          "Chandrakant Bakshi"
+        ]
+      }
     ],
-    "press": ["press-bakshi-1", "press-bakshi-2"],
+    "press": [
+      "press-bakshi-1",
+      "press-bakshi-2"
+    ],
     "featured": true
   },
   {
@@ -536,7 +950,10 @@
     "subtitle": "The Warrior Who Funded Freedom",
     "type": "play",
     "language": "Hindi",
-    "genre": ["Historical", "Drama"],
+    "genre": [
+      "Historical",
+      "Drama"
+    ],
     "year": 2013,
     "synopsis": "The story of Bhamashah — born 1547, Jain Shravak of the Oswal community, warrior, strategist, and the man who bankrolled Maharana Pratap's war against the Mughal empire. Little is known about him beyond the legend of his donation, but this play recovers the full arc of his life: his father Bharmal's service as fort commander of Ranthambore, his own rise as Diwan of Mewar, his raids on Mughal camps, and the moment at the village of Chulia when he presented twenty lakh gold coins and two-and-a-half crore silver rupees to a king with no kingdom left.\n\nIdeas Unlimited — known for dramatising biographies in Gujarati — chose to tell this story in Hindi, bringing it to the Tata Theatre at NCPA on Republic Day 2013. The story was conceived by Dr. Bipin Doshi and dramatised by Mihir Bhuta. Dayashankar Pandey, who had appeared in Lagaan and Swades, took on the title role, working on the Rajasthani dialect to inhabit a man who proved that ahimsa does not mean cowardice. Om Puri lent his voice as narrator. Chugge Khan and his ensemble of Manganiar folk musicians from Rajasthan performed the Marwari folk score live, transporting the audience four centuries into the past.\n\nBhamasha is a play about a question most histories ignore: who pays for freedom? Not the king on the battlefield, but the man behind him — the merchant, the strategist, the Jain who believed that protecting his land was as sacred as any vow of non-violence.",
     "image": "/images/productions/bhamasha/Bhamasha (2).JPG",
@@ -548,23 +965,102 @@
       "/images/productions/bhamasha/Bhamasha (14).JPG"
     ],
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director", "Producer"] },
-      { "person_id": "dayashankar-pandey", "roles": ["Bhamasha"] },
-      { "person_id": "om-puri", "roles": ["Narrator (Voice)"] },
-      { "person_id": "yashpal-sharma", "roles": ["Voice-over"] },
-      { "person_id": "bipin-doshi", "roles": ["Story"] },
-      { "person_id": "mihir-bhuta", "roles": ["Dramatist"] },
-      { "person_id": "kanhaiya", "roles": ["Music Director"] },
-      { "person_id": "chugge-khan", "roles": ["Folk Orchestra"] },
-      { "person_id": "kabir-thakore", "roles": ["Set Designer"] },
-      { "person_id": "dharmendra-gohil", "roles": ["Actor"] },
-      { "person_id": "ahlam-khan", "roles": ["Actor"] },
-      { "person_id": "pulkit-solanki", "roles": ["Actor"] },
-      { "person_id": "aishwarya-mehta", "roles": ["Actor"] },
-      { "person_id": "jay-upadhyay", "roles": ["Actor"] },
-      { "person_id": "sagar-rawal", "roles": ["Actor"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director",
+          "Producer"
+        ]
+      },
+      {
+        "person_id": "dayashankar-pandey",
+        "roles": [
+          "Bhamasha"
+        ]
+      },
+      {
+        "person_id": "om-puri",
+        "roles": [
+          "Narrator (Voice)"
+        ]
+      },
+      {
+        "person_id": "yashpal-sharma",
+        "roles": [
+          "Voice-over"
+        ]
+      },
+      {
+        "person_id": "bipin-doshi",
+        "roles": [
+          "Story"
+        ]
+      },
+      {
+        "person_id": "mihir-bhuta",
+        "roles": [
+          "Dramatist"
+        ]
+      },
+      {
+        "person_id": "kanhaiya",
+        "roles": [
+          "Music Director"
+        ]
+      },
+      {
+        "person_id": "chugge-khan",
+        "roles": [
+          "Folk Orchestra"
+        ]
+      },
+      {
+        "person_id": "kabir-thakore",
+        "roles": [
+          "Set Designer"
+        ]
+      },
+      {
+        "person_id": "dharmendra-gohil",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "ahlam-khan",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "pulkit-solanki",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "aishwarya-mehta",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "jay-upadhyay",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "sagar-rawal",
+        "roles": [
+          "Actor"
+        ]
+      }
     ],
-    "press": ["press-bhamasha-1", "press-bhamasha-2"],
+    "press": [
+      "press-bhamasha-1",
+      "press-bhamasha-2"
+    ],
     "featured": true
   },
   {
@@ -574,7 +1070,10 @@
     "subtitle": "The Soul's Journey Through Worldly Illusion",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama", "Philosophical"],
+    "genre": [
+      "Drama",
+      "Philosophical"
+    ],
     "year": 2014,
     "synopsis": "Based on the Upamitibhavaprapancha Katha by Siddharshi Gani — a 10th-century Sanskrit text that Hermann Jacobi called the first allegorical novel in Indian literature, predating Bunyan's Pilgrim's Progress by seven centuries.\n\nThe play follows Dramak, an ordinary soul trapped in the city of Adrishyamool Paryant — a place that stands for the world as we know it, governed by greed, attachment, illusion, and desire. Dramak lives a bestial existence, wasting his time in futile efforts to preserve his meagre possessions. Caught in the bonds of attachment and illusion, believing the worldly illusion around him to be truth, he accumulates infinite karma and moves further from liberation with each birth and death.\n\nBut there exists a Maharaja's royal temple — maintained with skill and devotion by servants who guide souls toward spiritual liberation through dharma, renunciation, compassion, and mercy. Their hands are always extended. The question is whether Dramak will take hold.\n\nThe concept was distilled from Siddharshi's 16,000-verse original by Dr. Jitendra B. Shah, Director of the L.D. Institute of Indology, and dramatised by Prathang Dave and Raju Dave. Kabir Thakore designed the sets and Kanhaiya composed the music. The tagline reads: the end of sorrow is the beginning of peaceful happiness.",
     "image": "/images/productions/bhavprapanch/IT5A7129.JPG",
@@ -593,39 +1092,99 @@
       "/images/productions/bhavprapanch/IT5A8141.JPG"
     ],
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director", "Actor"] },
-      { "person_id": "janam-shah", "roles": ["Producer"] },
-      { "person_id": "jitendra-b-shah", "roles": ["Concept"] },
-      { "person_id": "prathang-dave", "roles": ["Writer"] },
-      { "person_id": "raju-dave", "roles": ["Writer"] },
-      { "person_id": "kabir-thakore", "roles": ["Set Designer"] },
-      { "person_id": "rajiv-bhatt", "roles": ["Costume Designer"] },
-      { "person_id": "bhotesh-vyas", "roles": ["Lighting Designer"] },
-      { "person_id": "kanhaiya", "roles": ["Music Director"] },
-      { "person_id": "dharmendra-gohil", "roles": ["Actor"] },
-      { "person_id": "vimal-upadhaya", "roles": ["Actor"] },
-      { "person_id": "jay-upadhyay", "roles": ["Actor"] },
-      { "person_id": "jitu-mehta", "roles": ["Actor"] },
-      { "person_id": "hemang-vyas", "roles": ["Actor"] },
-      { "person_id": "kashyap-pathak", "roles": ["Actor"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director",
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "janam-shah",
+        "roles": [
+          "Producer"
+        ]
+      },
+      {
+        "person_id": "jitendra-b-shah",
+        "roles": [
+          "Concept"
+        ]
+      },
+      {
+        "person_id": "prathang-dave",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "raju-dave",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "kabir-thakore",
+        "roles": [
+          "Set Designer"
+        ]
+      },
+      {
+        "person_id": "rajiv-bhatt",
+        "roles": [
+          "Costume Designer"
+        ]
+      },
+      {
+        "person_id": "bhotesh-vyas",
+        "roles": [
+          "Lighting Designer"
+        ]
+      },
+      {
+        "person_id": "kanhaiya",
+        "roles": [
+          "Music Director"
+        ]
+      },
+      {
+        "person_id": "dharmendra-gohil",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "vimal-upadhaya",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "jay-upadhyay",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "jitu-mehta",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "hemang-vyas",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "kashyap-pathak",
+        "roles": [
+          "Actor"
+        ]
+      }
     ],
     "featured": false
-  },
-  {
-    "id": "court-martial",
-    "slug": "court-martial",
-    "title": "Court Martial",
-    "type": "play",
-    "language": "English",
-    "genre": ["Drama", "Legal"],
-    "year": 2012,
-    "synopsis": "Based on Swadesh Deepak's searing play about a Dalit soldier court-martialed for killing his superior officers. A tense courtroom drama that peels back layers of caste discrimination within the Indian Army.",
-    "image": "/images/placeholder-production.svg",
-    "duration": "120 minutes",
-    "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] },
-      { "person_id": "danish-husain", "roles": ["Captain Bikash Roy"] }
-    ]
   },
   {
     "id": "jal-jal-mare-patang",
@@ -634,9 +1193,12 @@
     "subtitle": "The Burning Kite — Life of Manilal Dwivedi",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama", "Biographical"],
+    "genre": [
+      "Drama",
+      "Biographical"
+    ],
     "year": 2009,
-    "synopsis": "The story of Manilal Nabhubhai Dwivedi (1858\u20131898) \u2014 the philosopher, writer, and literary critic who blazed through forty years of life with an intensity that redefined Gujarati literature and introduced Western philosophy to Gujarat.\n\nMarried at fourteen to a four-year-old girl. Professor of Sanskrit at Samaldas College, Bhavnagar. Founder of Priyamvada, India\u2019s first women\u2019s magazine. Invited to the Parliament of World Religions in Chicago in 1893 \u2014 the same event where Vivekananda gave his famous speech \u2014 but could not afford to attend; his paper on Hinduism was read by Virchand Gandhi in his absence. His Raja Yoga was praised by Edwin Arnold and later read by Mahatma Gandhi in a South African prison. Narmad, the founder of modern Gujarati literature, considered him his intellectual heir. The era of Gujarati literature from 1885 to 1905 is named after him: the Mani-Govardhan Era.\n\nManoj Shah spent seven years researching before staging this play. Written by Mihir Bhuta and drawn from Dwivedi\u2019s autobiography Atmavrittanta \u2014 compared to Rousseau\u2019s Confessions \u2014 the production features backdrop paintings by Atul Dodiya, one of India\u2019s foremost contemporary artists. It premiered on 28 February 2009 at NCPA and received an A-certificate from the Maharashtra Censor Board of Theatres for its frank depiction of Manilal\u2019s personal life.\n\nThe title translates as \u2018the kite burns as it flies\u2019 \u2014 a metaphor for a life that blazed brilliantly and briefly. Manilal died at forty, writing at his desk in Nadiad.",
+    "synopsis": "The story of Manilal Nabhubhai Dwivedi (1858–1898) — the philosopher, writer, and literary critic who blazed through forty years of life with an intensity that redefined Gujarati literature and introduced Western philosophy to Gujarat.\n\nMarried at fourteen to a four-year-old girl. Professor of Sanskrit at Samaldas College, Bhavnagar. Founder of Priyamvada, India’s first women’s magazine. Invited to the Parliament of World Religions in Chicago in 1893 — the same event where Vivekananda gave his famous speech — but could not afford to attend; his paper on Hinduism was read by Virchand Gandhi in his absence. His Raja Yoga was praised by Edwin Arnold and later read by Mahatma Gandhi in a South African prison. Narmad, the founder of modern Gujarati literature, considered him his intellectual heir. The era of Gujarati literature from 1885 to 1905 is named after him: the Mani-Govardhan Era.\n\nManoj Shah spent seven years researching before staging this play. Written by Mihir Bhuta and drawn from Dwivedi’s autobiography Atmavrittanta — compared to Rousseau’s Confessions — the production features backdrop paintings by Atul Dodiya, one of India’s foremost contemporary artists. It premiered on 28 February 2009 at NCPA and received an A-certificate from the Maharashtra Censor Board of Theatres for its frank depiction of Manilal’s personal life.\n\nThe title translates as ‘the kite burns as it flies’ — a metaphor for a life that blazed brilliantly and briefly. Manilal died at forty, writing at his desk in Nadiad.",
     "image": "/images/productions/jal-jal-mare-patang/Jal Jal Mare Patang - Prithvi (1).jpg",
     "gallery": [
       "/images/productions/jal-jal-mare-patang/Jal Jal Mare Patang - Prithvi (1).jpg",
@@ -652,19 +1214,77 @@
       "/images/productions/jal-jal-mare-patang/JJMP NCPA (21).JPG"
     ],
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director", "Producer"] },
-      { "person_id": "mihir-bhuta", "roles": ["Writer"] },
-      { "person_id": "vedish-jhaveri", "roles": ["Manilal Dwivedi"] },
-      { "person_id": "shailendra-patel", "roles": ["Nabhubhai (Father)"] },
-      { "person_id": "kalpana-shah", "roles": ["Mother"] },
-      { "person_id": "vimal-upadhaya", "roles": ["Balashankar Kantharia"] },
-      { "person_id": "aishwarya-mehta", "roles": ["Diwaliben / Mani Gauri"] },
-      { "person_id": "janam-shah", "roles": ["Kalapi"] },
-      { "person_id": "jay-upadhyay", "roles": ["Parsi Friend"] },
-      { "person_id": "deval-trivedi", "roles": ["Actor"] },
-      { "person_id": "sagar-rawal", "roles": ["Actor"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director",
+          "Producer"
+        ]
+      },
+      {
+        "person_id": "mihir-bhuta",
+        "roles": [
+          "Writer"
+        ]
+      },
+      {
+        "person_id": "vedish-jhaveri",
+        "roles": [
+          "Manilal Dwivedi"
+        ]
+      },
+      {
+        "person_id": "shailendra-patel",
+        "roles": [
+          "Nabhubhai (Father)"
+        ]
+      },
+      {
+        "person_id": "kalpana-shah",
+        "roles": [
+          "Mother"
+        ]
+      },
+      {
+        "person_id": "vimal-upadhaya",
+        "roles": [
+          "Balashankar Kantharia"
+        ]
+      },
+      {
+        "person_id": "aishwarya-mehta",
+        "roles": [
+          "Diwaliben / Mani Gauri"
+        ]
+      },
+      {
+        "person_id": "janam-shah",
+        "roles": [
+          "Kalapi"
+        ]
+      },
+      {
+        "person_id": "jay-upadhyay",
+        "roles": [
+          "Parsi Friend"
+        ]
+      },
+      {
+        "person_id": "deval-trivedi",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "sagar-rawal",
+        "roles": [
+          "Actor"
+        ]
+      }
     ],
-    "press": ["press-jjmp-1"],
+    "press": [
+      "press-jjmp-1"
+    ],
     "featured": false
   },
   {
@@ -674,7 +1294,10 @@
     "subtitle": "Rabindranath Tagore's Allegory of Freedom",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama", "Allegorical"],
+    "genre": [
+      "Drama",
+      "Allegorical"
+    ],
     "year": 2008,
     "musicUrl": "/audio/achalayatan.mp3",
     "synopsis": "Tagore's searing allegory of an ashram so rigid that even light is forbidden entry. A young student named Panchak, unable to cope with the dead weight of rules, peeks through a forbidden window and discovers a world outside — free, simple, alive. His encounter with the untouchables beyond the walls sets him on a path of self-discovery that challenges the very foundations of the institution. When the Guruji finally arrives, he does not repair the system — he breaks it open.\n\nAdapted into Gujarati by Giridhar Kripalani under the guidance of Kaka Kalelkar, this production was Ideas Unlimited's tribute to India's first Nobel laureate. Manoj Shah spent eight months — six in study, two in rehearsal — preparing the play, calling it one of Tagore's best crafted works. The production premiered at the five-day Tagore Festival in Kolkata at G. D. Birla Sabhagar, where it was the only Gujarati-language play presented — a bold choice that brought Tagore's most scathing critique of institutional orthodoxy back to his own city, in a language he never wrote in.",
@@ -688,43 +1311,125 @@
     ],
     "duration": "90 minutes",
     "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director", "Producer"] },
-      { "person_id": "shyam-pathak", "roles": ["Actor"] },
-      { "person_id": "alpesh-dikshit", "roles": ["Actor"] },
-      { "person_id": "vimal-upadhaya", "roles": ["Actor", "Set Designer"] },
-      { "person_id": "kahgesh-vaidya", "roles": ["Actor"] },
-      { "person_id": "shailendra-patel", "roles": ["Actor"] },
-      { "person_id": "janam-shah", "roles": ["Actor"] },
-      { "person_id": "alpesh-dhakan", "roles": ["Actor"] },
-      { "person_id": "deval-trivedi", "roles": ["Actor"] },
-      { "person_id": "dhruv-barot", "roles": ["Actor"] },
-      { "person_id": "paurav-shah", "roles": ["Actor"] },
-      { "person_id": "ishan-doshi", "roles": ["Actor"] },
-      { "person_id": "priyesh-thaar", "roles": ["Actor"] },
-      { "person_id": "pankaj-soni", "roles": ["Actor"] },
-      { "person_id": "hussaini-dawavala", "roles": ["Assistant Director", "Lighting Designer"] },
-      { "person_id": "akash-naik", "roles": ["Assistant Director", "Choreographer"] },
-      { "person_id": "rajiv-bhatt", "roles": ["Costume Designer"] },
-      { "person_id": "suresh-joshi", "roles": ["Music Director"] }
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director",
+          "Producer"
+        ]
+      },
+      {
+        "person_id": "shyam-pathak",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "alpesh-dikshit",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "vimal-upadhaya",
+        "roles": [
+          "Actor",
+          "Set Designer"
+        ]
+      },
+      {
+        "person_id": "kahgesh-vaidya",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "shailendra-patel",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "janam-shah",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "alpesh-dhakan",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "deval-trivedi",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "dhruv-barot",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "paurav-shah",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "ishan-doshi",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "priyesh-thaar",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "pankaj-soni",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "hussaini-dawavala",
+        "roles": [
+          "Assistant Director",
+          "Lighting Designer"
+        ]
+      },
+      {
+        "person_id": "akash-naik",
+        "roles": [
+          "Assistant Director",
+          "Choreographer"
+        ]
+      },
+      {
+        "person_id": "rajiv-bhatt",
+        "roles": [
+          "Costume Designer"
+        ]
+      },
+      {
+        "person_id": "suresh-joshi",
+        "roles": [
+          "Music Director"
+        ]
+      }
     ],
-    "festivals": ["tagore-festival-kolkata-2008"],
-    "press": ["press-achalayatan-1"],
+    "festivals": [
+      "tagore-festival-kolkata-2008"
+    ],
+    "press": [
+      "press-achalayatan-1"
+    ],
     "featured": false
-  },
-  {
-    "id": "sangeet-baari",
-    "slug": "sangeet-baari",
-    "title": "Sangeet Baari",
-    "subtitle": "The Music Room",
-    "type": "musical",
-    "language": "Marathi",
-    "genre": ["Musical", "Drama"],
-    "year": 2010,
-    "synopsis": "Set in the fading grandeur of a Maharashtrian landlord's music room, this production blends classical Indian music with contemporary theatre to tell a story of art, obsession, and decline.",
-    "image": "/images/placeholder-production.svg",
-    "duration": "130 minutes",
-    "cast_crew": [
-      { "person_id": "manoj-shah", "roles": ["Director"] }
-    ]
   }
 ]

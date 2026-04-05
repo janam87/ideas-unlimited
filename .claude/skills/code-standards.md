@@ -25,7 +25,7 @@ components/
                           ManojShahPull, FestivalsStrip, BlogStub, NewsletterSection
   productions/          → ProductionCard, ProductionFilters, ProductionGrid, ProductionHero
   people/               → PersonCard, PeopleFilters, PeopleGrid
-  shared/               → Gallery, VideoEmbed, PressCard, ShareButton, RelatedProductions
+  shared/               → Gallery, VideoEmbed, PressCard, ShareButton, RelatedProductions, AmbientMusic
 
 lib/
   types.ts              → All TypeScript interfaces
@@ -34,10 +34,13 @@ lib/
   shows.ts              → "Now Performing" / upcoming show date logic
   schema.ts             → Schema.org JSON-LD generators
   utils.ts              → cn(), placeholderImage(), slugify()
-  constants.ts          → SITE config, NAV_LINKS, LEGACY_NUMBERS, ENQUIRY_TYPES
+  constants.ts          → SITE config, NAV_LINKS, LEGACY_NUMBERS, HERO_VIDEO_ID, ENQUIRY_TYPES
 
 data/                   → JSON data files
 content/                → MDX content files
+public/audio/           → Ambient music files for productions
+public/images/people/   → Person portrait photos ({slug}.jpg)
+public/images/productions/ → Production photos ({slug}/ subdirectory)
 ```
 
 ---

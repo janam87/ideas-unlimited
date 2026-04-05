@@ -19,7 +19,7 @@ All data lives in JSON files under `/data/`. No CMS, no database, no API.
 | `data/festivals.json` | Festival names, years, cities |
 | `data/press.json` | Press items linked to productions/people |
 
-Long-form content (Manoj Shah bio, future blog posts) lives in `/content/` as MDX.
+Blog posts live in `lib/blog.ts` as a `BLOG_POSTS` array (not MDX). Long-form content (Manoj Shah bio) lives in `/content/` as MDX.
 
 ---
 
@@ -39,6 +39,7 @@ interface Production {
   image: string;
   gallery?: string[];
   videoUrl?: string;
+  musicUrl?: string;              // path to ambient audio file (e.g. "/audio/achalayatan.mp3")
   duration?: string;
   shows?: Show[];
   cast_crew: CastCrewEntry[];
@@ -78,7 +79,14 @@ interface CastCrewEntry {
 }
 
 interface Festival { id: string; name: string; year: number; city: string; description?: string; }
-interface PressItem { id: string; title: string; source: string; date: string; url?: string; excerpt?: string; productionSlug?: string; personSlug?: string; }
+interface PressItem {
+  id: string; title: string; source: string; date: string;
+  url?: string; excerpt?: string;
+  productionSlug?: string; personSlug?: string;
+  reviewSlug?: string;            // slug for /reviews/[slug] page (newspaper clippings without URLs)
+  fullReview?: string[];          // array of paragraphs for the review page
+  reviewAuthor?: string;          // reviewer attribution
+}
 ```
 
 ---
@@ -125,6 +133,8 @@ All data access goes through `lib/data.ts`. Never import JSON directly in compon
 ### Festivals & Press
 - `getAllFestivals()`, `getFestivalById(id)`
 - `getAllPress()`, `getPressForProduction(slug)`, `getPressForPerson(slug)`
+- `getReviewBySlug(slug)` — single review page by slug
+- `getAllReviewSlugs()` — for generateStaticParams on `/reviews/[slug]`
 
 ### Filters
 - `getFilterOptions()` — derives types, languages, genres, years, cities from data

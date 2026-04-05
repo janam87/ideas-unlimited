@@ -1,25 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BLOG_POSTS } from "@/lib/blog";
 
-const PLACEHOLDER_POSTS = [
-  {
-    title: "The Making of Saptapadi: A Director's Journal",
-    category: "Behind the Scenes",
-    image: "/images/placeholder-production.svg",
-  },
-  {
-    title: "35 Years of Fearless Theatre: A Retrospective",
-    category: "Feature",
-    image: "/images/placeholder-production.svg",
-  },
-  {
-    title: "Why Hindi Theatre Matters in 2024",
-    category: "Opinion",
-    image: "/images/placeholder-production.svg",
-  },
+const FEATURED_SLUGS = [
+  "travelling-theatre-siachen",
+  "karl-marx-kalbadevi-story",
+  "adbhut-every-brilliant-thing-gujarati",
 ];
 
 export function BlogStub() {
+  const posts = FEATURED_SLUGS
+    .map((slug) => BLOG_POSTS.find((p) => p.slug === slug))
+    .filter(Boolean);
+
   return (
     <section className="border-t border-grey-700">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
@@ -37,23 +30,27 @@ export function BlogStub() {
           {/* Right — blog cards grid */}
           <div className="lg:col-span-7">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              {PLACEHOLDER_POSTS.map((post) => (
-                <div key={post.title} className="group cursor-pointer">
+              {posts.map((post) => (
+                <Link
+                  key={post!.slug}
+                  href={`/blog/${post!.slug}`}
+                  className="group"
+                >
                   <div className="relative aspect-[4/3] overflow-hidden mb-4">
                     <Image
-                      src={post.image}
-                      alt={post.title}
+                      src={post!.image}
+                      alt={post!.title}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
                   <p className="font-mono text-xs uppercase tracking-widest text-purple mb-2">
-                    {post.category}
+                    {post!.category}
                   </p>
                   <h3 className="font-serif text-lg text-cream group-hover:text-purple transition-colors leading-snug">
-                    {post.title}
+                    {post!.title}
                   </h3>
-                </div>
+                </Link>
               ))}
             </div>
             <Link

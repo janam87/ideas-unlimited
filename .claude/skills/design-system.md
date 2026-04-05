@@ -82,7 +82,8 @@ description: Use when creating or modifying any UI component, styling, layout, o
 |---|---|
 | `Gallery` | Image grid with lightbox. `fullBleed` prop for edge-to-edge (no heading, 4-col). |
 | `VideoEmbed` | YouTube/video iframe embed |
-| `PressCard` | External press article card |
+| `PressCard` | Press card with 3 states: external URL (ExternalLink icon), internal review page (FileText icon, links to /reviews/[slug]), or no URL (static div, no icon) |
+| `AmbientMusic` | Floating bottom-right audio toggle for production pages (musicUrl). 15% volume, loop, fade in/out |
 | `RelatedProductions` | Simple card grid (no section wrapper — used inside 5/7 splits) |
 
 ---

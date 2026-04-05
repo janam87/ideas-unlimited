@@ -1,19 +1,5 @@
 [
   {
-    "id": "meta-awards-2023",
-    "name": "META Awards",
-    "year": 2023,
-    "city": "New Delhi",
-    "description": "Mahindra Excellence in Theatre Awards — India's premier theatre awards recognizing outstanding productions and talent."
-  },
-  {
-    "id": "ncpa-festival-2022",
-    "name": "NCPA Theatre Festival",
-    "year": 2022,
-    "city": "Mumbai",
-    "description": "Annual festival hosted by the National Centre for the Performing Arts, showcasing the best of Indian theatre."
-  },
-  {
     "id": "ncpa-festival-2019",
     "name": "NCPA Theatre Festival",
     "year": 2019,
@@ -26,13 +12,6 @@
     "year": 2019,
     "city": "New Delhi",
     "description": "Mahindra Excellence in Theatre Awards."
-  },
-  {
-    "id": "thespo-2020",
-    "name": "Thespo",
-    "year": 2020,
-    "city": "Mumbai",
-    "description": "India's longest-running youth theatre festival, celebrating young voices and experimental work."
   },
   {
     "id": "tagore-festival-kolkata-2008",

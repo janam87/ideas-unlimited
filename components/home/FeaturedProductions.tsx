@@ -1,13 +1,26 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getAllProductions } from "@/lib/data";
+import { getProductionBySlug } from "@/lib/data";
 import { Badge } from "@/components/ui/Badge";
 import { hasUpcomingShows } from "@/lib/shows";
 
+const FEATURED_ORDER = [
+  "mohan-no-masalo",
+  "mareez",
+  "hu-chandrakant-bakshi",
+  "adbhut",
+  "bombay-flower",
+  "karl-marx-in-kalbadevi",
+  "whats-up",
+];
+
 export function FeaturedProductions() {
-  const all = getAllProductions();
-  const first = all[0];
-  const rest = all.slice(1, 7);
+  const productions = FEATURED_ORDER
+    .map((slug) => getProductionBySlug(slug))
+    .filter(Boolean);
+
+  const first = productions[0];
+  const rest = productions.slice(1, 7);
 
   return (
     <section className="border-t border-grey-700">
@@ -64,27 +77,27 @@ export function FeaturedProductions() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 pt-10 border-t border-grey-700">
                 {rest.map((prod) => (
                   <Link
-                    key={prod.slug}
-                    href={`/productions/${prod.slug}`}
+                    key={prod!.slug}
+                    href={`/productions/${prod!.slug}`}
                     className="group"
                   >
                     <div className="relative aspect-[16/10] overflow-hidden mb-4">
                       <Image
-                        src={prod.image}
-                        alt={prod.title}
+                        src={prod!.image}
+                        alt={prod!.title}
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
                     <div className="flex items-center gap-2 mb-2">
-                      <span className="font-mono text-xs text-grey-400">{prod.year}</span>
-                      <Badge variant="outline">{prod.language}</Badge>
+                      <span className="font-mono text-xs text-grey-400">{prod!.year}</span>
+                      <Badge variant="outline">{prod!.language}</Badge>
                     </div>
                     <h3 className="font-serif text-2xl text-cream group-hover:text-purple transition-colors leading-snug">
-                      {prod.title}
+                      {prod!.title}
                     </h3>
                     <p className="text-grey-400 text-sm mt-2 line-clamp-2">
-                      {prod.synopsis}
+                      {prod!.synopsis}
                     </p>
                   </Link>
                 ))}

@@ -36,13 +36,13 @@ function CountUp({ target, suffix }: { target: number; suffix: string }) {
 export function LegacyNumbers() {
   return (
     <section className="border-t border-b border-grey-700">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-3">
         {LEGACY_NUMBERS.map((item, i) => (
           <div
             key={item.label}
             className={`py-10 md:py-16 text-center ${
               i < LEGACY_NUMBERS.length - 1 ? "border-r border-grey-700" : ""
-            } ${i < 2 ? "border-b border-grey-700 md:border-b-0" : ""}`}
+            }`}
           >
             <CountUp target={item.value} suffix={item.suffix} />
             <p className="mt-3 font-mono text-xs uppercase tracking-[0.3em] text-grey-400">

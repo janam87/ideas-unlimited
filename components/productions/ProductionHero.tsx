@@ -5,8 +5,9 @@ import Image from "next/image";
 import { Badge } from "@/components/ui/Badge";
 
 declare global {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   interface Window {
-    YT: typeof YT;
+    YT: any;
     onYouTubeIframeAPIReady: () => void;
   }
 }
@@ -50,11 +51,11 @@ export function ProductionHero({ title, subtitle, image, videoUrl, isUpcoming }:
           iv_load_policy: 3,
         },
         events: {
-          onReady: (event: YT.PlayerEvent) => {
+          onReady: (event: { target: { mute: () => void; playVideo: () => void } }) => {
             event.target.mute();
             event.target.playVideo();
           },
-          onStateChange: (event: YT.OnStateChangeEvent) => {
+          onStateChange: (event: { data: number; target: { playVideo: () => void } }) => {
             if (event.data === window.YT.PlayerState.ENDED) {
               event.target.playVideo();
             }

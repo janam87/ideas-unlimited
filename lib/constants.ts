@@ -27,10 +27,9 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LEGACY_NUMBERS = [
-  { value: 35, suffix: "+", label: "Years" },
-  { value: 90, suffix: "+", label: "Productions" },
-  { value: 3, suffix: "", label: "Languages" },
-  { value: 20, suffix: "+", label: "Cities" },
+  { value: 113, suffix: "+", label: "Productions" },
+  { value: 2300, suffix: "+", label: "Performances" },
+  { value: 35, suffix: "+", label: "Cities Globally" },
 ] as const;
 
 // YouTube video ID for hero background — change this single value to swap the video

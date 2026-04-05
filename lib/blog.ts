@@ -11,24 +11,6 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    slug: "making-of-saptapadi",
-    title: "The Making of Saptapadi: A Director\u2019s Journal",
-    category: "Behind the Scenes",
-    excerpt: "How a chance encounter with a newspaper article became one of our most powerful productions \u2014 from first rehearsal to opening night at Prithvi Theatre.",
-    image: "/images/placeholder-production.svg",
-    date: "2023-11-15",
-    body: [
-      "It started, as so many of our productions do, with a newspaper clipping. A small article about a hijra found murdered in Bangalore, buried in the inside pages where stories of the marginalised always end up. Manoj Shah read it over his morning chai and couldn\u2019t put it down.",
-      "\u201CThis is the play,\u201D he said at our next production meeting, placing the clipping on the table. No one asked what he meant. After 90-odd productions together, we\u2019ve learned to trust that instinct.",
-      "The next three months were some of the most intense in our company\u2019s history. Research took us into worlds most theatre companies never touch \u2014 transgender communities in Bangalore, academic corridors where gender theory meets Indian reality, and police stations where justice is a flexible concept.",
-      "Casting was deliberate. We needed actors who could inhabit characters without judgement, who could find the humanity in every role \u2014 from the university professor to the murdered hijra\u2019s lover. Neha Joshi brought a fierce intelligence to the lead role that grounded the entire production.",
-      "Rehearsals were structured but open. Manoj\u2019s method is to give actors a framework and then let them discover the emotional truth within it. \u201CI don\u2019t direct performances,\u201D he often says. \u201CI direct the space between performances.\u201D",
-      "Opening night at Prithvi Theatre was electric. The audience sat in absolute silence for the first forty minutes \u2014 not the silence of boredom, but of people who have forgotten they\u2019re watching a play. When the lights came up, there was a long pause before the applause began.",
-      "Saptapadi went on to be selected for the META Awards 2023 and has been performed over thirty times across Mumbai, Delhi, and Ahmedabad. But the moment that matters most happened backstage after the third show, when a young transgender woman came to meet the cast and said, simply, \u201CThank you for seeing us.\u201D",
-      "That\u2019s why we make theatre.",
-    ],
-  },
-  {
     slug: "35-years-retrospective",
     title: "35 Years of Fearless Theatre: A Retrospective",
     category: "Feature",
@@ -67,7 +49,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Performing at Siachen: Theatre at 20,000 Feet",
     category: "Behind the Scenes",
     excerpt: "When the Indian Military invited us to perform at the Siachen base camp, we said yes without hesitation. Here\u2019s what happened next.",
-    image: "/images/placeholder-production.svg",
+    image: "/images/productions/mohan-no-masalo/DSC_0378.JPG",
     date: "2023-08-05",
     body: [
       "The call came from the Indian Army\u2019s cultural division. Would Ideas Unlimited be willing to perform for troops stationed at Siachen \u2014 the highest battlefield in the world?",

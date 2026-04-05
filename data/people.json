@@ -5,62 +5,34 @@
     "name": "Manoj Shah",
     "portrait": "/images/people/manoj-shah.jpg",
     "bio": "Born 5 February 1955 in Mumbai, Manoj Sakarchand Shah began as a dance teacher before a play directed by Mahendra Joshi turned him toward theatre. Inspired by Badal Sircar, Utpal Dutt, and Vijaya Mehta, he made his directorial debut with Master Phoolmani at the Prithvi Theatre Festival in 1999 — a production that ran for sixteen years. Since then he has directed 96+ productions in Gujarati, Hindi, and English under his company Ideas Unlimited, working with 157+ freelance artists. His biographical plays — Mareez (200+ performances since 2004), Mohan No Masalo (starring Pratik Gandhi, Limca Book of Records), Hu Chandrakant Bakshi, Karl Marx In Kalbadevi — are credited with sparking a cultural renaissance in Gujarati theatre. He has collaborated with painters Bhupen Khakhar, Ghulam Mohammed Sheikh, and Atul Dodiya on set design, and worked with filmmakers Richard Attenborough, Ketan Mehta, Ashutosh Gowariker, and Anand Gandhi. His productions have toured the USA, UK, Canada, Dubai, Singapore, and Muscat, and been selected for the Prithvi Festival, NSD Festival, Kalaghoda, Mumbai Theatre Utsav, and the Theatre Olympics.",
-    "roles": ["Director", "Actor", "Producer", "Founder"],
-    "otherNotableWork": ["Film: Ship of Theseus (2013)", "Film: Kasoombo (2024)", "Film: Thackeray (2019)", "Cultural Consultant: Kai Po Che, Good Road"],
-    "interviews": [
-      { "title": "Manoj Shah Interview (2010)", "url": "https://www.mumbaitheatreguide.com/dramas/interviews/18-manoj-shah-interview.asp", "source": "Mumbai Theatre Guide" },
-      { "title": "Manoj Shah Interview (2014)", "url": "https://www.mumbaitheatreguide.com/dramas/interviews/13-manoj-shah-interview.asp", "source": "Mumbai Theatre Guide" }
+    "roles": [
+      "Director",
+      "Actor",
+      "Producer",
+      "Founder"
     ],
-    "featured": true
-  },
-  {
-    "id": "neha-joshi",
-    "slug": "neha-joshi",
-    "name": "Neha Joshi",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "An award-winning actor known for her powerful stage presence and emotional versatility. Neha has been a cornerstone of IU Productions for over a decade, bringing complex female characters to vivid life across multiple languages.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["TV: Hum Log (2019)", "Film: Natsamrat (2016)"],
-    "featured": true
-  },
-  {
-    "id": "rajat-kapoor",
-    "slug": "rajat-kapoor",
-    "name": "Rajat Kapoor",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "A versatile actor and filmmaker, Rajat brings a rare intellectual depth to his performances. His collaborations with IU Productions span some of the company's most critically acclaimed work.",
-    "roles": ["Actor", "Director"],
-    "otherNotableWork": ["Film: Aankhon Dekhi (2014)", "Film: RK/RKAY (2022)"],
-    "featured": true
-  },
-  {
-    "id": "danish-husain",
-    "slug": "danish-husain",
-    "name": "Danish Husain",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "A celebrated storyteller, actor, and theatre practitioner, Danish's performances are marked by a rare combination of physical precision and emotional rawness. A regular collaborator with IU Productions.",
-    "roles": ["Actor", "Storyteller"],
-    "otherNotableWork": ["Solo: Qissa Qissa Lucknow", "Film: 3 Idiots (2009)"]
-  },
-  {
-    "id": "himani-shivpuri",
-    "slug": "himani-shivpuri",
-    "name": "Himani Shivpuri",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "A veteran of both stage and screen, Himani brings gravitas and warmth to every role. Her performances in IU Productions' Gujarati repertoire have earned widespread acclaim.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Film: Dilwale Dulhania Le Jayenge (1995)", "TV: Happu Ki Ultan Paltan"]
-  },
-  {
-    "id": "deepa-gahlot",
-    "slug": "deepa-gahlot",
-    "name": "Deepa Gahlot",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "One of India's foremost theatre critics and writers, Deepa has contributed to IU Productions as script consultant and dramaturg, bringing her sharp editorial eye to several key productions.",
-    "roles": ["Writer", "Script Consultant"],
+    "otherNotableWork": [
+      "Film: Ship of Theseus (2013)",
+      "Film: Kasoombo (2024)",
+      "Film: Thackeray (2019)",
+      "Cultural Consultant: Kai Po Che, Good Road"
+    ],
     "interviews": [
-      { "title": "The State of Indian Theatre", "url": "#", "source": "Scroll.in" }
-    ]
+      {
+        "title": "Manoj Shah Interview (2010)",
+        "url": "https://www.mumbaitheatreguide.com/dramas/interviews/18-manoj-shah-interview.asp",
+        "source": "Mumbai Theatre Guide"
+      },
+      {
+        "title": "Manoj Shah Interview (2014)",
+        "url": "https://www.mumbaitheatreguide.com/dramas/interviews/13-manoj-shah-interview.asp",
+        "source": "Mumbai Theatre Guide"
+      }
+    ],
+    "featured": true,
+    "social": {
+      "instagram": "https://instagram.com/manojshah3241"
+    }
   },
   {
     "id": "atul-kumar",
@@ -68,8 +40,14 @@
     "name": "Atul Kumar",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "Founder of The Company Theatre, Atul is a director and actor known for his innovative approach to staging. His guest collaborations with IU Productions have produced memorable work.",
-    "roles": ["Director", "Actor"],
-    "otherNotableWork": ["Piya Behrupiya (Globe Theatre, London)", "Hamlet: The Clown Prince"]
+    "roles": [
+      "Director",
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Piya Behrupiya (Globe Theatre, London)",
+      "Hamlet: The Clown Prince"
+    ]
   },
   {
     "id": "sameera-iyengar",
@@ -77,7 +55,10 @@
     "name": "Sameera Iyengar",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A distinguished arts administrator and actor, Sameera has been instrumental in shaping the programming at some of Mumbai's leading cultural venues. Her performances with IU Productions bring a refined elegance to the stage.",
-    "roles": ["Actor", "Arts Administrator"]
+    "roles": [
+      "Actor",
+      "Arts Administrator"
+    ]
   },
   {
     "id": "vivek-gomber",
@@ -85,8 +66,14 @@
     "name": "Vivek Gomber",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "An actor and producer known for his work in both commercial and independent cinema. Vivek's stage work with IU Productions showcases his range and commitment to meaningful storytelling.",
-    "roles": ["Actor", "Producer"],
-    "otherNotableWork": ["Film: Court (2014)", "Film: The Disciple (2020)"]
+    "roles": [
+      "Actor",
+      "Producer"
+    ],
+    "otherNotableWork": [
+      "Film: Court (2014)",
+      "Film: The Disciple (2020)"
+    ]
   },
   {
     "id": "shyam-pathak",
@@ -94,8 +81,13 @@
     "name": "Shyam Pathak",
     "portrait": "/images/people/shyam-pathak.jpg",
     "bio": "A National School of Drama graduate and trained theatre actor, Shyam Pathak began his career on the Mumbai stage with Nadira Babbar's Ekjute Theatre Group before becoming widely known as Patrakaar Popatlal Pandey in Taarak Mehta Ka Ooltah Chashmah. His Gujarati roots and theatre training brought him into the Ideas Unlimited fold, where he performed in productions including Achalayatan. He has also appeared in Ang Lee's Lust, Caution alongside Anupam Kher.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["TV: Taarak Mehta Ka Ooltah Chashmah (2008–present)", "Film: Lust, Caution (2007, dir. Ang Lee)"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "TV: Taarak Mehta Ka Ooltah Chashmah (2008–present)",
+      "Film: Lust, Caution (2007, dir. Ang Lee)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/shyampathak01/"
     }
@@ -106,8 +98,14 @@
     "name": "Alpesh Dikshit",
     "portrait": "/images/people/alpesh-dikshit.jpg",
     "bio": "A freelance actor based in Mumbai with an M.Com degree and formal theatre training, Alpesh Dikshit has worked across stage, television, and film. His theatre credits with Ideas Unlimited include Achalayatan and Amar Fal, both directed by Manoj Shah. On screen, he has appeared in Radha Krishna, Crime Patrol, and Adaalat, and in films including Udan Patolas.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["TV: Radha Krishna", "TV: Crime Patrol", "Film: Udan Patolas (2022)"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "TV: Radha Krishna",
+      "TV: Crime Patrol",
+      "Film: Udan Patolas (2022)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/alpeshdixit/"
     }
@@ -118,7 +116,10 @@
     "name": "Vimal Upadhaya",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A Gujarati theatre actor and set designer who has been a recurring collaborator with Ideas Unlimited Productions. His dual sensibility as performer and visual thinker is rare in Indian theatre. Credits with the company include Achalayatan (actor and set designer), Amar Fal, Jal Jal Mare Patang (as Balashankar Kantharia), and Mareez — working alongside names like Pratik Gandhi and Dharmendra Gohil.",
-    "roles": ["Actor", "Set Designer"]
+    "roles": [
+      "Actor",
+      "Set Designer"
+    ]
   },
   {
     "id": "kahgesh-vaidya",
@@ -126,7 +127,9 @@
     "name": "Kahgesh Vaidya",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A Gujarati theatre actor who has performed with Ideas Unlimited Productions, contributing to the company's work in bringing literary classics to the stage.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "shailendra-patel",
@@ -134,7 +137,9 @@
     "name": "Shailendra Patel",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actor who has worked with Ideas Unlimited Productions across their Gujarati repertoire, bringing sincerity and commitment to every role.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "janam-shah",
@@ -142,7 +147,10 @@
     "name": "Janam Shah",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A member of the Ideas Unlimited family both literally and artistically, Janam Shah has grown up around theatre and contributed as an actor in the company's productions. He has also worked as a cinematographer on short films including Dhong.",
-    "roles": ["Actor", "Cinematographer"]
+    "roles": [
+      "Actor",
+      "Cinematographer"
+    ]
   },
   {
     "id": "alpesh-dhakan",
@@ -150,8 +158,14 @@
     "name": "Alpesh Dhakan",
     "portrait": "/images/people/alpesh-dhakan.jpg",
     "bio": "Born in Mumbai to a Gujarati family, Alpesh Dhakan made his acting debut in Ideas Unlimited's Achalayatan in 2008 after a chance encounter with Manoj Shah at Prithvi Theatre. His second play, Muktidhaam, saw him perform alongside Smriti Irani for over 80 shows. He went on to play Lord Ganesha in the hit television series Devon Ke Dev... Mahadev and Saurabh Bose in Kuch Rang Pyar Ke Aise Bhi. He has also appeared in the Gujarati film Kevi Rite Jaish and performed Gandhi Before Gandhi at the JAINA Convention in Antwerp.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["TV: Devon Ke Dev... Mahadev (2011–2014)", "TV: Kuch Rang Pyar Ke Aise Bhi (2016–2017)", "Film: Kevi Rite Jaish (2012)"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "TV: Devon Ke Dev... Mahadev (2011–2014)",
+      "TV: Kuch Rang Pyar Ke Aise Bhi (2016–2017)",
+      "Film: Kevi Rite Jaish (2012)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/alpesh.dhakan/"
     }
@@ -162,7 +176,9 @@
     "name": "Deval Trivedi",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actor who has performed with Ideas Unlimited Productions, bringing dedication and craft to the company's ensemble work.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "dhruv-barot",
@@ -170,8 +186,13 @@
     "name": "Dhruv Barot",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A Gujarati theatre and film actor, Dhruv Barot has performed with Ideas Unlimited and appeared in the Gujarati play Kaka 24 Karat Na and the film Musafir Chhu Yaaro.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Film: Musafir Chhu Yaaro (2015)", "Theatre: Kaka 24 Karat Na"]
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Film: Musafir Chhu Yaaro (2015)",
+      "Theatre: Kaka 24 Karat Na"
+    ]
   },
   {
     "id": "paurav-shah",
@@ -179,8 +200,14 @@
     "name": "Paurav Shah",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre and film professional who has performed with Ideas Unlimited Productions. He has also worked as an assistant director on films including Aankh Micholi and Armaand.",
-    "roles": ["Actor", "Assistant Director"],
-    "otherNotableWork": ["Film: Aankh Micholi (2023, Asst. Director)", "Film: Armaand (2023, Asst. Director)"]
+    "roles": [
+      "Actor",
+      "Assistant Director"
+    ],
+    "otherNotableWork": [
+      "Film: Aankh Micholi (2023, Asst. Director)",
+      "Film: Armaand (2023, Asst. Director)"
+    ]
   },
   {
     "id": "ishan-doshi",
@@ -188,8 +215,16 @@
     "name": "Ishan Doshi",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A playwright and actor who began his Ideas Unlimited journey as a cast member in Achalayatan. He later wrote Mohan No Masalo, a biographical one-man play about Mahatma Gandhi starring Pratik Gandhi and directed by Manoj Shah. The play was performed in Gujarati, Hindi, and English, and entered the Limca Book of Records for being staged in three languages in a single day.",
-    "roles": ["Actor", "Playwright"],
-    "otherNotableWork": ["Playwright: Mohan No Masalo (2015, starring Pratik Gandhi)"]
+    "roles": [
+      "Actor",
+      "Playwright"
+    ],
+    "otherNotableWork": [
+      "Playwright: Mohan No Masalo (2015, starring Pratik Gandhi)"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/ishaan_dd"
+    }
   },
   {
     "id": "priyesh-thaar",
@@ -197,7 +232,9 @@
     "name": "Priyesh Thaar",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actor based in Mumbai, Priyesh Thaar has performed with Ideas Unlimited Productions in their Gujarati repertoire.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "pankaj-soni",
@@ -205,8 +242,13 @@
     "name": "Pankaj Soni",
     "portrait": "/images/people/pankaj-soni.jpg",
     "bio": "A Gujarati theatre and film actor who has worked with Ideas Unlimited Productions. He has appeared in the National Award-winning Gujarati film Hellaro as Devaji, and in Kamthaan.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Film: Hellaro (2019, National Award winner)", "Film: Kamthaan (2024)"]
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Film: Hellaro (2019, National Award winner)",
+      "Film: Kamthaan (2024)"
+    ]
   },
   {
     "id": "hussaini-dawavala",
@@ -214,10 +256,22 @@
     "name": "Hussaini Dawavala",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A Mumbai-based theatre professional who has worked with Ideas Unlimited as assistant director and lighting designer on productions including Achalayatan and as an actor in Mareez. He has since established himself as an independent director with his company Theatrix, staging Hindi plays like The Three Musketeers and Traffic, and directing multiple short films. He also served as assistant director on the feature film Tum: A Dangerous Obsession.",
-    "roles": ["Assistant Director", "Lighting Designer", "Actor", "Director"],
-    "otherNotableWork": ["Theatre: The Three Musketeers (Director)", "Theatre: Traffic (Director)", "Film: Tum: A Dangerous Obsession (2004, Asst. Director)"],
+    "roles": [
+      "Assistant Director",
+      "Lighting Designer",
+      "Actor",
+      "Director"
+    ],
+    "otherNotableWork": [
+      "Theatre: The Three Musketeers (Director)",
+      "Theatre: Traffic (Director)",
+      "Film: Tum: A Dangerous Obsession (2004, Asst. Director)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/huseini_22/"
+    },
+    "social": {
+      "instagram": "https://instagram.com/huseini_22"
     }
   },
   {
@@ -226,7 +280,10 @@
     "name": "Akash Naik",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A choreographer and assistant director who has worked with Ideas Unlimited Productions, contributing movement design and directorial support to the company's productions.",
-    "roles": ["Choreographer", "Assistant Director"]
+    "roles": [
+      "Choreographer",
+      "Assistant Director"
+    ]
   },
   {
     "id": "rajiv-bhatt",
@@ -234,7 +291,9 @@
     "name": "Rajiv Bhatt",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A costume designer who has collaborated with Ideas Unlimited Productions, creating visual identities for the company's characters that serve the narrative and period of each production.",
-    "roles": ["Costume Designer"]
+    "roles": [
+      "Costume Designer"
+    ]
   },
   {
     "id": "suresh-joshi",
@@ -242,8 +301,15 @@
     "name": "Suresh Joshi",
     "portrait": "/images/people/suresh-joshi.jpg",
     "bio": "A Gujarati music composer and arranger trained in classical vocal under Guru Shri Batukbhai Bhatt up to Upantya Visharad. After moving to Mumbai in 1989 and a formative seven-year mentorship with composer Uday Mazumdar, he began composing independently for theatre and audio albums. His theatrical music credits with Ideas Unlimited include Achalayatan, Apurva Avsar (Transmedia award winner), Jal Jal Mare Patang, Saraswati Chandra, Kalapi, and Mrityunjay, among others. He has also released numerous independent audio albums and lectured on music at Bhavan's Cultural Centre.",
-    "roles": ["Music Director"],
-    "otherNotableWork": ["Theatre: Apurva Avsar (Transmedia Award)", "Theatre: Saraswati Chandra", "Theatre: Kalapi", "Album: Darr - Udi Jaay (Gujarat Govt. initiative)"],
+    "roles": [
+      "Music Director"
+    ],
+    "otherNotableWork": [
+      "Theatre: Apurva Avsar (Transmedia Award)",
+      "Theatre: Saraswati Chandra",
+      "Theatre: Kalapi",
+      "Album: Darr - Udi Jaay (Gujarat Govt. initiative)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/sureshjoshi.official/",
       "website": "https://www.sureshjoshi.co.in/"
@@ -255,8 +321,16 @@
     "name": "Devki",
     "portrait": "/images/people/devki.jpg",
     "bio": "Devaki Marks, known as RJ Devaki, is an actor, radio jockey, and speaker from Ahmedabad, hailed as 'The Golden Voice of Ahmedabad' by the Governor of Gujarat. Born into Gujarati theatre's first family, she has performed in over 30 full-length plays including Undhioo, Manvi ni Bhavai, and Devdas, staged internationally and at the Bharat Rang Mahotsav. As Regional Programming Head at Red FM Gujarat, she won the Best Interview Show in the World at the New York Festival. For Ideas Unlimited, she performs the solo Gujarati play Adbhut — an interactive exploration of mental health adapted from Duncan Macmillan's Every Brilliant Thing.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Radio: Red FM Ahmedabad (Regional Head)", "Film: Hun Iqbal (2023)", "Film: Matsya Vedh (2022)", "Award: Best RJ Gujarat (India Radio Forum)", "Award: Best Actor Gujarat (Transmedia, 3 years)"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Radio: Red FM Ahmedabad (Regional Head)",
+      "Film: Hun Iqbal (2023)",
+      "Film: Matsya Vedh (2022)",
+      "Award: Best RJ Gujarat (India Radio Forum)",
+      "Award: Best Actor Gujarat (Transmedia, 3 years)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/rjdevaki/",
       "twitter": "https://x.com/rjdevaki",
@@ -270,8 +344,18 @@
     "name": "Satchit Puranik",
     "portrait": "/images/people/satchit-puranik.jpg",
     "bio": "A reclusive writer, theatre maker, and filmmaker, Satchit Puranik graduated from FTII Pune in TV Direction. He has staged over 1,000 shows across a dozen countries in nine languages. For Ideas Unlimited, he wrote Adbhut and Tabiyat, and has performed Karl Marx In Kalbadevi for over a decade. In film, he edited Anand Gandhi's Ship of Theseus and handled casting for Chaitanya Tamhane's Court — two of the most acclaimed Indian independent films of the 2010s.",
-    "roles": ["Writer", "Actor", "Editor"],
-    "otherNotableWork": ["Film: Ship of Theseus (2012, Editor)", "Film: Court (2014, Casting)", "Film: Ribbon (2017, Editor)", "Theatre: Karl Marx In Kalbadevi (performer)", "Theatre: Mahabharata (Frascati Production, Netherlands)"],
+    "roles": [
+      "Writer",
+      "Actor",
+      "Editor"
+    ],
+    "otherNotableWork": [
+      "Film: Ship of Theseus (2012, Editor)",
+      "Film: Court (2014, Casting)",
+      "Film: Ribbon (2017, Editor)",
+      "Theatre: Karl Marx In Kalbadevi (performer)",
+      "Theatre: Mahabharata (Frascati Production, Netherlands)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/satchitpuranik/",
       "twitter": "https://x.com/SatchitPuranik"
@@ -284,7 +368,9 @@
     "name": "Amit Bhavsar",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A Gujarati music director and composer, and father of singer-composer Siddharth Amit Bhavsar. He composed the music for Ideas Unlimited's Adbhut.",
-    "roles": ["Music Director"]
+    "roles": [
+      "Music Director"
+    ]
   },
   {
     "id": "siddharth-amit-bhavsar",
@@ -292,8 +378,16 @@
     "name": "Siddharth Amit Bhavsar",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A singer, composer, and lyricist from Ahmedabad known online as Musicwaala. Son of music director Amit Bhavsar. His breakout was the song Dhun Laagi from Love Ni Bhavai, and he has since composed for Gujarati films including Sharato Lagu, Short Circuit, and Chabutro, as well as Hindi singles. He contributed songs to Ideas Unlimited's Adbhut.",
-    "roles": ["Songwriter", "Composer"],
-    "otherNotableWork": ["Song: Dhun Laagi (Love Ni Bhavai, 2017)", "Film: Sharato Lagu (2018, Composer)", "Film: Short Circuit (2019, Composer)", "Award: Playback Singer of the Year (Gujarati Iconic Film Awards, 2019)"],
+    "roles": [
+      "Songwriter",
+      "Composer"
+    ],
+    "otherNotableWork": [
+      "Song: Dhun Laagi (Love Ni Bhavai, 2017)",
+      "Film: Sharato Lagu (2018, Composer)",
+      "Film: Short Circuit (2019, Composer)",
+      "Award: Playback Singer of the Year (Gujarati Iconic Film Awards, 2019)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/siddharthamitbhavsar/"
     }
@@ -304,8 +398,13 @@
     "name": "Madhubanti Bagchi",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A playback singer and composer from Balurghat, West Bengal, trained in Agra Gharana classical vocals under Shrimati Subhra Guha. She has recorded for Pritam, Amit Trivedi, Sachin-Jigar, and Sanjay Leela Bhansali. Her song Aaj Ki Raat from Stree 2 crossed 765 million YouTube views. She also holds degrees in Electronics Engineering and Laser Engineering. She contributed vocals to Ideas Unlimited's Adbhut.",
-    "roles": ["Singer"],
-    "otherNotableWork": ["Song: Aaj Ki Raat (Stree 2, 765M+ views)", "Composers: Pritam, Amit Trivedi, Sachin-Jigar, Sanjay Leela Bhansali"]
+    "roles": [
+      "Singer"
+    ],
+    "otherNotableWork": [
+      "Song: Aaj Ki Raat (Stree 2, 765M+ views)",
+      "Composers: Pritam, Amit Trivedi, Sachin-Jigar, Sanjay Leela Bhansali"
+    ]
   },
   {
     "id": "yaski-sikka",
@@ -313,8 +412,13 @@
     "name": "Yashika Sikka",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A playback singer and voice-over artist whose Bollywood debut was Sayani from Padman. She has since sung for Manmarziyaan and worked with A.R. Rahman and Imtiaz Ali on Amar Singh Chamkila, singing Tu Kya Jaane. A trained classical singer, she contributed vocals to Ideas Unlimited's Adbhut.",
-    "roles": ["Singer"],
-    "otherNotableWork": ["Song: Sayani (Padman, 2018)", "Song: Tu Kya Jaane (Amar Singh Chamkila, 2024, with A.R. Rahman)"]
+    "roles": [
+      "Singer"
+    ],
+    "otherNotableWork": [
+      "Song: Sayani (Padman, 2018)",
+      "Song: Tu Kya Jaane (Amar Singh Chamkila, 2024, with A.R. Rahman)"
+    ]
   },
   {
     "id": "nizamuddin-shah",
@@ -322,8 +426,13 @@
     "name": "Nizamuddin Shah",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "An actor, writer, and theatre practitioner based in Mumbai. He appeared in Sooni Taraporevala's Netflix film Yeh Ballet and is the older brother of Amiruddin Shah, the real-life ballet dancer whose story inspired the film. He runs a street theatre group in Mumbai with performers from low-income families, staging awareness plays on public health and social issues. He serves as stage manager for Ideas Unlimited's Adbhut.",
-    "roles": ["Stage Manager", "Actor"],
-    "otherNotableWork": ["Film: Yeh Ballet (2020, Netflix)"]
+    "roles": [
+      "Stage Manager",
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Film: Yeh Ballet (2020, Netflix)"
+    ]
   },
   {
     "id": "sandeep-jaiswar",
@@ -331,7 +440,9 @@
     "name": "Sandeep Jaiswar",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A stage manager who has worked with Ideas Unlimited Productions.",
-    "roles": ["Stage Manager"]
+    "roles": [
+      "Stage Manager"
+    ]
   },
   {
     "id": "priyank-patel",
@@ -339,7 +450,12 @@
     "name": "Priyank Patel",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A music operator who has worked with Ideas Unlimited Productions, managing live sound for their performances.",
-    "roles": ["Music Operator"]
+    "roles": [
+      "Music Operator"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/priyankpatel_09"
+    }
   },
   {
     "id": "dayashankar-pandey",
@@ -347,8 +463,15 @@
     "name": "Dayashankar Pandey",
     "portrait": "/images/people/dayashankar-pandey.jpg",
     "bio": "Born in Mumbai to an Awadhi-speaking family from Bhadohi, Uttar Pradesh, Dayashankar Pandey began his film career with Pehla Nasha in 1993. He went on to appear in Lagaan, Gangaajal, Swades, and Raajneeti before becoming widely known as Inspector Chalu Pandey in Taarak Mehta Ka Ooltah Chashmah, where he also serves as creative consultant. For Ideas Unlimited, he took on the title role in Bhamasha, spending weeks working on the Rajasthani dialect to inhabit the 16th-century Jain warrior.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["TV: Taarak Mehta Ka Ooltah Chashmah (2010–present)", "Film: Lagaan (2001)", "Film: Swades (2004)", "Film: Gangaajal (2003)"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "TV: Taarak Mehta Ka Ooltah Chashmah (2010–present)",
+      "Film: Lagaan (2001)",
+      "Film: Swades (2004)",
+      "Film: Gangaajal (2003)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/thedayashankar/"
     },
@@ -360,8 +483,15 @@
     "name": "Dharmendra Gohil",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A film actor and voice artist who started in Gujarati theatre before moving to Marathi and Hindi cinema. A regular Ideas Unlimited collaborator, he has appeared in Bhamasha, Mareez, and Amar Fal. His film credits include Gandhi, My Father, 102 Not Out, Kasoombo, and Baby John.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Film: Gandhi, My Father (2007)", "Film: 102 Not Out (2018)", "Film: Kasoombo (2024)", "Film: Baby John (2024)"]
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Film: Gandhi, My Father (2007)",
+      "Film: 102 Not Out (2018)",
+      "Film: Kasoombo (2024)",
+      "Film: Baby John (2024)"
+    ]
   },
   {
     "id": "om-puri",
@@ -369,8 +499,14 @@
     "name": "Om Puri",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "One of India's most celebrated actors, Om Puri's career spanned Bollywood, Hollywood, and British cinema with over 300 films. He lent his voice as narrator for Ideas Unlimited's Bhamasha, bringing gravitas to the historical epic through recorded narration.",
-    "roles": ["Narrator"],
-    "otherNotableWork": ["Film: Ardh Satya (1983)", "Film: East Is East (1999)", "Film: The Hundred-Foot Journey (2014)"],
+    "roles": [
+      "Narrator"
+    ],
+    "otherNotableWork": [
+      "Film: Ardh Satya (1983)",
+      "Film: East Is East (1999)",
+      "Film: The Hundred-Foot Journey (2014)"
+    ],
     "featured": true
   },
   {
@@ -379,8 +515,16 @@
     "name": "Yashpal Sharma",
     "portrait": "/images/people/yashpal-sharma.jpg",
     "bio": "Born in Hisar, Haryana, Yashpal Sharma developed his love for acting through local Ramlila performances before graduating from the National School of Drama in 1994. After starting with the NSD Repertory Company, he moved to Mumbai and built a formidable film career spanning Lagaan, Gangaajal, Ab Tak Chhappan, Hazaaron Khwaishein Aisi, and Singh Is Kinng. He contributed voice-over work to Ideas Unlimited's Bhamasha.",
-    "roles": ["Actor", "Voice Artist"],
-    "otherNotableWork": ["Film: Lagaan (2001)", "Film: Gangaajal (2003)", "Film: Ab Tak Chhappan (2004)", "Web: Scam 1992"],
+    "roles": [
+      "Actor",
+      "Voice Artist"
+    ],
+    "otherNotableWork": [
+      "Film: Lagaan (2001)",
+      "Film: Gangaajal (2003)",
+      "Film: Ab Tak Chhappan (2004)",
+      "Web: Scam 1992"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/iyashpalsharma/",
       "website": "https://yashpalsharma.com/"
@@ -392,8 +536,14 @@
     "name": "Chugge Khan",
     "portrait": "/images/people/chugge-khan.jpg",
     "bio": "A Manganiyar maestro from the Jaisalmer-Barmer region of Rajasthan, Chugge Khan began performing at age four and toured internationally by thirteen. He founded Rajasthan Josh, a collective of Manganiyar musicians, in 2009. A master of Morchang, Khartal, and Bhappang, his repertoire spans Sufi qawwali, traditional Rajasthani folk, and the poetry of Kabir and Bulleh Shah. He led the live folk orchestra for Ideas Unlimited's Bhamasha. His music has been featured on Coke Studio and in the film Junun.",
-    "roles": ["Musician"],
-    "otherNotableWork": ["Coke Studio", "Film: Junun (2015)", "Albums: Rajasthan Josh, Baraat, Desert Lounge"],
+    "roles": [
+      "Musician"
+    ],
+    "otherNotableWork": [
+      "Coke Studio",
+      "Film: Junun (2015)",
+      "Albums: Rajasthan Josh, Baraat, Desert Lounge"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/chuggekhan_official/"
     }
@@ -404,7 +554,9 @@
     "name": "Kabir Thakore",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "An Ahmedabad-based architect and theatre veteran who serves as convener of Rangmandal, a 75-year-old theatre institution. He built Scrapyard Theatre in the courtyard of his residence — a space for artists to learn and perform without financial barriers. Active in theatre mentorship since 1999, he designed the sets for Ideas Unlimited's Bhamasha, evoking Mughal-era palaces and Rajput fortresses on stage.",
-    "roles": ["Set Designer"],
+    "roles": [
+      "Set Designer"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/kabirthakore/"
     }
@@ -415,7 +567,9 @@
     "name": "Dr. Bipin Doshi",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "The author of the original story for Ideas Unlimited's Bhamasha, Dr. Bipin Doshi brought the overlooked history of the Jain warrior-philanthropist to the stage.",
-    "roles": ["Writer"]
+    "roles": [
+      "Writer"
+    ]
   },
   {
     "id": "mihir-bhuta",
@@ -423,7 +577,9 @@
     "name": "Mihir Bhuta",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A dramatist who has written and adapted scripts for Ideas Unlimited Productions, including Jal Jal Mare Patang (the biographical play about philosopher Manilal Dwivedi, 2009), Bhamasha (the Hindi historical drama, 2013), and the Hindi script for Mohan Ka Masala.",
-    "roles": ["Writer"]
+    "roles": [
+      "Writer"
+    ]
   },
   {
     "id": "kanhaiya",
@@ -431,7 +587,9 @@
     "name": "Kanhaiya",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A music composer who created the original score for Ideas Unlimited's Bhamasha, blending dramatic theatrical music with Rajasthani folk traditions.",
-    "roles": ["Music Director"]
+    "roles": [
+      "Music Director"
+    ]
   },
   {
     "id": "ahlam-khan",
@@ -439,8 +597,14 @@
     "name": "Ahlam Khan",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "Daughter of the legendary actor Amjad Khan — Gabbar Singh of Sholay — Ahlam Khan Karachiwala holds an MA in English Literature from Mumbai University and has built a distinguished theatre career in her own right. She won Best Actress at the Mahindra Excellence in Theatre Awards (META) for Aaj Rang Hai. For Ideas Unlimited, she has appeared in Bhamasha and Amar Fal. She works across English, Gujarati, and Hindi theatre.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Award: Best Actress, META Awards (Aaj Rang Hai)", "Theatre: Me Grandad 'ad an Elephant", "Film: Miss Sundari (2013)"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Award: Best Actress, META Awards (Aaj Rang Hai)",
+      "Theatre: Me Grandad 'ad an Elephant",
+      "Film: Miss Sundari (2013)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/the.khan.saheb/"
     }
@@ -451,8 +615,14 @@
     "name": "Jay Upadhyay",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A Mumbai-based actor active in professional theatre since 2001, Jay Upadhyay is best known for playing Pranav Seth in Scam 1992: The Harshad Mehta Story. He starred in the Gujarati film Kevi Rite Jaish, credited with starting the era of urban Gujarati cinema, and won the Transmedia Award for Best Actor in Comic Role for Paaghdi. A core member of Manoj Shah's theatre group, he has appeared in Bhamasha and Mareez.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Web: Scam 1992 (Pranav Seth)", "Film: Kevi Rite Jaish (2012)", "Award: Best Actor Comic Role (Transmedia, Paaghdi)"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Web: Scam 1992 (Pranav Seth)",
+      "Film: Kevi Rite Jaish (2012)",
+      "Award: Best Actor Comic Role (Transmedia, Paaghdi)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/jayoops/"
     }
@@ -463,7 +633,9 @@
     "name": "Pulkit Solanki",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actor who has performed with Ideas Unlimited Productions.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "aishwarya-mehta",
@@ -471,7 +643,9 @@
     "name": "Aishwarya Mehta",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actor who has appeared in Ideas Unlimited productions including Bhamasha and Mareez.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "sagar-rawal",
@@ -479,7 +653,9 @@
     "name": "Sagar Rawal",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actor who has performed with Ideas Unlimited Productions across multiple Gujarati and Hindi productions including Bhamasha and Amar Fal.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "jitendra-b-shah",
@@ -487,8 +663,15 @@
     "name": "Dr. Jitendra B. Shah",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A leading Jain scholar and Director of the L.D. Institute of Indology in Ahmedabad (1998–2019), Dr. Jitendra B. Shah is well-versed in Sanskrit, Pali, and Prakrit. He has authored 12 books and over 150 research articles, added 10,000 manuscripts to the Institute's collection, and coordinated the Dalai Lama's meeting with Jain Acharyas on Non-violence and Religion in 2010. He distilled the 16,000-verse Upamitibhavaprapancha Katha by Siddharshi Gani into the theatrical concept for Ideas Unlimited's Bhav Prapanch. He has been honoured with the Jain Padmashree and Nagar-Ratna of Ahmedabad.",
-    "roles": ["Concept", "Scholar"],
-    "otherNotableWork": ["Director: L.D. Institute of Indology (1998–2019)", "Award: Jain Padmashree (2012)", "Award: Nagar-Ratna of Ahmedabad"]
+    "roles": [
+      "Concept",
+      "Scholar"
+    ],
+    "otherNotableWork": [
+      "Director: L.D. Institute of Indology (1998–2019)",
+      "Award: Jain Padmashree (2012)",
+      "Award: Nagar-Ratna of Ahmedabad"
+    ]
   },
   {
     "id": "prathang-dave",
@@ -496,7 +679,9 @@
     "name": "Prathang Dave",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A writer who co-wrote the script for Ideas Unlimited's Bhav Prapanch, adapting the ancient Jain allegorical text by Siddharshi Gani for the stage.",
-    "roles": ["Writer"]
+    "roles": [
+      "Writer"
+    ]
   },
   {
     "id": "raju-dave",
@@ -504,7 +689,9 @@
     "name": "Raju Dave",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A writer who has collaborated with Ideas Unlimited Productions, co-writing the scripts for Bhav Prapanch and Apurva Avsar with Manoj Shah.",
-    "roles": ["Writer"]
+    "roles": [
+      "Writer"
+    ]
   },
   {
     "id": "hemang-vyas",
@@ -512,8 +699,14 @@
     "name": "Hemang Vyas",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A National School of Drama alumnus with a postgraduate degree from Mumbai University, Hemang Vyas has over sixteen years of theatre experience and founded the company Claptrap. His film credits include Sanju and Bawaal. He performed in Ideas Unlimited's Bhav Prapanch.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Film: Sanju (2018)", "Film: Bawaal (2023)", "Theatre: Claptrap (Founder)"]
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Film: Sanju (2018)",
+      "Film: Bawaal (2023)",
+      "Theatre: Claptrap (Founder)"
+    ]
   },
   {
     "id": "kashyap-pathak",
@@ -521,7 +714,9 @@
     "name": "Kashyap Pathak",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actor who has performed with Ideas Unlimited Productions.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "jitu-mehta",
@@ -529,8 +724,13 @@
     "name": "Jitu Mehta",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre and film actor who has worked with Ideas Unlimited Productions. His film credits include Gujarat 11 and Corporate.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Film: Gujarat 11", "Film: Corporate"]
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Film: Gujarat 11",
+      "Film: Corporate"
+    ]
   },
   {
     "id": "bhotesh-vyas",
@@ -538,7 +738,9 @@
     "name": "Bhotesh Vyas",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A lighting designer who has worked with Ideas Unlimited Productions, creating the visual atmosphere for their stage productions.",
-    "roles": ["Lighting Designer"]
+    "roles": [
+      "Lighting Designer"
+    ]
   },
   {
     "id": "bhamini-oza-gandhi",
@@ -546,8 +748,14 @@
     "name": "Bhamini Oza Gandhi",
     "portrait": "/images/people/Bhamani Oza Gandhi.png",
     "bio": "A celebrated Gujarati theatre and screen actress known for playing Kissmi and Rita in the iconic sitcom Sarabhai vs Sarabhai. Wife of actor Pratik Gandhi and a cancer survivor, she has appeared in Kathal: A Jackfruit Mystery, Aum Mangalam Singlem, and Bhavai. She has been cast as Kasturba Gandhi in Hansal Mehta's upcoming series Gandhi. For Ideas Unlimited, she played Ruttie Petit in Bombay Flower — a performance the Parsiana magazine described as capturing both the exuberance and the disintegration.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["TV: Sarabhai vs Sarabhai (Kissmi/Rita)", "Film: Kathal: A Jackfruit Mystery (2023)", "Upcoming: Gandhi (series, as Kasturba)"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "TV: Sarabhai vs Sarabhai (Kissmi/Rita)",
+      "Film: Kathal: A Jackfruit Mystery (2023)",
+      "Upcoming: Gandhi (series, as Kasturba)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/bhaminioza/"
     },
@@ -559,8 +767,14 @@
     "name": "Vishal Shah",
     "portrait": "/images/people/Vishal Shah.png",
     "bio": "A young actor from Ahmedabad who dropped CA studies to pursue theatre full-time. He founded Indie Productions, one of Gujarat's most recognised theatre companies, and won the Transmedia Award for Best Actor (Stage) in his debut year. He has acted in 18 theatre productions with 12 lead roles. For Ideas Unlimited, he played Muhammad Ali Jinnah in Bombay Flower.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Award: Transmedia Best Actor, Stage (2015)", "Theatre: Rang Badalto Manas", "Founder: Indie Productions"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Award: Transmedia Best Actor, Stage (2015)",
+      "Theatre: Rang Badalto Manas",
+      "Founder: Indie Productions"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/vishal_shaheb/"
     }
@@ -571,8 +785,14 @@
     "name": "Geeta Manek",
     "portrait": "/images/people/geeta manek.png",
     "bio": "A Gujarati author, playwright, and journalist who spent fifteen years as assistant editor at Femina Gujarati before turning to playwriting full-time. Her plays for Ideas Unlimited include Bombay Flower and Dr Anandibai Joshi: Like, Comment, Share — the latter performed in three languages and invited to international theatre festivals. She also wrote Akhir Kyon, described as the first play worldwide about 9/11, and Sagpan Na Saudagar, which ran for over 100 shows. Her docu-novel Sardar: The Game Changer was serialised in Midday Gujarati.",
-    "roles": ["Writer"],
-    "otherNotableWork": ["Theatre: Akhir Kyon (first play on 9/11)", "Theatre: Sagpan Na Saudagar (100+ shows)", "Book: Sardar: The Game Changer"],
+    "roles": [
+      "Writer"
+    ],
+    "otherNotableWork": [
+      "Theatre: Akhir Kyon (first play on 9/11)",
+      "Theatre: Sagpan Na Saudagar (100+ shows)",
+      "Book: Sardar: The Game Changer"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/geetamanek/"
     }
@@ -583,7 +803,9 @@
     "name": "Naman Sheth",
     "portrait": "/images/people/Naman Sheth.png",
     "bio": "A theatre actor who played Kanji Dwarkadas — friend of the Jinnahs — in Ideas Unlimited's Bombay Flower.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "rishabh-kamdar",
@@ -591,7 +813,12 @@
     "name": "Rishabh Kamdar",
     "portrait": "/images/people/Rishabh Kamdar.jpeg",
     "bio": "A theatre actor who played Sir Dinshaw Petit in Ideas Unlimited's Bombay Flower, portraying the father whose daughter's elopement with Jinnah fractured one of Bombay's most prominent Parsi families.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/its.rush.rk"
+    }
   },
   {
     "id": "purvi-desai",
@@ -599,8 +826,13 @@
     "name": "Purvi Desai",
     "portrait": "/images/people/Purvi Desai.png",
     "bio": "A theatre and film actress with over twelve years of stage experience before her Gujarati film debut in Halkie Fulkee. For Ideas Unlimited, she played the dual roles of Lady Dinbai Petit and Fatima Jinnah in Bombay Flower — the mother who lost her daughter and the sister who gained one.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Film: Halkie Fulkee (2021)", "Film: Bey Yaar (2014)"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Film: Halkie Fulkee (2021)",
+      "Film: Bey Yaar (2014)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/desaipurvi2021/"
     }
@@ -611,7 +843,12 @@
     "name": "Dhruv Dave",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actor who has performed with Ideas Unlimited Productions in Bombay Flower.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/iamdhruvdave"
+    }
   },
   {
     "id": "pinkesh-prajapati",
@@ -619,7 +856,9 @@
     "name": "Pinkesh Prajapati",
     "portrait": "/images/people/pinkesh prajapati.png",
     "bio": "A theatre professional who has worked with Ideas Unlimited Productions on Bombay Flower.",
-    "roles": ["Crew"]
+    "roles": [
+      "Crew"
+    ]
   },
   {
     "id": "manasi-joshi",
@@ -627,8 +866,17 @@
     "name": "Manasi Joshi",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A Marathi and Gujarati theatre actress, Hindustani classical singer, and voice artist with over thirteen years of stage experience. She has performed over 550 shows of the Marathi musical Sangeet Devbabhali, appeared in Anthony Maras's international film Hotel Mumbai alongside Dev Patel and Anupam Kher, and played Yamini in Sony SAB's Wagle Ki Duniya for 647 episodes. As a voice artist for Disney India, she has dubbed Phineas in Phineas & Ferb and roles in The Lion King and Oggy and the Cockroaches. For Ideas Unlimited, she has performed the solo role in Dr. Anandibai Joshi: Like, Comment, Share since 2017 — a 75-minute monologue she describes as an actor's dream role. She has won META, Zee Marathi, and Maharashtra State Government awards.",
-    "roles": ["Actor", "Singer", "Voice Artist"],
-    "otherNotableWork": ["Film: Hotel Mumbai (2018, with Dev Patel)", "TV: Wagle Ki Duniya (647 episodes)", "Theatre: Sangeet Devbabhali (550+ shows)", "Voice: Phineas & Ferb (Hindi dub)"],
+    "roles": [
+      "Actor",
+      "Singer",
+      "Voice Artist"
+    ],
+    "otherNotableWork": [
+      "Film: Hotel Mumbai (2018, with Dev Patel)",
+      "TV: Wagle Ki Duniya (647 episodes)",
+      "Theatre: Sangeet Devbabhali (550+ shows)",
+      "Voice: Phineas & Ferb (Hindi dub)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/manasijoshi7/"
     },
@@ -640,7 +888,9 @@
     "name": "Hemant Joshi",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A lighting designer who has worked with Ideas Unlimited Productions, creating the visual atmosphere for Dr. Anandibai Joshi: Like, Comment, Share.",
-    "roles": ["Lighting Designer"]
+    "roles": [
+      "Lighting Designer"
+    ]
   },
   {
     "id": "jatin-vaja",
@@ -648,7 +898,9 @@
     "name": "Jatin Vaja",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A music operator who has worked with Ideas Unlimited Productions.",
-    "roles": ["Music Operator"]
+    "roles": [
+      "Music Operator"
+    ]
   },
   {
     "id": "pratik-gandhi",
@@ -656,8 +908,15 @@
     "name": "Pratik Gandhi",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "Before Scam 1992 made him a national sensation, Pratik Gandhi was a Gujarati theatre actor whom Manoj Shah took a liking to during a touring production. Shah cast him in two solo plays that defined his craft: Hu Chandrakant Bakshi (2013), where he inhabited the controversial Gujarati writer, and Mohan No Masalo (2015), where he played young Mohandas Gandhi in three languages in a single day — earning a Limca Book of Records entry. Critics noted these collaborations 'helped solidify Gandhi's reputation as an actor.' Gandhi still calls Shah to perform shows between film projects. His screen career includes Scam 1992, Bhavai, Atithi Bhooto Bhava, and Dedh Bigha Zameen.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Web: Scam 1992: The Harshad Mehta Story (2020)", "Film: Bhavai (2021)", "Film: Dedh Bigha Zameen (2023)", "Theatre: Mohan No Masalo (Limca Book of Records)"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Web: Scam 1992: The Harshad Mehta Story (2020)",
+      "Film: Bhavai (2021)",
+      "Film: Dedh Bigha Zameen (2023)",
+      "Theatre: Mohan No Masalo (Limca Book of Records)"
+    ],
     "socialLinks": {
       "instagram": "https://www.instagram.com/pratikiigandhi/"
     },
@@ -669,8 +928,14 @@
     "name": "Shishir Ramavat",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A Gujarati journalist, novelist, and playwright from Jamnagar. He trained in computer engineering at M.S. University, Baroda before leaving to pursue journalism — working at Janmabhoomi Pravasi, Chitralekha, Mid-Day (as Features Editor), and Abhiyaan (as Executive Editor). He currently serves as News/Magazine Editor at Gujarat Samachar. He wrote Hu Chandrakant Bakshi for Ideas Unlimited, drawing on Bakshi's autobiography Bakshinama. He has authored eight books including four novels and served as Gujarati Language Expert at Microsoft's Hyderabad headquarters.",
-    "roles": ["Writer"],
-    "otherNotableWork": ["Journalism: Gujarat Samachar (Editor)", "Journalism: Mid-Day (Features Editor)", "Books: 4 novels, 8 total"]
+    "roles": [
+      "Writer"
+    ],
+    "otherNotableWork": [
+      "Journalism: Gujarat Samachar (Editor)",
+      "Journalism: Mid-Day (Features Editor)",
+      "Books: 4 novels, 8 total"
+    ]
   },
   {
     "id": "vedish-jhaveri",
@@ -678,7 +943,9 @@
     "name": "Vedish Jhaveri",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A Gujarati theatre actor who played the lead role of Manilal Dwivedi in Ideas Unlimited's Jal Jal Mare Patang — a demanding performance depicting the philosopher's life from youth to death at forty.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "kalpana-shah",
@@ -686,7 +953,9 @@
     "name": "Kalpana Shah",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actress who has performed with Ideas Unlimited Productions, playing Manilal Dwivedi's mother in Jal Jal Mare Patang and appearing in Amar Fal.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "unnati-gala",
@@ -694,8 +963,17 @@
     "name": "Unnati Gala",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A freelance actress who has worked with Ideas Unlimited Productions in Kaagdo, Third Bell, and Tabiyat. On screen, she has appeared in A Thursday alongside Yami Gautam, Amazon's Paatal Lok, and Mumbaikar. She plays the daughter opposite Jay Upadhyay in Kaagdo.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Film: A Thursday (2022)", "Web: Paatal Lok (2020)", "Film: Mumbaikar (2023)"]
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Film: A Thursday (2022)",
+      "Web: Paatal Lok (2020)",
+      "Film: Mumbaikar (2023)"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/unnati.gala"
+    }
   },
   {
     "id": "uttam-gada",
@@ -703,7 +981,9 @@
     "name": "Uttam Gada",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "The writer of Karl Marx In Kalbadevi — Ideas Unlimited's most performed and most provocative play. Gada's script imagines what would happen if Karl Marx landed in Kalbadevi, Mumbai's most unapologetically capitalist neighbourhood. The play has run for over twelve years, been performed in Hindi and Hinglish, and staged at venues from Prithvi Theatre to Wilson College to international conventions.",
-    "roles": ["Writer"]
+    "roles": [
+      "Writer"
+    ]
   },
   {
     "id": "vinit-shukla",
@@ -711,7 +991,9 @@
     "name": "Vinit Shukla",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "The playwright who adapted Raeesh Maniar's biography of poet Mareez into the stage play that became Ideas Unlimited's longest-running and most performed production. His script weaves poetry, hallucination, and realism into a non-linear narrative that has been performed over 200 times since 2004.",
-    "roles": ["Writer"]
+    "roles": [
+      "Writer"
+    ]
   },
   {
     "id": "kumkum-das",
@@ -719,7 +1001,9 @@
     "name": "Kumkum Das",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A Gujarati theatre and film actress who arrived in Mumbai from Baroda with a Science degree from M.S. University. She began as a school teacher before entering theatre. Under Manoj Shah's direction, she plays Sona — Mareez's wife — offering a grounded counterpoint to the poet's drifting spirit, embodying resilience and silent suffering across 200+ performances.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "uday-mazumdar",
@@ -727,8 +1011,14 @@
     "name": "Uday Mazumdar",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A tabla player, music producer, and composer trained under Ravi Shankar in the guru-shishya parampara. He has accompanied Ravi Shankar and Zakir Hussain, performed for the British and Swedish royal families, and released over twelve albums. He composed the soulful music for Ideas Unlimited's Mareez, creating the sonic landscape for the poet's journey. He was also the mentor of Suresh Joshi, Ideas Unlimited's regular music director.",
-    "roles": ["Music Director"],
-    "otherNotableWork": ["Trained under Ravi Shankar", "12+ albums", "Performed with Zakir Hussain"],
+    "roles": [
+      "Music Director"
+    ],
+    "otherNotableWork": [
+      "Trained under Ravi Shankar",
+      "12+ albums",
+      "Performed with Zakir Hussain"
+    ],
     "socialLinks": {
       "website": "https://www.udaimazumdar.com/"
     }
@@ -739,7 +1029,9 @@
     "name": "Darshan Pandya",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actor who has performed with Ideas Unlimited Productions in Mareez and other productions.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "pradeep-vengurlekar",
@@ -747,7 +1039,9 @@
     "name": "Pradeep Vengurlekar",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actor who has performed with Ideas Unlimited Productions in Mareez.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "satya-mehta",
@@ -755,7 +1049,9 @@
     "name": "Satya Mehta",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "The writer of the original Gujarati script for Mohan No Masalo, the biographical solo play about young Mohandas Gandhi that entered the Limca Book of Records.",
-    "roles": ["Writer"]
+    "roles": [
+      "Writer"
+    ]
   },
   {
     "id": "atul-dodiya",
@@ -763,8 +1059,15 @@
     "name": "Atul Dodiya",
     "portrait": "/images/people/atul-dodiya.jpg",
     "bio": "One of India's foremost contemporary artists, deeply touched by Mahatma Gandhi's teachings. He created the black-and-white backdrop paintings for Ideas Unlimited's Mohan No Masalo — images of a young Gandhi that served as the visual world for Pratik Gandhi's solo performance. His earlier collaboration with Ideas Unlimited on Jal Jal Mare Patang (2009) established the painter-theatre partnership that defines Shah's visual language. His work has been exhibited at the Venice Biennale and is held in major collections worldwide.",
-    "roles": ["Visual Artist", "Set Designer"],
-    "otherNotableWork": ["Venice Biennale", "Saatchi Gallery", "National Gallery of Modern Art"],
+    "roles": [
+      "Visual Artist",
+      "Set Designer"
+    ],
+    "otherNotableWork": [
+      "Venice Biennale",
+      "Saatchi Gallery",
+      "National Gallery of Modern Art"
+    ],
     "featured": true
   },
   {
@@ -773,8 +1076,13 @@
     "name": "Parthiv Gohil",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A versatile Gujarati playback singer known for songs like Yoon Shabnami, Punjabi Munde, and Daras Bina Nahin Chain. From soulful ghazals to super-energised folk numbers, he contributed the vocal performances for Ideas Unlimited's Mohan No Masalo.",
-    "roles": ["Singer"],
-    "otherNotableWork": ["Song: Yoon Shabnami", "Song: Punjabi Munde"]
+    "roles": [
+      "Singer"
+    ],
+    "otherNotableWork": [
+      "Song: Yoon Shabnami",
+      "Song: Punjabi Munde"
+    ]
   },
   {
     "id": "arpit-jain",
@@ -782,7 +1090,9 @@
     "name": "Arpit Jain",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "Co-writer of the Hindi script for Mohan Ka Masala, the Hindi-language version of Ideas Unlimited's trilingual Gandhi play.",
-    "roles": ["Writer"]
+    "roles": [
+      "Writer"
+    ]
   },
   {
     "id": "chirag-vohra",
@@ -790,7 +1100,9 @@
     "name": "Chirag Vohra",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "The original lead of Master Phoolmani — Ideas Unlimited's debut production — where he played Manilal/Phoolmani/Vanlata across sixteen years of performances. A foundational member of the Ideas Unlimited ensemble, he has also starred in the solo comedy What's Up? and appeared in Mareez and other productions.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ]
   },
   {
     "id": "hemant-kher",
@@ -798,7 +1110,12 @@
     "name": "Hemant Kher",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actor who has performed with Ideas Unlimited Productions in Third Bell.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/hemant__kher"
+    }
   },
   {
     "id": "disha-savla-upadhyay",
@@ -806,7 +1123,12 @@
     "name": "Disha Savla Upadhyay",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A theatre actress and wife of actor Jay Upadhyay. She has performed with Ideas Unlimited Productions in Third Bell.",
-    "roles": ["Actor"]
+    "roles": [
+      "Actor"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/dishoops7"
+    }
   },
   {
     "id": "bhargav-purohit",
@@ -814,7 +1136,9 @@
     "name": "Bhargav Purohit",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A lyricist who has written songs for Ideas Unlimited's Third Bell.",
-    "roles": ["Lyricist"]
+    "roles": [
+      "Lyricist"
+    ]
   },
   {
     "id": "neil-bhoopalam",
@@ -822,8 +1146,95 @@
     "name": "Neil Bhoopalam",
     "portrait": "/images/placeholder-portrait.svg",
     "bio": "A dynamic actor comfortable across stage and screen, Neil brings energy and charisma to his performances. A newer collaborator with IU Productions who has quickly become a key ensemble member.",
-    "roles": ["Actor"],
-    "otherNotableWork": ["Film: NH10 (2015)", "Web: Four More Shots Please!"],
+    "roles": [
+      "Actor"
+    ],
+    "otherNotableWork": [
+      "Film: NH10 (2015)",
+      "Web: Four More Shots Please!"
+    ],
     "featured": true
+  },
+  {
+    "id": "hasit-shah",
+    "slug": "hasit-shah",
+    "name": "Hasit Shah",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Actor with Ideas Unlimited Productions.",
+    "roles": [
+      "Actor"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/hasit.08"
+    }
+  },
+  {
+    "id": "srushti-sorathiya",
+    "slug": "srushti-sorathiya",
+    "name": "Srushti Sorathiya",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Actor with Ideas Unlimited Productions.",
+    "roles": [
+      "Actor"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/srushtisorathiya29"
+    }
+  },
+  {
+    "id": "krishna-oza",
+    "slug": "krishna-oza",
+    "name": "Krishna Oza",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Actor with Ideas Unlimited Productions.",
+    "roles": [
+      "Actor"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/krishna_oza"
+    }
+  },
+  {
+    "id": "dev-joshi",
+    "slug": "dev-joshi",
+    "name": "Dev Joshi",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Actor with Ideas Unlimited Productions.",
+    "roles": [
+      "Actor"
+    ]
+  },
+  {
+    "id": "harsh-joshi",
+    "slug": "harsh-joshi",
+    "name": "Harsh Joshi",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Actor with Ideas Unlimited Productions.",
+    "roles": [
+      "Actor"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/_harrssssh_"
+    }
+  },
+  {
+    "id": "manali-bhavsar",
+    "slug": "manali-bhavsar",
+    "name": "Manali Bhavsar",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Production head with Ideas Unlimited Productions.",
+    "roles": [
+      "Production"
+    ]
+  },
+  {
+    "id": "bilva-patel",
+    "slug": "bilva-patel",
+    "name": "Bilva Patel",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Backstage crew with Ideas Unlimited Productions.",
+    "roles": [
+      "Backstage"
+    ]
   }
 ]

@@ -28,13 +28,13 @@ All content sections below the Hero use a consistent two-column split layout:
 - Content uses `max-w-6xl` container (narrower than nav/hero/footer which use `max-w-7xl`)
 
 ### Sections (in order)
-1. **Hero** — Full-bleed YouTube video background, dark gradient overlay, Playfair headline
+1. **Hero** — Full-bleed YouTube video background (ID in `HERO_VIDEO_ID` constant), dark gradient overlay, Playfair headline
 2. **Now Performing Strip** — Only if active shows exist. Purple accent, show info + BookMyShow link
-3. **Legacy Numbers Strip** — Full-width stats bar with `border-t border-b`. 35+ Years · 90+ Productions · 3 Languages · 20+ Cities. Count-up on scroll
-4. **Featured Productions** — Split layout. Left: "Featured" heading. Right: 1 lead production (large card) + 6 secondary productions in 2-col grid below + "View All Productions →" at bottom
-5. **Manoj Shah / The Founder** — Split layout. Left: "The Founder" heading. Right: Large landscape portrait stacked above bio text (name, quote, description, "Read His Story →")
-6. **Performed At** — Split layout. Left: "Performed At" heading. Right: Auto-looping marquee of festival names scrolling left to right
-7. **Stories & Reflections** — Split layout. Left: heading + description. Right: 3 blog cards in a row (image + category label + title), Onassis news-card style
+3. **Legacy Numbers Strip** — Full-width stats bar with `border-t border-b`. 113+ Productions · 2,300+ Performances · 35+ Cities Globally. Count-up on scroll. Values in `LEGACY_NUMBERS` constant.
+4. **Featured Productions** — Split layout. Left: "Featured" heading. Right: 1 lead production (Mohan No Masalo — large card) + 6 secondary productions (Mareez, Bakshi, Adbhut, Bombay Flower, Karl Marx, Whats Up) in 2-col grid below + "View All Productions →" at bottom
+5. **Manoj Shah / The Founder** — Split layout. Left: "The Founder" heading. Right: Manoj Shah portrait (`/images/people/manoj-shah.jpg`) stacked above bio text (name, quote, description, "Read His Story →")
+6. **Performed At** — Split layout. Left: "Performed At" heading. Right: Auto-looping marquee of venue/festival names scrolling left to right (real venues from production history)
+7. **Stories & Reflections** — Split layout. Left: heading + description. Right: 3 blog cards (Mohan No Masalo, Karl Marx in Kalbadevi, Adbhut) — image + category label + title, Onassis news-card style
 8. **Newsletter / Stay Connected** — Split layout. Left: "Stay Connected" heading. Right: description + email signup form
 
 ---
@@ -101,12 +101,13 @@ Listing page with 3-column card grid (image, category, date, title, excerpt). De
 ## Phase 1 — COMPLETE
 
 All pages below are built and live:
-- Home `/` — Hero, legacy numbers, about pull, featured productions, founder, festivals, blog stub, newsletter
+- Home `/` — Hero (YouTube video), legacy numbers, featured productions, founder (with photo), performed at marquee, blog stub, newsletter
 - About `/about` — Hero, vision, travelling theatre, founder, people, production list, venues
-- Productions `/productions` + `/productions/[slug]` — Archive grid with filters, detail with hero/booking band/sticky poster/synopsis/cast/gallery/press/related
+- Productions `/productions` + `/productions/[slug]` — Archive grid with filters, detail with hero/booking band/sticky poster/synopsis/cast/gallery/press/related/ambient music
 - People `/people` + `/people/[slug]` — 3-col grid, detail with sticky photo and all content right
-- Blog `/blog` + `/blog/[slug]` — 3-col listing, detail with inline images and reading time
-- Manoj Shah `/manoj-shah` — Sticky photo, editorial content, interviews
+- Blog `/blog` + `/blog/[slug]` — 3-col listing, detail with per-post inline images and reading time
+- Reviews `/reviews/[slug]` — Full review pages for newspaper clippings (5/7 split, sticky meta, back-link to production)
+- Manoj Shah `/manoj-shah` — Sticky B&W portrait, verified biographical content, landmark productions, painter collaborations, film career
 - Contact `/contact` — 5/7 split with info + form
 
 ---

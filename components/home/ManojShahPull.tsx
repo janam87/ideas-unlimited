@@ -17,7 +17,7 @@ export function ManojShahPull() {
           <div className="lg:col-span-7">
             <div className="relative aspect-[4/3] overflow-hidden mb-8">
               <Image
-                src="/images/placeholder-portrait.svg"
+                src="/images/people/manoj-shah.jpg"
                 alt="Manoj Shah"
                 fill
                 className="object-cover"

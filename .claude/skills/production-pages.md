@@ -11,7 +11,7 @@ description: Use when building or modifying /productions archive or /productions
 
 ## What These Pages Are
 
-The production pages are the heart of the site — both the archive and the individual record for each of 99+ plays:
+The production pages are the heart of the site — both the archive and the individual record for each of 113+ plays:
 
 - `/productions` is the catalogue view — filterable grid of all productions
 - `/productions/[slug]` is one record — every play gets its own full page, auto-generated from data
@@ -53,6 +53,13 @@ Adding a new production = adding an entry to `data/productions.json`. No code ne
 - Gradient overlay: `from-background/80 via-background/40 to-background/90`
 - Title (`text-5xl md:text-7xl lg:text-8xl`), subtitle in purple italic, optional "Now Performing" badge
 
+**Ambient Music** (`AmbientMusic` — `'use client'`, conditional)
+- If `production.musicUrl` exists: floating bottom-right toggle button with Volume2/VolumeX icon
+- Auto-plays on page load at 15% volume, loops
+- Fade in/out on toggle (volume ramp over 500ms)
+- `components/shared/AmbientMusic.tsx`
+- Music files stored in `public/audio/{slug}.mp3`
+
 **2. Book Tickets Band** (conditional: upcoming shows exist)
 - Onassis-style `bg-purple` (purple) full-width band immediately after hero
 - Labeled columns: Dates, Time, Location
@@ -81,6 +88,11 @@ Adding a new production = adding an entry to `data/productions.json`. No code ne
 **7. Press & Reviews** (conditional) — 5/7 split
 - Left: "Press & Reviews" heading
 - Right: 2-column grid of `<PressCard>`
+- PressCard has 3 states:
+  - External URL → `<a>` with ExternalLink icon
+  - Internal review (`reviewSlug`) → `<Link>` to `/reviews/[slug]` with FileText icon
+  - No URL → static `<div>`, no icon
+- Review pages at `/reviews/[slug]` display fullReview paragraphs, reviewer attribution, link back to production
 
 **8. Related Productions** (conditional) — 5/7 split
 - Left: "Also Worth Seeing" heading
@@ -113,6 +125,7 @@ Adding a new production = adding an entry to `data/productions.json`. No code ne
    - `shows` array if scheduled performances exist
    - `gallery` array with all photo paths
    - `festivals` and `press` arrays referencing IDs
+   - `musicUrl` path to ambient audio file if available (e.g. `/audio/achalayatan.mp3`)
    - Rich `synopsis` that weaves in the director's note, adaptation history, and performance context — not just a plot summary
 6. **Page auto-generates** at `/productions/[slug]` on next build
 
@@ -123,7 +136,15 @@ Adding a new production = adding an entry to `data/productions.json`. No code ne
 - Reference external sources that mention Ideas Unlimited — this creates backlink opportunities
 - See Blog Pages skill for full editorial guidelines
 
-### 4. Validate
+### 4. Press Reviews (for newspaper clippings without URLs)
+- If provided materials include newspaper reviews/clippings without web URLs:
+  - Add to `data/press.json` with `reviewSlug`, `fullReview` (array of paragraphs), and `reviewAuthor`
+  - The review page auto-generates at `/reviews/[slug]`
+  - Translate non-English reviews to English for the fullReview text
+  - Keep original source, date, and attribution accurate
+
+### 5. Validate
 - Run `node -e "JSON.parse(require('fs').readFileSync('data/productions.json','utf8'))"` to validate JSON
 - Check the page at `/productions/[slug]` in dev server
 - Verify cast/crew names link correctly to `/people/[slug]`
+- Check `/reviews/[slug]` for any review pages

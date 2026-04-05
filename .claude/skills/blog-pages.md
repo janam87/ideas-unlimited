@@ -15,7 +15,7 @@ description: Use when building /blog listing or /blog/[slug] post pages — edit
 
 Blog posts are defined in `lib/blog.ts` as a `BLOG_POSTS` array with full body text. Functions: `getAllPosts()`, `getPostBySlug()`.
 
-Each post has: `slug`, `title`, `category`, `excerpt`, `image`, `date`, `body` (string array of paragraphs).
+Each post has: `slug`, `title`, `category`, `excerpt`, `image`, `date`, `body` (string array of paragraphs), optional `inlineImages` (array of `{ afterParagraph: number, src: string, alt: string }` for production photos placed at specific points in the article).
 
 ---
 
@@ -80,7 +80,7 @@ No full-bleed hero image. The article starts directly with the 5/7 split.
 
 **Right Column (col-span-7):** Article body
 - Paragraphs in `text-grey-200 text-lg leading-relaxed`
-- Inline landscape images (`aspect-[16/9]`) inserted after every 3rd paragraph
+- Inline landscape images (`aspect-[16/9]`) — if post has `inlineImages`, placed after specified paragraphs; otherwise fallback to every 3rd paragraph using production gallery
 - No scroll animations
 
 **Related Posts Section** — 5/7 split
