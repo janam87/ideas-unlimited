@@ -32,10 +32,11 @@ export function Navbar({ hasNowPerforming, onSearchOpen }: NavbarProps) {
   return (
     <header
       className={cn(
-        "fixed top-9 left-0 right-0 z-50 transition-all duration-500",
+        "fixed left-0 right-0 z-50 transition-all duration-500 border-b",
+        hasNowPerforming ? "top-9" : "top-0",
         scrolled
-          ? "bg-background/60 backdrop-blur-xl backdrop-saturate-150"
-          : "bg-transparent"
+          ? "bg-white/[0.06] backdrop-blur-2xl backdrop-saturate-150 border-white/[0.08] shadow-[0_4px_30px_rgba(0,0,0,0.3)]"
+          : "bg-transparent border-transparent"
       )}
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 md:h-20">

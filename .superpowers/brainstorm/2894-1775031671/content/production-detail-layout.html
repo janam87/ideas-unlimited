@@ -1,0 +1,187 @@
+<h2>Production Detail Page — Proposed Layout</h2>
+<p class="subtitle">Full page wireframe showing all sections top to bottom. Review each section and let me know what feels right.</p>
+
+<div class="mockup">
+  <div class="mockup-header">Production Detail — /productions/[slug]</div>
+  <div class="mockup-body" style="padding: 0; background: #0a0a0a; color: #ededed; font-family: system-ui, sans-serif;">
+
+    <!-- HERO -->
+    <div style="position: relative; width: 100%; aspect-ratio: 21/9; background: linear-gradient(180deg, rgba(10,10,10,0.3) 0%, rgba(10,10,10,0.6) 60%, rgba(10,10,10,0.95) 100%), url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22800%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22800%22 height=%22400%22/><text x=%22400%22 y=%22180%22 text-anchor=%22middle%22 fill=%22%23888%22 font-size=%2220%22>VIDEO or PHOTO background</text><text x=%22400%22 y=%22210%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2214%22>Full bleed, edge to edge like home hero</text></svg>'); background-size: cover; display: flex; align-items: flex-end; padding: 32px 48px;">
+      <div>
+        <div style="font-family: monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3em; color: #d4a843; margin-bottom: 8px;">Now Performing</div>
+        <div style="font-family: Georgia, serif; font-size: 48px; color: #f5f0e8; line-height: 0.9;">Saptapadi</div>
+        <div style="font-family: Georgia, serif; font-size: 18px; color: #d4a843; font-style: italic; margin-top: 8px;">Seven Steps Around the Fire</div>
+      </div>
+    </div>
+
+    <!-- POSTER + SYNOPSIS + DETAILS (sticky poster) -->
+    <div style="border-top: 1px solid #2a2a2a; padding: 48px; max-width: 900px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: 280px 1fr; gap: 48px; align-items: start;">
+
+        <!-- Left: Poster (sticky) -->
+        <div style="position: relative;">
+          <div style="background: #1a1a1a; border: 1px solid #2a2a2a; aspect-ratio: 2/3; display: flex; align-items: center; justify-content: center; color: #888; font-size: 13px; text-align: center; padding: 16px;">
+            <div>
+              <div style="font-size: 40px; margin-bottom: 8px;">🎭</div>
+              <div style="font-weight: bold; color: #f5f0e8;">POSTER</div>
+              <div style="font-size: 11px; color: #666; margin-top: 4px;">Sticky on scroll<br/>stays fixed while<br/>synopsis scrolls</div>
+            </div>
+          </div>
+          <div style="margin-top: 16px; text-align: center;">
+            <div style="display: inline-block; background: #d4a843; color: #0a0a0a; padding: 12px 32px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; font-weight: bold;">Book Tickets →</div>
+          </div>
+        </div>
+
+        <!-- Right: Synopsis + Details -->
+        <div>
+          <!-- Synopsis -->
+          <div style="margin-bottom: 32px;">
+            <div style="font-family: monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3em; color: #d4a843; margin-bottom: 12px;">Synopsis</div>
+            <p style="color: #aaa; line-height: 1.8; font-size: 15px;">A powerful exploration of love, identity, and societal norms through the metaphor of the seven sacred vows of marriage. When a hijra is found murdered in Bangalore, a university professor is drawn into a web of secrets...</p>
+            <p style="color: #aaa; line-height: 1.8; font-size: 15px; margin-top: 12px;">The synopsis can be long and the user scrolls through it while the poster stays pinned to the left. This creates a magazine-style reading experience.</p>
+          </div>
+
+          <!-- Divider -->
+          <div style="border-top: 1px solid #2a2a2a; margin: 24px 0;"></div>
+
+          <!-- Details Grid -->
+          <div style="font-family: monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3em; color: #d4a843; margin-bottom: 16px;">Details</div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0;">
+            <div style="border-bottom: 1px solid #2a2a2a; padding: 12px 0;">
+              <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Year</div>
+              <div style="color: #f5f0e8; font-size: 15px; margin-top: 4px;">2023</div>
+            </div>
+            <div style="border-bottom: 1px solid #2a2a2a; padding: 12px 0;">
+              <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Language</div>
+              <div style="color: #f5f0e8; font-size: 15px; margin-top: 4px;">Hindi</div>
+            </div>
+            <div style="border-bottom: 1px solid #2a2a2a; padding: 12px 0;">
+              <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Genre</div>
+              <div style="color: #f5f0e8; font-size: 15px; margin-top: 4px;">Drama, Social</div>
+            </div>
+            <div style="border-bottom: 1px solid #2a2a2a; padding: 12px 0;">
+              <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Type</div>
+              <div style="color: #f5f0e8; font-size: 15px; margin-top: 4px;">Play</div>
+            </div>
+            <div style="padding: 12px 0;">
+              <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Duration</div>
+              <div style="color: #f5f0e8; font-size: 15px; margin-top: 4px;">120 minutes</div>
+            </div>
+            <div style="padding: 12px 0;">
+              <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Status</div>
+              <div style="color: #f59e0b; font-size: 15px; margin-top: 4px;">Now Performing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CAST & CREW -->
+    <div style="border-top: 1px solid #2a2a2a; padding: 48px; max-width: 900px; margin: 0 auto;">
+      <div style="font-family: monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3em; color: #d4a843; margin-bottom: 8px;">Cast & Crew</div>
+      <div style="font-family: Georgia, serif; font-size: 28px; color: #f5f0e8; margin-bottom: 24px;">The People Behind the Play</div>
+      <div style="border-top: 1px solid #2a2a2a;">
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #2a2a2a;">
+          <span style="color: #d4a843; text-decoration: underline; cursor: pointer;">Manoj Shah</span>
+          <span style="font-family: monospace; font-size: 12px; color: #888;">Director · Producer</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #2a2a2a;">
+          <span style="color: #d4a843; text-decoration: underline; cursor: pointer;">Neha Joshi</span>
+          <span style="font-family: monospace; font-size: 12px; color: #888;">Lead Actor</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #2a2a2a;">
+          <span style="color: #d4a843; text-decoration: underline; cursor: pointer;">Rajat Kapoor</span>
+          <span style="font-family: monospace; font-size: 12px; color: #888;">Actor</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #2a2a2a;">
+          <span style="color: #d4a843; text-decoration: underline; cursor: pointer;">Deepa Gahlot</span>
+          <span style="font-family: monospace; font-size: 12px; color: #888;">Script Consultant</span>
+        </div>
+        <div style="color: #666; font-size: 12px; padding-top: 8px;">All names hyperlinked → /people/[slug]</div>
+      </div>
+    </div>
+
+    <!-- GALLERY (full-width) -->
+    <div style="border-top: 1px solid #2a2a2a; padding: 48px 0;">
+      <div style="max-width: 900px; margin: 0 auto; padding: 0 48px;">
+        <div style="font-family: monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3em; color: #d4a843; margin-bottom: 8px;">Gallery</div>
+        <div style="font-family: Georgia, serif; font-size: 28px; color: #f5f0e8; margin-bottom: 24px;">Photos & Videos</div>
+      </div>
+      <!-- Full-width gallery grid -->
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; padding: 0;">
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #666; font-size: 12px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #666; font-size: 12px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #666; font-size: 12px; position: relative;">
+          <div>▶ Video</div>
+        </div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #666; font-size: 12px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #666; font-size: 12px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #666; font-size: 12px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #666; font-size: 12px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #666; font-size: 12px; position: relative;">
+          <div>▶ Video</div>
+        </div>
+      </div>
+      <div style="max-width: 900px; margin: 0 auto; padding: 12px 48px 0; color: #666; font-size: 12px;">Full-width edge-to-edge grid · Photos + Videos mixed · Lightbox on click</div>
+    </div>
+
+    <!-- PRESS & REVIEWS -->
+    <div style="border-top: 1px solid #2a2a2a; padding: 48px; max-width: 900px; margin: 0 auto;">
+      <div style="font-family: monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3em; color: #d4a843; margin-bottom: 8px;">Press & Reviews</div>
+      <div style="font-family: Georgia, serif; font-size: 28px; color: #f5f0e8; margin-bottom: 24px;">What They're Saying</div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+        <div style="background: #111; border: 1px solid #2a2a2a; padding: 20px;">
+          <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase;">The Hindu</div>
+          <div style="color: #f5f0e8; font-size: 14px; margin-top: 8px;">"A searing indictment of society's hypocrisies..."</div>
+          <div style="font-size: 11px; color: #666; margin-top: 8px;">Mar 2023 · Press Review</div>
+        </div>
+        <div style="background: #111; border: 1px solid #2a2a2a; padding: 20px;">
+          <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase;">Times of India</div>
+          <div style="color: #f5f0e8; font-size: 14px; margin-top: 8px;">"Shah's direction is masterful..."</div>
+          <div style="font-size: 11px; color: #666; margin-top: 8px;">Apr 2023 · Press Review</div>
+        </div>
+        <div style="background: #111; border: 1px solid #2a2a2a; padding: 20px;">
+          <div style="font-family: monospace; font-size: 10px; color: #d4a843; text-transform: uppercase;">★★★★★ Audience Review</div>
+          <div style="color: #f5f0e8; font-size: 14px; margin-top: 8px;">"Deeply moving. The cast was phenomenal..."</div>
+          <div style="font-size: 11px; color: #666; margin-top: 8px;">Priya M. · BookMyShow</div>
+        </div>
+        <div style="background: #111; border: 1px solid #2a2a2a; padding: 20px;">
+          <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase;">📰 Newspaper Cutout</div>
+          <div style="background: #1a1a1a; aspect-ratio: 4/3; margin-top: 8px; display: flex; align-items: center; justify-content: center; color: #666; font-size: 11px;">Scanned newspaper image</div>
+        </div>
+        <div style="background: #111; border: 1px solid #2a2a2a; padding: 20px;">
+          <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase;">Mid-Day</div>
+          <div style="color: #f5f0e8; font-size: 14px; margin-top: 8px;">"One of Mumbai's must-see productions this season..."</div>
+          <div style="font-size: 11px; color: #666; margin-top: 8px;">Feb 2023 · Press Review</div>
+        </div>
+        <div style="background: #111; border: 1px solid #2a2a2a; padding: 20px;">
+          <div style="font-family: monospace; font-size: 10px; color: #d4a843; text-transform: uppercase;">★★★★☆ Audience Review</div>
+          <div style="color: #f5f0e8; font-size: 14px; margin-top: 8px;">"Thought-provoking. Left the theatre in silence..."</div>
+          <div style="font-size: 11px; color: #666; margin-top: 8px;">Arjun K. · Google Reviews</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RELATED -->
+    <div style="border-top: 1px solid #2a2a2a; padding: 48px; max-width: 900px; margin: 0 auto;">
+      <div style="font-family: monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3em; color: #d4a843; margin-bottom: 8px;">Also Worth Seeing</div>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 16px;">
+        <div style="background: #111; border: 1px solid #2a2a2a; aspect-ratio: 3/4; display: flex; align-items: center; justify-content: center; color: #666; font-size: 12px;">Production Card</div>
+        <div style="background: #111; border: 1px solid #2a2a2a; aspect-ratio: 3/4; display: flex; align-items: center; justify-content: center; color: #666; font-size: 12px;">Production Card</div>
+        <div style="background: #111; border: 1px solid #2a2a2a; aspect-ratio: 3/4; display: flex; align-items: center; justify-content: center; color: #666; font-size: 12px;">Production Card</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div style="margin-top: 24px; padding: 16px; background: rgba(212, 168, 67, 0.1); border: 1px solid rgba(212, 168, 67, 0.3); border-radius: 4px;">
+  <h3 style="margin: 0 0 8px; font-size: 14px;">Key Design Decisions</h3>
+  <ul style="margin: 0; padding-left: 20px; font-size: 13px; line-height: 1.7; color: #aaa;">
+    <li><strong>Hero:</strong> Full-bleed video (YouTube embed like home) or photo with gradient overlay. Title at bottom-left.</li>
+    <li><strong>Poster + Synopsis:</strong> Poster is <code>position: sticky</code> on left. Synopsis + details scroll on right. On mobile: poster on top, content below.</li>
+    <li><strong>Cast & Crew:</strong> All names are gold links → /people/[slug]. Roles on the right in mono.</li>
+    <li><strong>Gallery:</strong> Full-width edge-to-edge grid (not constrained to max-w-6xl). Photos + videos mixed. Lightbox on click.</li>
+    <li><strong>Press & Reviews:</strong> 2-column grid. Supports press articles, newspaper cutout images, and audience reviews.</li>
+  </ul>
+</div>

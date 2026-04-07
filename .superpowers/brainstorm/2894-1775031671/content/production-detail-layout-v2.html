@@ -1,0 +1,180 @@
+<h2>Production Detail Page — Revised Layout</h2>
+<p class="subtitle">Consistent 5/7 split layout matching home page. Every section uses left heading + right content.</p>
+
+<div class="mockup">
+  <div class="mockup-header">Production Detail — /productions/[slug]</div>
+  <div class="mockup-body" style="padding: 0; background: #0a0a0a; color: #ededed; font-family: system-ui, sans-serif;">
+
+    <!-- HERO (full bleed) -->
+    <div style="position: relative; width: 100%; aspect-ratio: 21/9; background: linear-gradient(180deg, rgba(10,10,10,0.2) 0%, rgba(10,10,10,0.5) 50%, rgba(10,10,10,0.95) 100%); display: flex; align-items: flex-end; padding: 32px 48px;">
+      <div style="position: absolute; inset: 0; background: #1a1a1a; display: flex; align-items: center; justify-content: center; z-index: 0;">
+        <span style="color: #666; font-size: 14px;">VIDEO or PHOTO — full bleed hero</span>
+      </div>
+      <div style="position: relative; z-index: 1;">
+        <div style="font-family: monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3em; color: #d4a843; margin-bottom: 8px;">Now Performing</div>
+        <div style="font-family: Georgia, serif; font-size: 48px; color: #f5f0e8; line-height: 0.9;">Saptapadi</div>
+        <div style="font-family: Georgia, serif; font-size: 18px; color: #d4a843; font-style: italic; margin-top: 8px;">Seven Steps Around the Fire</div>
+      </div>
+    </div>
+
+    <!-- SYNOPSIS SECTION — 5/7 split: Poster left, Synopsis + Details right -->
+    <div style="border-top: 1px solid #2a2a2a; padding: 40px 48px; max-width: 900px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: 5fr 7fr; gap: 40px; align-items: start;">
+        <!-- Left: Poster (sticky) -->
+        <div>
+          <div style="background: #1a1a1a; border: 1px solid #2a2a2a; aspect-ratio: 2/3; display: flex; align-items: center; justify-content: center; color: #888; font-size: 12px; text-align: center; position: sticky; top: 80px;">
+            <div>
+              <div style="font-size: 32px; margin-bottom: 6px;">🎭</div>
+              <div style="font-weight: bold; color: #f5f0e8; font-size: 13px;">POSTER</div>
+              <div style="font-size: 10px; color: #666; margin-top: 4px;">Sticky on scroll</div>
+            </div>
+          </div>
+        </div>
+        <!-- Right: Synopsis + Details -->
+        <div>
+          <div style="font-family: Georgia, serif; font-size: 16px; color: #aaa; line-height: 1.8;">A powerful exploration of love, identity, and societal norms through the metaphor of the seven sacred vows of marriage. When a hijra is found murdered in Bangalore, a university professor is drawn into a web of secrets that challenges everything she believed about justice.</div>
+
+          <!-- Details below synopsis -->
+          <div style="border-top: 1px solid #2a2a2a; margin-top: 28px; padding-top: 28px;">
+            <div style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #2a2a2a;">
+              <span style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Year</span>
+              <span style="color: #f5f0e8; font-size: 14px;">2023</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #2a2a2a;">
+              <span style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Language</span>
+              <span style="color: #f5f0e8; font-size: 14px;">Hindi</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #2a2a2a;">
+              <span style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Genre</span>
+              <span style="color: #f5f0e8; font-size: 14px;">Drama, Social</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #2a2a2a;">
+              <span style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Type</span>
+              <span style="color: #f5f0e8; font-size: 14px;">Play</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #2a2a2a;">
+              <span style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Duration</span>
+              <span style="color: #f5f0e8; font-size: 14px;">120 minutes</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 10px 0;">
+              <span style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em;">Status</span>
+              <span style="color: #f59e0b; font-size: 14px; font-weight: 600;">Now Performing</span>
+            </div>
+          </div>
+
+          <!-- Book Tickets CTA -->
+          <div style="margin-top: 24px;">
+            <div style="background: #d4a843; color: #0a0a0a; padding: 14px 32px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; font-weight: bold; text-align: center;">Book Tickets →</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CAST & CREW — 5/7 split -->
+    <div style="border-top: 1px solid #2a2a2a; padding: 40px 48px; max-width: 900px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: 5fr 7fr; gap: 40px; align-items: start;">
+        <div>
+          <div style="font-family: Georgia, serif; font-size: 28px; color: #f5f0e8; line-height: 1.1;">The People<br/>Behind<br/>the Play</div>
+        </div>
+        <div style="border-top: 1px solid #2a2a2a;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #2a2a2a;">
+            <span style="color: #d4a843; cursor: pointer;">Manoj Shah</span>
+            <span style="font-family: monospace; font-size: 11px; color: #888;">Director · Producer</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #2a2a2a;">
+            <span style="color: #d4a843; cursor: pointer;">Neha Joshi</span>
+            <span style="font-family: monospace; font-size: 11px; color: #888;">Lead Actor</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #2a2a2a;">
+            <span style="color: #d4a843; cursor: pointer;">Rajat Kapoor</span>
+            <span style="font-family: monospace; font-size: 11px; color: #888;">Actor</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #2a2a2a;">
+            <span style="color: #d4a843; cursor: pointer;">Deepa Gahlot</span>
+            <span style="font-family: monospace; font-size: 11px; color: #888;">Script Consultant</span>
+          </div>
+          <div style="color: #555; font-size: 11px; margin-top: 8px;">All names → /people/[slug]</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GALLERY — full bleed, no heading text -->
+    <div style="border-top: 1px solid #2a2a2a; padding: 0;">
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 3px;">
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #555; font-size: 11px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #555; font-size: 11px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #555; font-size: 11px;">▶ Video</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #555; font-size: 11px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #555; font-size: 11px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #555; font-size: 11px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #555; font-size: 11px;">Photo</div>
+        <div style="background: #1a1a1a; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; color: #555; font-size: 11px;">▶ Video</div>
+      </div>
+    </div>
+
+    <!-- PRESS & REVIEWS — 5/7 split -->
+    <div style="border-top: 1px solid #2a2a2a; padding: 40px 48px; max-width: 900px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: 5fr 7fr; gap: 40px; align-items: start;">
+        <div>
+          <div style="font-family: Georgia, serif; font-size: 28px; color: #f5f0e8; line-height: 1.1;">Press &amp;<br/>Reviews</div>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div style="background: #111; border: 1px solid #2a2a2a; padding: 16px;">
+            <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase;">The Hindu</div>
+            <div style="color: #f5f0e8; font-size: 13px; margin-top: 6px;">"A searing indictment of society's hypocrisies..."</div>
+            <div style="font-size: 10px; color: #555; margin-top: 6px;">Mar 2023</div>
+          </div>
+          <div style="background: #111; border: 1px solid #2a2a2a; padding: 16px;">
+            <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase;">Times of India</div>
+            <div style="color: #f5f0e8; font-size: 13px; margin-top: 6px;">"Shah's direction is masterful..."</div>
+            <div style="font-size: 10px; color: #555; margin-top: 6px;">Apr 2023</div>
+          </div>
+          <div style="background: #111; border: 1px solid #2a2a2a; padding: 16px;">
+            <div style="font-family: monospace; font-size: 10px; color: #d4a843; text-transform: uppercase;">★★★★★ Audience</div>
+            <div style="color: #f5f0e8; font-size: 13px; margin-top: 6px;">"Deeply moving performance..."</div>
+            <div style="font-size: 10px; color: #555; margin-top: 6px;">Priya M.</div>
+          </div>
+          <div style="background: #111; border: 1px solid #2a2a2a; padding: 16px;">
+            <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase;">📰 Cutout</div>
+            <div style="background: #1a1a1a; aspect-ratio: 4/3; margin-top: 6px; display: flex; align-items: center; justify-content: center; color: #555; font-size: 10px;">Newspaper scan</div>
+          </div>
+          <div style="background: #111; border: 1px solid #2a2a2a; padding: 16px;">
+            <div style="font-family: monospace; font-size: 10px; color: #888; text-transform: uppercase;">Mid-Day</div>
+            <div style="color: #f5f0e8; font-size: 13px; margin-top: 6px;">"Must-see this season..."</div>
+            <div style="font-size: 10px; color: #555; margin-top: 6px;">Feb 2023</div>
+          </div>
+          <div style="background: #111; border: 1px solid #2a2a2a; padding: 16px;">
+            <div style="font-family: monospace; font-size: 10px; color: #d4a843; text-transform: uppercase;">★★★★☆ Audience</div>
+            <div style="color: #f5f0e8; font-size: 13px; margin-top: 6px;">"Left the theatre in silence..."</div>
+            <div style="font-size: 10px; color: #555; margin-top: 6px;">Arjun K.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RELATED — 5/7 split -->
+    <div style="border-top: 1px solid #2a2a2a; padding: 40px 48px; max-width: 900px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: 5fr 7fr; gap: 40px; align-items: start;">
+        <div>
+          <div style="font-family: Georgia, serif; font-size: 28px; color: #f5f0e8; line-height: 1.1;">Also Worth<br/>Seeing</div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;">
+          <div style="background: #111; border: 1px solid #2a2a2a; aspect-ratio: 3/4; display: flex; align-items: center; justify-content: center; color: #555; font-size: 11px;">Card</div>
+          <div style="background: #111; border: 1px solid #2a2a2a; aspect-ratio: 3/4; display: flex; align-items: center; justify-content: center; color: #555; font-size: 11px;">Card</div>
+          <div style="background: #111; border: 1px solid #2a2a2a; aspect-ratio: 3/4; display: flex; align-items: center; justify-content: center; color: #555; font-size: 11px;">Card</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div style="margin-top: 24px; padding: 16px; background: rgba(212, 168, 67, 0.1); border: 1px solid rgba(212, 168, 67, 0.3); border-radius: 4px;">
+  <h3 style="margin: 0 0 8px; font-size: 14px;">What Changed</h3>
+  <ul style="margin: 0; padding-left: 20px; font-size: 13px; line-height: 1.7; color: #aaa;">
+    <li><strong>Consistent 5/7 split</strong> on every section (matching home page pattern)</li>
+    <li><strong>Synopsis section:</strong> Poster (sticky) in left col, synopsis text + details in right col</li>
+    <li><strong>Gallery:</strong> Full-bleed with no heading — just the grid, edge to edge</li>
+    <li><strong>All other sections</strong> use left=big serif title, right=content</li>
+  </ul>
+</div>

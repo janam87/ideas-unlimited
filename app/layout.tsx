@@ -20,6 +20,14 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: SITE.name,
     description: SITE.description,
+    images: [
+      {
+        url: "/images/og-default.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Ideas Unlimited Productions — 35 Years of Fearless Theatre",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
