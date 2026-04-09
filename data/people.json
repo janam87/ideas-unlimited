@@ -1236,5 +1236,76 @@
     "roles": [
       "Backstage"
     ]
+  },
+  {
+    "id": "bharat-naik",
+    "slug": "bharat-naik",
+    "name": "Bharat Naik",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A Gujarati playwright who wrote Amar Fal for Ideas Unlimited Productions, dramatising the eternal story of Raja Bharthari's journey from king to saint.",
+    "roles": [
+      "Writer"
+    ]
+  },
+  {
+    "id": "prasad-walavalkar",
+    "slug": "prasad-walavalkar",
+    "name": "Prasad Walavalkar",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A set designer who has worked with Ideas Unlimited Productions on Amar Fal.",
+    "roles": [
+      "Set Designer"
+    ]
+  },
+  {
+    "id": "piyush-shah",
+    "slug": "piyush-shah",
+    "name": "Piyush Shah",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A lighting designer who has worked with Ideas Unlimited Productions on Amar Fal.",
+    "roles": [
+      "Lighting Designer"
+    ]
+  },
+  {
+    "id": "ashok-vyas",
+    "slug": "ashok-vyas",
+    "name": "Ashok Vyas",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "Backstage crew with Ideas Unlimited Productions, credited on Amar Fal.",
+    "roles": [
+      "Backstage"
+    ]
+  },
+  {
+    "id": "nikesh-rawal",
+    "slug": "nikesh-rawal",
+    "name": "Nikesh Rawal",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor and backstage crew member with Ideas Unlimited Productions. He played Bhujang in Amar Fal and also served as backstage crew.",
+    "roles": [
+      "Actor",
+      "Backstage"
+    ]
+  },
+  {
+    "id": "sahil-jhaveri",
+    "slug": "sahil-jhaveri",
+    "name": "Sahil Jhaveri",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who has performed with Ideas Unlimited Productions, playing Senapati in Amar Fal.",
+    "roles": [
+      "Actor"
+    ]
+  },
+  {
+    "id": "kunal-sheth",
+    "slug": "kunal-sheth",
+    "name": "Kunal Sheth",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who has performed with Ideas Unlimited Productions, playing Sainik in Amar Fal.",
+    "roles": [
+      "Actor"
+    ]
   }
 ]

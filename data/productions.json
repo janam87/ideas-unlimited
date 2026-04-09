@@ -1431,5 +1431,113 @@
       "press-achalayatan-1"
     ],
     "featured": false
+  },
+  {
+    "id": "amar-fal",
+    "slug": "amar-fal",
+    "title": "Amar Fal",
+    "subtitle": "The Eternal Story of Raja Bharthari",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": [
+      "Drama",
+      "Mythology",
+      "Historical"
+    ],
+    "year": 2010,
+    "synopsis": "He was the chosen one — a king, chosen by the omnipresent for the element that would make him immortal. The undying love for his queen made him bestow the fruit of life on her, only later to question the very meaning of life.\n\nAmar Fal is the story of Raja Bharthari, which ends as the story of Sant Bharthari. Written by Bharat Naik and directed by Manoj Shah, the play traces a king's shattering journey from royal power to spiritual awakening — from the intoxication of love and sovereignty to the stark clarity of renunciation.\n\nBharthari has been a mystery since the 5th century. Numerous scholars have tried to decipher his works — from the Dutch in 1651 to the French in 1670 to the Germans in 1882. He formed the basis of notable thinkers' thoughts for centuries thereafter. His works have been translated into English, Greek, Russian, Marathi, Brij, and Hindi. With Kalidas as his close friend and Gopichand as his nephew, Bharthari's story becomes all the more transcendent.\n\nWhen the fruit of immortality reaches Bharthari through divine grace, he gives it to the queen he loves above all else — only to discover the fruit has passed through a chain of betrayals. Dejected and crestfallen, he questions everything. He watches his world burn in a towering inferno. The more he questions, the more he finds answers — answers that lead to the realisation that reality is nothing but an illusion.\n\nThis realisation, dawned on a cremation ground in the company of the almighty, transforms him. He writes as he thinks — Shringar Shatak, Niti Shatak, and ultimately Vairagya Shatak — works that taught the world the fundamentals of Moksha.\n\nWith Dharmendra Gohil as Raja Bharthari, Pratik Gandhi as Ashwapal, and Manoj Shah himself as Guruji, Amar Fal is a visually rich ensemble production that brings one of India's most enduring legends to the Gujarati stage.",
+    "image": "/images/productions/amar-fal/amarphal-5.jpg",
+    "gallery": [
+      "/images/productions/amar-fal/poster.jpg",
+      "/images/productions/amar-fal/amarphal-1.jpg",
+      "/images/productions/amar-fal/amarphal-2.jpg",
+      "/images/productions/amar-fal/amarphal-3.jpg",
+      "/images/productions/amar-fal/amarphal-4.jpg",
+      "/images/productions/amar-fal/amarphal-5.jpg",
+      "/images/productions/amar-fal/amarphal-6.jpg"
+    ],
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": ["Director", "Actor"]
+      },
+      {
+        "person_id": "bharat-naik",
+        "roles": ["Writer"]
+      },
+      {
+        "person_id": "suresh-joshi",
+        "roles": ["Music Director"]
+      },
+      {
+        "person_id": "hussaini-dawavala",
+        "roles": ["Assistant Director", "Lighting Designer"]
+      },
+      {
+        "person_id": "janam-shah",
+        "roles": ["Sound Designer", "Production Manager"]
+      },
+      {
+        "person_id": "prasad-walavalkar",
+        "roles": ["Set Designer"]
+      },
+      {
+        "person_id": "piyush-shah",
+        "roles": ["Lighting Designer"]
+      },
+      {
+        "person_id": "rajiv-bhatt",
+        "roles": ["Costume Designer"]
+      },
+      {
+        "person_id": "akash-naik",
+        "roles": ["Set Designer"]
+      },
+      {
+        "person_id": "ashok-vyas",
+        "roles": ["Backstage"]
+      },
+      {
+        "person_id": "nikesh-rawal",
+        "roles": ["Actor", "Backstage"]
+      },
+      {
+        "person_id": "dharmendra-gohil",
+        "roles": ["Lead Actor"]
+      },
+      {
+        "person_id": "vimal-upadhaya",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "sagar-rawal",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "pratik-gandhi",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "sahil-jhaveri",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "kunal-sheth",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "ahlam-khan",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "manasi-joshi",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "kalpana-shah",
+        "roles": ["Actor"]
+      }
+    ],
+    "featured": false
   }
 ]
