@@ -161,7 +161,7 @@ Client-side date checking — always accurate without rebuilds:
 4. **Add festival** to `data/festivals.json` if applicable
 5. **Add press** to `data/press.json` with `productionSlug`
 6. **Add production** to `data/productions.json` with cast_crew, shows, gallery, festivals, press
-7. **Add blog post** to `lib/blog.ts` for SEO (optional but recommended)
+7. **Add blog post** to `lib/blog.ts` (REQUIRED — every production gets a Heritage blog post)
 8. **Validate** all JSON files: `node -e "JSON.parse(require('fs').readFileSync('data/productions.json','utf8'))"`
 
 ### New Person (full workflow — see Person Pages skill for details)

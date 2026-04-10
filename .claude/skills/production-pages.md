@@ -129,10 +129,11 @@ Adding a new production = adding an entry to `data/productions.json`. No code ne
    - Rich `synopsis` that weaves in the director's note, adaptation history, and performance context — not just a plot summary
 6. **Page auto-generates** at `/productions/[slug]` on next build
 
-### 3. Blog Post (optional but recommended for SEO)
-- Add a blog post to `lib/blog.ts` about the production
+### 3. Blog Post (REQUIRED for every new production)
+- Add a blog post to `lib/blog.ts` about the production — this is not optional
 - Follow the Brand Voice rules from the Blog Pages skill
-- Include citable facts from research (original author, adaptation history, festival context, reviewer quotes)
+- Use research from step 1: original author/work history, director's approach, cast highlights, external citations
+- Include citable facts (original author, adaptation history, festival context, reviewer quotes)
 - Reference external sources that mention Ideas Unlimited — this creates backlink opportunities
 - See Blog Pages skill for full editorial guidelines
 

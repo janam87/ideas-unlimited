@@ -1627,5 +1627,82 @@
       "press-apurva-avsar-3"
     ],
     "featured": false
+  },
+  {
+    "id": "apoorav-khela",
+    "slug": "apoorav-khela",
+    "title": "Apoorav Khela",
+    "subtitle": "The Ecstatic Wanderer of Rajasthan",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": [
+      "Drama",
+      "Biographical",
+      "Spiritual"
+    ],
+    "year": 2012,
+    "synopsis": "Apoorav Khela \u2014 meaning 'a wondrous play' \u2014 is the biography of Avdhoot Anandghanji, a 17th-century Jain mystical poet who dwelled in the forests of Rajasthan and whose name has been all but erased from the books of history.\n\nAnandghan \u2014 literally 'cloud of bliss' \u2014 was born as Labhanand, likely before 1624, and was initiated as a Svetambara monk in the Tapa Gaccha order under the name Labhavijaya. But monastic convention could not contain him. He became an avdhoot \u2014 an ascetic wanderer who had renounced all worldly attachments \u2014 and disappeared into the forests of Rajasthan, where his proximity to nature was said to pacify the beasts and make the trees sway in joy. His absence from monastic records suggests he was always an outsider, more mystic than monk.\n\nWhat survived is his poetry. Anandghan composed padas \u2014 devotional songs \u2014 in a mixed vernacular of Gujarati, Rajasthani, and Braj that were spontaneous, ecstatic, and radically non-sectarian. His Anandghan Chauvisi honours the twenty-four Jain Tirthankaras. His Anandghan Bahattari was transmitted orally and in manuscripts, its verses sometimes found alongside those of Kabir, Surdas, and Banarasidas. Mahatma Gandhi included one of his hymns in his prayer collection. His songs are still sung in Jain temples across India \u2014 and even appear in Digambara hymn collections, despite his Svetambara origins.\n\nThe play, written by Dr. Dhanvant Shah and directed by Manoj Shah, is constructed from the anecdotes and oral traditions surrounding this enigmatic figure. Five actors \u2014 Ashok Parmar, Jay Upadhyay, Nimesh Dave, Manish Rohit, and Sagar Rawal \u2014 bring to life a man about whom barely any documented information exists. Kabir Thakore's set design and Uday Mazumdar's music carry the Rajasthani folk texture, while Rajesh Mandloi's language work ensures the dialect rings true. The play does not attempt a conventional narrative. It is, as its own programme notes describe it, 'an astonishing flight of happiness, beginning with anand and ending with Anandghan.'",
+    "image": "/images/productions/apoorav-khela/apoorav-khela-hero.jpg",
+    "gallery": [
+      "/images/productions/apoorav-khela/apoorav-khela-hero.jpg",
+      "/images/productions/apoorav-khela/apoorav-khela-67.jpg",
+      "/images/productions/apoorav-khela/apoorav-khela-193.jpg",
+      "/images/productions/apoorav-khela/apoorav-khela-233.jpg",
+      "/images/productions/apoorav-khela/apoorav-khela-poster.jpg"
+    ],
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": ["Director"]
+      },
+      {
+        "person_id": "dhanvant-shah",
+        "roles": ["Writer"]
+      },
+      {
+        "person_id": "uday-mazumdar",
+        "roles": ["Music Director"]
+      },
+      {
+        "person_id": "kabir-thakore",
+        "roles": ["Set Designer"]
+      },
+      {
+        "person_id": "rajiv-bhatt",
+        "roles": ["Costume Designer"]
+      },
+      {
+        "person_id": "pritesh-sodha",
+        "roles": ["Lighting Designer"]
+      },
+      {
+        "person_id": "rajesh-mandloi",
+        "roles": ["Language Consultant"]
+      },
+      {
+        "person_id": "ashok-parmar",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "jay-upadhyay",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "nimesh-dave",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "manish-rohit",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "sagar-rawal",
+        "roles": ["Actor"]
+      }
+    ],
+    "press": [
+      "press-apoorav-khela-1"
+    ],
+    "featured": false
   }
 ]

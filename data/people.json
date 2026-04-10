@@ -1333,9 +1333,60 @@
     "slug": "pritesh-sodha",
     "name": "Pritesh Sodha",
     "portrait": "/images/placeholder-portrait.svg",
-    "bio": "A sound designer who has worked with Ideas Unlimited Productions on Apurva Avsar.",
+    "bio": "A sound and lighting designer who has worked with Ideas Unlimited Productions on Apurva Avsar and Apoorav Khela.",
     "roles": [
-      "Sound Designer"
+      "Sound Designer",
+      "Lighting Designer"
+    ]
+  },
+  {
+    "id": "dhanvant-shah",
+    "slug": "dhanvant-shah",
+    "name": "Dr. Dhanvant Shah",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A Jain scholar and writer who wrote the script for Ideas Unlimited's Apoorav Khela, dramatising the life of the 17th-century Jain mystical poet Avdhoot Anandghan from the scant oral histories and legends that survive.",
+    "roles": [
+      "Writer"
+    ]
+  },
+  {
+    "id": "ashok-parmar",
+    "slug": "ashok-parmar",
+    "name": "Ashok Parmar",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who performed with Ideas Unlimited in Apoorav Khela, the biographical play on the Jain saint-poet Anandghan.",
+    "roles": [
+      "Actor"
+    ]
+  },
+  {
+    "id": "nimesh-dave",
+    "slug": "nimesh-dave",
+    "name": "Nimesh Dave",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who performed with Ideas Unlimited in Apoorav Khela.",
+    "roles": [
+      "Actor"
+    ]
+  },
+  {
+    "id": "manish-rohit",
+    "slug": "manish-rohit",
+    "name": "Manish Rohit",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A theatre actor who performed with Ideas Unlimited in Apoorav Khela.",
+    "roles": [
+      "Actor"
+    ]
+  },
+  {
+    "id": "rajesh-mandloi",
+    "slug": "rajesh-mandloi",
+    "name": "Rajesh Mandloi",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A language consultant for Ideas Unlimited's Apoorav Khela, working on the Rajasthani dialect that gives the play its distinctive folk texture.",
+    "roles": [
+      "Language Consultant"
     ]
   }
 ]
