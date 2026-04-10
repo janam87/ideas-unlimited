@@ -1307,5 +1307,35 @@
     "roles": [
       "Actor"
     ]
+  },
+  {
+    "id": "nilesh-joshi",
+    "slug": "nilesh-joshi",
+    "name": "Nilesh Joshi",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A Gujarati theatre actor who joined the cast of Ideas Unlimited's Apurva Avsar, replacing Pratik Gandhi in the role. He performs alongside Dharmendra Gohil and Pulkit Solanki in this three-actor dramatization of the life of Shrimad Rajchandra.",
+    "roles": [
+      "Actor"
+    ]
+  },
+  {
+    "id": "subhash-ashar",
+    "slug": "subhash-ashar",
+    "name": "Subhash Ashar",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A set designer for Ideas Unlimited Productions. He designed the sets for Apurva Avsar, creating the staging for a play that spans centuries of Jain spiritual history.",
+    "roles": [
+      "Set Designer"
+    ]
+  },
+  {
+    "id": "pritesh-sodha",
+    "slug": "pritesh-sodha",
+    "name": "Pritesh Sodha",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A sound designer who has worked with Ideas Unlimited Productions on Apurva Avsar.",
+    "roles": [
+      "Sound Designer"
+    ]
   }
 ]

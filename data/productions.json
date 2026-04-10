@@ -1539,5 +1539,93 @@
       }
     ],
     "featured": false
+  },
+  {
+    "id": "apurva-avsar",
+    "slug": "apurva-avsar",
+    "title": "Apurva Avsar",
+    "subtitle": "The Spiritual Mentor of Mahatma Gandhi",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": [
+      "Drama",
+      "Biographical",
+      "Spiritual"
+    ],
+    "year": 2007,
+    "synopsis": "Apurva Avsar — meaning 'a rare occasion' — is a Gujarati biographical drama based on the life and teachings of Shrimad Rajchandra (1867–1901), the Jain philosopher, poet, mystic, and social reformer whom Mahatma Gandhi called his spiritual guide and refuge in moments of crisis.\n\nBorn in Vavaniya, a small village near Morbi in Gujarat, Rajchandra recalled his past lives at the age of seven. He became a master of poetry, Shatavadhana (the feat of simultaneously tracking a hundred different tasks), and astrology. His fame spread across the country — yet he renounced it all, concentrating on self-restraint and the pursuit of liberation from the cycle of births and deaths. Against his own will, he married and entered business, which flourished across India and beyond, but his hours remained consumed by spiritual inquiry. Wanderers and seekers visited him constantly.\n\nThe play brings together three towering figures of Jain spiritual history on a single stage — Acharya Hemchandra (11th century), Avdhut Anand Ghanji (17th century), and Shrimad Rajchandra (19th century) — tracing 2,500 years of a living philosophical tradition. Three actors perform fifteen characters in a theatrical challenge that moves from Rajchandra's childhood visions through his meetings with Gandhi in Mumbai in 1891, their searching correspondence while Gandhi was in South Africa, and Rajchandra's final renunciation.\n\nDramatized by Raju Dave and Manoj Shah after a year and a half of research, the play premiered at Prithvi Theatre, Mumbai on 28 February 2007. It has since been performed across India and in the United States, including at the Jain Center of Southern California. A Hindi adaptation by Prayas Dave followed the same year. The subject matter is drawn from the everyday texture of society — the treatment is realistic, so that any common person can relate to how Jain culture has shaped Indian heritage, religion, language, literature, and philosophy in ways both visible and profound.",
+    "image": "/images/productions/apurva-avsar/apurva-avsar-hero.jpg",
+    "gallery": [
+      "/images/productions/apurva-avsar/apurva-avsar-hero.jpg",
+      "/images/productions/apurva-avsar/apurva-avsar-4.jpg",
+      "/images/productions/apurva-avsar/apurva-avsar-5.jpg",
+      "/images/productions/apurva-avsar/apurva-avsar-21.jpg",
+      "/images/productions/apurva-avsar/apurva-avsar-poster.jpg"
+    ],
+    "duration": "140 minutes",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": ["Director", "Writer"]
+      },
+      {
+        "person_id": "raju-dave",
+        "roles": ["Writer"]
+      },
+      {
+        "person_id": "dharmendra-gohil",
+        "roles": ["Lead Actor"]
+      },
+      {
+        "person_id": "pratik-gandhi",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "pulkit-solanki",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "nilesh-joshi",
+        "roles": ["Actor"]
+      },
+      {
+        "person_id": "suresh-joshi",
+        "roles": ["Music Director", "Singer"]
+      },
+      {
+        "person_id": "uday-mazumdar",
+        "roles": ["Singer"]
+      },
+      {
+        "person_id": "bhotesh-vyas",
+        "roles": ["Lighting Designer"]
+      },
+      {
+        "person_id": "subhash-ashar",
+        "roles": ["Set Designer"]
+      },
+      {
+        "person_id": "pritesh-sodha",
+        "roles": ["Sound Designer"]
+      },
+      {
+        "person_id": "rajiv-bhatt",
+        "roles": ["Costume Designer"]
+      },
+      {
+        "person_id": "hussaini-dawavala",
+        "roles": ["Production Designer"]
+      },
+      {
+        "person_id": "janam-shah",
+        "roles": ["Stage Manager"]
+      }
+    ],
+    "press": [
+      "press-apurva-avsar-1",
+      "press-apurva-avsar-2",
+      "press-apurva-avsar-3"
+    ],
+    "featured": false
   }
 ]
