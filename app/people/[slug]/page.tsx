@@ -7,6 +7,7 @@ import { personSchema } from "@/lib/schema";
 import { PressCard } from "@/components/shared/PressCard";
 import { ShareButton } from "@/components/shared/ShareButton";
 import { NotableWorkRow } from "@/components/people/NotableWorkRow";
+import { MediaGallery } from "@/components/people/MediaGallery";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -181,6 +182,10 @@ export default async function PersonDetailPage({ params }: Props) {
               )}
             </div>
           </div>
+
+          {/* Media Gallery — full width, outside the 2-column grid */}
+          {person.media && <MediaGallery media={person.media} name={person.name} />}
+
         </div>
       </div>
     </>
