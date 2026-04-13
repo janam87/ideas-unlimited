@@ -143,7 +143,7 @@ export default async function PersonDetailPage({ params }: Props) {
                   <div className="border-t border-grey-700">
                     {person.otherNotableWork.map((work, i) => (
                       <div key={i} className="py-3 border-b border-grey-700 text-grey-300">
-                        {work}
+                        {typeof work === "string" ? work : work.title}
                       </div>
                     ))}
                   </div>

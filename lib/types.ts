@@ -45,13 +45,14 @@ export interface Person {
   portrait: string;
   bio: string;
   roles: string[]; // e.g. ["Actor", "Director"]
-  otherNotableWork?: string[];
+  otherNotableWork?: (NotableWork | string)[];  // string for legacy, NotableWork for enriched
   interviews?: { title: string; url: string; source: string }[];
   socialLinks?: {
     instagram?: string;
     twitter?: string;
     website?: string;
   };
+  media?: PersonMedia;
   featured?: boolean;
 }
 
@@ -75,6 +76,25 @@ export interface PressItem {
   reviewSlug?: string;
   fullReview?: string[];
   reviewAuthor?: string;
+}
+
+export interface NotableWork {
+  title: string;
+  category?: string;
+  year?: string;
+  role?: string;
+  thumbnail?: string;
+  sourceUrl?: string;
+  sourceLabel?: string;
+}
+
+export interface PersonMedia {
+  photos?: string[];
+  videos?: {
+    url: string;
+    thumbnail?: string;
+    title?: string;
+  }[];
 }
 
 export interface FilterOptions {
