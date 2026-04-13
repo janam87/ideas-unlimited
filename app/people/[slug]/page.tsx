@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { getPersonBySlug, getAllPeople, getProductionsForPerson, getRolesForPerson, getPressForPerson } from "@/lib/data";
 import { personSchema } from "@/lib/schema";
 import { PressCard } from "@/components/shared/PressCard";
+import { ShareButton } from "@/components/shared/ShareButton";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -90,18 +91,18 @@ export default async function PersonDetailPage({ params }: Props) {
               <p className="font-mono text-xs uppercase tracking-[0.3em] text-purple mb-3">
                 {person.roles.join(" · ")}
               </p>
-              <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-cream leading-[0.9] mb-8">
-                {person.name}
-              </h1>
+              <div className="flex items-start justify-between gap-4 mb-8">
+                <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-cream leading-[0.9]">
+                  {person.name}
+                </h1>
+                <ShareButton
+                  title={person.name}
+                  text={`${person.name} — ${person.roles.join(", ")} profile on Ideas Unlimited Productions`}
+                />
+              </div>
               <p className="text-grey-200 text-lg md:text-xl leading-relaxed">
                 {person.bio}
               </p>
-
-              {/* Details */}
-              <div className="mt-10 pt-10 border-t border-grey-700">
-                <MetaRow label="Productions" value={String(productions.length)} />
-                <MetaRow label="Roles" value={person.roles.join(", ")} />
-              </div>
 
               {/* Filmography */}
               {productions.length > 0 && (
