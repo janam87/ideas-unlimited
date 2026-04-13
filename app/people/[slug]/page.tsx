@@ -6,6 +6,7 @@ import { getPersonBySlug, getAllPeople, getProductionsForPerson, getRolesForPers
 import { personSchema } from "@/lib/schema";
 import { PressCard } from "@/components/shared/PressCard";
 import { ShareButton } from "@/components/shared/ShareButton";
+import { NotableWorkRow } from "@/components/people/NotableWorkRow";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -143,9 +144,7 @@ export default async function PersonDetailPage({ params }: Props) {
                   </h2>
                   <div className="border-t border-grey-700">
                     {person.otherNotableWork.map((work, i) => (
-                      <div key={i} className="py-3 border-b border-grey-700 text-grey-300">
-                        {typeof work === "string" ? work : work.title}
-                      </div>
+                      <NotableWorkRow key={i} item={work} />
                     ))}
                   </div>
                 </div>
