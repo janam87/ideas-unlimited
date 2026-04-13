@@ -1121,13 +1121,107 @@
     "id": "disha-savla-upadhyay",
     "slug": "disha-savla-upadhyay",
     "name": "Disha Savla Upadhyay",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "A theatre actress and wife of actor Jay Upadhyay. She has performed with Ideas Unlimited Productions in Third Bell.",
+    "portrait": "/images/people/disha-savla-upadhyay.jpg",
+    "bio": "A seasoned actor with over three decades of experience across theatre and screen, Disha Savla Upadhyay is known for her ease across languages, forms, and characters. With more than 60 plays in Gujarati, Hindi, and English — spanning both commercial and experimental spaces — her theatre work includes Saraswatichandra, Mann Male Tyan Melo, Aa Family Fantastic Che, The Play That Goes Wrong, Raman Bhaman, Mr. Apple, Third Bell, and the solo performance Clean Bold. On screen, she became widely known as Bobby Chaubey in Zee TV's Neeli Chatri Waale (nominated for Best Actress in a Comic Role), and has since appeared in Narsinh Mehta (Best Actress), Madam Sir, Meri Bhavya Life, and over 20 episodes of Crime Patrol. Her film credits include Hasee Toh Phasee and Gujarati films such as Char Fera Nu Chakdol, Halkee Fulkee, and Swagatam. She will next be seen in Hansal Mehta's Gandhi as Putalibai, and in the Gujarati film Lakhpat Nu Bhoot.",
     "roles": [
       "Actor"
     ],
-    "social": {
-      "instagram": "https://instagram.com/dishoops7"
+    "otherNotableWork": [
+      {
+        "title": "Neeli Chatri Waale",
+        "category": "TV Series",
+        "year": "2014–2016",
+        "role": "Bobby Chaubey (Lead) — Nominated Best Actress, Comic Role",
+        "sourceUrl": "https://www.imdb.com/title/tt8377874/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Narsinh Mehta",
+        "category": "TV Series",
+        "role": "Best Actress"
+      },
+      {
+        "title": "Madam Sir",
+        "category": "TV Series",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Maddam_Sir",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Meri Bhavya Life",
+        "category": "TV Series",
+        "year": "2025",
+        "role": "Rama Agarwal",
+        "sourceUrl": "https://www.imdb.com/title/tt37536479/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Crime Patrol",
+        "category": "TV Series",
+        "role": "20+ episodes",
+        "sourceUrl": "https://www.imdb.com/name/nm7457340/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Savdhaan India",
+        "category": "TV Series"
+      },
+      {
+        "title": "Alakshmi: Hamari Super Bahu",
+        "category": "TV Series"
+      },
+      {
+        "title": "Hasee Toh Phasee",
+        "category": "Film",
+        "year": "2014",
+        "sourceUrl": "https://www.imdb.com/title/tt3173910/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Char Fera Nu Chakdol",
+        "category": "Film",
+        "year": "2023",
+        "sourceUrl": "https://www.imdb.com/title/tt27957058/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Halkee Fulkee",
+        "category": "Film"
+      },
+      {
+        "title": "Swagatam",
+        "category": "Film",
+        "year": "2021",
+        "role": "Sheela",
+        "sourceUrl": "https://www.imdb.com/title/tt14606120/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Gandhi",
+        "category": "Upcoming",
+        "role": "Putalibai",
+        "sourceUrl": "https://www.imdb.com/title/tt20317334/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Lakhpat Nu Bhoot",
+        "category": "Upcoming"
+      }
+    ],
+    "interviews": [
+      {
+        "title": "Disha Upadhyay joins Colors' Meri Bhavya Life",
+        "url": "https://www.iwmbuzz.com/television/news/exclusive-disha-upadhyay-joins-the-cast-of-colors-meri-bhavya-life/2024/12/30",
+        "source": "IWMBuzz"
+      },
+      {
+        "title": "Disha Savla to play double role in Neeli Chatri Waale",
+        "url": "https://www.business-standard.com/article/news-ians/disha-savla-to-play-double-role-in-neeli-chatri-waale-115112800552_1.html",
+        "source": "Business Standard"
+      }
+    ],
+    "socialLinks": {
+      "instagram": "https://instagram.com/disha.savla.upadhyay",
+      "twitter": "https://x.com/dishups07"
     }
   },
   {
