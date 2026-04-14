@@ -353,6 +353,12 @@
         "roles": [
           "Daughter"
         ]
+      },
+      {
+        "person_id": "dev-joshi",
+        "roles": [
+          "Actor"
+        ]
       }
     ],
     "press": [
@@ -818,6 +824,12 @@
       },
       {
         "person_id": "ishan-doshi",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "dev-joshi",
         "roles": [
           "Actor"
         ]
@@ -1459,83 +1471,127 @@
     "cast_crew": [
       {
         "person_id": "manoj-shah",
-        "roles": ["Director", "Actor"]
+        "roles": [
+          "Director",
+          "Actor"
+        ]
       },
       {
         "person_id": "bharat-naik",
-        "roles": ["Writer"]
+        "roles": [
+          "Writer"
+        ]
       },
       {
         "person_id": "suresh-joshi",
-        "roles": ["Music Director"]
+        "roles": [
+          "Music Director"
+        ]
       },
       {
         "person_id": "hussaini-dawavala",
-        "roles": ["Assistant Director", "Lighting Designer"]
+        "roles": [
+          "Assistant Director",
+          "Lighting Designer"
+        ]
       },
       {
         "person_id": "janam-shah",
-        "roles": ["Sound Designer", "Production Manager"]
+        "roles": [
+          "Sound Designer",
+          "Production Manager"
+        ]
       },
       {
         "person_id": "prasad-walavalkar",
-        "roles": ["Set Designer"]
+        "roles": [
+          "Set Designer"
+        ]
       },
       {
         "person_id": "piyush-shah",
-        "roles": ["Lighting Designer"]
+        "roles": [
+          "Lighting Designer"
+        ]
       },
       {
         "person_id": "rajiv-bhatt",
-        "roles": ["Costume Designer"]
+        "roles": [
+          "Costume Designer"
+        ]
       },
       {
         "person_id": "akash-naik",
-        "roles": ["Set Designer"]
+        "roles": [
+          "Set Designer"
+        ]
       },
       {
         "person_id": "ashok-vyas",
-        "roles": ["Backstage"]
+        "roles": [
+          "Backstage"
+        ]
       },
       {
         "person_id": "nikesh-rawal",
-        "roles": ["Actor", "Backstage"]
+        "roles": [
+          "Actor",
+          "Backstage"
+        ]
       },
       {
         "person_id": "dharmendra-gohil",
-        "roles": ["Lead Actor"]
+        "roles": [
+          "Lead Actor"
+        ]
       },
       {
         "person_id": "vimal-upadhaya",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "sagar-rawal",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "pratik-gandhi",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "sahil-jhaveri",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "kunal-sheth",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "ahlam-khan",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "manasi-joshi",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "kalpana-shah",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       }
     ],
     "featured": false
@@ -1566,59 +1622,89 @@
     "cast_crew": [
       {
         "person_id": "manoj-shah",
-        "roles": ["Director", "Writer"]
+        "roles": [
+          "Director",
+          "Writer"
+        ]
       },
       {
         "person_id": "raju-dave",
-        "roles": ["Writer"]
+        "roles": [
+          "Writer"
+        ]
       },
       {
         "person_id": "dharmendra-gohil",
-        "roles": ["Lead Actor"]
+        "roles": [
+          "Lead Actor"
+        ]
       },
       {
         "person_id": "pratik-gandhi",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "pulkit-solanki",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "nilesh-joshi",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "suresh-joshi",
-        "roles": ["Music Director", "Singer"]
+        "roles": [
+          "Music Director",
+          "Singer"
+        ]
       },
       {
         "person_id": "uday-mazumdar",
-        "roles": ["Singer"]
+        "roles": [
+          "Singer"
+        ]
       },
       {
         "person_id": "bhotesh-vyas",
-        "roles": ["Lighting Designer"]
+        "roles": [
+          "Lighting Designer"
+        ]
       },
       {
         "person_id": "subhash-ashar",
-        "roles": ["Set Designer"]
+        "roles": [
+          "Set Designer"
+        ]
       },
       {
         "person_id": "pritesh-sodha",
-        "roles": ["Sound Designer"]
+        "roles": [
+          "Sound Designer"
+        ]
       },
       {
         "person_id": "rajiv-bhatt",
-        "roles": ["Costume Designer"]
+        "roles": [
+          "Costume Designer"
+        ]
       },
       {
         "person_id": "hussaini-dawavala",
-        "roles": ["Production Designer"]
+        "roles": [
+          "Production Designer"
+        ]
       },
       {
         "person_id": "janam-shah",
-        "roles": ["Stage Manager"]
+        "roles": [
+          "Stage Manager"
+        ]
       }
     ],
     "press": [
@@ -1641,7 +1727,7 @@
       "Spiritual"
     ],
     "year": 2012,
-    "synopsis": "Apoorav Khela \u2014 meaning 'a wondrous play' \u2014 is the biography of Avdhoot Anandghanji, a 17th-century Jain mystical poet who dwelled in the forests of Rajasthan and whose name has been all but erased from the books of history.\n\nAnandghan \u2014 literally 'cloud of bliss' \u2014 was born as Labhanand, likely before 1624, and was initiated as a Svetambara monk in the Tapa Gaccha order under the name Labhavijaya. But monastic convention could not contain him. He became an avdhoot \u2014 an ascetic wanderer who had renounced all worldly attachments \u2014 and disappeared into the forests of Rajasthan, where his proximity to nature was said to pacify the beasts and make the trees sway in joy. His absence from monastic records suggests he was always an outsider, more mystic than monk.\n\nWhat survived is his poetry. Anandghan composed padas \u2014 devotional songs \u2014 in a mixed vernacular of Gujarati, Rajasthani, and Braj that were spontaneous, ecstatic, and radically non-sectarian. His Anandghan Chauvisi honours the twenty-four Jain Tirthankaras. His Anandghan Bahattari was transmitted orally and in manuscripts, its verses sometimes found alongside those of Kabir, Surdas, and Banarasidas. Mahatma Gandhi included one of his hymns in his prayer collection. His songs are still sung in Jain temples across India \u2014 and even appear in Digambara hymn collections, despite his Svetambara origins.\n\nThe play, written by Dr. Dhanvant Shah and directed by Manoj Shah, is constructed from the anecdotes and oral traditions surrounding this enigmatic figure. Five actors \u2014 Ashok Parmar, Jay Upadhyay, Nimesh Dave, Manish Rohit, and Sagar Rawal \u2014 bring to life a man about whom barely any documented information exists. Kabir Thakore's set design and Uday Mazumdar's music carry the Rajasthani folk texture, while Rajesh Mandloi's language work ensures the dialect rings true. The play does not attempt a conventional narrative. It is, as its own programme notes describe it, 'an astonishing flight of happiness, beginning with anand and ending with Anandghan.'",
+    "synopsis": "Apoorav Khela — meaning 'a wondrous play' — is the biography of Avdhoot Anandghanji, a 17th-century Jain mystical poet who dwelled in the forests of Rajasthan and whose name has been all but erased from the books of history.\n\nAnandghan — literally 'cloud of bliss' — was born as Labhanand, likely before 1624, and was initiated as a Svetambara monk in the Tapa Gaccha order under the name Labhavijaya. But monastic convention could not contain him. He became an avdhoot — an ascetic wanderer who had renounced all worldly attachments — and disappeared into the forests of Rajasthan, where his proximity to nature was said to pacify the beasts and make the trees sway in joy. His absence from monastic records suggests he was always an outsider, more mystic than monk.\n\nWhat survived is his poetry. Anandghan composed padas — devotional songs — in a mixed vernacular of Gujarati, Rajasthani, and Braj that were spontaneous, ecstatic, and radically non-sectarian. His Anandghan Chauvisi honours the twenty-four Jain Tirthankaras. His Anandghan Bahattari was transmitted orally and in manuscripts, its verses sometimes found alongside those of Kabir, Surdas, and Banarasidas. Mahatma Gandhi included one of his hymns in his prayer collection. His songs are still sung in Jain temples across India — and even appear in Digambara hymn collections, despite his Svetambara origins.\n\nThe play, written by Dr. Dhanvant Shah and directed by Manoj Shah, is constructed from the anecdotes and oral traditions surrounding this enigmatic figure. Five actors — Ashok Parmar, Jay Upadhyay, Nimesh Dave, Manish Rohit, and Sagar Rawal — bring to life a man about whom barely any documented information exists. Kabir Thakore's set design and Uday Mazumdar's music carry the Rajasthani folk texture, while Rajesh Mandloi's language work ensures the dialect rings true. The play does not attempt a conventional narrative. It is, as its own programme notes describe it, 'an astonishing flight of happiness, beginning with anand and ending with Anandghan.'",
     "image": "/images/productions/apoorav-khela/apoorav-khela-hero.jpg",
     "gallery": [
       "/images/productions/apoorav-khela/apoorav-khela-hero.jpg",
@@ -1653,51 +1739,75 @@
     "cast_crew": [
       {
         "person_id": "manoj-shah",
-        "roles": ["Director"]
+        "roles": [
+          "Director"
+        ]
       },
       {
         "person_id": "dhanvant-shah",
-        "roles": ["Writer"]
+        "roles": [
+          "Writer"
+        ]
       },
       {
         "person_id": "uday-mazumdar",
-        "roles": ["Music Director"]
+        "roles": [
+          "Music Director"
+        ]
       },
       {
         "person_id": "kabir-thakore",
-        "roles": ["Set Designer"]
+        "roles": [
+          "Set Designer"
+        ]
       },
       {
         "person_id": "rajiv-bhatt",
-        "roles": ["Costume Designer"]
+        "roles": [
+          "Costume Designer"
+        ]
       },
       {
         "person_id": "pritesh-sodha",
-        "roles": ["Lighting Designer"]
+        "roles": [
+          "Lighting Designer"
+        ]
       },
       {
         "person_id": "rajesh-mandloi",
-        "roles": ["Language Consultant"]
+        "roles": [
+          "Language Consultant"
+        ]
       },
       {
         "person_id": "ashok-parmar",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "jay-upadhyay",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "nimesh-dave",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "manish-rohit",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       },
       {
         "person_id": "sagar-rawal",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       }
     ],
     "press": [
@@ -1711,18 +1821,24 @@
     "title": "Socrates",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama"],
+    "genre": [
+      "Drama"
+    ],
     "year": 2006,
     "synopsis": "A dramatisation of the life and trial of Socrates, based on a story by Darshak and dramatised by Kanti Patel. Directed by Manoj Shah.",
     "image": "/images/placeholder-production.svg",
     "cast_crew": [
       {
         "person_id": "manoj-shah",
-        "roles": ["Director"]
+        "roles": [
+          "Director"
+        ]
       },
       {
         "person_id": "pinkesh-prajapati",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       }
     ],
     "featured": false
@@ -1733,22 +1849,36 @@
     "title": "Tabiyat",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Experimental"],
+    "genre": [
+      "Experimental"
+    ],
     "year": 2025,
     "synopsis": "An experimental Gujarati play by Satchit Puranik exploring the human body through its organs. Directed by Manoj Shah for Ideas Unlimited Productions.",
     "image": "/images/placeholder-production.svg",
     "cast_crew": [
       {
         "person_id": "manoj-shah",
-        "roles": ["Director"]
+        "roles": [
+          "Director"
+        ]
       },
       {
         "person_id": "satchit-puranik",
-        "roles": ["Writer"]
+        "roles": [
+          "Writer"
+        ]
       },
       {
         "person_id": "pinkesh-prajapati",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "dev-joshi",
+        "roles": [
+          "Actor"
+        ]
       }
     ],
     "featured": false
@@ -1759,18 +1889,25 @@
     "title": "Mr. Apple",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama", "Biographical"],
+    "genre": [
+      "Drama",
+      "Biographical"
+    ],
     "year": 2022,
     "synopsis": "A Gujarati play on Steve Jobs, written by Shishir Ramavat. Directed by Manoj Shah for Ideas Unlimited Productions.",
     "image": "/images/placeholder-production.svg",
     "cast_crew": [
       {
         "person_id": "manoj-shah",
-        "roles": ["Director"]
+        "roles": [
+          "Director"
+        ]
       },
       {
         "person_id": "pinkesh-prajapati",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       }
     ],
     "featured": false
@@ -1781,18 +1918,24 @@
     "title": "iSchool",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama"],
+    "genre": [
+      "Drama"
+    ],
     "year": 2020,
     "synopsis": "An Ideas Unlimited production directed by Manoj Shah.",
     "image": "/images/placeholder-production.svg",
     "cast_crew": [
       {
         "person_id": "manoj-shah",
-        "roles": ["Director"]
+        "roles": [
+          "Director"
+        ]
       },
       {
         "person_id": "pinkesh-prajapati",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
       }
     ],
     "featured": false
@@ -1803,18 +1946,30 @@
     "title": "Lagan Magan",
     "type": "play",
     "language": "Gujarati",
-    "genre": ["Drama"],
+    "genre": [
+      "Drama"
+    ],
     "year": 2020,
     "synopsis": "An Ideas Unlimited production directed by Manoj Shah.",
     "image": "/images/placeholder-production.svg",
     "cast_crew": [
       {
         "person_id": "manoj-shah",
-        "roles": ["Director"]
+        "roles": [
+          "Director"
+        ]
       },
       {
         "person_id": "pinkesh-prajapati",
-        "roles": ["Actor"]
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "dev-joshi",
+        "roles": [
+          "Actor"
+        ]
       }
     ],
     "featured": false

@@ -1354,11 +1354,103 @@
     "id": "dev-joshi",
     "slug": "dev-joshi",
     "name": "Dev Joshi",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "Actor with Ideas Unlimited Productions.",
+    "portrait": "/images/people/dev-joshi.jpg",
+    "bio": "A young Gujarati actor based in Mumbai with experience across national-level one-act play competitions, experimental and commercial Gujarati theatre, short films, and advertisements. With Ideas Unlimited, he has performed in Mareez, Kaagdo, 3rd Bell, Tabiyat, and Lagan Ma Magan. He has won Best Actor at the National Level Gujarati Mono Act Competition and placed second at the National Level Gujarati One Act Play Competition. His upcoming Gujarati feature film Desai Vs Sardesai is currently in post-production.",
     "roles": [
       "Actor"
-    ]
+    ],
+    "otherNotableWork": [
+      {
+        "title": "Prem Etle Prem",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Chello Parsi",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Saturday",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Mummy Please",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Happy Father's Day",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Snow White",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Aladdin",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Traffic",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Truth and Dare",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Three Musketeers",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Ghar Jamai Sadan",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Moksh",
+        "category": "Theatre (Theatrix)"
+      },
+      {
+        "title": "Don't Worry Be Happy",
+        "category": "Theatre (Baliwala)"
+      },
+      {
+        "title": "Gamtaa Mangamta",
+        "category": "Theatre (Taronish Arts)"
+      },
+      {
+        "title": "Desai Vs Sardesai",
+        "category": "Upcoming Film"
+      },
+      {
+        "title": "Manas? (Mono Act)",
+        "category": "Theatre",
+        "role": "Best Actor — National Level",
+        "sourceUrl": "https://www.youtube.com/watch?v=xOlhVhWwqdA",
+        "sourceLabel": "YouTube"
+      }
+    ],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/devon.kaa.dev/"
+    },
+    "media": {
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=xOlhVhWwqdA",
+          "title": "Manas? — Gujarati Mono Act"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=yrVFBl6liXU",
+          "title": "Chor Chor — Short Film"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=W13On-jCDLg",
+          "title": "Mom — Short Film"
+        },
+        {
+          "url": "https://youtu.be/HrQWQJNqSls",
+          "title": "Aaveg — Short Film"
+        }
+      ]
+    }
   },
   {
     "id": "harsh-joshi",
