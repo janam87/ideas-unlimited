@@ -855,12 +855,36 @@
     "slug": "pinkesh-prajapati",
     "name": "Pinkesh Prajapati",
     "portrait": "/images/people/pinkesh-prajapati.jpg",
-    "bio": "A Mumbai-based actor and theatre professional with nine years of stage experience, Pinkesh Prajapati has been part of Ideas Unlimited productions including Socrates, iSchool, Tabiyat, Lagan Magan, Main Kaun Hoon, and Mr. Apple, while also serving as assistant to director Manoj Shah across multiple productions. Trained in Kalaripayattu and authentic Garba folk dance, he brings a physical, grounded presence to his work across stage and screen.",
+    "bio": "A Mumbai-based actor and theatre professional with nine years of stage experience, Pinkesh Prajapati has been part of Ideas Unlimited productions including Socrates, iSchool, Tabiyat, Lagan Magan, and Mr. Apple, while also serving as assistant to director Manoj Shah across multiple productions. Trained in Kalaripayattu and authentic Garba folk dance, he brings a physical, grounded presence to his work across stage and screen.",
     "roles": [
       "Actor",
       "Assistant Director"
     ],
     "otherNotableWork": [
+      {
+        "title": "Socrates",
+        "category": "Theatre (IU)"
+      },
+      {
+        "title": "iSchool",
+        "category": "Theatre (IU)"
+      },
+      {
+        "title": "Tabiyat",
+        "category": "Theatre (IU)"
+      },
+      {
+        "title": "Lagan Magan",
+        "category": "Theatre (IU)"
+      },
+      {
+        "title": "Mr. Apple",
+        "category": "Theatre (IU)"
+      },
+      {
+        "title": "Main Kaun Hoon",
+        "category": "Theatre"
+      },
       {
         "title": "Shorelines",
         "category": "Short Film",
