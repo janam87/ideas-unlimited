@@ -1774,5 +1774,49 @@
       }
     ],
     "featured": false
+  },
+  {
+    "id": "ischool",
+    "slug": "ischool",
+    "title": "iSchool",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Drama"],
+    "year": 2020,
+    "synopsis": "An Ideas Unlimited production directed by Manoj Shah.",
+    "image": "/images/placeholder-production.svg",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": ["Director"]
+      },
+      {
+        "person_id": "pinkesh-prajapati",
+        "roles": ["Actor"]
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "lagan-magan",
+    "slug": "lagan-magan",
+    "title": "Lagan Magan",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Drama"],
+    "year": 2020,
+    "synopsis": "An Ideas Unlimited production directed by Manoj Shah.",
+    "image": "/images/placeholder-production.svg",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": ["Director"]
+      },
+      {
+        "person_id": "pinkesh-prajapati",
+        "roles": ["Actor"]
+      }
+    ],
+    "featured": false
   }
 ]
