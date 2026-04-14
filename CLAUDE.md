@@ -84,6 +84,9 @@ Ideas Unlimited Productions — public marketing website for a 35-year theatre c
 - **Press Reviews → /reviews/[slug]**: newspaper clippings without external URLs get full review pages via `reviewSlug`, `fullReview[]`, `reviewAuthor` on PressItem
 - **Ambient Music**: productions with `musicUrl` field get a floating audio toggle (AmbientMusic component)
 - **Blog inline images**: posts can specify `inlineImages` array with `afterParagraph`, `src`, `alt` for precise photo placement
+- **Notable Work thumbnails**: `otherNotableWork` supports structured `NotableWork` objects with poster thumbnails + source links (IMDB-style). Legacy `string[]` entries still render as plain text.
+- **Media Gallery**: persons with `media` field get a full-width Photos & Videos section with lightbox and YouTube links
+- **Share Button**: inline next to person name on detail pages, uses Web Share API / clipboard
 
 ---
 
@@ -95,7 +98,7 @@ Ideas Unlimited Productions — public marketing website for a 35-year theatre c
 - `components/layout/` — Navbar, Footer, NowPerformingBar, SearchOverlay, ClientShell
 - `components/home/` — Home page sections
 - `components/productions/` — ProductionCard, ProductionFilters, ProductionGrid
-- `components/people/` — PersonCard, PeopleFilters, PeopleGrid
+- `components/people/` — PersonCard, PeopleFilters, PeopleGrid, NotableWorkRow, MediaGallery
 - `components/shared/` — Gallery, VideoEmbed, PressCard, ShareButton, RelatedProductions, AmbientMusic
 - `lib/` — types.ts, data.ts, blog.ts, shows.ts, schema.ts, utils.ts, constants.ts
 - `data/` — JSON data files

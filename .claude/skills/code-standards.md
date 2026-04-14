@@ -24,7 +24,7 @@ components/
   home/                 → Home page sections: Hero, LegacyNumbers, AboutPull, FeaturedProductions,
                           ManojShahPull, FestivalsStrip, BlogStub, NewsletterSection
   productions/          → ProductionCard, ProductionFilters, ProductionGrid, ProductionHero
-  people/               → PersonCard, PeopleFilters, PeopleGrid
+  people/               → PersonCard, PeopleFilters, PeopleGrid, NotableWorkRow, MediaGallery
   shared/               → Gallery, VideoEmbed, PressCard, ShareButton, RelatedProductions, AmbientMusic
 
 lib/
@@ -40,6 +40,8 @@ data/                   → JSON data files
 content/                → MDX content files
 public/audio/           → Ambient music files for productions
 public/images/people/   → Person portrait photos ({slug}.jpg)
+public/images/people/{slug}/ → Person gallery photos (gallery-1.jpg, gallery-2.jpg)
+public/images/works/    → Shared poster thumbnails for notable works ({slug}.jpg)
 public/images/productions/ → Production photos ({slug}/ subdirectory)
 ```
 
