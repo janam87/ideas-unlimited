@@ -854,11 +854,46 @@
     "id": "pinkesh-prajapati",
     "slug": "pinkesh-prajapati",
     "name": "Pinkesh Prajapati",
-    "portrait": "/images/people/pinkesh prajapati.png",
-    "bio": "A theatre professional who has worked with Ideas Unlimited Productions on Bombay Flower.",
+    "portrait": "/images/people/pinkesh-prajapati.jpg",
+    "bio": "A Mumbai-based actor and theatre professional with nine years of stage experience, Pinkesh Prajapati has been part of Ideas Unlimited productions including Socrates, iSchool, Tabiyat, Lagan Magan, Main Kaun Hoon, and Mr. Apple, while also serving as assistant to director Manoj Shah across multiple productions. Trained in Kalaripayattu and authentic Garba folk dance, he brings a physical, grounded presence to his work across stage and screen.",
     "roles": [
-      "Crew"
-    ]
+      "Actor",
+      "Assistant Director"
+    ],
+    "otherNotableWork": [
+      {
+        "title": "Shorelines",
+        "category": "Short Film",
+        "role": "Vijay (Protagonist)",
+        "sourceUrl": "https://youtu.be/gc6-hzkcdNY",
+        "sourceLabel": "YouTube"
+      }
+    ],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/pinkesh.prajapati__"
+    },
+    "media": {
+      "photos": [
+        "/images/people/pinkesh-prajapati/gallery-1.jpg",
+        "/images/people/pinkesh-prajapati/gallery-2.jpg",
+        "/images/people/pinkesh-prajapati/gallery-3.jpg",
+        "/images/people/pinkesh-prajapati/gallery-4.jpg",
+        "/images/people/pinkesh-prajapati/gallery-5.jpg",
+        "/images/people/pinkesh-prajapati/gallery-6.jpg",
+        "/images/people/pinkesh-prajapati/gallery-7.jpg",
+        "/images/people/pinkesh-prajapati/gallery-8.png",
+        "/images/people/pinkesh-prajapati/gallery-9.png",
+        "/images/people/pinkesh-prajapati/gallery-10.png",
+        "/images/people/pinkesh-prajapati/gallery-11.png",
+        "/images/people/pinkesh-prajapati/gallery-12.png"
+      ],
+      "videos": [
+        {
+          "url": "https://youtu.be/gc6-hzkcdNY",
+          "title": "Shorelines — Short Film (Protagonist)"
+        }
+      ]
+    }
   },
   {
     "id": "manasi-joshi",
