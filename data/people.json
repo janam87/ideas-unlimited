@@ -1143,6 +1143,7 @@
       {
         "title": "Madam Sir",
         "category": "TV Series",
+        "thumbnail": "/images/works/maddam-sir.jpg",
         "sourceUrl": "https://en.wikipedia.org/wiki/Maddam_Sir",
         "sourceLabel": "Wikipedia"
       },
@@ -1151,6 +1152,7 @@
         "category": "TV Series",
         "year": "2025",
         "role": "Rama Agarwal",
+        "thumbnail": "/images/works/meri-bhavya-life.jpg",
         "sourceUrl": "https://www.imdb.com/title/tt37536479/",
         "sourceLabel": "IMDb"
       },
@@ -1158,12 +1160,14 @@
         "title": "Crime Patrol",
         "category": "TV Series",
         "role": "20+ episodes",
+        "thumbnail": "/images/works/crime-patrol.jpg",
         "sourceUrl": "https://www.imdb.com/name/nm7457340/",
         "sourceLabel": "IMDb"
       },
       {
         "title": "Savdhaan India",
-        "category": "TV Series"
+        "category": "TV Series",
+        "thumbnail": "/images/works/savdhaan-india.jpg"
       },
       {
         "title": "Alakshmi: Hamari Super Bahu",
@@ -1173,6 +1177,7 @@
         "title": "Hasee Toh Phasee",
         "category": "Film",
         "year": "2014",
+        "thumbnail": "/images/works/hasee-toh-phasee.jpg",
         "sourceUrl": "https://www.imdb.com/title/tt3173910/",
         "sourceLabel": "IMDb"
       },
@@ -1180,6 +1185,7 @@
         "title": "Char Fera Nu Chakdol",
         "category": "Film",
         "year": "2023",
+        "thumbnail": "/images/works/char-fera-nu-chakdol.jpg",
         "sourceUrl": "https://www.imdb.com/title/tt27957058/",
         "sourceLabel": "IMDb"
       },
@@ -1192,6 +1198,7 @@
         "category": "Film",
         "year": "2021",
         "role": "Sheela",
+        "thumbnail": "/images/works/swagatam.jpg",
         "sourceUrl": "https://www.imdb.com/title/tt14606120/",
         "sourceLabel": "IMDb"
       },
@@ -1199,6 +1206,7 @@
         "title": "Gandhi",
         "category": "Upcoming",
         "role": "Putalibai",
+        "thumbnail": "/images/works/gandhi.jpg",
         "sourceUrl": "https://www.imdb.com/title/tt20317334/",
         "sourceLabel": "IMDb"
       },
