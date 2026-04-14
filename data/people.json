@@ -1132,13 +1132,15 @@
         "category": "TV Series",
         "year": "2014–2016",
         "role": "Bobby Chaubey (Lead) — Nominated Best Actress, Comic Role",
+        "thumbnail": "/images/works/neeli-chatri-waale.png",
         "sourceUrl": "https://www.imdb.com/title/tt8377874/",
         "sourceLabel": "IMDb"
       },
       {
         "title": "Narsinh Mehta",
         "category": "TV Series",
-        "role": "Best Actress"
+        "role": "Best Actress",
+        "thumbnail": "/images/works/narsinh-mehta.png"
       },
       {
         "title": "Madam Sir",
@@ -1171,7 +1173,8 @@
       },
       {
         "title": "Alakshmi: Hamari Super Bahu",
-        "category": "TV Series"
+        "category": "TV Series",
+        "thumbnail": "/images/works/alakshmi-hamari-super-bahu.png"
       },
       {
         "title": "Hasee Toh Phasee",
@@ -1191,7 +1194,8 @@
       },
       {
         "title": "Halkee Fulkee",
-        "category": "Film"
+        "category": "Film",
+        "thumbnail": "/images/works/halkee-fulkee.png"
       },
       {
         "title": "Swagatam",

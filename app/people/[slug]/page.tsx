@@ -59,7 +59,8 @@ export default async function PersonDetailPage({ params }: Props) {
                     src={person.portrait}
                     alt={person.name}
                     fill
-                    className="object-cover"
+                    className="object-cover object-top"
+                    sizes="(max-width: 1024px) 100vw, 320px"
                     priority
                   />
                 </div>
