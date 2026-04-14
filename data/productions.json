@@ -1704,5 +1704,75 @@
       "press-apoorav-khela-1"
     ],
     "featured": false
+  },
+  {
+    "id": "socrates",
+    "slug": "socrates",
+    "title": "Socrates",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Drama"],
+    "year": 2006,
+    "synopsis": "A dramatisation of the life and trial of Socrates, based on a story by Darshak and dramatised by Kanti Patel. Directed by Manoj Shah.",
+    "image": "/images/placeholder-production.svg",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": ["Director"]
+      },
+      {
+        "person_id": "pinkesh-prajapati",
+        "roles": ["Actor"]
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "tabiyat",
+    "slug": "tabiyat",
+    "title": "Tabiyat",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Experimental"],
+    "year": 2025,
+    "synopsis": "An experimental Gujarati play by Satchit Puranik exploring the human body through its organs. Directed by Manoj Shah for Ideas Unlimited Productions.",
+    "image": "/images/placeholder-production.svg",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": ["Director"]
+      },
+      {
+        "person_id": "satchit-puranik",
+        "roles": ["Writer"]
+      },
+      {
+        "person_id": "pinkesh-prajapati",
+        "roles": ["Actor"]
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "mr-apple",
+    "slug": "mr-apple",
+    "title": "Mr. Apple",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": ["Drama", "Biographical"],
+    "year": 2022,
+    "synopsis": "A Gujarati play on Steve Jobs, written by Shishir Ramavat. Directed by Manoj Shah for Ideas Unlimited Productions.",
+    "image": "/images/placeholder-production.svg",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": ["Director"]
+      },
+      {
+        "person_id": "pinkesh-prajapati",
+        "roles": ["Actor"]
+      }
+    ],
+    "featured": false
   }
 ]
