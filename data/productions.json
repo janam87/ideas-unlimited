@@ -839,6 +839,12 @@
         "roles": [
           "Actor"
         ]
+      },
+      {
+        "person_id": "dhruv-dave",
+        "roles": [
+          "Actor"
+        ]
       }
     ],
     "press": [
@@ -1985,6 +1991,12 @@
       },
       {
         "person_id": "keyuri-shah",
+        "roles": [
+          "Actor"
+        ]
+      },
+      {
+        "person_id": "dhruv-dave",
         "roles": [
           "Actor"
         ]

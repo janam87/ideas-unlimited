@@ -841,13 +841,53 @@
     "id": "dhruv-dave",
     "slug": "dhruv-dave",
     "name": "Dhruv Dave",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "A theatre actor who has performed with Ideas Unlimited Productions in Bombay Flower.",
+    "portrait": "/images/people/dhruv-dave.jpg",
+    "bio": "A versatile actor with experience across television, film, and theatre, Dhruv Dave has built a diverse portfolio in both Hindi and Gujarati entertainment. His television credits include Sapno Ki Chhalang and Crime Patrol on Sony TV, and Swaraj on DD National. With Ideas Unlimited, he has performed in Bombay Flower and 3rd Bell. Deeply rooted in Gujarati and Hindi stage productions, his theatre experience lends nuance and emotional depth to his screen work. He also brings a keen understanding of visual storytelling through his background in editing.",
     "roles": [
       "Actor"
     ],
-    "social": {
+    "otherNotableWork": [
+      {
+        "title": "Sapno Ki Chhalang",
+        "category": "TV Series",
+        "year": "Sony TV"
+      },
+      {
+        "title": "Crime Patrol",
+        "category": "TV Series",
+        "year": "Sony TV",
+        "thumbnail": "/images/works/crime-patrol.jpg",
+        "sourceUrl": "https://www.imdb.com/name/nm7457340/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Swaraj",
+        "category": "TV Series",
+        "year": "DD National"
+      }
+    ],
+    "socialLinks": {
       "instagram": "https://instagram.com/iamdhruvdave"
+    },
+    "media": {
+      "photos": [
+        "/images/people/dhruv-dave/gallery-1.jpg",
+        "/images/people/dhruv-dave/gallery-2.jpg",
+        "/images/people/dhruv-dave/gallery-3.jpg",
+        "/images/people/dhruv-dave/gallery-4.jpg",
+        "/images/people/dhruv-dave/gallery-5.jpg",
+        "/images/people/dhruv-dave/gallery-6.jpg",
+        "/images/people/dhruv-dave/gallery-7.jpg",
+        "/images/people/dhruv-dave/gallery-8.jpg",
+        "/images/people/dhruv-dave/gallery-9.jpg",
+        "/images/people/dhruv-dave/gallery-10.jpg",
+        "/images/people/dhruv-dave/gallery-11.jpg",
+        "/images/people/dhruv-dave/gallery-12.jpg",
+        "/images/people/dhruv-dave/gallery-13.jpg",
+        "/images/people/dhruv-dave/gallery-14.jpg",
+        "/images/people/dhruv-dave/gallery-15.jpg"
+      ],
+      "videos": []
     }
   },
   {
