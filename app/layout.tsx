@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { playfair, dmSans, jetbrainsMono } from "./fonts";
 import { ClientShell } from "@/components/layout/ClientShell";
 import { Footer } from "@/components/layout/Footer";
@@ -58,6 +59,18 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased bg-background text-foreground">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-CN8R6M0K0X"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-CN8R6M0K0X');
+          `}
+        </Script>
         <ClientShell
           productions={productions}
           people={people}
