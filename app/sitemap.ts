@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
-import { getAllProductions, getAllPeople } from "@/lib/data";
+import { getAllProductions, getAllPeople, getAllReviewSlugs } from "@/lib/data";
+import { getAllPosts } from "@/lib/blog";
 import { SITE } from "@/lib/constants";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -13,6 +14,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const people = getAllPeople().map((p) => ({
     url: `${SITE.url}/people/${p.slug}`,
     lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  const reviews = getAllReviewSlugs().map((slug) => ({
+    url: `${SITE.url}/reviews/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "yearly" as const,
+    priority: 0.6,
+  }));
+
+  const posts = getAllPosts().map((post) => ({
+    url: `${SITE.url}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
@@ -62,5 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...productions,
     ...people,
+    ...reviews,
+    ...posts,
   ];
 }

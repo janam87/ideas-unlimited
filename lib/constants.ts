@@ -4,11 +4,11 @@ export const SITE = {
   tagline: "35 Years of Fearless Theatre",
   description:
     "Ideas Unlimited Productions — one of India's leading theatre companies, producing powerful drama across languages and cities for over 35 years.",
-  url: "https://ideasunlimited.in",
+  url: "https://ideasunlimited.productions",
   founder: "Manoj Shah",
   foundedYear: 1990,
-  email: "info@ideasunlimited.in",
-  phone: "+91 98200 00000",
+  email: "info@ideasunlimited.productions",
+  phone: "+91 91670 06006",
   social: {
     instagram: "https://instagram.com/ideasunlimitedproductions",
     facebook: "https://facebook.com/ideasunlimitedproductions",
