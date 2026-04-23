@@ -48,62 +48,68 @@ export default async function PersonDetailPage({ params }: Props) {
       />
 
       {/* Main layout — sticky photo on left, all content sections on right */}
-      <div className="pt-28 md:pt-32">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div className="pt-20 md:pt-32">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-4 md:py-24">
+          {/* Mobile/tablet editorial header — role + name above photo */}
+          <div className="lg:hidden mb-5">
+            <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-purple mb-2">
+              {person.roles.join(" · ")}
+            </p>
+            <h1 className="font-serif text-3xl sm:text-4xl text-cream leading-[0.95]">
+              {person.name}
+            </h1>
+          </div>
+
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
             {/* Left — Photo (sticky across all sections) */}
             <div className="lg:col-span-5">
               <div className="lg:sticky lg:top-24 lg:max-w-[320px]">
-                <div className="relative aspect-[3/4] w-full overflow-hidden">
+                <div className="relative aspect-[3/4] w-full max-w-[260px] sm:max-w-[300px] lg:max-w-none mx-auto lg:mx-0 overflow-hidden">
                   <Image
                     src={person.portrait}
                     alt={person.name}
                     fill
                     className="object-cover object-top"
-                    sizes="(max-width: 1024px) 100vw, 320px"
+                    sizes="(max-width: 1024px) 260px, 320px"
                     priority
                   />
                 </div>
 
-                {/* Social Links */}
-                {person.socialLinks && (
-                  <div className="flex items-center gap-6 mt-6">
-                    {person.socialLinks.instagram && (
-                      <a href={person.socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors">
-                        Instagram
-                      </a>
-                    )}
-                    {person.socialLinks.twitter && (
-                      <a href={person.socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors">
-                        Twitter
-                      </a>
-                    )}
-                    {person.socialLinks.website && (
-                      <a href={person.socialLinks.website} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors">
-                        Website
-                      </a>
-                    )}
-                  </div>
-                )}
+                {/* Social Links + Share */}
+                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-5 gap-y-3 mt-4 lg:mt-6">
+                  {person.socialLinks?.instagram && (
+                    <a href={person.socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors">
+                      Instagram
+                    </a>
+                  )}
+                  {person.socialLinks?.twitter && (
+                    <a href={person.socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors">
+                      Twitter
+                    </a>
+                  )}
+                  {person.socialLinks?.website && (
+                    <a href={person.socialLinks.website} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors">
+                      Website
+                    </a>
+                  )}
+                  <ShareButton
+                    title={person.name}
+                    text={`${person.name} — ${person.roles.join(", ")} profile on Ideas Unlimited Productions`}
+                  />
+                </div>
               </div>
             </div>
 
             {/* Right — All content sections stacked */}
             <div className="lg:col-span-7">
-              {/* Bio */}
-              <p className="font-mono text-xs uppercase tracking-[0.3em] text-purple mb-3">
+              {/* Desktop-only role + name (mobile shows these above photo) */}
+              <p className="hidden lg:block font-mono text-xs uppercase tracking-[0.3em] text-purple mb-3">
                 {person.roles.join(" · ")}
               </p>
-              <div className="flex items-start justify-between gap-4 mb-8">
-                <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-cream leading-[0.9]">
-                  {person.name}
-                </h1>
-                <ShareButton
-                  title={person.name}
-                  text={`${person.name} — ${person.roles.join(", ")} profile on Ideas Unlimited Productions`}
-                />
-              </div>
-              <p className="text-grey-200 text-lg md:text-xl leading-relaxed">
+              <h1 className="hidden lg:block font-serif text-6xl text-cream leading-[0.9] mb-8">
+                {person.name}
+              </h1>
+              <p className="mt-8 lg:mt-0 text-grey-200 text-lg md:text-xl leading-relaxed">
                 {person.bio}
               </p>
 

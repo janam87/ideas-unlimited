@@ -24,8 +24,10 @@ export interface Production {
   synopsis: string;
   description?: string;
   image: string;
+  poster?: string;
   gallery?: string[];
   videoUrl?: string;
+  trailerUrl?: string;
   musicUrl?: string;
   duration?: string;
   shows?: Show[];

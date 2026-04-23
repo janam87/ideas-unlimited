@@ -985,19 +985,374 @@
     "id": "pratik-gandhi",
     "slug": "pratik-gandhi",
     "name": "Pratik Gandhi",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "Before Scam 1992 made him a national sensation, Pratik Gandhi was a Gujarati theatre actor whom Manoj Shah took a liking to during a touring production. Shah cast him in two solo plays that defined his craft: Hu Chandrakant Bakshi (2013), where he inhabited the controversial Gujarati writer, and Mohan No Masalo (2015), where he played young Mohandas Gandhi in three languages in a single day — earning a Limca Book of Records entry. Critics noted these collaborations 'helped solidify Gandhi's reputation as an actor.' Gandhi still calls Shah to perform shows between film projects. His screen career includes Scam 1992, Bhavai, Atithi Bhooto Bhava, and Dedh Bigha Zameen.",
+    "portrait": "/images/people/pratik-gandhi.jpg",
+    "bio": "Born in Surat on 28 April 1980 to a family of teachers, Pratik Gandhi trained as an industrial engineer at North Maharashtra University, Jalgaon (2004), and spent a decade holding day jobs — first at the National Productivity Council in Satara and Pune (2004–07), then at Reliance Infrastructure's cement division in Mumbai (January 2008–2016) — while building a parallel life in Gujarati theatre. He debuted on stage in 2005 with Aa Paar Ke Pele Paar and took on dense character work in Apurva Avsar (2007, six roles), Saat Tari Akvees (2008–09), Bohot Nachyo Gopal (2012, as Krishna), Ame Badha Sathe To Duniya Laiye Mathe (2013, seven characters) and Sir Sir Sarla (2018); his earliest screen credits were Sridhar Rangayan's English indie Yours Emotionally (2006) and 68 Pages (2007). Manoj Shah spotted him on tour and cast him in two solo plays that defined his stage craft — Hu Chandrakant Bakshi (2013), inhabiting the controversial Gujarati writer, and Mohan No Masalo (2015), where he played the young Mohandas Gandhi in Gujarati, Hindi and English on the same day, earning a Limca Book of Records entry. In Gujarati cinema he broke through as Tapan 'Tino' in Abhishek Jain's Bey Yaar (2014), led the National Award–winning Wrong Side Raju (2016), and anchored Tamburo and Love Ni Bhavai (2017), Ventilator (2018), Dhunki and Gujarat 11 (2019), and Luv Ni Love Storys (2020), with Hindi crossovers in Loveyatri and Mitron (2018). Scam 1992: The Harshad Mehta Story (SonyLIV, 2020) — Hansal Mehta's biographical drama in which he played stockbroker Harshad Mehta — made him a national sensation; his follow-ups include Bhavai (2021, originally Raavan Leela), Atithi Bhooto Bhava, Kahani Rubberband Ki and Vaahlam Jaao Ne (2022), the OHO Gujarati web series Vitthal Teedi (2021), Modern Love Mumbai's 'Baai' episode and The Great Indian Murder (2022), a Scoop cameo (2023), the Spotify crime podcast Gangistan (2021–22, 48 episodes), and a 2024 run of Madgaon Express, Do Aur Do Pyaar, Dedh Bigha Zameen and Agni. In 2025 he led Dhoom Dhaam, the Jyotirao Phule biopic Phule, and Netflix's espionage drama Saare Jahan Se Accha: The Silent Guardians; on the slate are the Taapsee Pannu co-starrer Woh Ladki Hai Kahaan?, the Saif Ali Khan–led Netflix election drama Hum Hindustani, and a return to Mahatma Gandhi as lead in Hansal Mehta's multi-season Gandhi series for Applause Entertainment. Gandhi still calls Manoj Shah between film projects to perform shows.",
     "roles": [
       "Actor"
     ],
     "otherNotableWork": [
-      "Web: Scam 1992: The Harshad Mehta Story (2020)",
-      "Film: Bhavai (2021)",
-      "Film: Dedh Bigha Zameen (2023)",
-      "Theatre: Mohan No Masalo (Limca Book of Records)"
+      {
+        "title": "Scam 1992: The Harshad Mehta Story",
+        "category": "Web Series",
+        "year": "2020",
+        "role": "Harshad Mehta (Lead) · SonyLIV",
+        "thumbnail": "/images/works/scam-1992.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Scam_1992",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Gandhi",
+        "category": "Upcoming",
+        "year": "2026",
+        "role": "Mohandas Karamchand Gandhi (Lead) · dir. Hansal Mehta",
+        "thumbnail": "/images/works/gandhi.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Gandhi_(upcoming_TV_series)",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Hum Hindustani",
+        "category": "Upcoming",
+        "year": "TBA",
+        "role": "Netflix film · with Saif Ali Khan — India's first election drama"
+      },
+      {
+        "title": "Woh Ladki Hai Kahaan?",
+        "category": "Upcoming",
+        "year": "TBA",
+        "role": "Gagan Agarwal · with Taapsee Pannu (completed)"
+      },
+      {
+        "title": "Phule",
+        "category": "Film",
+        "year": "2025",
+        "role": "Jyotirao Phule (Lead)",
+        "thumbnail": "/images/works/phule.jpg",
+        "sourceUrl": "https://www.themoviedb.org/movie/965087",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Saare Jahan Se Accha: The Silent Guardians",
+        "category": "Web Series",
+        "year": "2025",
+        "role": "Vishnu Shankar · Netflix",
+        "thumbnail": "/images/works/saare-jahan-se-accha.jpg",
+        "sourceUrl": "https://www.themoviedb.org/tv/283610",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Dhoom Dhaam",
+        "category": "Film",
+        "year": "2025",
+        "role": "Veer Poddar"
+      },
+      {
+        "title": "Madgaon Express",
+        "category": "Film",
+        "year": "2024",
+        "role": "Pratik 'Pinku' Goradia · dir. Kunal Kemmu",
+        "thumbnail": "/images/works/madgaon-express.jpg",
+        "sourceUrl": "https://www.themoviedb.org/movie/1201015",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Do Aur Do Pyaar",
+        "category": "Film",
+        "year": "2024",
+        "role": "Anirrudh 'Ani' Banerjee",
+        "thumbnail": "/images/works/do-aur-do-pyaar.jpg",
+        "sourceUrl": "https://www.themoviedb.org/movie/951015",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Dedh Bigha Zameen",
+        "category": "Film",
+        "year": "2024",
+        "role": "Anil Singh (Lead) · JioCinema",
+        "thumbnail": "/images/works/dedh-bigha-zameen.jpg",
+        "sourceUrl": "https://www.themoviedb.org/movie/863067",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Agni",
+        "category": "Film",
+        "year": "2024",
+        "role": "Vitthalrao Dhonduba Surve · dir. Rahul Dholakia",
+        "thumbnail": "/images/works/agni.jpg",
+        "sourceUrl": "https://www.themoviedb.org/movie/1238167",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Spam",
+        "category": "Short Film",
+        "year": "2024",
+        "role": "Nikhil"
+      },
+      {
+        "title": "Khichdi 2: Mission Paanthukistan",
+        "category": "Film",
+        "year": "2023",
+        "role": "Pilot (special appearance)"
+      },
+      {
+        "title": "Scoop",
+        "category": "Web Series",
+        "year": "2023",
+        "role": "Man on Road (uncredited cameo, Ep. 6) · Netflix",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Scoop_(Indian_TV_series)",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Modern Love Mumbai",
+        "category": "Web Series",
+        "year": "2022",
+        "role": "Manzar 'Manzu' Ali (Episode: Baai) · Prime Video",
+        "thumbnail": "/images/works/modern-love-mumbai.jpg",
+        "sourceUrl": "https://www.themoviedb.org/tv/200941",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Atithi Bhooto Bhava",
+        "category": "Film",
+        "year": "2022",
+        "role": "Srikant Shirodkar (Lead) · ZEE5",
+        "thumbnail": "/images/works/atithi-bhooto-bhava.jpg",
+        "sourceUrl": "https://www.themoviedb.org/movie/788944",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "The Great Indian Murder",
+        "category": "Web Series",
+        "year": "2022",
+        "role": "Suraj Yadav · Disney+ Hotstar",
+        "thumbnail": "/images/works/the-great-indian-murder.jpg",
+        "sourceUrl": "https://www.themoviedb.org/tv/155846",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Kahani Rubberband Ki",
+        "category": "Film",
+        "year": "2022",
+        "role": "Narendra 'Nanno' Tripathi"
+      },
+      {
+        "title": "Vaahlam Jaao Ne",
+        "category": "Film",
+        "year": "2022",
+        "role": "Gujarati"
+      },
+      {
+        "title": "Kehvatlal Parivar",
+        "category": "Film",
+        "year": "2022",
+        "role": "Special appearance in song 'Holi Aavi Aavi' · Gujarati"
+      },
+      {
+        "title": "Sarathi",
+        "category": "Film",
+        "year": "2022"
+      },
+      {
+        "title": "Bhavai",
+        "category": "Film",
+        "year": "2021",
+        "role": "Rajaram Joshi (Lead) · originally titled Raavan Leela",
+        "thumbnail": "/images/works/bhavai.jpg",
+        "sourceUrl": "https://www.themoviedb.org/movie/826178",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Shimmy",
+        "category": "Short Film",
+        "year": "2021",
+        "role": "Amol Parekh"
+      },
+      {
+        "title": "Vitthal Teedi",
+        "category": "Web Series",
+        "year": "2021",
+        "role": "Vitthal Tripathi (Lead) · OHO Gujarati, Season 1",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Vitthal_Teedi",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Star vs Food",
+        "category": "TV Series",
+        "year": "2021",
+        "role": "Himself (Season 1, Ep. 5)"
+      },
+      {
+        "title": "Gangistan",
+        "category": "Podcast",
+        "year": "2021–2022",
+        "role": "Aashu Patel · Spotify (48 episodes, Hindi)"
+      },
+      {
+        "title": "Luv Ni Love Storys",
+        "category": "Film",
+        "year": "2020",
+        "role": "Luv Modi · Gujarati"
+      },
+      {
+        "title": "Dhira",
+        "category": "Film",
+        "year": "2020",
+        "role": "Tenali Rama (dubbed Gujarati)"
+      },
+      {
+        "title": "Dhunki",
+        "category": "Film",
+        "year": "2019",
+        "role": "Nikunj · Gujarati"
+      },
+      {
+        "title": "Gujarat 11",
+        "category": "Film",
+        "year": "2019",
+        "role": "Nirmal · Gujarati"
+      },
+      {
+        "title": "Loveyatri",
+        "category": "Film",
+        "year": "2018",
+        "role": "Nagendra 'Negative' Pathak · Hindi"
+      },
+      {
+        "title": "Mitron",
+        "category": "Film",
+        "year": "2018",
+        "role": "Raunak · Hindi"
+      },
+      {
+        "title": "Ventilator",
+        "category": "Film",
+        "year": "2018",
+        "role": "Prashant Mandalia · Gujarati"
+      },
+      {
+        "title": "Sir Sir Sarla",
+        "category": "Theatre",
+        "year": "2018",
+        "role": "Sir"
+      },
+      {
+        "title": "Tamburo",
+        "category": "Film",
+        "year": "2017",
+        "role": "Bhavik · Gujarati"
+      },
+      {
+        "title": "Love Ni Bhavai",
+        "category": "Film",
+        "year": "2017",
+        "role": "Aditya Shah · Gujarati"
+      },
+      {
+        "title": "Wrong Side Raju",
+        "category": "Film",
+        "year": "2016",
+        "role": "Raju Bambani (Lead) · National Award, Best Gujarati Film",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Wrong_Side_Raju",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Crime Patrol",
+        "category": "TV Series",
+        "year": "2016",
+        "role": "Arjun Dixit · Episode 614 'Policeman' · Sony"
+      },
+      {
+        "title": "Mere Piya Gaye Rangoon",
+        "category": "Theatre",
+        "year": "2015",
+        "role": "Bharat Ram · Hindi"
+      },
+      {
+        "title": "Bey Yaar",
+        "category": "Film",
+        "year": "2014",
+        "role": "Tapan 'Tino' · Gujarati — cinema breakthrough",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bey_Yaar",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Master Madam",
+        "category": "Theatre",
+        "year": "2014",
+        "role": "Master"
+      },
+      {
+        "title": "Ame Badha Sathe To Duniya Laiye Mathe",
+        "category": "Theatre",
+        "year": "2013",
+        "role": "7 characters (Popat, Akhil, Vimal, Kaka, Naresh, etc.) · Gujarati"
+      },
+      {
+        "title": "Bohot Nachyo Gopal",
+        "category": "Theatre",
+        "year": "2012",
+        "role": "Krishna"
+      },
+      {
+        "title": "Chho Chok Chovees",
+        "category": "Theatre",
+        "year": "2010"
+      },
+      {
+        "title": "Saat Tari Akvees (Part 1)",
+        "category": "Theatre",
+        "year": "2008–2009",
+        "role": "Rudra (2008) / Mukesh Chovatia (2009)"
+      },
+      {
+        "title": "Jujave Roop",
+        "category": "Theatre",
+        "year": "2007",
+        "role": "Dapher · Gujarati/Hindi"
+      },
+      {
+        "title": "68 Pages",
+        "category": "Film",
+        "year": "2007",
+        "role": "Umrao's brother · Hindi"
+      },
+      {
+        "title": "Yours Emotionally",
+        "category": "Film",
+        "year": "2006",
+        "role": "Mani · English — film debut"
+      },
+      {
+        "title": "Aa Paar Ke Pele Paar",
+        "category": "Theatre",
+        "year": "2005",
+        "role": "Ravikant Deewan · Gujarati — stage debut"
+      }
+    ],
+    "interviews": [
+      {
+        "title": "Pratik Gandhi on his theatre life with Manoj Shah",
+        "url": "https://deepagahlot.com/pratik-gandhi-theatre-interview/",
+        "source": "Deepa Gahlot"
+      },
+      {
+        "title": "Manoj Shah's new play discovers the early days of Gandhi the legend",
+        "url": "https://www.thenationalnews.com/arts-culture/on-stage/manoj-shah-s-new-play-discovers-the-early-days-of-gandhi-the-legend-1.217373",
+        "source": "The National"
+      },
+      {
+        "title": "Pratik Gandhi Interview: I Work on My Instincts",
+        "url": "https://silverscreenindia.com/movies/interviews/pratik-gandhi-interview-i-work-on-my-instincts/",
+        "source": "Silverscreen India"
+      },
+      {
+        "title": "Theatre is what keeps him grounded like a root",
+        "url": "https://www.socialnews.xyz/2024/06/06/for-pratik-gandhi-theatre-is-what-keeps-him-grounded-like-a-root-ians-interview/",
+        "source": "IANS"
+      }
     ],
     "socialLinks": {
-      "instagram": "https://www.instagram.com/pratikiigandhi/"
+      "instagram": "https://www.instagram.com/pratikiigandhi/",
+      "twitter": "https://x.com/pratikg80"
     },
     "featured": true
   },
@@ -1177,10 +1532,272 @@
     "id": "chirag-vohra",
     "slug": "chirag-vohra",
     "name": "Chirag Vohra",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "The original lead of Master Phoolmani — Ideas Unlimited's debut production — where he played Manilal/Phoolmani/Vanlata across sixteen years of performances. A foundational member of the Ideas Unlimited ensemble, he has also starred in the solo comedy What's Up? and appeared in Mareez and other productions.",
+    "portrait": "/images/people/chirag-vohra.jpg",
+    "bio": "Mumbai-born actor who debuted professionally in 1999 as the original lead of Master Phoolmani — Ideas Unlimited Productions' very first play — where he played the triple role of Manilal, Phoolmani and Vanlata across more than a hundred performances over sixteen years. For that early female-lead he would call women friends home and have them read his scenes aloud, listening for the inner sur of a voice he had not yet lived inside; the instinct has stayed with him. 'The preparation method is the same,' he has said of moving between stage and camera, 'only the execution changes.' A foundational member of Manoj Shah's ensemble, he has performed in Akho Akha Bolo, Huto and Huto Oh Yaa!, Gujarati Ni Asmita, Lakshmi Poojan, Mareez and the solo comedy What's Up? (NCPA CentreStage Festival, 2015); beyond Ideas Unlimited he has played Mahatma Gandhi on stage in Bharat Bhagya Vidhata and appeared in Umesh Shukla's Kishan vs Kanhaiya and Gandhi Ke Godse. On screen he is widely recognised as Bhushan Bhatt in Hansal Mehta's Scam 1992: The Harshad Mehta Story, and as Mahatma Gandhi in Nikkhil Advani's Freedom at Midnight (SonyLIV, 2024) — a role for which he reportedly lost fifteen kilos. Other OTT work includes Scoop, Crash Course and Lootere; his television credits include Hum Paanch, Sumit Sambhal Lega and OMG: Oh My God! His films span Mangal Pandey: The Rising, Lage Raho Munna Bhai, Heyy Babyy, Kidnap, Billu, Tere Bin Laden and its sequel Dead or Alive, Commando 2, Toba Tek Singh, Yamla Pagla Deewana Phir Se, Rashmi Rocket, the short Ek Raat and the Gujarati feature Locha Laapsi — with early uncredited turns in Kucch To Hai and Jaago. Chirag treats fame as a by-product of the work: you should be able to look at yourself in the mirror, he believes, and know honestly how much of yourself you gave a performance. Even now, a slight anxiety before a first show, and rehearsal after rehearsal until the anxiety settles, is how a role is earned — one sur, one polish at a time.",
     "roles": [
       "Actor"
+    ],
+    "socialLinks": {
+      "instagram": "https://www.instagram.com/chiragvohra1/",
+      "twitter": "https://x.com/chiragvohra"
+    },
+    "otherNotableWork": [
+      {
+        "title": "Freedom at Midnight",
+        "category": "Web Series",
+        "year": "2024–2026",
+        "role": "Mahatma Gandhi (14 episodes)",
+        "thumbnail": "/images/works/freedom-at-midnight.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Freedom_at_Midnight_(TV_series)",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Lootere",
+        "category": "Web Series",
+        "year": "2024",
+        "role": "Gupta",
+        "thumbnail": "/images/works/lootere.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Lootere_(TV_series)",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Scoop",
+        "category": "Web Series",
+        "year": "2023",
+        "role": "Reporter",
+        "thumbnail": "/images/works/scoop.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Scoop_(2023_TV_series)",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Crash Course",
+        "category": "Web Series",
+        "year": "2022",
+        "role": "Mayank Batra",
+        "thumbnail": "/images/works/crash-course.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Crash_Course_(2022_TV_series)",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Scam 1992: The Harshad Mehta Story",
+        "category": "Web Series",
+        "year": "2020",
+        "role": "Bhushan Bhatt",
+        "thumbnail": "/images/works/scam-1992.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Scam_1992",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Sumit Sambhal Lega",
+        "category": "TV Series",
+        "year": "2015–2016",
+        "role": "Nirdharit",
+        "thumbnail": "/images/works/sumit-sambhal-lega.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sumit_Sambhal_Lega",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Hum Paanch",
+        "category": "TV Series",
+        "thumbnail": "/images/works/hum-paanch.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hum_Paanch_(TV_series)",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Locha Laapsi",
+        "category": "Film",
+        "year": "2024",
+        "thumbnail": "/images/works/locha-laapsi.png",
+        "sourceUrl": "https://www.themoviedb.org/person/1256530-chirag-vohra",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Rashmi Rocket",
+        "category": "Film",
+        "year": "2021",
+        "role": "Nilesh Bhai",
+        "thumbnail": "/images/works/rashmi-rocket.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Rashmi_Rocket",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Ek Raat",
+        "category": "Short Film",
+        "year": "2020",
+        "role": "Doctor"
+      },
+      {
+        "title": "Yamla Pagla Deewana Phir Se",
+        "category": "Film",
+        "year": "2018",
+        "role": "Jignesh",
+        "thumbnail": "/images/works/yamla-pagla-deewana-phir-se.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Yamla_Pagla_Deewana_Phir_Se",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Toba Tek Singh",
+        "category": "Film",
+        "year": "2018",
+        "role": "Roshan Lal / Hindu Vakil",
+        "thumbnail": "/images/works/toba-tek-singh.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Toba_Tek_Singh_(2018_film)",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Commando 2",
+        "category": "Film",
+        "year": "2017",
+        "role": "Doctor",
+        "thumbnail": "/images/works/commando-2.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Commando_2:_The_Black_Money_Trail",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Tere Bin Laden: Dead or Alive",
+        "category": "Film",
+        "year": "2016",
+        "role": "Chirag",
+        "thumbnail": "/images/works/tere-bin-laden-dead-or-alive.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Tere_Bin_Laden:_Dead_or_Alive",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "OMG: Oh My God!",
+        "category": "Film",
+        "year": "2012",
+        "role": "Kanji's Neighbour (uncredited)",
+        "thumbnail": "/images/works/omg-oh-my-god.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/OMG_%E2%80%93_Oh_My_God!",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Tere Bin Laden",
+        "category": "Film",
+        "year": "2010",
+        "role": "Latif",
+        "thumbnail": "/images/works/tere-bin-laden.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Tere_Bin_Laden",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Billu",
+        "category": "Film",
+        "year": "2009",
+        "role": "Director",
+        "thumbnail": "/images/works/billu.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Billu",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Kidnap",
+        "category": "Film",
+        "year": "2008",
+        "role": "Kabir's Friend (uncredited)",
+        "thumbnail": "/images/works/kidnap.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kidnap_(2008_film)",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Heyy Babyy",
+        "category": "Film",
+        "year": "2007",
+        "role": "Groom",
+        "thumbnail": "/images/works/heyy-babyy.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Heyy_Babyy",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Orange Juice",
+        "category": "TV Movie",
+        "year": "2007"
+      },
+      {
+        "title": "Lage Raho Munna Bhai",
+        "category": "Film",
+        "year": "2006",
+        "role": "Spitting victim",
+        "thumbnail": "/images/works/lage-raho-munna-bhai.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Lage_Raho_Munna_Bhai",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Mangal Pandey: The Rising",
+        "category": "Film",
+        "year": "2005",
+        "role": "Bhujavan Shukla",
+        "thumbnail": "/images/works/mangal-pandey.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mangal_Pandey:_The_Rising",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Jaago",
+        "category": "Film",
+        "year": "2004",
+        "role": "Credited as Chirag Vora",
+        "thumbnail": "/images/works/jaago.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Jaago_(2004_film)",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Kucch To Hai",
+        "category": "Film",
+        "year": "2003",
+        "thumbnail": "/images/works/kucch-to-hai.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kucch_To_Hai",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Bharat Bhagya Vidhata",
+        "category": "Theatre",
+        "year": "2019",
+        "role": "Mahatma Gandhi"
+      },
+      {
+        "title": "Kishan vs Kanhaiya",
+        "category": "Theatre"
+      },
+      {
+        "title": "Gandhi Ke Godse",
+        "category": "Theatre"
+      }
+    ],
+    "interviews": [
+      {
+        "title": "Freedom at Midnight's Chirag Vohra on Pratik Gandhi's take on Mahatma",
+        "url": "https://www.timesnownews.com/entertainment-news/web-series/freedom-at-midnight-chirag-vohra-is-looking-forward-to-scam-1992-costar-pratik-gandhi-take-on-mahatma-exclusive-article-115489863",
+        "source": "Times Now"
+      },
+      {
+        "title": "Chirag Vohra set to play Mahatma Gandhi in Freedom at Midnight",
+        "url": "https://www.indiatvnews.com/entertainment/ott/scam-1992-s-chirag-vohra-to-play-mahatma-gandhi-in-sony-liv-s-freedom-at-midnight-see-photos-2024-05-02-929175",
+        "source": "India TV"
+      },
+      {
+        "title": "Nikkhil Advani on casting Chirag Vora as Mahatma Gandhi",
+        "url": "https://www.filmibeat.com/bollywood/ott/2024/freedom-at-midnight-nikkhil-advani-on-casting-chirag-vora-as-mahatma-gandhi-in-sonyliv-series-011-424659.html",
+        "source": "Filmibeat"
+      },
+      {
+        "title": "Freedom at Midnight: SonyLIV Cast Reveal",
+        "url": "https://variety.com/2024/global/news/freedom-at-midnight-cast-sonyliv-gandhi-nehru-1235988447/",
+        "source": "Variety"
+      },
+      {
+        "title": "Cineblues Exclusive: Chirag Vohra",
+        "url": "https://www.cineblues.com/ott-interview/cineblues-exclusive-chirag-vohra",
+        "source": "Cineblues"
+      },
+      {
+        "title": "In Conversation with Chirag Vohra",
+        "url": "https://www.youtube.com/watch?v=PAep3D87fsY",
+        "source": "Actor Prepares (YouTube)"
+      },
+      {
+        "title": "Theatre Speak: Chirag Vohra",
+        "url": "https://www.facebook.com/MumbaiTheatreGuide/videos/theatre-speak-chirag-vohra/832581197396129/",
+        "source": "Mumbai Theatre Guide"
+      }
     ]
   },
   {

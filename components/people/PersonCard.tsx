@@ -17,7 +17,7 @@ export function PersonCard({ person }: PersonCardProps) {
           src={person.portrait}
           alt={person.name}
           fill
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
         />
       </div>
 

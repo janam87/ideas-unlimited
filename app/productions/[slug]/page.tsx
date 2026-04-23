@@ -13,6 +13,7 @@ import { getUpcomingShows, formatShowDate, formatShowTime, hasUpcomingShows } fr
 import { productionSchema, eventSchema } from "@/lib/schema";
 import { Badge } from "@/components/ui/Badge";
 import { Gallery } from "@/components/shared/Gallery";
+import { VideoEmbed } from "@/components/shared/VideoEmbed";
 import { PressCard } from "@/components/shared/PressCard";
 import { RelatedProductions } from "@/components/shared/RelatedProductions";
 import { ProductionHero } from "@/components/productions/ProductionHero";
@@ -128,12 +129,12 @@ export default async function ProductionDetailPage({ params }: Props) {
       <section className="border-t border-grey-700">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
-            {/* Left — Poster (sticky) */}
-            <div className="lg:col-span-5">
+            {/* Left — Poster (sticky) — hidden on mobile since hero already shows it */}
+            <div className="hidden md:block lg:col-span-5">
               <div className="lg:sticky lg:top-24 lg:max-w-[280px]">
                 <div className="relative aspect-[2/3] w-full overflow-hidden">
                   <Image
-                    src={production.image}
+                    src={production.poster ?? production.image}
                     alt={`${production.title} poster`}
                     fill
                     className="object-cover"
@@ -215,6 +216,18 @@ export default async function ProductionDetailPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Trailer */}
+      {production.trailerUrl && (
+        <section className="border-t border-grey-700">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cream leading-tight mb-10">
+              Trailer
+            </h2>
+            <VideoEmbed url={production.trailerUrl} title={`${production.title} — Trailer`} />
+          </div>
+        </section>
+      )}
 
       {/* Gallery — full bleed, no heading */}
       {production.gallery && production.gallery.length > 0 && (

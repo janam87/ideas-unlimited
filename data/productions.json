@@ -576,7 +576,9 @@
     ],
     "year": 2016,
     "synopsis": "Meet Chirag — a perfectly average man in his early thirties with a single, noble mission: catch a flight to Chicago and save his not-so-bright brother from being thrown behind bars for a minor misunderstanding. But before he can zip up his suitcase, his girlfriend drops a bombshell. His phone starts ringing like it owes someone money. On the other end: his sister’s in-laws, an elite task force of relentless, nitpicking, drama-fuelled wedding planners who believe that unless Chirag approves the saree border and the sambharo menu, the marriage might as well be cancelled.\n\nFrom that moment, Chirag’s day turns into a high-stakes obstacle course complete with passive-aggressive aunties, conspiracy theories on family WhatsApp groups, emotional blackmail disguised as wedding prep, and the looming threat of missing his flight. He’s stuck between love and loyalty, Google Maps and Google Calendar, chai breaks and breakdowns.\n\nWritten by Uttam Gada and directed by Manoj Shah, What’s Up? is a riotous solo comedy performed by Chirag Vohra — the original lead of Master Phoolmani. It premiered at NCPA’s CentreStage Festival in November 2015 and perfectly captures the madness of trying to keep everyone happy when no one knows what they actually want.",
-    "image": "/images/productions/whats-up/Chirag Vohra - Whats Up 1.JPG",
+    "image": "/images/productions/whats-up/whats-up-hero.jpg",
+    "poster": "/images/productions/whats-up/whats-up-poster.png",
+    "trailerUrl": "https://youtu.be/ov8ajCrf0x0",
     "gallery": [
       "/images/productions/whats-up/Chirag Vohra - Whats Up 1.JPG",
       "/images/productions/whats-up/Chirag Vohra - Whats Up 2.JPG",
@@ -645,14 +647,13 @@
     "year": 2015,
     "synopsis": "The play that entered the Limca Book of Records. The play that Pratik Gandhi performed before Scam 1992 made him famous. The play about Mohandas Gandhi before he became the Mahatma.\n\nMohan No Masalo — Mohan’s Spices — recovers the young Mohandas: the scared boy from Porbandar, the awkward teenager who married at thirteen, the mediocre student who sailed to London to study law, the diffident barrister who failed in Bombay courts, and the accidental activist who boarded a train in South Africa and found his purpose when he was thrown off it. These are the masalas — the spices — that made the Mahatma. The recipe, told by the man himself.\n\nPratik Gandhi performs the ninety-minute monologue alone against Atul Dodiya’s black-and-white backdrop paintings of a young Gandhi. The Gujarati script was written by Satya Mehta, the Hindi version by Mihir Bhuta and Arpit Jain, the English by Ishan Doshi. Parthiv Gohil provided the vocal performances.\n\nThe play premiered on 22 March 2015 at NCPA and was subsequently performed in all three languages — Gujarati (Mohan No Masalo), Hindi (Mohan Ka Masala), and English (Mohan’s Masala) — in a single day at the same theatre by the same actor. This feat earned a Limca Book of Records entry for ‘Performance of One Play in Multiple Languages in One Day.’\n\nManoj Shah on why he made this play: ‘I wanted to be with youth. Best way to re-invent ideas for youth without cliché results is Mohan ka Masala.’",
     "image": "/images/productions/mohan-no-masalo/DSC_0183.JPG",
+    "poster": "/images/productions/mohan-no-masalo/poster.jpg",
+    "trailerUrl": "https://youtu.be/N1NGluNQakc",
     "gallery": [
       "/images/productions/mohan-no-masalo/DSC_0157.JPG",
       "/images/productions/mohan-no-masalo/DSC_0183.JPG",
       "/images/productions/mohan-no-masalo/DSC_0378.JPG",
-      "/images/productions/mohan-no-masalo/DSC_0787.JPG",
-      "/images/productions/mohan-no-masalo/IMG_1387.JPG",
-      "/images/productions/mohan-no-masalo/11796452_10153148434801647_9147202896025228911_n.jpg",
-      "/images/productions/mohan-no-masalo/Chaiti.jpeg"
+      "/images/productions/mohan-no-masalo/DSC_0787.JPG"
     ],
     "duration": "90 minutes",
     "cast_crew": [
@@ -1997,6 +1998,146 @@
       },
       {
         "person_id": "dhruv-dave",
+        "roles": [
+          "Actor"
+        ]
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "sikka-ni-triji-baaju",
+    "slug": "sikka-ni-triji-baaju",
+    "title": "Sikka Ni Triji Baaju",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": [
+      "Drama"
+    ],
+    "year": 2016,
+    "synopsis": "A Gujarati play directed by Manoj Shah for Ideas Unlimited Productions, featuring Pratik Gandhi as Dhiru Sixer.",
+    "image": "/images/placeholder-production.svg",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "pratik-gandhi",
+        "roles": [
+          "Dhiru Sixer"
+        ]
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "akho-akha-bolo",
+    "slug": "akho-akha-bolo",
+    "title": "Akho Akha Bolo",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": [
+      "Drama"
+    ],
+    "year": 2001,
+    "synopsis": "An early Ideas Unlimited production directed by Manoj Shah, featuring Chirag Vohra.",
+    "image": "/images/placeholder-production.svg",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "chirag-vohra",
+        "roles": [
+          "Actor"
+        ]
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "huto-and-huto-oh-yaa",
+    "slug": "huto-and-huto-oh-yaa",
+    "title": "Huto and Huto Oh Yaa!",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": [
+      "Drama"
+    ],
+    "year": 2003,
+    "synopsis": "An Ideas Unlimited production directed by Manoj Shah, featuring Chirag Vohra.",
+    "image": "/images/placeholder-production.svg",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "chirag-vohra",
+        "roles": [
+          "Actor"
+        ]
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "gujarati-ni-asmita",
+    "slug": "gujarati-ni-asmita",
+    "title": "Gujarati Ni Asmita",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": [
+      "Drama"
+    ],
+    "year": 2006,
+    "synopsis": "An Ideas Unlimited production directed by Manoj Shah, featuring Chirag Vohra.",
+    "image": "/images/placeholder-production.svg",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "chirag-vohra",
+        "roles": [
+          "Actor"
+        ]
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "lakshmi-poojan",
+    "slug": "lakshmi-poojan",
+    "title": "Lakshmi Poojan",
+    "type": "play",
+    "language": "Gujarati",
+    "genre": [
+      "Drama"
+    ],
+    "year": 2009,
+    "synopsis": "An Ideas Unlimited production directed by Manoj Shah, featuring Chirag Vohra.",
+    "image": "/images/placeholder-production.svg",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "chirag-vohra",
         "roles": [
           "Actor"
         ]
