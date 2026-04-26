@@ -10,6 +10,9 @@ import { organizationSchema } from "@/lib/schema";
 import { SITE } from "@/lib/constants";
 import "./globals.css";
 
+// ISR — regenerate every 5 minutes so upcoming shows auto-archive without manual rebuilds.
+export const revalidate = 300;
+
 export const metadata: Metadata = {
   title: {
     default: `${SITE.name} — ${SITE.tagline}`,
@@ -46,7 +49,10 @@ export default function RootLayout({
   const hasNowPerforming = getNowPerformingProductions(productions).length > 0;
   const upcomingShows = productions.flatMap((p) =>
     getUpcomingShows(p).map((show) => ({ production: p, show }))
-  ).sort((a, b) => new Date(a.show.date).getTime() - new Date(b.show.date).getTime());
+  ).sort((a, b) =>
+    new Date(`${a.show.date}T${a.show.time}`).getTime() -
+    new Date(`${b.show.date}T${b.show.time}`).getTime()
+  );
 
   // Menu featured: prefer next upcoming show; else latest featured production; else newest production.
   const fallbackProduction =

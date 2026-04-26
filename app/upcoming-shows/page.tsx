@@ -3,10 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { getAllProductions } from "@/lib/data";
-import { getUpcomingShows, formatShowTime } from "@/lib/shows";
+import { getUpcomingShows, getPastShows, formatShowTime } from "@/lib/shows";
 import { eventSchema } from "@/lib/schema";
 import { SITE } from "@/lib/constants";
 import type { Production, Show } from "@/lib/types";
+
+// Auto-regenerate every 5 min so shows archive automatically once they're 2hr past start.
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "Upcoming Shows",
@@ -102,7 +105,9 @@ function buildMonthGroups(entries: ShowEntry[]): MonthGroup[] {
 }
 
 export default function UpcomingShowsPage() {
-  const allEntries: ShowEntry[] = getAllProductions().flatMap((production) =>
+  const productions = getAllProductions();
+
+  const allEntries: ShowEntry[] = productions.flatMap((production) =>
     getUpcomingShows(production).map((show) => ({ production, show }))
   );
   allEntries.sort(
@@ -113,6 +118,18 @@ export default function UpcomingShowsPage() {
 
   const next = allEntries[0];
   const months = buildMonthGroups(allEntries);
+
+  // Past shows — most recent first, capped to last 12
+  const pastEntries: ShowEntry[] = productions
+    .flatMap((production) =>
+      getPastShows(production).map((show) => ({ production, show }))
+    )
+    .sort(
+      (a, b) =>
+        new Date(`${b.show.date}T${b.show.time}`).getTime() -
+        new Date(`${a.show.date}T${a.show.time}`).getTime()
+    )
+    .slice(0, 12);
 
   return (
     <>
@@ -335,6 +352,49 @@ export default function UpcomingShowsPage() {
           ))}
         </div>
       </section>
+
+      {/* Past Shows — auto-archived from upcoming list once 2hrs after start */}
+      {pastEntries.length > 0 && (
+        <section className="border-t border-grey-700">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+            <div className="flex items-baseline justify-between mb-8">
+              <h2 className="font-serif text-3xl md:text-4xl text-cream">
+                Recently Performed
+              </h2>
+              <span className="font-mono text-[11px] uppercase tracking-widest text-grey-400">
+                {pastEntries.length} {pastEntries.length === 1 ? "show" : "shows"}
+              </span>
+            </div>
+            <ul className="border-t border-grey-700/60">
+              {pastEntries.map(({ production, show }, i) => {
+                const date = new Date(show.date);
+                const venueHeadline = show.host ?? show.venue;
+                return (
+                  <li
+                    key={`past-${production.slug}-${show.date}-${show.time}-${i}`}
+                    className="border-b border-grey-700/60 py-4 md:py-5"
+                  >
+                    <Link
+                      href={`/productions/${production.slug}`}
+                      className="group flex flex-col md:flex-row md:items-center gap-2 md:gap-6"
+                    >
+                      <span className="font-mono text-[11px] uppercase tracking-widest text-grey-500 md:w-32 shrink-0">
+                        {WEEKDAY_NAMES[date.getUTCDay()]}, {date.getUTCDate()} {MONTH_NAMES[date.getUTCMonth()].slice(0, 3)} {date.getUTCFullYear()}
+                      </span>
+                      <span className="font-serif text-lg md:text-xl text-grey-300 group-hover:text-purple transition-colors flex-1 min-w-0">
+                        {production.title}
+                      </span>
+                      <span className="font-mono text-[11px] uppercase tracking-wider text-grey-500 md:text-right">
+                        {venueHeadline}, {show.city}
+                      </span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </section>
+      )}
     </>
   );
 }

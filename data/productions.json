@@ -4,8 +4,8 @@
     "slug": "adbhut",
     "shows": [
       {
-        "date": "2026-06-13",
-        "time": "18:00",
+        "date": "2026-06-27",
+        "time": "18:30",
         "venue": "Prithvi Theatre",
         "city": "Mumbai",
         "status": "confirmed"
@@ -378,15 +378,6 @@
   {
     "id": "third-bell",
     "slug": "third-bell",
-    "shows": [
-      {
-        "date": "2026-06-14",
-        "time": "18:00",
-        "venue": "Prithvi Theatre",
-        "city": "Mumbai",
-        "status": "confirmed"
-      }
-    ],
     "title": "Third Bell",
     "subtitle": "Let's See Ourselves on Stage",
     "type": "play",
@@ -587,9 +578,17 @@
     "shows": [
       {
         "date": "2026-04-30",
-        "time": "19:30",
-        "venue": "Tagore Hall",
+        "time": "20:30",
+        "venue": "Urmila Kanoria Black Box, Opp. Gujarat University, Navrangpura",
         "city": "Ahmedabad",
+        "host": "Flame Society",
+        "status": "confirmed"
+      },
+      {
+        "date": "2026-06-28",
+        "time": "17:00",
+        "venue": "Prithvi Theatre",
+        "city": "Mumbai",
         "status": "confirmed"
       }
     ],
@@ -662,15 +661,6 @@
   {
     "id": "mohan-no-masalo",
     "slug": "mohan-no-masalo",
-    "shows": [
-      {
-        "date": "2026-05-24",
-        "time": "19:30",
-        "venue": "Tagore Hall",
-        "city": "Ahmedabad",
-        "status": "confirmed"
-      }
-    ],
     "title": "Mohan No Masalo",
     "subtitle": "Recipe for Making a Mahatma",
     "type": "play",
@@ -764,7 +754,7 @@
     "slug": "mareez",
     "shows": [
       {
-        "date": "2026-06-13",
+        "date": "2026-06-27",
         "time": "21:00",
         "venue": "Prithvi Theatre",
         "city": "Mumbai",
@@ -910,7 +900,7 @@
     "slug": "karl-marx-in-kalbadevi",
     "shows": [
       {
-        "date": "2026-06-13",
+        "date": "2026-06-27",
         "time": "16:00",
         "venue": "Prithvi Theatre",
         "city": "Mumbai",
@@ -970,15 +960,6 @@
   {
     "id": "hu-chandrakant-bakshi",
     "slug": "hu-chandrakant-bakshi",
-    "shows": [
-      {
-        "date": "2026-05-25",
-        "time": "19:30",
-        "venue": "Tagore Hall",
-        "city": "Ahmedabad",
-        "status": "confirmed"
-      }
-    ],
     "title": "Hu Chandrakant Bakshi",
     "subtitle": "I, Chandrakant Bakshi",
     "type": "play",
@@ -1900,8 +1881,8 @@
     "slug": "socrates",
     "shows": [
       {
-        "date": "2026-06-14",
-        "time": "21:00",
+        "date": "2026-06-28",
+        "time": "20:00",
         "venue": "Prithvi Theatre",
         "city": "Mumbai",
         "status": "confirmed"
