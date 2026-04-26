@@ -38,6 +38,7 @@ export interface Production {
   commissionContext?: string;
   relatedProductionSlugs?: string[];
   featured?: boolean;
+  tags?: string[];
 }
 
 export interface Person {
@@ -56,6 +57,8 @@ export interface Person {
   };
   media?: PersonMedia;
   featured?: boolean;
+  // SEO override — true forces index, false forces noindex. Undefined → auto via isPersonComplete().
+  seoIndex?: boolean;
 }
 
 export interface Festival {

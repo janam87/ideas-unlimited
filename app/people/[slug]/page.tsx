@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getPersonBySlug, getAllPeople, getProductionsForPerson, getRolesForPerson, getPressForPerson } from "@/lib/data";
+import { getPersonBySlug, getAllPeople, getProductionsForPerson, getRolesForPerson, getPressForPerson, isPersonComplete, getCastMatesForPerson } from "@/lib/data";
 import { personSchema } from "@/lib/schema";
 import { PressCard } from "@/components/shared/PressCard";
 import { ShareButton } from "@/components/shared/ShareButton";
@@ -21,9 +21,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const person = getPersonBySlug(slug);
   if (!person) return { title: "Not Found" };
+  const indexable = isPersonComplete(person);
   return {
     title: person.name,
     description: person.bio.slice(0, 160),
+    robots: indexable ? undefined : { index: false, follow: true },
     openGraph: {
       title: person.name,
       description: person.bio.slice(0, 160),
@@ -39,6 +41,7 @@ export default async function PersonDetailPage({ params }: Props) {
 
   const productions = getProductionsForPerson(person.id);
   const pressItems = getPressForPerson(person.slug);
+  const castMates = getCastMatesForPerson(person.id, 16);
 
   return (
     <>
@@ -185,6 +188,28 @@ export default async function PersonDetailPage({ params }: Props) {
                       <PressCard key={item.id} item={item} />
                     ))}
                   </div>
+                </div>
+              )}
+
+              {/* Cast Mates — internal linking + discovery */}
+              {castMates.length > 0 && (
+                <div className="mt-16 pt-16 border-t border-grey-700">
+                  <h2 className="font-serif text-3xl md:text-4xl text-cream mb-8">
+                    Shared the Stage With
+                  </h2>
+                  <ul className="flex flex-wrap gap-x-4 gap-y-2">
+                    {castMates.map((mate) => (
+                      <li key={mate.slug}>
+                        <Link
+                          href={`/people/${mate.slug}`}
+                          className="font-serif text-lg text-cream hover:text-purple transition-colors"
+                        >
+                          {mate.name}
+                        </Link>
+                        <span className="text-grey-600 ml-4" aria-hidden>·</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               )}
             </div>

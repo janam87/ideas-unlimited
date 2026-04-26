@@ -16,15 +16,37 @@ export const SITE = {
   },
 };
 
-export const NAV_LINKS = [
+// Top-bar primary links (always visible on desktop).
+export const NAV_PRIMARY = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Productions", href: "/productions" },
-  { label: "People", href: "/people" },
-  { label: "Blog", href: "/blog" },
-  { label: "Manoj Shah", href: "/manoj-shah" },
-  { label: "Contact", href: "/contact" },
 ] as const;
+
+// Full-screen menu overlay — grouped. Home/About in top bar; Upcoming + Blog shown as visual cards.
+export const NAV_GROUPS = [
+  {
+    title: "Theatre",
+    links: [
+      { label: "All Productions", href: "/productions" },
+      { label: "Jain Performing Arts", href: "/jain-performing-arts" },
+    ],
+  },
+  {
+    title: "More",
+    links: [
+      { label: "About Us", href: "/about" },
+      { label: "About Founder", href: "/manoj-shah" },
+      { label: "People", href: "/people" },
+      { label: "Stories", href: "/blog" },
+      { label: "Contact", href: "/contact" },
+    ],
+  },
+] as const;
+
+// Backwards-compat: flat list (used by sitemap, footer, etc.)
+export const NAV_LINKS: ReadonlyArray<{ label: string; href: string }> =
+  NAV_GROUPS.flatMap((g) => [...g.links]);
 
 export const LEGACY_NUMBERS = [
   { value: 113, suffix: "+", label: "Productions" },

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { playfair, dmSans, jetbrainsMono } from "./fonts";
+import { playfair, dmSans, jetbrainsMono, tiroDevanagari, cormorant } from "./fonts";
 import { ClientShell } from "@/components/layout/ClientShell";
 import { Footer } from "@/components/layout/Footer";
 import { getAllProductions, getAllPeople } from "@/lib/data";
+import { getAllPosts } from "@/lib/blog";
 import { getNowPerformingProductions, getUpcomingShows } from "@/lib/shows";
 import { organizationSchema } from "@/lib/schema";
 import { SITE } from "@/lib/constants";
@@ -47,10 +48,24 @@ export default function RootLayout({
     getUpcomingShows(p).map((show) => ({ production: p, show }))
   ).sort((a, b) => new Date(a.show.date).getTime() - new Date(b.show.date).getTime());
 
+  // Menu featured: prefer next upcoming show; else latest featured production; else newest production.
+  const fallbackProduction =
+    productions.find((p) => p.featured) ??
+    productions.slice().sort((a, b) => b.year - a.year)[0];
+  const navFeatured = upcomingShows[0]
+    ? { production: upcomingShows[0].production, show: upcomingShows[0].show }
+    : fallbackProduction
+      ? { production: fallbackProduction }
+      : undefined;
+
+  const featuredPost = getAllPosts().slice().sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  )[0];
+
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}
+      className={`${playfair.variable} ${dmSans.variable} ${jetbrainsMono.variable} ${tiroDevanagari.variable} ${cormorant.variable}`}
     >
       <head>
         <script
@@ -99,6 +114,8 @@ export default function RootLayout({
           people={people}
           hasNowPerforming={hasNowPerforming}
           upcomingShows={upcomingShows}
+          navFeatured={navFeatured}
+          featuredPost={featuredPost}
         >
           <main className="relative z-10 min-h-screen">{children}</main>
         </ClientShell>

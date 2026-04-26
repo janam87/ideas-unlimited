@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllProductions, getAllPeople, getAllReviewSlugs } from "@/lib/data";
+import { getAllProductions, getAllPeople, getAllReviewSlugs, isPersonComplete } from "@/lib/data";
 import { getAllPosts } from "@/lib/blog";
 import { SITE } from "@/lib/constants";
 
@@ -11,12 +11,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const people = getAllPeople().map((p) => ({
-    url: `${SITE.url}/people/${p.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
+  // Only index people with substantive content — thin profiles dilute crawl budget.
+  const people = getAllPeople()
+    .filter(isPersonComplete)
+    .map((p) => ({
+      url: `${SITE.url}/people/${p.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }));
 
   const reviews = getAllReviewSlugs().map((slug) => ({
     url: `${SITE.url}/reviews/${slug}`,

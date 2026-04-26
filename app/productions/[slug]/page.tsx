@@ -8,6 +8,7 @@ import {
   getProductionBySlug,
   getPersonBySlug,
   getPressForProduction,
+  getRelatedProductionsAuto,
 } from "@/lib/data";
 import { getUpcomingShows, formatShowDate, formatShowTime, hasUpcomingShows } from "@/lib/shows";
 import { productionSchema, eventSchema } from "@/lib/schema";
@@ -50,9 +51,11 @@ export default async function ProductionDetailPage({ params }: Props) {
   const upcomingShows = getUpcomingShows(production);
   const isUpcoming = hasUpcomingShows(production);
   const pressItems = getPressForProduction(production.slug);
+  const isJain = production.tags?.includes("jain");
+  const relatedProductions = getRelatedProductionsAuto(production, 6);
 
   return (
-    <>
+    <div data-theme={isJain ? "jain" : undefined} className={isJain ? "bg-background text-foreground" : undefined}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productionSchema(production)) }}
@@ -259,7 +262,7 @@ export default async function ProductionDetailPage({ params }: Props) {
       )}
 
       {/* Related */}
-      {production.relatedProductionSlugs && production.relatedProductionSlugs.length > 0 && (
+      {relatedProductions.length > 0 && (
         <section className="border-t border-grey-700">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
@@ -269,13 +272,13 @@ export default async function ProductionDetailPage({ params }: Props) {
                 </h2>
               </div>
               <div className="lg:col-span-7">
-                <RelatedProductions slugs={production.relatedProductionSlugs} />
+                <RelatedProductions slugs={relatedProductions.map((p) => p.slug)} />
               </div>
             </div>
           </div>
         </section>
       )}
-    </>
+    </div>
   );
 }
 

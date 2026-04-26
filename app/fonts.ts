@@ -1,4 +1,4 @@
-import { Playfair_Display, DM_Sans, JetBrains_Mono } from "next/font/google";
+import { Playfair_Display, DM_Sans, JetBrains_Mono, Tiro_Devanagari_Hindi, Cormorant_Garamond } from "next/font/google";
 
 export const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -15,5 +15,19 @@ export const dmSans = DM_Sans({
 export const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-jetbrains",
+  display: "swap",
+});
+
+export const tiroDevanagari = Tiro_Devanagari_Hindi({
+  weight: "400",
+  subsets: ["latin", "devanagari"],
+  variable: "--font-tiro-devanagari",
+  display: "swap",
+});
+
+export const cormorant = Cormorant_Garamond({
+  weight: ["400", "500", "600"],
+  subsets: ["latin"],
+  variable: "--font-cormorant",
   display: "swap",
 });
