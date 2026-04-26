@@ -11,9 +11,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Only index people with substantive content — thin profiles dilute crawl budget.
+  // Only index people with substantive content. Skip those with a customLink (e.g. Manoj Shah → /manoj-shah).
   const people = getAllPeople()
-    .filter(isPersonComplete)
+    .filter((p) => !p.customLink && isPersonComplete(p))
     .map((p) => ({
       url: `${SITE.url}/people/${p.slug}`,
       lastModified: new Date(),
@@ -53,6 +53,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
+    },
+    {
+      url: `${SITE.url}/upcoming-shows`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
     },
     {
       url: `${SITE.url}/manoj-shah`,

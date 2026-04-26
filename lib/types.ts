@@ -3,6 +3,9 @@ export interface Show {
   time: string;
   venue: string;
   city: string;
+  // Override venue when the booking matters more — e.g. private/institutional show.
+  // "TCS Annual Day", "Birla Foundation Gala", etc. Displayed above the production title.
+  host?: string;
   ticketUrl?: string;
   status?: "confirmed" | "almost-full" | "sold-out";
 }
@@ -59,6 +62,8 @@ export interface Person {
   featured?: boolean;
   // SEO override — true forces index, false forces noindex. Undefined → auto via isPersonComplete().
   seoIndex?: boolean;
+  // Override the default /people/[slug] link target. Used for Manoj Shah → /manoj-shah.
+  customLink?: string;
 }
 
 export interface Festival {

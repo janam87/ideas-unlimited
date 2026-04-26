@@ -165,7 +165,10 @@ export function Navbar({ hasNowPerforming, onSearchOpen, featured, featuredPost 
                     >
                       {featured && (
                         <div>
-                          <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-amber mb-3 flex items-center gap-2">
+                          <Link
+                            href="/upcoming-shows"
+                            className="font-mono text-[10px] uppercase tracking-[0.3em] text-amber hover:text-amber/70 mb-3 flex items-center gap-2 transition-colors"
+                          >
                             {featured.show && (
                               <span className="relative flex h-2 w-2">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber opacity-75" />
@@ -173,7 +176,7 @@ export function Navbar({ hasNowPerforming, onSearchOpen, featured, featuredPost 
                               </span>
                             )}
                             Upcoming Shows
-                          </p>
+                          </Link>
                           <Link
                             href={`/productions/${featured.production.slug}`}
                             className="group block"
@@ -203,7 +206,7 @@ export function Navbar({ hasNowPerforming, onSearchOpen, featured, featuredPost 
                           )}
 
                           <Link
-                            href="/productions?filter=upcoming"
+                            href="/upcoming-shows"
                             className="mt-3 inline-flex items-center gap-1.5 font-mono text-[11px] uppercase tracking-widest text-purple hover:text-purple-light transition-colors group/cta"
                           >
                             View All Upcoming Shows

@@ -29,6 +29,7 @@ export const NAV_GROUPS = [
     title: "Theatre",
     links: [
       { label: "All Productions", href: "/productions" },
+      { label: "Upcoming Shows", href: "/upcoming-shows" },
       { label: "Jain Performing Arts", href: "/jain-performing-arts" },
     ],
   },

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getPersonBySlug, getAllPeople, getProductionsForPerson, getRolesForPerson, getPressForPerson, isPersonComplete, getCastMatesForPerson } from "@/lib/data";
 import { personSchema } from "@/lib/schema";
 import { PressCard } from "@/components/shared/PressCard";
@@ -38,6 +38,7 @@ export default async function PersonDetailPage({ params }: Props) {
   const { slug } = await params;
   const person = getPersonBySlug(slug);
   if (!person) notFound();
+  if (person.customLink) redirect(person.customLink);
 
   const productions = getProductionsForPerson(person.id);
   const pressItems = getPressForPerson(person.slug);

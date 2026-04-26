@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { VideoEmbed } from "@/components/shared/VideoEmbed";
 
 export const metadata: Metadata = {
   title: "About Us — Ideas Unlimited Productions",
@@ -244,13 +245,11 @@ export default function AboutPage() {
                 Ideas Unlimited has always been a collaborative endeavour. Over 25 years, the company has brought together some of the finest talent in Indian theatre — actors who inhabit characters with startling truth, writers who find the extraordinary in the everyday, and designers who transform bare stages into worlds.
               </p>
 
-              {/* Landscape team photo */}
-              <div className="relative aspect-[16/9] w-full overflow-hidden mb-8">
-                <Image
-                  src="/images/placeholder-production.svg"
-                  alt="Ideas Unlimited team"
-                  fill
-                  className="object-cover"
+              {/* Team video */}
+              <div className="mb-8">
+                <VideoEmbed
+                  url="https://youtu.be/_PIoYhz6In8"
+                  title="Ideas Unlimited — The People"
                 />
               </div>
 

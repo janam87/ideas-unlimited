@@ -2,6 +2,15 @@
   {
     "id": "adbhut",
     "slug": "adbhut",
+    "shows": [
+      {
+        "date": "2026-06-13",
+        "time": "18:00",
+        "venue": "Prithvi Theatre",
+        "city": "Mumbai",
+        "status": "confirmed"
+      }
+    ],
     "title": "Adbhut",
     "subtitle": "The Wonder Within",
     "type": "play",
@@ -129,16 +138,6 @@
       "/images/productions/bombay-flower/26MAR23_BombayFlower_TET_22.JPG"
     ],
     "duration": "120 minutes",
-    "shows": [
-      {
-        "date": "2026-05-18",
-        "time": "19:30",
-        "venue": "Prithvi Theatre",
-        "city": "Mumbai",
-        "ticketUrl": "https://in.bookmyshow.com/",
-        "status": "confirmed"
-      }
-    ],
     "cast_crew": [
       {
         "person_id": "manoj-shah",
@@ -379,6 +378,15 @@
   {
     "id": "third-bell",
     "slug": "third-bell",
+    "shows": [
+      {
+        "date": "2026-06-14",
+        "time": "18:00",
+        "venue": "Prithvi Theatre",
+        "city": "Mumbai",
+        "status": "confirmed"
+      }
+    ],
     "title": "Third Bell",
     "subtitle": "Let's See Ourselves on Stage",
     "type": "play",
@@ -576,6 +584,15 @@
   {
     "id": "whats-up",
     "slug": "whats-up",
+    "shows": [
+      {
+        "date": "2026-04-30",
+        "time": "19:30",
+        "venue": "Tagore Hall",
+        "city": "Ahmedabad",
+        "status": "confirmed"
+      }
+    ],
     "title": "What's Up?",
     "subtitle": "One Man, One Flight, Too Many Calls",
     "type": "play",
@@ -645,6 +662,15 @@
   {
     "id": "mohan-no-masalo",
     "slug": "mohan-no-masalo",
+    "shows": [
+      {
+        "date": "2026-05-24",
+        "time": "19:30",
+        "venue": "Tagore Hall",
+        "city": "Ahmedabad",
+        "status": "confirmed"
+      }
+    ],
     "title": "Mohan No Masalo",
     "subtitle": "Recipe for Making a Mahatma",
     "type": "play",
@@ -736,6 +762,15 @@
   {
     "id": "mareez",
     "slug": "mareez",
+    "shows": [
+      {
+        "date": "2026-06-13",
+        "time": "21:00",
+        "venue": "Prithvi Theatre",
+        "city": "Mumbai",
+        "status": "confirmed"
+      }
+    ],
     "title": "Mareez",
     "subtitle": "Sufi on the Rock Since 2004",
     "type": "play",
@@ -873,6 +908,15 @@
   {
     "id": "karl-marx-in-kalbadevi",
     "slug": "karl-marx-in-kalbadevi",
+    "shows": [
+      {
+        "date": "2026-06-13",
+        "time": "16:00",
+        "venue": "Prithvi Theatre",
+        "city": "Mumbai",
+        "status": "confirmed"
+      }
+    ],
     "title": "Karl Marx In Kalbadevi",
     "subtitle": "Revolution via Entertainment",
     "type": "play",
@@ -926,6 +970,15 @@
   {
     "id": "hu-chandrakant-bakshi",
     "slug": "hu-chandrakant-bakshi",
+    "shows": [
+      {
+        "date": "2026-05-25",
+        "time": "19:30",
+        "venue": "Tagore Hall",
+        "city": "Ahmedabad",
+        "status": "confirmed"
+      }
+    ],
     "title": "Hu Chandrakant Bakshi",
     "subtitle": "I, Chandrakant Bakshi",
     "type": "play",
@@ -1845,6 +1898,15 @@
   {
     "id": "socrates",
     "slug": "socrates",
+    "shows": [
+      {
+        "date": "2026-06-14",
+        "time": "21:00",
+        "venue": "Prithvi Theatre",
+        "city": "Mumbai",
+        "status": "confirmed"
+      }
+    ],
     "title": "Socrates",
     "type": "play",
     "language": "Gujarati",

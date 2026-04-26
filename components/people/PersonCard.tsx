@@ -8,7 +8,7 @@ interface PersonCardProps {
 export function PersonCard({ person }: PersonCardProps) {
   return (
     <Link
-      href={`/people/${person.slug}`}
+      href={person.customLink ?? `/people/${person.slug}`}
       className="group block editorial-card"
     >
       {/* Portrait */}
