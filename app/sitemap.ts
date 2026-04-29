@@ -4,14 +4,18 @@ import { getAllPosts } from "@/lib/blog";
 import { SITE } from "@/lib/constants";
 import { getUpcomingShows } from "@/lib/shows";
 
-// Derive a stable lastmod for productions: latest of upcoming-show date or a year-anchored date.
-// Avoids new Date() on every build (which Google ignores or distrusts as spam).
+// Derive a stable lastmod for productions.
+// Priority: next upcoming show > production year (if recent) > site-launch fallback.
+// Old productions (pre-2024) use the site-launch date — they're "republished" on this site,
+// not stuck in 2004. Avoids new Date() on every build (Google distrusts always-fresh as spam).
+const SITE_LAUNCH = "2026-01-01";
 function productionLastMod(slug: string, year: number): Date {
   const prod = getAllProductions().find((p) => p.slug === slug);
   const upcoming = prod ? getUpcomingShows(prod) : [];
   if (upcoming.length > 0) return new Date(upcoming[0].date);
-  // Use Jan 1 of the production year — stable across builds.
-  return new Date(`${year}-01-01`);
+  // Production year if it's recent; otherwise site-launch date so old plays still get reasonable crawl priority.
+  if (year >= 2024) return new Date(`${year}-06-01`);
+  return new Date(SITE_LAUNCH);
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -33,9 +37,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const lastProductionYear = prods.length > 0
         ? Math.max(...prods.map((prod) => prod.year))
         : 2024;
+      // Cap at 2026 (site-launch year) so an actor's old credits don't make their profile look stale.
+      const personLastMod = lastProductionYear >= 2024
+        ? new Date(`${lastProductionYear}-06-01`)
+        : new Date(SITE_LAUNCH);
       return {
         url: `${SITE.url}/people/${p.slug}`,
-        lastModified: new Date(`${lastProductionYear}-06-01`),
+        lastModified: personLastMod,
         changeFrequency: "monthly" as const,
         priority: 0.7,
       };
@@ -55,7 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
     return {
       url: `${SITE.url}/reviews/${slug}`,
-      lastModified: date ?? new Date("2024-01-01"),
+      lastModified: date ?? new Date(SITE_LAUNCH),
       changeFrequency: "yearly" as const,
       priority: 0.6,
     };
@@ -107,13 +115,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE.url}/manoj-shah`,
-      lastModified: new Date("2024-01-01"),
+      lastModified: new Date(SITE_LAUNCH),
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${SITE.url}/about`,
-      lastModified: new Date("2024-01-01"),
+      lastModified: new Date(SITE_LAUNCH),
       changeFrequency: "monthly",
       priority: 0.8,
     },
@@ -125,7 +133,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE.url}/contact`,
-      lastModified: new Date("2024-01-01"),
+      lastModified: new Date(SITE_LAUNCH),
       changeFrequency: "yearly",
       priority: 0.5,
     },
