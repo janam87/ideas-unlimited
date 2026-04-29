@@ -40,6 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: production.synopsis,
       images: [production.image],
     },
+    alternates: { canonical: `/productions/${production.slug}` },
   };
 }
 

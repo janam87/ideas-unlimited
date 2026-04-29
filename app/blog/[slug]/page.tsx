@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/blog";
+import { articleSchema } from "@/lib/schema";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -23,7 +24,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.title,
       description: post.excerpt,
       images: [post.image],
+      type: "article",
+      publishedTime: post.date,
     },
+    alternates: { canonical: `/blog/${post.slug}` },
   };
 }
 
@@ -54,6 +58,11 @@ export default async function BlogDetailPage({ params }: Props) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema(post)) }}
+      />
+
       {/* Article — 5/7 split */}
       <section className="pt-28 md:pt-32 border-b border-grey-700">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">

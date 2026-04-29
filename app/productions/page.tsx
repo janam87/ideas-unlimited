@@ -7,7 +7,8 @@ import { ProductionGrid } from "@/components/productions/ProductionGrid";
 export const metadata: Metadata = {
   title: "Productions",
   description:
-    "Explore 90+ productions spanning Hindi, Gujarati, and English theatre — from intimate dramas to grand musicals.",
+    "Explore 113+ productions spanning Hindi, Gujarati, and English theatre — from intimate dramas to grand musicals.",
+  alternates: { canonical: "/productions" },
 };
 
 export default function ProductionsPage() {

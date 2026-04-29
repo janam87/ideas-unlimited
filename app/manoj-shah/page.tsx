@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Born 1955, Mumbai. Dance teacher turned director. 96+ productions. The story of the man behind Ideas Unlimited.",
     images: ["/images/people/manoj-shah.jpg"],
   },
+  alternates: { canonical: "/manoj-shah" },
 };
 
 export default function ManojShahPage() {

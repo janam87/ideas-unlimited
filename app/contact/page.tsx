@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Get in touch with Ideas Unlimited Productions for bookings, collaborations, press enquiries, and partnerships.",
     images: ["/images/og-default.jpg"],
   },
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

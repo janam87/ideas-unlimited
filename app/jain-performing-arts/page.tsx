@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       "Theatre rooted in Jain philosophy and history — stories of courage, non-violence and inner awakening.",
     images: ["/images/og-default.jpg"],
   },
+  alternates: { canonical: "/jain-performing-arts" },
 };
 
 export default function JainPerformingArtsPage() {

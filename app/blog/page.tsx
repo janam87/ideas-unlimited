@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   title: "Stories & Reflections — Ideas Unlimited Productions",
   description:
     "Behind-the-scenes stories, directorial notes, and reflections on 35 years of theatre by Ideas Unlimited Productions.",
+  alternates: {
+    canonical: "/blog",
+    types: { "application/rss+xml": "/feed.xml" },
+  },
 };
 
 export default function BlogPage() {

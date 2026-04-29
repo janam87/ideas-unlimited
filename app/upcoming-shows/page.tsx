@@ -21,6 +21,7 @@ export const metadata: Metadata = {
       "Live theatre dates across Mumbai, Ahmedabad, and beyond — from Manoj Shah's Ideas Unlimited.",
     images: ["/images/og-default.jpg"],
   },
+  alternates: { canonical: "/upcoming-shows" },
 };
 
 interface ShowEntry {

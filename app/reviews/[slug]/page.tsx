@@ -25,8 +25,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${review.title} — ${review.source}`,
       description: review.excerpt,
-      ...(production ? { images: [production.image] } : {}),
+      ...(production ? { images: [production.image] } : { images: ["/images/og-default.jpg"] }),
     },
+    alternates: { canonical: `/reviews/${slug}` },
   };
 }
 

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "People",
   description:
     "Meet the actors, directors, writers, and designers who have made Ideas Unlimited Productions a force in Indian theatre.",
+  alternates: { canonical: "/people" },
 };
 
 export default function PeoplePage() {

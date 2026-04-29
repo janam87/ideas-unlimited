@@ -31,6 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: person.bio.slice(0, 160),
       images: [person.portrait],
     },
+    alternates: { canonical: `/people/${person.slug}` },
   };
 }
 

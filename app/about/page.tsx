@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "About Us — Ideas Unlimited Productions",
   description:
     "Since 1999, Ideas Unlimited Productions has been pushing the boundaries of Indian theatre across Hindi, Gujarati, and English — 113+ productions and counting.",
+  alternates: { canonical: "/about" },
 };
 
 const PRODUCTIONS: { name: string; year: number; details: string }[] = [

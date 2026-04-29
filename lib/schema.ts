@@ -1,5 +1,6 @@
 import { SITE } from "./constants";
 import type { Production, Person, Show } from "./types";
+import type { BlogPost } from "./blog";
 
 export function organizationSchema() {
   return {
@@ -65,8 +66,45 @@ export function personSchema(person: Person) {
     "@type": "Person",
     name: person.name,
     description: person.bio,
-    image: person.portrait,
+    image: person.portrait.startsWith("http") ? person.portrait : `${SITE.url}${person.portrait}`,
     jobTitle: person.roles.join(", "),
-    memberOf: { "@type": "TheaterGroup", name: SITE.name },
+    url: `${SITE.url}/people/${person.slug}`,
+    memberOf: { "@type": "TheaterGroup", name: SITE.name, url: SITE.url },
+    sameAs: person.socialLinks
+      ? Object.values(person.socialLinks).filter((u): u is string => !!u)
+      : undefined,
+  };
+}
+
+export function articleSchema(post: BlogPost) {
+  const url = `${SITE.url}/blog/${post.slug}`;
+  const image = post.image.startsWith("http") ? post.image : `${SITE.url}${post.image}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.excerpt,
+    image: [image],
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.url,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.url,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE.url}/images/iu-logo.png`,
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+    },
+    articleSection: post.category,
   };
 }
