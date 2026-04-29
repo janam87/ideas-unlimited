@@ -35,6 +35,11 @@
 
 ## Parked Ideas (Future)
 
+### Fill thin production synopses
+- `/productions/ischool` (53 chars) — corporate-event commission, full 90-min play with 25 actors. Need writer, director, year, plot, cast, venue, commissioning context.
+- `/productions/huto-and-huto-oh-yaa` (77 chars, year 2003) — early Manoj Shah production featuring Chirag Vohra. Need writer, plot, original source if adaptation.
+- Soft-404 risk: Google may de-index thin pages. Fill before requesting indexing for these specific URLs.
+
 ### Profile PDF Download
 - "Download as PDF" button on `/people/[slug]` pages
 - Generates a well-designed PDF with all profile information (bio, filmography, notable work, press)
