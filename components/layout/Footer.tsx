@@ -8,10 +8,10 @@ export function Footer() {
     <footer className="border-t border-grey-700 bg-background">
       <Container>
         {/* Main footer grid — newspaper column style */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 border-b border-grey-700">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0">
           {/* About */}
           <div className="py-10 lg:border-r lg:border-grey-700 lg:pr-8">
-            <h3 className="font-serif text-xl text-cream mb-4">Ideas Unlimited</h3>
+            <h3 className="font-serif text-xl text-cream mb-4">Ideas Unlimited Productions</h3>
             <p className="text-grey-400 text-sm leading-relaxed">
               {SITE.tagline}. Producing powerful drama across languages
               and cities since {SITE.foundedYear}.
@@ -60,27 +60,31 @@ export function Footer() {
             <NewsletterForm />
           </div>
         </div>
-
-        {/* Bottom bar */}
-        <div className="py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-grey-600 text-xs">
-            &copy; {new Date().getFullYear()} {SITE.name}
-          </p>
-          <div className="flex items-center gap-6">
-            {Object.entries(SITE.social).map(([name, url]) => (
-              <a
-                key={name}
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-grey-600 hover:text-cream transition-colors font-mono text-xs uppercase tracking-wider"
-              >
-                {name}
-              </a>
-            ))}
-          </div>
-        </div>
       </Container>
+
+      {/* Bottom bar — full bleed divider */}
+      <div className="border-t border-grey-700">
+        <Container>
+          <div className="py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-grey-600 text-xs">
+              &copy; {new Date().getFullYear()} {SITE.name}
+            </p>
+            <div className="flex items-center gap-6">
+              {Object.entries(SITE.social).map(([name, url]) => (
+                <a
+                  key={name}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-grey-600 hover:text-cream transition-colors font-mono text-xs uppercase tracking-wider"
+                >
+                  {name}
+                </a>
+              ))}
+            </div>
+          </div>
+        </Container>
+      </div>
     </footer>
   );
 }

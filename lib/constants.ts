@@ -7,7 +7,7 @@ export const SITE = {
   url: "https://ideasunlimited.productions",
   founder: "Manoj Shah",
   foundedYear: 1990,
-  email: "info@ideasunlimited.productions",
+  email: "kamdev5@gmail.com",
   phone: "+91 91670 06006",
   social: {
     instagram: "https://instagram.com/ideasunlimitedproductions",

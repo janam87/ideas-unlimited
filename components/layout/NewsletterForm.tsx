@@ -10,7 +10,7 @@ export function NewsletterForm() {
       />
       <button
         type="submit"
-        className="bg-purple text-background text-sm font-medium px-4 py-2 hover:bg-purple-light transition-colors"
+        className="bg-purple text-white text-sm font-medium px-4 py-2 hover:bg-purple-light transition-colors"
       >
         Join
       </button>

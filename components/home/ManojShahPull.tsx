@@ -36,7 +36,7 @@ export function ManojShahPull() {
             <hr className="editorial-rule mb-6" />
             <p className="text-grey-400 leading-relaxed max-w-2xl">
               For over three decades, Manoj Shah has been the driving force behind Ideas Unlimited
-              Productions — directing, acting, and producing over 90 productions that have challenged
+              Productions — directing, acting, and producing over 113 productions that have challenged
               audiences and redefined Indian theatre.
             </p>
             <Link

@@ -2201,5 +2201,88 @@
       }
     ],
     "featured": false
+  },
+  {
+    "id": "gujarati-full-thali",
+    "slug": "gujarati-full-thali",
+    "title": "Gujarati Full Thali",
+    "subtitle": "Authentic Literary Test Preparation",
+    "type": "reading",
+    "language": "Gujarati",
+    "genre": [
+      "Story Reading",
+      "Literary"
+    ],
+    "year": 2026,
+    "duration": "90-100 minutes",
+    "shows": [
+      {
+        "date": "2026-07-12",
+        "time": "19:30",
+        "venue": "Godrej Dance Theatre",
+        "city": "Mumbai",
+        "ticketUrl": "https://in.bookmyshow.com/",
+        "status": "confirmed"
+      }
+    ],
+    "synopsis": "An NCPA Off-Stage presentation in collaboration with Ideas Unlimited — a curated literary feast in Gujarati, served by six storytellers, on one evening at Godrej Dance Theatre.\n\nFive writers form the roots of Gujarati identity in language, culture, and imaginative narrative. Five genres of writing speak to those of us standing in the void of an AI-shaped world. Five known actors carry these stories onto stage — reading, performing, framing the language, the culture, and the people of Gujarat back into the room.\n\nInspired by the literary flavours of Hemansi Selat, Ghanshyam Desai, Gulam Mohmmed Shaikh, Madhu Rai, Pavankumar Jain, and Sharifa Vijliwala — six voices that span fiction, poetry, the visual-literary, and the experimental.\n\nThe stories are served by Hemant Kher, Harsh Joshi, Kalpana Shah, Priyank Patel, Unnati Gala Joshi, and Utkarsh Mazumdar, with narration by Bakul Tailor and direction by Manoj Shah. Box office opened 26 April for NCPA members and 29 April for the public.",
+    "image": "/images/productions/gujarati-full-thali/hero.png",
+    "gallery": [
+      "/images/productions/gujarati-full-thali/poster.png",
+      "/images/productions/gujarati-full-thali/hero.png"
+    ],
+    "commissionedBy": "NCPA Mumbai",
+    "commissionContext": "An NCPA Off-Stage Presentation in collaboration with Ideas Unlimited — part of NCPA's curated programming spotlighting Indian literature in performance.",
+    "cast_crew": [
+      {
+        "person_id": "manoj-shah",
+        "roles": [
+          "Director"
+        ]
+      },
+      {
+        "person_id": "bakul-tailor",
+        "roles": [
+          "Narrator"
+        ]
+      },
+      {
+        "person_id": "hemant-kher",
+        "roles": [
+          "Storyteller"
+        ]
+      },
+      {
+        "person_id": "harsh-joshi",
+        "roles": [
+          "Storyteller"
+        ]
+      },
+      {
+        "person_id": "kalpana-shah",
+        "roles": [
+          "Storyteller"
+        ]
+      },
+      {
+        "person_id": "priyank-patel",
+        "roles": [
+          "Storyteller"
+        ]
+      },
+      {
+        "person_id": "unnati-gala",
+        "roles": [
+          "Storyteller"
+        ]
+      },
+      {
+        "person_id": "utkarsh-mazumdar",
+        "roles": [
+          "Storyteller"
+        ]
+      }
+    ],
+    "featured": true
   }
 ]

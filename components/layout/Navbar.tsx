@@ -82,7 +82,7 @@ export function Navbar({ hasNowPerforming, onSearchOpen, featured, featuredPost 
                 Ideas Unlimited
               </span>
               <span className="block text-cream/70 text-[10px] md:text-xs tracking-widest uppercase" style={{ fontFamily: "'Trebuchet MS', sans-serif" }}>
-                Production
+                Productions
               </span>
             </div>
           </Link>

@@ -56,12 +56,31 @@ interface Person {
   slug: string;
   name: string;
   portrait: string;
-  bio: string;
-  roles: string[];             // e.g. ["Actor", "Director"]
-  otherNotableWork?: string[];
+  bio: string;                                  // multi-paragraph: separate with \n\n
+  roles: string[];                              // e.g. ["Actor", "Director"]
+  otherNotableWork?: (NotableWork | string)[];  // PREFER NotableWork objects; string is legacy
   interviews?: { title: string; url: string; source: string }[];
-  socialLinks?: { instagram?: string; twitter?: string; website?: string };
+  socialLinks?: {                               // ⚠️ NOT "social" — that key exists in old data but renders nothing
+    instagram?: string;
+    twitter?: string;
+    website?: string;
+    imdb?: string;                              // renders as "IMDb" link on profile
+    bookmyshow?: string;                        // renders as "BookMyShow" link on profile
+  };
+  media?: PersonMedia;
   featured?: boolean;
+  seoIndex?: boolean;
+  customLink?: string;
+}
+
+interface NotableWork {
+  title: string;
+  category?: string;     // "Film" | "TV Series" | "Web Series" | "Short Film" | "Theatre" | "Upcoming"
+  year?: string;         // string, not number — supports "2014–2016" ranges
+  role?: string;
+  thumbnail?: string;    // /images/works/{slug}.jpg, shared across all people with the credit
+  sourceUrl?: string;
+  sourceLabel?: string;  // "IMDb" | "TMDB" | "Wikipedia" | "YouTube" | "Mumbai Theatre Guide" | etc
 }
 
 interface Show {
@@ -185,3 +204,14 @@ Client-side date checking — always accurate without rebuilds:
 3. **All data access through `lib/data.ts`** — single source of truth
 4. **Types in `lib/types.ts`** — never define interfaces inline
 5. **JSON files are the database** — keep them well-formatted and consistent
+
+## Schema Discipline — Common Mistakes
+
+These have shipped silently and broken pages. Always:
+
+- **Person `socialLinks` not `social`** — page reads `person.socialLinks?.instagram`. Entries using `"social": {...}` validate as JSON but render nothing on the profile.
+- **Bio paragraphs use literal `\n\n`** in the JSON string — renderer does `bio.split(/\n\n+/)`. A long single-line bio renders as a wall of text.
+- **`otherNotableWork` items are objects, not strings** — string entries still render but lose thumbnail / source-link / category styling. Always emit structured `NotableWork` objects.
+- **`year` is a string, not a number** — supports ranges like `"2014–2016"` and unknown years like `"upcoming"`.
+- **`portrait` is required** even if it's the placeholder SVG. Empty string breaks the `<Image>` component.
+- **Validate after every edit**: `node -e "JSON.parse(require('fs').readFileSync('data/people.json','utf8'))"` and `npx tsc --noEmit`.

@@ -96,6 +96,16 @@ export default async function PersonDetailPage({ params }: Props) {
                       Website
                     </a>
                   )}
+                  {person.socialLinks?.imdb && (
+                    <a href={person.socialLinks.imdb} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors">
+                      IMDb
+                    </a>
+                  )}
+                  {person.socialLinks?.bookmyshow && (
+                    <a href={person.socialLinks.bookmyshow} target="_blank" rel="noopener noreferrer" className="font-mono text-xs uppercase tracking-wider text-purple hover:text-purple-light transition-colors">
+                      BookMyShow
+                    </a>
+                  )}
                   <ShareButton
                     title={person.name}
                     text={`${person.name} — ${person.roles.join(", ")} profile on Ideas Unlimited Productions`}
@@ -113,9 +123,11 @@ export default async function PersonDetailPage({ params }: Props) {
               <h1 className="hidden lg:block font-serif text-6xl text-cream leading-[0.9] mb-8">
                 {person.name}
               </h1>
-              <p className="mt-8 lg:mt-0 text-grey-200 text-lg md:text-xl leading-relaxed">
-                {person.bio}
-              </p>
+              <div className="mt-8 lg:mt-0 space-y-4 text-grey-200 text-lg md:text-xl leading-relaxed">
+                {person.bio.split(/\n\n+/).map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
 
               {/* Filmography */}
               {productions.length > 0 && (

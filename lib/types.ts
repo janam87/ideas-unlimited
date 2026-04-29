@@ -57,6 +57,8 @@ export interface Person {
     instagram?: string;
     twitter?: string;
     website?: string;
+    imdb?: string;
+    bookmyshow?: string;
   };
   media?: PersonMedia;
   featured?: boolean;

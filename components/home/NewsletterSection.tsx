@@ -44,7 +44,7 @@ export function NewsletterSection() {
                 />
                 <button
                   type="submit"
-                  className="bg-purple text-background font-medium uppercase tracking-wider text-sm px-6 py-3 hover:bg-purple-light transition-colors"
+                  className="bg-purple text-white font-medium uppercase tracking-wider text-sm px-6 py-3 hover:bg-purple-light transition-colors"
                 >
                   Subscribe
                 </button>

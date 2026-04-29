@@ -31,7 +31,7 @@
       }
     ],
     "featured": true,
-    "social": {
+    "socialLinks": {
       "instagram": "https://instagram.com/manojshah3241"
     }
   },
@@ -223,7 +223,7 @@
     "otherNotableWork": [
       "Playwright: Mohan No Masalo (2015, starring Pratik Gandhi)"
     ],
-    "social": {
+    "socialLinks": {
       "instagram": "https://instagram.com/ishaan_dd"
     }
   },
@@ -271,7 +271,7 @@
     "socialLinks": {
       "instagram": "https://www.instagram.com/huseini_22/"
     },
-    "social": {
+    "socialLinks": {
       "instagram": "https://instagram.com/huseini_22"
     }
   },
@@ -454,7 +454,7 @@
     "roles": [
       "Music Operator"
     ],
-    "social": {
+    "socialLinks": {
       "instagram": "https://instagram.com/priyankpatel_09"
     }
   },
@@ -817,7 +817,7 @@
     "roles": [
       "Actor"
     ],
-    "social": {
+    "socialLinks": {
       "instagram": "https://instagram.com/its.rush.rk"
     }
   },
@@ -1397,17 +1397,39 @@
     "slug": "unnati-gala",
     "name": "Unnati Gala",
     "portrait": "/images/placeholder-portrait.svg",
-    "bio": "A freelance actress who has worked with Ideas Unlimited Productions in Kaagdo, Third Bell, and Tabiyat. On screen, she has appeared in A Thursday alongside Yami Gautam, Amazon's Paatal Lok, and Mumbaikar. She plays the daughter opposite Jay Upadhyay in Kaagdo.",
+    "bio": "A Mumbai-based actress and casting director rooted in Gujarati theatre, Unnati Gala is part of the Ideas Unlimited Productions ensemble — performing in Manoj Shah's Kaagdo (opposite Jay Upadhyay), Third Bell, and Tabiyat. On screen, she has appeared in Disney+ Hotstar's A Thursday alongside Yami Gautam, Amazon Prime's Paatal Lok, and Santosh Sivan's JioCinema feature Mumbaikar with Vikrant Massey and Vijay Sethupathi. She also works as a casting director, and married actor Ritwik Joshi — son of Dilip Joshi (Jethalal of Taarak Mehta Ka Ooltah Chashmah) — in December 2023.",
     "roles": [
-      "Actor"
+      "Actor",
+      "Casting Director"
     ],
     "otherNotableWork": [
-      "Film: A Thursday (2022)",
-      "Web: Paatal Lok (2020)",
-      "Film: Mumbaikar (2023)"
+      {
+        "title": "A Thursday",
+        "category": "Film",
+        "year": "2022",
+        "role": "Tech Operator",
+        "sourceUrl": "https://www.imdb.com/title/tt13028258/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Paatal Lok",
+        "category": "Web Series",
+        "year": "2020",
+        "role": "Vet Doctor",
+        "sourceUrl": "https://www.imdb.com/title/tt9174558/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Mumbaikar",
+        "category": "Film",
+        "year": "2023",
+        "role": "Ritu",
+        "sourceUrl": "https://www.imdb.com/title/tt13732212/",
+        "sourceLabel": "IMDb"
+      }
     ],
-    "social": {
-      "instagram": "https://instagram.com/unnati.gala"
+    "socialLinks": {
+      "instagram": "https://instagram.com/unnati_gala"
     }
   },
   {
@@ -1805,13 +1827,217 @@
     "id": "hemant-kher",
     "slug": "hemant-kher",
     "name": "Hemant Kher",
-    "portrait": "/images/placeholder-portrait.svg",
-    "bio": "A theatre actor who has performed with Ideas Unlimited Productions in Third Bell.",
+    "portrait": "/images/people/hemant-kher.jpg",
+    "bio": "Born on 17 December 1977 in Kosamba, a village in the Surat district of Gujarat, Hemant Kher came up through Jawahar Navodaya Vidyalaya, took a B.Sc. in Chemistry at the Maharaja Sayajirao University of Baroda, and then trained for three years at the National School of Drama, New Delhi (2000–2003). He moved to Mumbai in 2006 with his Kya Tum Ho debut, and quickly built a parallel career as a television writer — Shabaash India, Sa Re Ga Ma Pa, Indian Idol, Dance India Dance, Just Dance, Jhalak Dikhhla Jaa, Amul MasterChef, Dil Deke Dekho — and as one of Indian television's best-known acting coaches.\n\nHis coaching firm JUST ACT (later Rolexplore), co-conducted at one stage with casting director Mukesh Chhabra, has trained Pratik Gandhi (for Scam 1992), Jackky Bhagnani, Hrithik Roshan, Ayushmann Khurrana, Pranutan Bahl, Chef Vikas Khanna, Ranveer Brar, Javed Ali, Amaal Malik, Kritika Kamra, and many others. As acting coach and creative director he has also worked on Zee TV's India's Best Dramebaaz, India's Best Cinestars Ki Khoj, and Colors TV's Entertainment Ki Raat. He survived a serious 2008 Mumbai local-train fall before returning to the work.\n\nHis breakout as an actor came in 2020 as Ashwin Mehta — Harshad's brother — in Hansal Mehta's Scam 1992: The Harshad Mehta Story (SonyLIV), winning the Gujarati Mid-Day Award for Most Versatile Actor. He went on to play Aman Tokas in Love Hostel (ZEE5, 2022) opposite Vikrant Massey, Dr. Dhiren Kalita in Shadow Assassins (2022), the lead role in Aye Zindagi (2022), Mr. Raza in the short film Parchaaiyaan (2023), Somu Tyagi in Anil Sharma's Vanvaas (2024), and a double-lead role in Bicycle Thief (2025). On Sony SAB he plays the manipulative Patola businessman Viren Setalvad in the long-running Pushpa Impossible. In 2025 he was Zulfikar Ali Bhutto in Netflix's Saare Jahan Se Accha: The Silent Guardians, and in 2026 he plays Jainesh Patel in Netflix's Taskaree. His Gujarati lead Inspector Ranjeet Chauhan in OHO's Aazaad (2022) won him a dedicated regional following.\n\nWith Ideas Unlimited Productions he is part of the ensemble of Manoj Shah's Gujarati anthology Third Bell at NCPA Mumbai. He continues to work the Mumbai Gujarati and Hindi stage circuit including Lagan Magan and the upcoming Pandit Sukhlaal. He is married to Urvashi Kher (since 2 February 2006) and has two children, Shiv and Dhriti.",
     "roles": [
-      "Actor"
+      "Actor",
+      "Writer",
+      "Acting Coach",
+      "Director"
     ],
-    "social": {
-      "instagram": "https://instagram.com/hemant__kher"
+    "otherNotableWork": [
+      {
+        "title": "Scam 1992: The Harshad Mehta Story",
+        "category": "Web Series",
+        "year": "2020",
+        "role": "Ashwin Mehta",
+        "thumbnail": "/images/works/scam-1992.jpg",
+        "sourceUrl": "https://www.imdb.com/title/tt12392504/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Pushpa Impossible",
+        "category": "TV Series",
+        "year": "2023–",
+        "role": "Viren Setalvad",
+        "thumbnail": "/images/works/pushpa-impossible.jpg",
+        "sourceUrl": "https://www.imdb.com/title/tt28437301/characters/nm2493744",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Saare Jahan Se Accha: The Silent Guardians",
+        "category": "Web Series",
+        "year": "2025",
+        "role": "Zulfikar Ali Bhutto",
+        "thumbnail": "/images/works/saare-jahan-se-accha.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Saare_Jahan_Se_Accha_(2025_TV_series)",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Taskaree",
+        "category": "Web Series",
+        "year": "2026",
+        "role": "Jainesh Patel",
+        "thumbnail": "/images/works/taskaree.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Taskaree",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Vanvaas",
+        "category": "Film",
+        "year": "2024",
+        "role": "Somu Tyagi",
+        "thumbnail": "/images/works/vanvaas.jpg",
+        "sourceUrl": "https://www.bollywoodhungama.com/celebrity/hemant-kher/",
+        "sourceLabel": "Bollywood Hungama"
+      },
+      {
+        "title": "Bicycle Thief",
+        "category": "Film",
+        "year": "2025",
+        "role": "Lead (double role)",
+        "sourceUrl": "https://www.imdb.com/title/tt31137188/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Aazaad",
+        "category": "Web Series",
+        "year": "2022",
+        "role": "Inspector Ranjeet Chauhan (Lead) — OHO Gujarati",
+        "thumbnail": "/images/works/aazaad.jpg",
+        "sourceUrl": "https://www.youtube.com/watch?v=z4_ChC5Y7ek",
+        "sourceLabel": "YouTube"
+      },
+      {
+        "title": "Love Hostel",
+        "category": "Film",
+        "year": "2022",
+        "role": "Aman Tokas",
+        "thumbnail": "/images/works/love-hostel.jpg",
+        "sourceUrl": "https://www.imdb.com/title/tt13364468/characters/nm2493744",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Aye Zindagi",
+        "category": "Film",
+        "year": "2022",
+        "role": "Lead",
+        "thumbnail": "/images/works/aye-zindagi.jpg",
+        "sourceUrl": "https://www.bollywoodhungama.com/celebrity/hemant-kher/",
+        "sourceLabel": "Bollywood Hungama"
+      },
+      {
+        "title": "Shadow Assassins",
+        "category": "Film",
+        "year": "2022",
+        "role": "Dr. Dhiren Kalita",
+        "thumbnail": "/images/works/shadow-assassins.jpg",
+        "sourceUrl": "https://www.imdb.com/title/tt22268148/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Parchaaiyaan",
+        "category": "Short Film",
+        "year": "2023",
+        "role": "Mr. Raza",
+        "sourceUrl": "https://www.imdb.com/title/tt21048502/characters/nm2493744",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Maatrubhumi",
+        "category": "Film",
+        "year": "2026",
+        "role": "Cast",
+        "sourceUrl": "https://www.rottentomatoes.com/celebrity/hemant_kher",
+        "sourceLabel": "Rotten Tomatoes"
+      },
+      {
+        "title": "Notebook",
+        "category": "Film",
+        "year": "2019",
+        "role": "Acting coach / Cast",
+        "thumbnail": "/images/works/notebook.jpg",
+        "sourceUrl": "https://www.imdb.com/name/nm2493744/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Mitron",
+        "category": "Film",
+        "year": "2018",
+        "role": "Acting coach / Cast",
+        "thumbnail": "/images/works/mitron.jpg",
+        "sourceUrl": "https://www.imdb.com/name/nm2493744/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Kya Tum Ho",
+        "category": "Film",
+        "year": "2006",
+        "role": "Acting debut",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hemant_Kher",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "India's Best Dramebaaz",
+        "category": "TV Series",
+        "year": "2013",
+        "role": "Acting Coach / Director — Zee TV",
+        "thumbnail": "/images/works/indias-best-dramebaaz.jpg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hemant_Kher",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Horses Stable Jo Jeeta Wohi Sikander",
+        "category": "Web Series",
+        "year": "2021",
+        "role": "Writer / Director — OHO Gujarati",
+        "sourceUrl": "https://www.imdb.com/title/tt16449766/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Mickey & Memsaheb",
+        "category": "Theatre",
+        "year": "2002",
+        "role": "Lead — National School of Drama",
+        "sourceUrl": "https://wikibio.in/hemant-kher/",
+        "sourceLabel": "WikiBio"
+      },
+      {
+        "title": "Lagan Magan",
+        "category": "Theatre",
+        "role": "Cast"
+      },
+      {
+        "title": "Pandit Sukhlaal",
+        "category": "Theatre",
+        "role": "Upcoming production"
+      }
+    ],
+    "interviews": [
+      {
+        "title": "Scam 1992 success interview",
+        "url": "https://www.youtube.com/watch?v=Zxo07xbClac",
+        "source": "YouTube"
+      },
+      {
+        "title": "I want to work again with Hansal Mehta even for no pay",
+        "url": "https://www.indiaforums.com/article/scam-1992-fame-hemant-kher-i-want-to-work-again-with-hansal-mehta-even-for-no-pay_170300",
+        "source": "India Forums"
+      },
+      {
+        "title": "Plan to present stories I've written — Hemant Kher",
+        "url": "https://www.nationalheraldindia.com/national/plan-to-present-stories-ive-written-actor-hemant-kher",
+        "source": "National Herald"
+      },
+      {
+        "title": "Hemant Kher joins Pushpa Impossible as Viren Setalvad",
+        "url": "https://www.tellychakkar.com/tv/tv-news/hemant-kher-joins-sony-sabs-pushpa-impossible-viren-manipulative-patola-businessman",
+        "source": "Tellychakkar"
+      },
+      {
+        "title": "On playing a manipulative businessman in Pushpa Impossible",
+        "url": "https://www.koimoi.com/television/hemant-kher-on-playing-manipulative-businessman-in-pushpa-impossible-it-truly-lets-me-explore/",
+        "source": "Koimoi"
+      },
+      {
+        "title": "Aazaad screening — Gujarati web series with Hemant Kher",
+        "url": "https://www.dnpindia.in/entertainment/aazaad-celebrities-turn-up-for-screening-of-hemant-khers-gujarati-web-series/101481/",
+        "source": "DNP India"
+      }
+    ],
+    "socialLinks": {
+      "instagram": "https://instagram.com/hemant__kher",
+      "imdb": "https://www.imdb.com/name/nm2493744/"
     }
   },
   {
@@ -1978,7 +2204,7 @@
     "roles": [
       "Actor"
     ],
-    "social": {
+    "socialLinks": {
       "instagram": "https://instagram.com/hasit.08"
     }
   },
@@ -1991,7 +2217,7 @@
     "roles": [
       "Actor"
     ],
-    "social": {
+    "socialLinks": {
       "instagram": "https://instagram.com/srushtisorathiya29"
     }
   },
@@ -2004,7 +2230,7 @@
     "roles": [
       "Actor"
     ],
-    "social": {
+    "socialLinks": {
       "instagram": "https://instagram.com/krishna_oza"
     }
   },
@@ -2119,7 +2345,7 @@
     "roles": [
       "Actor"
     ],
-    "social": {
+    "socialLinks": {
       "instagram": "https://instagram.com/_harrssssh_"
     }
   },
@@ -2496,5 +2722,230 @@
         }
       ]
     }
+  },
+  {
+    "id": "utkarsh-mazumdar",
+    "slug": "utkarsh-mazumdar",
+    "name": "Utkarsh Mazumdar",
+    "portrait": "/images/people/utkarsh-mazumdar.png",
+    "bio": "A veteran of Indian theatre with more than 45 years on stage across Gujarati, Hindi, and English, Utkarsh Mazumdar belongs to the Nagar community — a Gujarati lineage with deep roots in music and literature. He studied English Literature at St. Xavier's College, Mumbai, holds a Kovid in Sanskrit, and trained as a classical vocalist; his theatre apprenticeship was under Satyadev Dubey, Laxmikant Karpe, and Arvind Thakkar. He worked for years as a Programme Executive at Doordarshan Kendra (Rajkot, Ahmedabad, and Mumbai) before turning to the stage full-time.\n\nIn 1985 he co-founded the theatre group Arpana with Sunil Shanbag, Akash Khurana, and Shishir Sharma, directing its debut production Uljulool — a translation of Aadya Rangacharya's Kannada play. With Arpana he went on to play the tycoon Gokuldas Gandhi in Sunil Shanbag's Maro Piyu Gayo Rangoon (2007) and Rao Bahadur Gokuldas Sawaram Bhatia — substituting for the King of France — in the Gujarati All's Well That Ends Well at Shakespeare's Globe-to-Globe Festival (London, 2012). He is one of the few living performers with first-hand experience of the Bhangwadi-tradition of Gujarati musical theatre, a subject he discussed at length with Manoj Shah in the 2015 eNatya Chaupal session 'Reminiscing the Bhangwadi Days of Gujarati Theatre.'\n\nHis collaboration with Manoj Shah / Ideas Unlimited reaches back to Master Phoolmani (1999) — based on Satish Alekar's Begum Barve, written by Chandrakant Shah, with a Bhupen Khakhar backdrop — in which he played the clerk Sumanlal and contributed to the score. Other long-running stage work includes Tran Gujarati, Black With Equal, Going Solo, Devna Didhel, Meghani Sarvani, Jagi Ne Jovu To, and Nadira Babbar's Footnotes of Life — Haashiye Zindagi Ke (Ekjute Mumbai), which travelled to the Qadir Ali Baig Theatre Festival in 2019.\n\nOn screen, his best-known role remains Sardar Vallabhbhai Patel in Shyam Benegal's Samvidhaan: The Making of the Constitution of India (2014). His film credits include Raees (Dr. Sajanwala), Baazaar (Chairman Chhedha), Satya, Krazzy 4, Ventilator (Gujarati), Short Circuit, Saptapadii, and Yeh Hai Bakrapur. He also writes a Gujarati newspaper column and has taught Mass Communications.",
+    "roles": [
+      "Actor",
+      "Director",
+      "Singer",
+      "Writer"
+    ],
+    "otherNotableWork": [
+      {
+        "title": "Samvidhaan: The Making of the Constitution of India",
+        "category": "TV Series",
+        "year": "2014",
+        "role": "Sardar Vallabhbhai Patel",
+        "thumbnail": "/images/works/samvidhaan.jpg",
+        "sourceUrl": "https://www.imdb.com/title/tt3562784/characters/nm1742241",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Bharat Ek Khoj",
+        "category": "TV Series",
+        "year": "1988",
+        "role": "Sudakka",
+        "thumbnail": "/images/works/bharat-ek-khoj.jpg",
+        "sourceUrl": "https://www.themoviedb.org/person/2804584-utkarsh-mazumdar",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Satya",
+        "category": "Film",
+        "year": "1998",
+        "role": "Cast",
+        "thumbnail": "/images/works/satya.jpg",
+        "sourceUrl": "https://www.imdb.com/name/nm1742241/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Krazzy 4",
+        "category": "Film",
+        "year": "2008",
+        "role": "Cast",
+        "thumbnail": "/images/works/krazzy-4.jpg",
+        "sourceUrl": "https://www.themoviedb.org/person/2804584-utkarsh-mazumdar",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Saptapadii",
+        "category": "Film",
+        "year": "2013",
+        "role": "Dr. Patrawala",
+        "thumbnail": "/images/works/saptapadii.jpg",
+        "sourceUrl": "https://www.rottentomatoes.com/celebrity/utkarsh_mazumdar",
+        "sourceLabel": "Rotten Tomatoes"
+      },
+      {
+        "title": "Yeh Hai Bakrapur",
+        "category": "Film",
+        "year": "2014",
+        "role": "Cast",
+        "thumbnail": "/images/works/yeh-hai-bakrapur.jpg",
+        "sourceUrl": "https://www.rottentomatoes.com/celebrity/utkarsh_mazumdar",
+        "sourceLabel": "Rotten Tomatoes"
+      },
+      {
+        "title": "Mummy 20 Ni Dikri 40 Ni",
+        "category": "Film",
+        "year": "2015",
+        "role": "Cast",
+        "sourceUrl": "https://www.rottentomatoes.com/celebrity/utkarsh_mazumdar",
+        "sourceLabel": "Rotten Tomatoes"
+      },
+      {
+        "title": "Raees",
+        "category": "Film",
+        "year": "2017",
+        "role": "Dr. Sajanwala",
+        "thumbnail": "/images/works/raees.jpg",
+        "sourceUrl": "https://www.imdb.com/name/nm1742241/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Baazaar",
+        "category": "Film",
+        "year": "2018",
+        "role": "Chairman Chhedha",
+        "thumbnail": "/images/works/baazaar.jpg",
+        "sourceUrl": "https://www.imdb.com/title/tt6514196/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Ventilator",
+        "category": "Film",
+        "year": "2018",
+        "role": "Ambalal",
+        "thumbnail": "/images/works/ventilator.jpg",
+        "sourceUrl": "https://www.imdb.com/title/tt8982436/",
+        "sourceLabel": "IMDb"
+      },
+      {
+        "title": "Short Circuit",
+        "category": "Film",
+        "year": "2019",
+        "role": "Dr. Parthsarthi",
+        "thumbnail": "/images/works/short-circuit.jpg",
+        "sourceUrl": "https://www.themoviedb.org/person/2804584-utkarsh-mazumdar",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Jai Mata Ji Let's Rock",
+        "category": "Film",
+        "year": "2025",
+        "role": "Chander Mohan",
+        "thumbnail": "/images/works/jai-mata-ji.jpg",
+        "sourceUrl": "https://www.themoviedb.org/person/2804584-utkarsh-mazumdar",
+        "sourceLabel": "TMDB"
+      },
+      {
+        "title": "Master Phoolmani",
+        "category": "Theatre",
+        "year": "1999",
+        "role": "Sumanlal — Manoj Shah / Ideas Unlimited",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Master_Phoolmani",
+        "sourceLabel": "Wikipedia"
+      },
+      {
+        "title": "Maro Piyu Gayo Rangoon",
+        "category": "Theatre",
+        "year": "2007",
+        "role": "Gokuldas Gandhi — Arpana / dir. Sunil Shanbag",
+        "sourceUrl": "https://www.mumbaitheatreguide.com/dramas/reviews/03-gujarati-drama-maro-piyu-gayo-rangoon-review.asp",
+        "sourceLabel": "Mumbai Theatre Guide"
+      },
+      {
+        "title": "All's Well That Ends Well (Sau Saru Jenu Chevat Saru)",
+        "category": "Theatre",
+        "year": "2012",
+        "role": "Rao Bahadur Gokuldas — Globe-to-Globe Festival, London",
+        "sourceUrl": "https://globeplayer.tv/videos/all-s-well-that-ends-well-gujarati",
+        "sourceLabel": "Globe Player"
+      },
+      {
+        "title": "Uljulool",
+        "category": "Theatre",
+        "year": "1985",
+        "role": "Director — Arpana debut production"
+      },
+      {
+        "title": "Footnotes of Life (Haashiye Zindagi Ke)",
+        "category": "Theatre",
+        "year": "2019",
+        "role": "Cast — Ekjute / Nadira Babbar",
+        "sourceUrl": "https://www.facebook.com/QABTFHyd/videos/562277304534327/",
+        "sourceLabel": "Qadir Ali Baig Festival"
+      },
+      {
+        "title": "Tran Gujarati",
+        "category": "Theatre",
+        "role": "Lead",
+        "sourceUrl": "https://www.mumbaitheatreguide.com/dramas/interviews/utkarsh-majumdar-interview-with-jahnavi-pal.asp",
+        "sourceLabel": "Mumbai Theatre Guide"
+      },
+      {
+        "title": "Black With Equal",
+        "category": "Theatre",
+        "role": "Society Chairman"
+      },
+      {
+        "title": "Going Solo",
+        "category": "Theatre",
+        "role": "Solo performer"
+      },
+      {
+        "title": "Devna Didhel",
+        "category": "Theatre",
+        "role": "Cast — writer Naushil Mehta / Avni Creations"
+      }
+    ],
+    "interviews": [
+      {
+        "title": "Manoj Shah in conversation with Utkarsh Mazumdar — eNatya Chaupal",
+        "url": "https://www.youtube.com/watch?v=hDjUDZjfQUo",
+        "source": "YouTube"
+      },
+      {
+        "title": "Mumbai Theatre Guide interview (Jahnavi Pal)",
+        "url": "https://www.mumbaitheatreguide.com/dramas/interviews/utkarsh-majumdar-interview-with-jahnavi-pal.asp",
+        "source": "Mumbai Theatre Guide"
+      },
+      {
+        "title": "Mumbai Theatre Guide interview (Purva Desai)",
+        "url": "https://www.mumbaitheatreguide.com/dramas/interviews/utkarsh.asp",
+        "source": "Mumbai Theatre Guide"
+      },
+      {
+        "title": "Time Travel — Creating a Bhangwadi Theatre Playlist",
+        "url": "https://junoontheatre.wordpress.com/2015/05/31/time-travel-creating-a-bhangwadi-theatre-inspired-playlist-with-utkarsh-mazumdar/",
+        "source": "Junoon Theatre"
+      },
+      {
+        "title": "Chai-Wai & Rangmanch (Coconut Theatre, S3 Ep74)",
+        "url": "https://www.youtube.com/watch?v=0F_g8iZl7GA",
+        "source": "YouTube"
+      }
+    ],
+    "socialLinks": {
+      "instagram": "https://instagram.com/mazumdarutkarsh",
+      "imdb": "https://www.imdb.com/name/nm1742241/",
+      "bookmyshow": "https://in.bookmyshow.com/person/utkarsh-mazumdar/18021"
+    }
+  },
+  {
+    "id": "bakul-tailor",
+    "slug": "bakul-tailor",
+    "name": "Bakul Tailor",
+    "portrait": "/images/placeholder-portrait.svg",
+    "bio": "A Gujarati theatre artist and narrator with a deep affinity for literary performance. His narrations bridge text and stage, framing stories in their cultural and linguistic context for contemporary audiences.",
+    "roles": [
+      "Narrator",
+      "Actor"
+    ]
   }
 ]

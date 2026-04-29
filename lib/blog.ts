@@ -429,6 +429,30 @@ export const BLOG_POSTS: BlogPost[] = [
       { afterParagraph: 8, src: "/images/productions/apoorav-khela/apoorav-khela-233.jpg", alt: "Anandghan reaches toward the Tirthankaras \u2014 the ecstatic finale" },
     ],
   },
+  {
+    slug: "gujarati-full-thali-ncpa",
+    title: "Gujarati Full Thali: Six Writers, One Evening at NCPA",
+    category: "Heritage",
+    excerpt: "An NCPA Off-Stage presentation in collaboration with Ideas Unlimited, curating six voices that shaped modern Gujarati literature \u2014 read by some of Gujarati theatre\u2019s finest, on July 12, 2026.",
+    image: "/images/productions/gujarati-full-thali/hero.png",
+    date: "2026-04-26",
+    body: [
+      "There is a particular anxiety that belongs to anyone who reads literature in a language smaller than English. Will the books still be read? Will the writers still be remembered? Will the next generation \u2014 raised on streaming feeds and AI assistants \u2014 ever sit with a Gujarati short story long enough to hear it speak?",
+      "Gujarati Full Thali is one answer. On July 12, 2026, at the Godrej Dance Theatre, NCPA Mumbai presents an Off-Stage evening curated in collaboration with Ideas Unlimited. Six storytellers will take the stage to read aloud the work of six Gujarati writers \u2014 across genres, generations, and registers \u2014 directed by Manoj Shah and narrated by Bakul Tailor.",
+      "The conceit is unapologetically gastronomic. A thali is what Gujarat serves when it wants to feed you everything. Sweet, sour, spicy, savoury, six dishes on one plate, no single flavour standing alone. The evening structures itself the same way: six writers as the literary mise en place, six actors plating the stories.",
+      "The writers are deliberately unalike. Hemansi Selat, the contemporary fiction writer whose stories navigate gender and modernity. Ghanshyam Desai, the absurdist short-story master whose surreal compressions made him one of the most influential voices of the post-Independence Gujarati \u2018Modernist\u2019 turn. Gulam Mohammed Sheikh, the painter-poet of Baroda whose verse and visual practice are inseparable, whose Gujarati sits between language and image. Madhu Rai, the playwright and novelist whose name shaped urban Gujarati storytelling for decades. Pavankumar Jain, whose poetry carries the weight of Saurashtra\u2019s interior. Sharifa Vijliwala, the scholar and short-story writer whose work places Muslim Gujarati women at the centre of literary attention they have rarely been given.",
+      "Together they form what the production notes call \u2018the roots of Gujarati identity in language, culture, and imaginative narrative.\u2019 Five writers, five genres, six voices.",
+      "The actors are equally unalike, and equally fluent. Hemant Kher, Harsh Joshi, Kalpana Shah, Priyank Patel, Unnati Gala Joshi, and Utkarsh Mazumdar each take a writer and serve a story. Bakul Tailor narrates between the courses, framing the evening, holding the room.",
+      "There is a quiet argument inside the staging. The promotional copy speaks of \u2018a void \u2014 being in an AI world.\u2019 It is not a complaint. It is a diagnosis. Predictive text and large language models can produce passable Gujarati. They cannot produce Gujarati that knows what it means to grow up between two grandparents speaking three dialects in one kitchen. They cannot produce Madhu Rai\u2019s sentences. They cannot read aloud the way Utkarsh Mazumdar reads aloud.",
+      "Story reading as a form sits between recital and theatre. There is no set, no costume, no fourth wall to break. Six chairs, six scripts, one narrator at a podium. The text does the heavy lifting. The actor\u2019s craft is in the breath \u2014 where to pause, when to lift, how to hold a Gujarati word so its specific weight lands in a Mumbai auditorium where half the audience hasn\u2019t spoken the language at home in a decade.",
+      "For Ideas Unlimited, the evening sits in a longer arc. Manoj Shah has been directing Gujarati literature onto Mumbai stages for 35 years. Mareez. Apurva Avsar. Karl Marx in Kalbadevi. Adbhut. Each one a translation \u2014 not from one language to another, but from page to room. Gujarati Full Thali continues that work in its purest form: the page brought into the room, by the people who can read it best.",
+      "NCPA\u2019s Off-Stage programme has a particular role in Mumbai\u2019s cultural calendar. It is where the institution lets the strict frame of the proscenium relax \u2014 where performance can be smaller, more intimate, closer to literary salon than to scripted play. It is the right home for a thali. The audience eats slowly.",
+      "Box office opened 26 April for NCPA members and 29 April for the public. Capacity at the Godrej Dance Theatre is limited, which is the point. This is not a production designed to scale. It is designed to be eaten in one sitting, savoured, remembered, and \u2014 if Manoj Shah and the team have done their work \u2014 talked about for weeks afterwards, in the language it was served in.",
+    ],
+    inlineImages: [
+      { afterParagraph: 1, src: "/images/productions/gujarati-full-thali/poster.png", alt: "Gujarati Full Thali \u2014 NCPA Off-Stage poster, July 12 2026 at Godrej Dance Theatre" },
+    ],
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {

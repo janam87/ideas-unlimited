@@ -6,7 +6,7 @@ import { VideoEmbed } from "@/components/shared/VideoEmbed";
 export const metadata: Metadata = {
   title: "About Us — Ideas Unlimited Productions",
   description:
-    "Since 1999, Ideas Unlimited Productions has been pushing the boundaries of Indian theatre across Hindi, Gujarati, and English — 99 productions and counting.",
+    "Since 1999, Ideas Unlimited Productions has been pushing the boundaries of Indian theatre across Hindi, Gujarati, and English — 113+ productions and counting.",
 };
 
 const PRODUCTIONS: { name: string; year: number; details: string }[] = [
@@ -212,7 +212,7 @@ export default function AboutPage() {
             </div>
             <div className="lg:col-span-7">
               <p className="text-grey-200 text-lg leading-relaxed mb-6">
-                Manoj Shah is an Indian theatre director, actor, and producer known for his works in Gujarati theatre. He has directed over 99 plays — from one-person shows to sweeping biographical dramas — in Hindi, Gujarati, and English.
+                Manoj Shah is an Indian theatre director, actor, and producer known for his works in Gujarati theatre. He has directed over 113 plays — from one-person shows to sweeping biographical dramas — in Hindi, Gujarati, and English.
               </p>
               <p className="text-grey-200 text-lg leading-relaxed mb-6">
                 He is known primarily for his quirky biographical plays: Hu Chandrakant Bakshi, Mohan No Masalo (on Mahatma Gandhi), Apurva Avsar (on Shrimad Rajchandra), Mareez (on the poet), Jal Jal Mare Patang (on Manilal Dwivedi), Karl Marx In Kalbadevi, and Dr. Anandibai (on India&apos;s first female doctor).
