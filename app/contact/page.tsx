@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     title: "Contact Us — Ideas Unlimited Productions",
     description:
       "Get in touch with Ideas Unlimited Productions for bookings, collaborations, press enquiries, and partnerships.",
+    images: ["/images/og-default.jpg"],
   },
 };
 

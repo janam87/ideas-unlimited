@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     title: `Upcoming Shows | ${SITE.name}`,
     description:
       "Live theatre dates across Mumbai, Ahmedabad, and beyond — from Manoj Shah's Ideas Unlimited.",
+    images: ["/images/og-default.jpg"],
   },
 };
 

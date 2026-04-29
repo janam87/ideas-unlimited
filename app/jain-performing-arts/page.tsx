@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     title: `Jain Performing Arts | ${SITE.name}`,
     description:
       "Theatre rooted in Jain philosophy and history — stories of courage, non-violence and inner awakening.",
+    images: ["/images/og-default.jpg"],
   },
 };
 

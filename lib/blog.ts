@@ -450,7 +450,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Box office opened 26 April for NCPA members and 29 April for the public. Capacity at the Godrej Dance Theatre is limited, which is the point. This is not a production designed to scale. It is designed to be eaten in one sitting, savoured, remembered, and \u2014 if Manoj Shah and the team have done their work \u2014 talked about for weeks afterwards, in the language it was served in.",
     ],
     inlineImages: [
-      { afterParagraph: 1, src: "/images/productions/gujarati-full-thali/poster.png", alt: "Gujarati Full Thali \u2014 NCPA Off-Stage poster, July 12 2026 at Godrej Dance Theatre" },
+      { afterParagraph: 1, src: "/images/productions/gujarati-full-thali/poster.jpg", alt: "Gujarati Full Thali \u2014 NCPA Off-Stage poster, July 12 2026 at Godrej Dance Theatre" },
     ],
   },
 ];
